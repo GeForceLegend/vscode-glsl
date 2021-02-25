@@ -40,6 +40,18 @@
 		},
 		{
 			"include": "#expressions"
+		},
+		{
+			"match": "\\}",
+			"name": "invalid.illegal.stray-comment-end.glsl"
+		},
+		{
+			"match": "\\]",
+			"name": "invalid.illegal.stray-bracket-end.glsl"
+		},
+		{
+			"match": "\\)",
+			"name": "invalid.illegal.stray-comment-end.glsl"
 		}
 	],
 	"repository": {
@@ -103,17 +115,6 @@
 				}
 			}
 		},
-		"preprocessor_define_variable": {
-			"match": "^\\s*(#define)\\s+([a-zA-Z_][0-9a-zA-Z_]*)?\\s+?([a-zA-Z][0-9a-zA-Z_]*)?",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor"
-				},
-				"2": {
-					"name": "entity.name.function"
-				}
-			}
-		},
 		"preprocessor_define_function": {
 			"begin": "^\\s*(#define)\\s+([a-zA-Z_][0-9a-zA-Z_]*)\\(",
 			"end": "\\)",
@@ -131,6 +132,20 @@
 					"name": "variable.parameter.glsl"
 				}
 			]
+		},
+		"preprocessor_define_variable": {
+			"match": "^\\s*(#define)(\\s+([a-zA-Z_][0-9a-zA-Z_]*)?)?",
+			"captures": {
+				"1": {
+					"name": "keyword.control.preprocessor"
+				},
+				"3": {
+					"name": "entity.name.function"
+				},
+				"4": {
+					
+				}
+			}
 		},
 		"preprocessor_minecraft_setting": {
 			"match": "^/\\*[ ](SHADOWRES|SHADOWFOV|SHADOWHPL|WETNESSHL|DRYNESSHL|GAUX[0-9]FORMAT|DRAWBUFFERS):([0-9a-zA-Z.]+)[ ]\\*/",
@@ -262,10 +277,14 @@
 			"name": "invalid.illegal.reserved-keyword.glsl"
 		},
 		"keywords": {
-			"include": "control_keywords"
+			"include": "#control_keywords"
+		},
+		"macros": {
+			"match": "\\b(__LINE__|__FILE__|__VERSION__|GL_core_profile|GL_es_profile|GL_compatibility_profile)\\b",
+			"name": "constant.macro.predefined.glsl"
 		},
 		"modifiers": {
-			"match": "\\b(layout|attribute|centroid|sampler|patch|const|flat|in|inout|invariant|noperspective|out|smooth|uniform|varying|buffer|shared|coherent|readonly|writeonly|volatile|restrict)\\b",
+			"match": "\\b(layout|attribute|centroid|sampler|patch|const|flat|in|inout|invariant|noperspective|out|smooth|uniform|varying|buffer|shared|coherent|readonly|writeonly|volatile|restrict|precision|highp|mediump|lowp)\\b",
 			"name": "storage.modifier.glsl"
 		},
 		"variables": {
@@ -291,7 +310,7 @@
 			"name": "constant.numeric.glsl"
 		},
 		"booleans": {
-			"match": "\\b(true|false)\\b",
+			"match": "\\b(false|FALSE|NULL|true|TRUE)\\b",
 			"name": "constant.language.glsl"
 		},
 		"operators": {
@@ -311,6 +330,34 @@
 				{
 					"match": "\\=",
 					"name": "keyword.operator.assignment.glsl"
+				}
+			]
+		},
+		"indexes": {
+			"match": "(?<=\\.)([rgba]{1,4}|[xyzw]{1,4}|[stpq]{1,4})",
+			"name": "string.interpolated.indexes.glsl"
+		},
+		"index": {
+			"begin": "\\[",
+			"end": "\\]",
+			"patterns": [
+				{
+					"include": "#parens"
+				},
+				{
+					"include": "#expressions"
+				},
+				{
+					"match": "{|}",
+					"name": "invalid.illegal.bracket.glsl"
+				},
+				{
+					"match": "\\[|\\]",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
+				},
+				{
+					"match": "\\)",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
 				}
 			]
 		},
@@ -335,6 +382,9 @@
 					"include": "#keywords"
 				},
 				{
+					"include": "#macros"
+				},
+				{
 					"include": "#modifiers"
 				},
 				{
@@ -354,6 +404,12 @@
 				},
 				{
 					"include": "#operators"
+				},
+				{
+					"include": "#indexes"
+				},
+				{
+					"include": "#index"
 				}
 			]
 		},
@@ -379,12 +435,15 @@
 			},
 			"patterns": [
 				{
-					"match": "\\b((inout|out|in|const)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)\\s+([a-zA-Z_][0-9a-zA-Z_]*)\\b",
+					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)\\s+([a-zA-Z_][0-9a-zA-Z_]*)\\b(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
 							"name": "storage.modifier.glsl"
 						},
-						"3": {
+						"4": {
+							"name": "storage.modifier.glsl"
+						},
+						"5": {
 							"patterns": [
 								{
 									"match": "\\b(void|bool|int|uint|float|double|vec[2-4]|dvec[2-4]|bvec[2-4]|ivec[2-4]|uvec[2-4]|mat[2-4]|mat2x2|mat2x3|mat2x4|mat3x2|mat3x3|mat3x4|mat4x2|mat4x3|mat4x4|dmat2|dmat3|dmat4|dmat2x2|dmat2x3|dmat2x4|dmat3x2|dmat3x3|dmat3x4|dmat4x2|dmat4x3|dmat4x4|sampler[1-3]D|image[1-3]D|samplerCube|imageCube|sampler2DRect|image2DRect|sampler[12]DArray|image[12]DArray|samplerBuffer|imageBuffer|sampler2DMS|image2DMS|sampler2DMSArray|image2DMSArray|samplerCubeArray|imageCubeArray|sampler[12]DShadow|sampler2DRectShadow|sampler[12]DArrayShadow|samplerCubeShadow|samplerCubeArrayShadow|isampler[1-3]D|iimage[1-3]D|isamplerCube|iimageCube|isampler2DRect|iimage2DRect|isampler[12]DArray|iimage[12]DArray|isamplerBuffer|iimageBuffer|isampler2DMS|iimage2DMS|isampler2DMSArray|iimage2DMSArray|isamplerCubeArray|iimageCubeArray|atomic_uint|usampler[1-3]D|uimage[1-3]D|usamplerCube|uimageCube|usampler2DRect|uimage2DRect|usampler[12]DArray|uimage[12]DArray|usamplerBuffer|uimageBuffer|usampler2DMS|uimage2DMS|usampler2DMSArray|uimage2DMSArray|usamplerCubeArray|uimageCubeArray)\\b",
@@ -392,10 +451,18 @@
 								}
 							]
 						},
-						"4": {
+						"6": {
 							"name": "variable.parameter.glsl"
 						}
 					}
+				},
+				{
+					"match": "}",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
+				},
+				{
+					"match": "\\]",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
 				}
 			]
 		},
@@ -409,6 +476,10 @@
 						{
 							"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while)\\b",
 							"name": "keyword.control.glsl"
+						},
+						{
+							"match": "\\b(void|bool|int|uint|float|double|vec[2-4]|dvec[2-4]|bvec[2-4]|ivec[2-4]|uvec[2-4]|mat[2-4]|mat2x2|mat2x3|mat2x4|mat3x2|mat3x3|mat3x4|mat4x2|mat4x3|mat4x4|dmat2|dmat3|dmat4|dmat2x2|dmat2x3|dmat2x4|dmat3x2|dmat3x3|dmat3x4|dmat4x2|dmat4x3|dmat4x4|sampler[1-3]D|image[1-3]D|samplerCube|imageCube|sampler2DRect|image2DRect|sampler[12]DArray|image[12]DArray|samplerBuffer|imageBuffer|sampler2DMS|image2DMS|sampler2DMSArray|image2DMSArray|samplerCubeArray|imageCubeArray|sampler[12]DShadow|sampler2DRectShadow|sampler[12]DArrayShadow|samplerCubeShadow|samplerCubeArrayShadow|isampler[1-3]D|iimage[1-3]D|isamplerCube|iimageCube|isampler2DRect|iimage2DRect|isampler[12]DArray|iimage[12]DArray|isamplerBuffer|iimageBuffer|isampler2DMS|iimage2DMS|isampler2DMSArray|iimage2DMSArray|isamplerCubeArray|iimageCubeArray|atomic_uint|usampler[1-3]D|uimage[1-3]D|usamplerCube|uimageCube|usampler2DRect|uimage2DRect|usampler[12]DArray|uimage[12]DArray|usamplerBuffer|uimageBuffer|usampler2DMS|uimage2DMS|usampler2DMSArray|uimage2DMSArray|usamplerCubeArray|uimageCubeArray)\\b",
+							"name": "storage.type.glsl"
 						}
 					]
 				}
@@ -418,6 +489,9 @@
 					"include": "#comments"
 				},
 				{
+					"include": "#blocks"
+				},
+				{
 					"include": "#parens"
 				},
 				{
@@ -425,6 +499,14 @@
 				},
 				{
 					"include": "#function_call"
+				},
+				{
+					"match": "}",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
+				},
+				{
+					"match": "\\]",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
 				}
 			]
 		},
@@ -452,13 +534,21 @@
 					"include": "#blocks"
 				},
 				{
-					"include": "parens"
+					"include": "#parens"
 				},
 				{
 					"include": "#functions"
 				},
 				{
 					"include": "#expressions"
+				},
+				{
+					"match": "\\)",
+					"name": "invalid.illegal.stray-comment-end.glsl"
+				},
+				{
+					"match": "\\]",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
 				}
 			]
 		},
@@ -473,16 +563,21 @@
 					"include": "#comments"
 				},
 				{
-					"include": "#blocks"
-				},
-				{
-					"include": "parens"
+					"include": "#parens"
 				},
 				{
 					"include": "#functions"
 				},
 				{
 					"include": "#expressions"
+				},
+				{
+					"match": "{|}",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
+				},
+				{
+					"match": "\\]",
+					"name": "invalid.illegal.stray-bracket-end.glsl"
 				}
 			]
 		}

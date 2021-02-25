@@ -2,15 +2,30 @@
     "name": "vscode-glsl",
     "displayName": "GLSL Syntax for VS Code",
     "description": "Provides GLSL(OpenGL Shading Language) syntax for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "GeForceLegend",
     "categories": [
         "Programming Languages"
     ],
-    "license": "",
+    "license": "LICENSE",
+    "icon": "icon.png",
+    "bugs": {
+        "url": "https://github.com/GeForceLegend/vscode-glsl/issues"
+    },
     "engines": {
         "vscode": "^1.53.0"
     },
+    "homepage": "https://github.com/GeForceLegend/vscode-glsl",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GeForceLegend/vscode-glsl.git"
+    },
+    "keywords": [
+        "GLSL",
+        "glsl",
+        "OpenGL",
+        "shader"
+    ],
     "contributes": {
         "languages": [
             {
