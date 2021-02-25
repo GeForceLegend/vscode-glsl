@@ -1,0 +1,53 @@
+{
+    "name": "vscode-glsl",
+    "displayName": "GLSL Syntax for VS Code",
+    "description": "Provides GLSL(OpenGL Shading Language) syntax for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "GeForceLegend",
+    "categories": [
+        "Programming Languages"
+    ],
+    "license": "",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "glsl",
+                "aliases": [
+                    "OpenGL Shading Language",
+                    "GLSL",
+                    "glsl"
+                ],
+                "extensions": [
+                    ".vs",
+                    ".fs",
+                    ".gs",
+                    ".vsh",
+                    ".fsh",
+                    ".gsh",
+                    ".csh",
+                    ".vshader",
+                    ".fshader",
+                    ".gshader",
+                    ".vert",
+                    ".frag",
+                    ".geom",
+                    ".tesc",
+                    ".tese",
+                    ".comp",
+                    ".glsl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "glsl",
+                "scopeName": "source.glsl",
+                "path": "./syntaxes/glsl.tmLanguage.json"
+            }
+        ]
+    }
+}
