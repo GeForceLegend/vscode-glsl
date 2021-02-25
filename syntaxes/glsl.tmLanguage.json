@@ -345,15 +345,16 @@
 					"include": "#parens"
 				},
 				{
+					"begin": "\\[",
+					"end": "\\]",
+					"name": "invalid.illegal.bracket.glsl"
+				},
+				{
 					"include": "#expressions"
 				},
 				{
 					"match": "{|}",
 					"name": "invalid.illegal.bracket.glsl"
-				},
-				{
-					"match": "\\[|\\]",
-					"name": "invalid.illegal.stray-bracket-end.glsl"
 				},
 				{
 					"match": "\\)",
@@ -435,7 +436,7 @@
 			},
 			"patterns": [
 				{
-					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)\\s+([a-zA-Z_][0-9a-zA-Z_]*)\\b(?=\\s*(\\)|,))",
+					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)(\\s+([a-zA-Z_][0-9a-zA-Z_]*))?\\b(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
 							"name": "storage.modifier.glsl"
@@ -451,18 +452,28 @@
 								}
 							]
 						},
-						"6": {
+						"7": {
 							"name": "variable.parameter.glsl"
 						}
 					}
 				},
 				{
+					"begin": "{",
+					"end": "}",
+					"name": "invalid.illegal.bracket.glsl"
+				},
+				{
 					"match": "}",
-					"name": "invalid.illegal.stray-bracket-end.glsl"
+					"name": "invalid.illegal.bracket.glsl"
 				},
 				{
 					"match": "\\]",
 					"name": "invalid.illegal.stray-bracket-end.glsl"
+				},
+				{
+					"begin": "\\(",
+					"end": "\\)",
+					"name": "invalid.illegal.bracket.glsl"
 				}
 			]
 		},
