@@ -1,5 +1,8 @@
 # GLSL Syntax for VS Code
 
+[![issues](https://img.shields.io/github/issues/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl/issues)
+[![license](https://img.shields.io/github/license/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl)
+
 ## vscode-glsl
 
 vscode-glsl is a light weighted GLSL (OpenGL Shading Language) syntax highlighting extension for Visual Studio Code. 
