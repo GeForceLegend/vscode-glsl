@@ -42,7 +42,7 @@
 			"include": "#expressions"
 		},
 		{
-			"match": "\\}",
+			"match": "}",
 			"name": "invalid.illegal.stray-comment-end.glsl"
 		},
 		{

@@ -14,3 +14,15 @@ This extension is designed to provide a better syntax for GLSL, and uses lots of
  - Syntax highlighting for `GLSL`.
 
  - Some syntax for Minecraft shaderpacks (eg. DRAWBUFFERS output).
+
+## Syntax
+
+### A popular shader language syntax extension in marketplace (extension version 1.1.5):
+
+![other](images/Syntax-of-extension-in-market.png)
+
+### Syntex provided by this extension:
+
+![this](images/Syntax-of-this-extension.png)
+
+## 
