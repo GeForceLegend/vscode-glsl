@@ -60,12 +60,12 @@
 			"name": "keyword.control.preprocessor"
 		},
 		"preprocessor_version": {
-			"match": "^\\s*(#version)\\s+([0-9]*)\\s+(compatibility|core|es)?",
+			"match": "^\\s*(#version)\\s+([0-9]*)(\\s+(compatibility|core|es))?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor"
 				},
-				"3": {
+				"4": {
 					"name": "variable.parameter.glsl"
 				}
 			}
@@ -85,12 +85,12 @@
 			}
 		},
 		"preprocessor_extension": {
-			"match": "^\\s*(#extension)\\s+([0-9a-zA-Z_]+)?\\s+:?\\s+(require|enable|warn|disable)?",
+			"match": "^\\s*(#extension)(\\s+([0-9a-zA-Z_]+))?(\\s+:)?(\\s+(require|enable|warn|disable))?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor"
 				},
-				"2": {
+				"3": {
 					"name": "string.quoted.extension",
 					"patterns": [
 						{
@@ -99,13 +99,13 @@
 						}
 					]
 				},
-				"3": {
+				"6": {
 					"name": "variable.parameter.glsl"
 				}
 			}
 		},
 		"preprocessor_error": {
-			"match": "^\\s*(#error)\\s+([^\\n]+)\\n",
+			"match": "^\\s*(#error)(\\s+([^\\n]+))?(?=\\n)",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor"
@@ -458,12 +458,7 @@
 					}
 				},
 				{
-					"begin": "{",
-					"end": "}",
-					"name": "invalid.illegal.bracket.glsl"
-				},
-				{
-					"match": "}",
+					"match": "{|}",
 					"name": "invalid.illegal.bracket.glsl"
 				},
 				{
@@ -500,9 +495,6 @@
 					"include": "#comments"
 				},
 				{
-					"include": "#blocks"
-				},
-				{
 					"include": "#parens"
 				},
 				{
@@ -512,8 +504,8 @@
 					"include": "#function_call"
 				},
 				{
-					"match": "}",
-					"name": "invalid.illegal.stray-bracket-end.glsl"
+					"match": "{|}",
+					"name": "invalid.illegal.bracket.glsl"
 				},
 				{
 					"match": "\\]",
