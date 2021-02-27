@@ -60,10 +60,13 @@
 			"name": "keyword.control.preprocessor"
 		},
 		"preprocessor_version": {
-			"match": "^\\s*(#version)\\s+([0-9]*)(\\s+(compatibility|core|es))?",
+			"match": "^\\s*(#version)\\s+([0-9]+\\s+)?((compatibility|core|es))?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor"
+				},
+				"2": {
+					"name": "string.unquoted.version"
 				},
 				"4": {
 					"name": "variable.parameter.glsl"
@@ -91,7 +94,7 @@
 					"name": "keyword.control.preprocessor"
 				},
 				"3": {
-					"name": "string.quoted.extension",
+					"name": "string.unquoted.extension",
 					"patterns": [
 						{
 							"match": "\\ball\\b",
@@ -111,7 +114,7 @@
 					"name": "keyword.control.preprocessor"
 				},
 				"2": {
-					"name": "string.quoted.error"
+					"name": "string.unquoted.error"
 				}
 			}
 		},

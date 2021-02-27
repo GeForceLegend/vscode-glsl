@@ -15,18 +15,12 @@ This extension is still in early development, and may become buggy in some situa
 
  - Syntax highlighting for `GLSL`.
 
- - Some syntax for Minecraft shaderpacks (eg. DRAWBUFFERS output).
+ - Some syntax for Minecraft shaderpacks made for [Optifine](https://www.optifine.net) (eg. DRAWBUFFERS output).
 
 ## Syntax
 
-### Belowing images provide the syntax difference between this extension and a popular GLSL syntax extension. 
+### The belowing image provides an example syntax highlighting with Monokai color theme.
 
-### A popular shader language syntax extension in marketplace (extension version 1.1.5):
-
-![other](images/Syntax-of-extension-in-market.png)
-
-### Syntax provided by this extension:
-
-![this](images/Syntax-of-this-extension.png)
+![syntax](images/syntax-example.png)
 
 ## 
