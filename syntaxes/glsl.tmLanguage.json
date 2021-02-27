@@ -150,7 +150,7 @@
 		"preprocessor_define_setting": {
 			"patterns": [
 				{
-					"match": "^\\s*(#(if||elif)\\b)(\\s+defined)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"match": "^\\s*(#(if||elif)\\b)(\\s+(\\!)?defined)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
 					"captures": {
 						"1": {
 							"name": "keyword.control.preprocessor.glsl"
@@ -158,7 +158,7 @@
 						"3": {
 							"name": "keyword.control.preprocessor.glsl"
 						},
-						"4": {
+						"5": {
 							"name": "entity.name.function.glsl"
 						}
 					}

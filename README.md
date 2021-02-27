@@ -1,7 +1,8 @@
 # GLSL Syntax for VS Code
-
-[![issues](https://img.shields.io/github/issues/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl/issues)
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/geforcelegend.vscode-glsl.svg)](https://marketplace.visualstudio.com/items/geforcelegend.vscode-glsl)
+[![installs](https://vsmarketplacebadge.apphb.com/installs/geforcelegend.vscode-glsl.svg)](https://marketplace.visualstudio.com/items/geforcelegend.vscode-glsl)
 [![license](https://img.shields.io/github/license/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl)
+[![issues](https://img.shields.io/github/issues/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl/issues)
 
 ## vscode-glsl
 
