@@ -9,7 +9,7 @@ vscode-glsl is a light weighted GLSL (OpenGL Shading Language) syntax highlighti
 
 This extension is designed to provide a better syntax for GLSL, and uses lots of expressions form [euler0's sublime-glsl](https://github.com/euler0/sublime-glsl), a GLSL syntax package for Sublime Text3, provides almost the best GLSL syntax I have ever seen.
 
-This extension is still in early development, and may become buggy in some situation.
+This extension is still in early development, and may become buggy in some situation. Fell free to [report issues](https://github.com/GeForceLegend/vscode-glsl/issues)!
 
 ## Features
 

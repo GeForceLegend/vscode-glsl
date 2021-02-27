@@ -56,17 +56,17 @@
 	],
 	"repository": {
 		"preprocessor_setting": {
-			"match": "^\\s*(#(defined|undef|if|ifdef|ifndef|else|elif|endif|pragma|line))\\b",
-			"name": "keyword.control.preprocessor"
+			"match": "^\\s*(#(if|elif|undef|else|endif|pragma|line))\\b",
+			"name": "keyword.control.preprocessor.glsl"
 		},
 		"preprocessor_version": {
 			"match": "^\\s*(#version)\\s+([0-9]+\\s+)?((compatibility|core|es))?",
 			"captures": {
 				"1": {
-					"name": "keyword.control.preprocessor"
+					"name": "keyword.control.preprocessor.glsl"
 				},
 				"2": {
-					"name": "string.unquoted.version"
+					"name": "string.unquoted.version.glsl"
 				},
 				"4": {
 					"name": "variable.parameter.glsl"
@@ -91,7 +91,7 @@
 			"match": "^\\s*(#extension)(\\s+([0-9a-zA-Z_]+))?(\\s+:)?(\\s+(require|enable|warn|disable))?",
 			"captures": {
 				"1": {
-					"name": "keyword.control.preprocessor"
+					"name": "keyword.control.preprocessor.glsl"
 				},
 				"3": {
 					"name": "string.unquoted.extension",
@@ -111,10 +111,10 @@
 			"match": "^\\s*(#error)(\\s+([^\\n]+))?(?=\\n)",
 			"captures": {
 				"1": {
-					"name": "keyword.control.preprocessor"
+					"name": "keyword.control.preprocessor.glsl"
 				},
 				"2": {
-					"name": "string.unquoted.error"
+					"name": "string.unquoted.error.glsl"
 				}
 			}
 		},
@@ -123,10 +123,10 @@
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
-					"name": "keyword.control.preprocessor"
+					"name": "keyword.control.preprocessor.glsl"
 				},
 				"2": {
-					"name": "entity.name.function"
+					"name": "entity.name.function.glsl"
 				}
 			},
 			"patterns": [
@@ -137,18 +137,44 @@
 			]
 		},
 		"preprocessor_define_variable": {
-			"match": "^\\s*(#define)(\\s+([a-zA-Z_][0-9a-zA-Z_]*)?)?",
+			"match": "^\\s*(#define)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
 			"captures": {
 				"1": {
-					"name": "keyword.control.preprocessor"
+					"name": "keyword.control.preprocessor.glsl"
 				},
-				"3": {
-					"name": "entity.name.function"
-				},
-				"4": {
-					
+				"2": {
+					"name": "entity.name.function.glsl"
 				}
 			}
+		},
+		"preprocessor_define_setting": {
+			"patterns": [
+				{
+					"match": "^\\s*(#(if||elif)\\b)(\\s+defined)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"captures": {
+						"1": {
+							"name": "keyword.control.preprocessor.glsl"
+						},
+						"3": {
+							"name": "keyword.control.preprocessor.glsl"
+						},
+						"4": {
+							"name": "entity.name.function.glsl"
+						}
+					}
+				},
+				{
+					"match": "^\\s*(#(ifdef|ifndef|if|elif)\\b)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"captures": {
+						"1": {
+							"name": "keyword.control.preprocessor.glsl"
+						},
+						"3": {
+							"name": "entity.name.function.glsl"
+						}
+					}
+				}
+			]
 		},
 		"preprocessor_minecraft_setting": {
 			"match": "^/\\*[ ](SHADOWRES|SHADOWFOV|SHADOWHPL|WETNESSHL|DRYNESSHL|GAUX[0-9]FORMAT|DRAWBUFFERS):([0-9a-zA-Z.]+)[ ]\\*/",
@@ -180,7 +206,13 @@
 		"preprocessors": {
 			"patterns": [
 				{
-					"include": "#preprocessor_setting"
+					"include": "#preprocessor_define_function"
+				},
+				{
+					"include": "#preprocessor_define_variable"
+				},
+				{
+					"include": "#preprocessor_define_setting"
 				},
 				{
 					"include": "#preprocessor_version"
@@ -195,10 +227,7 @@
 					"include": "#preprocessor_error"
 				},
 				{
-					"include": "#preprocessor_define_function"
-				},
-				{
-					"include": "#preprocessor_define_variable"
+					"include": "#preprocessor_setting"
 				},
 				{
 					"include": "#preprocessor_minecraft_setting"
@@ -356,8 +385,7 @@
 					"include": "#expressions"
 				},
 				{
-					"match": "{|}",
-					"name": "invalid.illegal.bracket.glsl"
+					"include": "#illegal_brackets"
 				},
 				{
 					"match": "\\)",
@@ -417,7 +445,7 @@
 				}
 			]
 		},
-		"functions_builtin": {
+		"function_builtin": {
 			"match": "\\b(abs|acos|all|any|asin|atan|ceil|clamp|cos|cross|degrees|dFdx|dFdy|distance|dot|equal|exp|exp2|faceforward|floor|fract|ftransform|fwidth|greaterThan|greaterThanEqual|inversesqrt|length|lessThan|lessThanEqual|log|log2|matrixCompMult|max|min|mix|mod|noise[1-4]|normalize|not|notEqual|outerProduct|pow|radians|reflect|refract|shadow1D|shadow1DLod|shadow1DProj|shadow1DProjLod|shadow2D|shadow2DLod|shadow2DProj|shadow2DProjLod|sign|sin|smoothstep|sqrt|step|tan|texture|texture1D|texture1DLod|texture1DProj|texture1DProjLod|texture2D|texture2DLod|texture2DProj|texture2DProjLod|texture3D|texture3DLod|texture3DProj|texture3DProjLod|textureCube|textureCubeLod|transpose)\\b",
 			"name": "support.function.glsl"
 		},
@@ -434,10 +462,13 @@
 					]
 				},
 				"2": {
-					"name": "entity.name.function"
+					"name": "entity.name.function.glsl"
 				}
 			},
 			"patterns": [
+				{
+					"include": "#preprocessors"
+				},
 				{
 					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)(\\s+([a-zA-Z_][0-9a-zA-Z_]*))?\\b(?=\\s*(\\)|,))",
 					"captures": {
@@ -461,8 +492,7 @@
 					}
 				},
 				{
-					"match": "{|}",
-					"name": "invalid.illegal.bracket.glsl"
+					"include": "#illegal_brackets"
 				},
 				{
 					"match": "\\]",
@@ -495,6 +525,9 @@
 			},
 			"patterns": [
 				{
+					"include": "#preprocessors"
+				},
+				{
 					"include": "#comments"
 				},
 				{
@@ -504,11 +537,10 @@
 					"include": "#expressions"
 				},
 				{
-					"include": "#function_call"
+					"include": "#functions"
 				},
 				{
-					"match": "{|}",
-					"name": "invalid.illegal.bracket.glsl"
+					"include": "#illegal_brackets"
 				},
 				{
 					"match": "\\]",
@@ -523,6 +555,19 @@
 				},
 				{
 					"include": "#function_call"
+				}
+			]
+		},
+		"illegal_brackets": {
+			"patterns": [
+				{
+					"begin": "{",
+					"end": "}",
+					"name": "invalid.illegal.bracket.glsl"
+				},
+				{
+					"match": "}",
+					"name": "invalid.illegal.bracket.glsl"
 				}
 			]
 		},
@@ -578,8 +623,7 @@
 					"include": "#expressions"
 				},
 				{
-					"match": "{|}",
-					"name": "invalid.illegal.stray-bracket-end.glsl"
+					"include": "#illegal_brackets"
 				},
 				{
 					"match": "\\]",
