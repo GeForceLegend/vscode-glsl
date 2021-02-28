@@ -366,7 +366,7 @@
 			]
 		},
 		"indexes": {
-			"match": "(?<=\\.)([rgba]{1,4}|[xyzw]{1,4}|[stpq]{1,4})",
+			"match": "(?<=\\.)([rgba]{1,4}|[xyzw]{1,4}|[stpq]{1,4})\\b",
 			"name": "string.interpolated.indexes.glsl"
 		},
 		"index": {
