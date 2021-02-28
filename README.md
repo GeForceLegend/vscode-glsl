@@ -33,3 +33,5 @@ This extension is still in early development, and may become buggy in some situa
 ## Changelog (in dev)
 
  - Fixed highlighting of #(el)if !defined
+
+ - Fixed .rgba/xyzw/stpq wrongly applied to struct elements
