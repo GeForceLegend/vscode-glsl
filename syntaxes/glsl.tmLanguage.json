@@ -293,7 +293,7 @@
 			"name": "keyword.control.glsl"
 		},
 		"before_tag": {
-			"match": "struct",
+			"match": "\\bstruct\\b",
 			"name": "storage.type.glsl"
 		},
 		"control_keywords": {
