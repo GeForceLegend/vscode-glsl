@@ -16,7 +16,7 @@ This extension is still in early development, and may become buggy in some situa
 
  - Syntax highlighting for `GLSL`.
 
- - Some syntax for Minecraft shaderpacks made for [Optifine](https://www.optifine.net) (eg. DRAWBUFFERS output).
+ - Some syntax for Minecraft shaderpacks made for [Optifine](https://www.optifine.net) (e.g. /* DRAWBUFFERS:0 */ output).
 
 ## Syntax
 
@@ -24,4 +24,12 @@ This extension is still in early development, and may become buggy in some situa
 
 ![syntax](images/syntax-example.png)
 
-## 
+## Changelog (release)
+
+### 0.0.1
+
+ - Publish this pack
+
+## Changelog (in dev)
+
+ - Fixed highlighting of #(el)if !defined
