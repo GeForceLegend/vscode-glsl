@@ -177,7 +177,7 @@
 			]
 		},
 		"preprocessor_minecraft_setting": {
-			"match": "^/\\*[ ](SHADOWRES|SHADOWFOV|SHADOWHPL|WETNESSHL|DRYNESSHL|GAUX[0-9]FORMAT|DRAWBUFFERS):([0-9a-zA-Z.]+)[ ]\\*/",
+			"match": "^/\\*[ ](SHADOWRES|SHADOWFOV|SHADOWHPL|WETNESSHL|DRYNESSHL|GAUX[0-9]FORMAT|DRAWBUFFERS):([0-9a-zA-Z.]+)[ ]\\*/\\n",
 			"captures": {
 				"1": {
 					"name": "variable.language.glsl"
@@ -188,7 +188,7 @@
 			}
 		},
 		"preprocessor_minecraft_layout_new": {
-			"match": "^/\\*[ ](RENDERTARGETS):[ ]([0-9,]+)[ ]\\*/",
+			"match": "^/\\*[ ](RENDERTARGETS):[ ]([0-9,]+)[ ]\\*/\\n",
 			"captures": {
 				"1": {
 					"name": "variable.language.glsl"
@@ -265,7 +265,7 @@
 				},
 				{
 					"begin": "//",
-					"end": "(\\n)",
+					"end": "\\n",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.comment.glsl"
@@ -322,6 +322,10 @@
 		"variables": {
 			"match": "\\bgl_(BackColor|BackLightModelProduct|BackLightProduct|BackMaterial|BackSecondaryColor|ClipDistance|ClipPlane|ClipVertex|Color|DepthRange|DepthRangeParameters|EyePlaneQ|EyePlaneR|EyePlaneS|EyePlaneT|Fog|FogCoord|FogFragCoord|FogParameters|FragColor|FragCoord|FragData|FragDept|FrontColor|FrontFacing|FrontLightModelProduct|FrontLightProduct|FrontMaterial|FrontSecondaryColor|InstanceID|Layer|LightModel|LightModelParameters|LightModelProducts|LightProducts|LightSource|LightSourceParameters|MaterialParameters|ModelViewMatrix|ModelViewMatrixInverse|ModelViewMatrixInverseTranspose|ModelViewMatrixTranspose|ModelViewProjectionMatrix|ModelViewProjectionMatrixInverse|ModelViewProjectionMatrixInverseTranspose|ModelViewProjectionMatrixTranspose|MultiTexCoord[0-7]|Normal|NormalMatrix|NormalScale|ObjectPlaneQ|ObjectPlaneR|ObjectPlaneS|ObjectPlaneT|Point|PointCoord|PointParameters|PointSize|Position|PrimitiveIDIn|ProjectionMatrix|ProjectionMatrixInverse|ProjectionMatrixInverseTranspose|ProjectionMatrixTranspose|SecondaryColor|TexCoord|TextureEnvColor|TextureMatrix|TextureMatrixInverse|TextureMatrixInverseTranspose|TextureMatrixTranspose|Vertex|VertexID)\\b",
 			"name": "variable.language.glsl"
+		},
+		"reserved_vadiable_for_future_use": {
+			"match" :"\\bgl_[0-9a-zA-Z_]*\\b",
+			"name": "invalid.illegal.reserved-vadiable.glsl"
 		},
 		"constants": {
 			"match": "\\bgl_(MaxClipPlanes|MaxCombinedTextureImageUnits|MaxDrawBuffers|MaxFragmentUniformComponents|MaxLights|MaxTextureCoords|MaxTextureImageUnits|MaxTextureUnits|MaxVaryingFloats|MaxVertexAttribs|MaxVertexTextureImageUnits|MaxVertexUniformComponents)\\b",
@@ -421,6 +425,9 @@
 				},
 				{
 					"include": "#variables"
+				},
+				{
+					"include": "#reserved_vadiable_for_future_use"
 				},
 				{
 					"include": "#constants"
