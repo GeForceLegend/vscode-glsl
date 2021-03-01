@@ -1,7 +1,7 @@
 # GLSL Syntax for VS Code
 [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/geforcelegend.vscode-glsl.svg)](https://marketplace.visualstudio.com/items/geforcelegend.vscode-glsl)
 [![installs](https://vsmarketplacebadge.apphb.com/installs/geforcelegend.vscode-glsl.svg)](https://marketplace.visualstudio.com/items/geforcelegend.vscode-glsl)
-[![license](https://img.shields.io/github/license/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl)
+[![license](https://img.shields.io/github/license/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl/blob/master/LICENSE)
 [![issues](https://img.shields.io/github/issues/GeforceLegend/vscode-glsl.svg)](https://github.com/GeForceLegend/vscode-glsl/issues)
 
 ## vscode-glsl
@@ -22,7 +22,7 @@ This extension is still in early development, and may become buggy in some situa
 
 ### The belowing image provides an example syntax highlighting with Monokai color theme.
 
-![syntax](images/syntax-example.png)
+![syntax](https://s3.ax1x.com/2021/03/01/6PdbLj.png)
 
 ## Changelog (release)
 
