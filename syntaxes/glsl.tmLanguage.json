@@ -320,16 +320,16 @@
 			"name": "storage.modifier.glsl"
 		},
 		"variables": {
-			"match": "\\bgl_(BackColor|BackLightModelProduct|BackLightProduct|BackMaterial|BackSecondaryColor|ClipDistance|ClipPlane|ClipVertex|Color|DepthRange|DepthRangeParameters|EyePlaneQ|EyePlaneR|EyePlaneS|EyePlaneT|Fog|FogCoord|FogFragCoord|FogParameters|FragColor|FragCoord|FragData|FragDepth|FrontColor|FrontFacing|FrontLightModelProduct|FrontLightProduct|FrontMaterial|FrontSecondaryColor|InstanceID|Layer|LightModel|LightModelParameters|LightModelProducts|LightProducts|LightSource|LightSourceParameters|MaterialParameters|ModelViewMatrix|ModelViewMatrixInverse|ModelViewMatrixInverseTranspose|ModelViewMatrixTranspose|ModelViewProjectionMatrix|ModelViewProjectionMatrixInverse|ModelViewProjectionMatrixInverseTranspose|ModelViewProjectionMatrixTranspose|MultiTexCoord[0-7]|Normal|NormalMatrix|NormalScale|ObjectPlaneQ|ObjectPlaneR|ObjectPlaneS|ObjectPlaneT|Point|PointCoord|PointParameters|PointSize|Position|PrimitiveIDIn|ProjectionMatrix|ProjectionMatrixInverse|ProjectionMatrixInverseTranspose|ProjectionMatrixTranspose|SecondaryColor|TexCoord|TextureEnvColor|TextureMatrix|TextureMatrixInverse|TextureMatrixInverseTranspose|TextureMatrixTranspose|Vertex|VertexID)\\b",
+			"match": "\\bgl_(BackColor|BackLightModelProduct|BackLightProduct|BackMaterial|BackSecondaryColor|BaseInstance|BaseVertex|ClipDistance|ClipPlane|ClipVertex|CullDistance|Color|DepthRange|DepthRangeParameters|DrawID|EyePlaneQ|EyePlaneR|EyePlaneS|EyePlaneT|Fog|FogCoord|FogFragCoord|FogParameters|FragColor|FragCoord|FragData|FragDepth|FrontColor|FrontFacing|FrontLightModelProduct|FrontLightProduct|FrontMaterial|FrontSecondaryColor|GlobalInvocationID|HelperInvocation|in|InstanceID|InstanceIndex|InvocationID|Layer|LightModel|LightModelParameters|LightModelProducts|LightProducts|LightSource|LightSourceParameters|LocalInvocationID|LocalInvocationIndex|MaterialParameters|(ModelView|ModelViewProjection|Projection|Texture)Matrix(Inverse?Transpose?)|MultiTexCoord[0-7]|NumWorkGroups|Normal|NormalMatrix|NormalScale|out|ObjectPlane[QRST]|PatchVerticesIn|PerFragment|PerVertex|Point|PointCoord|PointParameters|PointSize|Position|PrimitiveID|PrimitiveIDIn|SampleID|SamplePosition|SampleMask|SampleMaskIn|SecondaryColor|TessCoord|TessLevelInner|TessLevelOuter|TexCoord|TextureEnvColor|Vertex|VertexID|VertexIndex|ViewportIndex|WorkGroupID|WorkGroupSize)\\b",
 			"name": "variable.language.glsl"
+		},
+		"constants": {
+			"match": "\\bgl_(Max(Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)AtomicCounterBuffers|Max(Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)AtomicCounters|Max(Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)ImageUniforms|Max(Fragment|Geometry|TessControl|TessEvaluation)InputComponents|Max(Geometry|TessControl|TessEvaluation|Vertex)OutputComponents|Max(Combined|Compute|Geometry|TessControl|TessEvaluation|Vertex)?TextureImageUnits|Max(Geometry|TessControl)TotalOutputComponents|Max(Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)UniformComponents|Max(Fragment|Vertex)UniformVectors|MaxAtomicCounterBindings|MaxAtomicCounterBufferSize|MaxClipDistances|MaxClipPlanes|Max(CombinedClipAnd)?CullDistances|MaxCombinedImageUnitsAndFragmentOutputs|MaxCombinedShaderOutputResources|MaxComputeWorkGroup(Count|Size)|MaxDrawBuffers|MaxGeometryOutputVertices|Max(Geometry)?VaryingComponents|MaxImageSamples|MaxImageUnits|MaxInputAttachments|MaxLights|MaxPatchVertices|MaxProgramTexelOffset|MaxSamples|MaxTessGenLevel|MaxTessPatchComponents|MaxTextureCoords|MaxTextureUnits|MaxTransformFeedbackBuffers|MaxTransformFeedbackInterleavedComponents|MaxVaryingFloats|MaxVaryingVectors|MaxVertexAttribs|MaxVertexUniformVectors|MaxViewports|MinProgramTexelOffset)\\b",
+			"name": "support.constant.glsl"
 		},
 		"reserved_vadiable_for_future_use": {
 			"match" :"\\bgl_[0-9a-zA-Z_]*\\b",
 			"name": "invalid.illegal.reserved-vadiable.glsl"
-		},
-		"constants": {
-			"match": "\\bgl_(MaxClipPlanes|MaxCombinedTextureImageUnits|MaxDrawBuffers|MaxFragmentUniformComponents|MaxLights|MaxTextureCoords|MaxTextureImageUnits|MaxTextureUnits|MaxVaryingFloats|MaxVertexAttribs|MaxVertexTextureImageUnits|MaxVertexUniformComponents)\\b",
-			"name": "support.constant.glsl"
 		},
 		"types": {
 			"patterns": [
@@ -427,10 +427,10 @@
 					"include": "#variables"
 				},
 				{
-					"include": "#reserved_vadiable_for_future_use"
+					"include": "#constants"
 				},
 				{
-					"include": "#constants"
+					"include": "#reserved_vadiable_for_future_use"
 				},
 				{
 					"include": "#types"

@@ -44,6 +44,4 @@ This extension is still in early development, and may become buggy in some situa
 
  - Fixed spelling mistake of gl_FragDepth
 
- - Added syntax for builtin function textureSize()
-
- - Added lots of built-in functions from OpenGL 4.6 document
+ - Added lots of built-in functions, variables and constants from OpenGL 4.6 document
