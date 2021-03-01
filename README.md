@@ -26,14 +26,20 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (release)
 
-### 0.0.1
-
- - Publish this pack
-
-## Changelog (in dev)
+### 0.0.2
 
  - Fixed highlighting of #(el)if !defined
 
  - Fixed .rgba/xyzw/stpq wrongly applied to struct elements
 
  - Fixed struct was highlighted even in words
+
+ - Added invalid syntax for GLSL reserved variable names (begin with gl_ but still not an available variable yet)
+
+### 0.0.1
+
+ - Publish this pack
+
+## Changelog (in dev)
+
+ - < Waiting for development... If you find some issues, report them! >
