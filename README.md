@@ -48,4 +48,4 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
- - < Waiting for development... If you find some issues, report them! >
+ - Fixed syntax for gl_((ModelView)?(Projection)?|Texture)Matrix(Inverse)?(Transpose)?
