@@ -26,6 +26,12 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (release)
 
+### 0.0.3
+
+ - Fixed spelling mistake of gl_FragDepth
+
+ - Added lots of built-in functions, variables and constants from OpenGL 4.6 document
+
 ### 0.0.2
 
  - Fixed highlighting of #(el)if !defined
@@ -42,6 +48,4 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
- - Fixed spelling mistake of gl_FragDepth
-
- - Added lots of built-in functions, variables and constants from OpenGL 4.6 document
+ - < Waiting for development... If you find some issues, report them! >
