@@ -24,7 +24,15 @@ This extension is still in early development, and may become buggy in some situa
 
 ![syntax](https://s3.ax1x.com/2021/03/01/6PdbLj.png)
 
+## Changelog (in dev)
+
+ - < Waiting for development... If you find some issues, report them! >
+
 ## Changelog (release)
+
+### 0.0.4
+
+ - Fixed syntax for gl_((ModelView)?(Projection)?|Texture)Matrix(Inverse)?(Transpose)?
 
 ### 0.0.3
 
@@ -45,7 +53,3 @@ This extension is still in early development, and may become buggy in some situa
 ### 0.0.1
 
  - Publish this pack
-
-## Changelog (in dev)
-
- - Fixed syntax for gl_((ModelView)?(Projection)?|Texture)Matrix(Inverse)?(Transpose)?
