@@ -26,9 +26,13 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
- - Added comment syntax for "\" (makes next line be commit if at end of a line).
+ - < Waiting for development... If you find some issues, report them! >
 
 ## Changelog (release)
+
+### 0.0.5
+
+ - Added comment syntax for "\" (makes next line be commit if at end of a line).
 
 ### 0.0.4
 
