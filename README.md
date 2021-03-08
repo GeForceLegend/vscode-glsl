@@ -26,6 +26,8 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
+ - Updated syntax when defining functions
+
  - < Waiting for development... If you find some issues, report them! >
 
 ## Changelog (release)
