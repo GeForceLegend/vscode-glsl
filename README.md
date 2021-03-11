@@ -23,3 +23,7 @@ This extension is still in early development, and may become buggy in some situa
 ### The belowing image provides an example syntax highlighting with Monokai color theme.
 
 ![syntax](https://s3.ax1x.com/2021/03/01/6PdbLj.png)
+
+## Changelog (in dev)
+
+ - < Waiting for development... If you find some issues, report them! >
