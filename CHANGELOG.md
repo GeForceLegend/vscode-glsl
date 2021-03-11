@@ -1,5 +1,9 @@
 ## Changelog (in dev)
 
+ - Added syntax for `#moj_import` in Minecraft 21w10a.
+
+ - Added syntax for `highp|mediump|lowp` in function define parameter part.
+
  - < Waiting for development... If you find some issues, report them! >
 
 ## Changelog (release)
