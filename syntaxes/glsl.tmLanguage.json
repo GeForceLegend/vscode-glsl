@@ -594,10 +594,10 @@
 					"include": "#parens"
 				},
 				{
-					"include": "#functions"
+					"include": "#expressions"
 				},
 				{
-					"include": "#expressions"
+					"include": "#functions"
 				},
 				{
 					"match": "\\)",
@@ -623,10 +623,10 @@
 					"include": "#parens"
 				},
 				{
-					"include": "#functions"
+					"include": "#expressions"
 				},
 				{
-					"include": "#expressions"
+					"include": "#functions"
 				},
 				{
 					"include": "#illegal_brackets"
