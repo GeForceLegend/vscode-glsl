@@ -16,7 +16,7 @@
 
 ### 0.0.4
 
- - Fixed syntax for `gl_((ModelView)?(Projection)?|Texture)Matrix(Inverse)?(Transpose)`?
+ - Fixed syntax for `gl_((ModelView)?(Projection)?|Texture)Matrix(Inverse)?(Transpose)?`
 
 ### 0.0.3
 

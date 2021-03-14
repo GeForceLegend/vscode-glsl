@@ -16,7 +16,7 @@ This extension is still in early development, and may become buggy in some situa
 
  - Syntax highlighting for `GLSL`.
 
- - Some syntax for Minecraft shaderpacks made for [Optifine](https://www.optifine.net) (e.g. /* DRAWBUFFERS:0 */ output).
+ - Some syntax for Minecraft shaderpacks made for [Optifine](https://www.optifine.net) (e.g. `/* DRAWBUFFERS:0 */` output).
 
 ## Syntax
 
@@ -25,5 +25,9 @@ This extension is still in early development, and may become buggy in some situa
 ![syntax](https://s3.ax1x.com/2021/03/01/6PdbLj.png)
 
 ## Changelog (in dev)
+
+ - Added builtin-types `(i|u)?texture[1-3]D(Array)?...` for Vulkan
+
+ - Added some modifiers from OpenGL Shading Language 4.6 document
 
  - < Waiting for development... If you find some issues, report them! >
