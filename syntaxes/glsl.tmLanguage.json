@@ -469,6 +469,9 @@
 					"include": "#preprocessors"
 				},
 				{
+					"include": "#comments"
+				},
+				{
 					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)(\\s+([a-zA-Z_][0-9a-zA-Z_]*))?\\b(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
