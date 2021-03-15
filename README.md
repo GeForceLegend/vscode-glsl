@@ -26,12 +26,4 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
- - Added syntax for floats with `lf/LF` ending
-
- - Fixed illegal syntax of using an array element as an index of another array
-
- - Added builtin-types `(i|u)?texture[1-3]D(Array)?...` for Vulkan
-
- - Added some modifiers from OpenGL Shading Language 4.6 document
-
  - < Waiting for development... If you find some issues, report them! >
