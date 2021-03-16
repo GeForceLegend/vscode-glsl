@@ -73,6 +73,34 @@
 				}
 			}
 		},
+		"preprocessor_pragma": {
+			"match": "^\\s*(#pragma)(\\s+([a-zA-Z_][0-9a-zA-Z_]*))?(\\(([a-zA-Z_][0-9a-zA-Z_])\\))?",
+			"captures": {
+				"1": {
+					"name": "keyword.control.preprocessor.glsl"
+				},
+				"3": {
+					"name": "string.unquoted.pragma.glsl"
+				},
+				"5": {
+					"name": "variable.parameter.glsl"
+				}
+			}
+		},
+		"preprocessor_line": {
+			"match": "^\\s*(#line)(\\s+[+-]?[0-9]*)?(\\s+[+-]?[0-9]*)?",
+			"captures": {
+				"1": {
+					"name": "keyword.control.preprocessor.glsl"
+				},
+				"2": {
+					"name": "string.unquoted.line.glsl"
+				},
+				"3": {
+					"name": "string.unquoted.line.glsl"
+				}
+			}
+		},
 		"preprocessor_import": {
 			"match": "^\\s*(#(include|include_next|import|moj_import))\\s+([\"<][^\\:*?\"<>|]+[\">])?",
 			"captures": {
@@ -91,7 +119,7 @@
 					"name": "keyword.control.preprocessor.glsl"
 				},
 				"3": {
-					"name": "string.unquoted.extension",
+					"name": "string.unquoted.extension.glsl",
 					"patterns": [
 						{
 							"match": "\\ball\\b",
@@ -227,6 +255,12 @@
 				},
 				{
 					"include": "#preprocessor_version"
+				},
+				{
+					"include": "#preprocessor_pragma"
+				},
+				{
+					"include": "#preprocessor_line"
 				},
 				{
 					"include": "#preprocessor_import"
