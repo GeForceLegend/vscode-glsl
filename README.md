@@ -26,6 +26,4 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
- - Fixed comments in function define parameters part
-
  - < Waiting for development... If you find some issues, report them! >

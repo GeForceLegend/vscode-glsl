@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.0.9
+
+ - Fixed comments in function define parameters part
+
 ### 0.0.8
 
  - Added syntax for floats with `lf/LF` ending
