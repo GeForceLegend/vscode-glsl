@@ -26,4 +26,6 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
+ - Fixed function calling not highlighted when at the top of a line
+
  - < Waiting for development... If you find some issues, report them! >

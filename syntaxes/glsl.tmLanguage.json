@@ -515,7 +515,7 @@
 			]
 		},
 		"function_call": {
-			"begin": "(?<=\\W)\\s*([a-zA-Z_][0-9a-zA-Z_]*)\\s*\\(",
+			"begin": "([a-zA-Z_][0-9a-zA-Z_]*)\\s*\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
