@@ -161,6 +161,20 @@
 					}
 				},
 				{
+					"match": "(?<=\\w)\\s+(\\|\\||&&)\\s+((\\!)?defined)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"captures": {
+						"1": {
+							"name": "keyword.operator.arithmetic.glsl"
+						},
+						"2": {
+							"name": "keyword.control.preprocessor.glsl"
+						},
+						"4": {
+							"name": "entity.name.function.glsl"
+						}
+					}
+				},
+				{
 					"match": "^\\s*(#(ifdef|ifndef|if|elif)\\b)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
 					"captures": {
 						"1": {

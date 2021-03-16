@@ -26,6 +26,8 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
+ - Added syntax for `#if defined ... ||/&& defined ...` defination preprocessors
+
  - Fixed function calling not highlighted when at the top of a line
 
  - < Waiting for development... If you find some issues, report them! >
