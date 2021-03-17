@@ -1,5 +1,13 @@
 ## Changelog (release)
 
+### 0.1.0
+
+ - Added syntax for `#pragma` and `#line`
+
+ - Added syntax for `#if defined ... ||/&& defined ...` defination preprocessors
+
+ - Fixed function calling not highlighted when at the top of a line
+
 ### 0.0.9
 
  - Fixed comments in function define parameters part
