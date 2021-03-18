@@ -520,7 +520,7 @@
 					"include": "#comments"
 				},
 				{
-					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)(\\s+([a-zA-Z_][0-9a-zA-Z_]*\\b)(\\[([0-9]*)\\])?)?(?=\\s*(\\)|,))",
+					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)(\\s+([a-zA-Z_][0-9a-zA-Z_]*\\b)(\\[([0-9a-zA-Z_]*)\\])?)?(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
 							"name": "storage.modifier.glsl"
@@ -547,7 +547,12 @@
 							"name": "variable.parameter.glsl"
 						},
 						"11": {
-							"name": "constant.numeric.glsl"
+							"patterns": [
+								{
+									"match": "\\b[0-9]+\\b",
+									"name": "constant.numeric.glsl"
+								}
+							]
 						}
 					}
 				},
@@ -566,7 +571,7 @@
 			]
 		},
 		"function_call": {
-			"begin": "\\b([a-zA-Z_][0-9a-zA-Z_]*)\\s*\\(",
+			"begin": "\\b([a-zA-Z_][0-9a-zA-Z_]*)[\\s\\n\\r]*\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
