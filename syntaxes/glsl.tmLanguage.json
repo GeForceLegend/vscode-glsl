@@ -105,10 +105,10 @@
 			"match": "^\\s*(#(include|include_next|import|moj_import))\\s+([\"<][^\\:*?\"<>|]+[\">])?",
 			"captures": {
 				"1": {
-					"name": "keyword.control.import"
+					"name": "keyword.control.import.glsl"
 				},
 				"3": {
-					"name": "string.quoted.include"
+					"name": "string.quoted.include.glsl"
 				}
 			}
 		},
@@ -175,18 +175,29 @@
 		"preprocessor_define_setting": {
 			"patterns": [
 				{
-					"match": "^\\s*(#(if||elif)\\b)(\\s+(\\!)?defined)(\\s+[a-zA-Z_][\\w]*)?",
-					"captures": {
+					"begin": "^\\s*(#if|#elif)\\b",
+					"end": "\\n",
+					"beginCaptures": {
 						"1": {
 							"name": "keyword.control.preprocessor.glsl"
+						}
+					},
+					"patterns": [
+						{
+							"include": "#comments"
 						},
-						"3": {
+						{
+							"match": "\\b(\\!)?defined\\b",
 							"name": "keyword.control.preprocessor.glsl"
 						},
-						"5": {
+						{
+							"match": "\\b[a-zA-Z_][\\w]*",
 							"name": "entity.name.function.glsl"
+						},
+						{
+							"include": "#expressions"
 						}
-					}
+					]
 				},
 				{
 					"match": "(?<=\\w)\\s+(\\|\\||&&)\\s+((\\!)?defined)(\\s+[a-zA-Z_][\\w]*)?",
@@ -310,7 +321,7 @@
 				},
 				{
 					"begin": "//",
-					"end": "(?<!\\\\)\\n",
+					"end": "(?<!\\\\)$(?=\\n)",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.comment.glsl"
