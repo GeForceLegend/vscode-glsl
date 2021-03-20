@@ -74,7 +74,7 @@
 			}
 		},
 		"preprocessor_pragma": {
-			"match": "^\\s*(#pragma)(\\s+([a-zA-Z_][0-9a-zA-Z_]*))?(\\(([a-zA-Z_][0-9a-zA-Z_])\\))?",
+			"match": "^\\s*(#pragma)(\\s+([a-zA-Z_][\\w]*))?(\\(([a-zA-Z_][\\w])\\))?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor.glsl"
@@ -113,7 +113,7 @@
 			}
 		},
 		"preprocessor_extension": {
-			"match": "^\\s*(#extension)(\\s+([0-9a-zA-Z_]+))?(\\s+:)?(\\s+(require|enable|warn|disable))?",
+			"match": "^\\s*(#extension)(\\s+([\\w]+))?(\\s+:)?(\\s+(require|enable|warn|disable))?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor.glsl"
@@ -144,7 +144,7 @@
 			}
 		},
 		"preprocessor_define_function": {
-			"begin": "^\\s*(#define)\\s+([a-zA-Z_][0-9a-zA-Z_]*)\\(",
+			"begin": "^\\s*(#define)\\s+([a-zA-Z_][\\w]*)\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
@@ -156,13 +156,13 @@
 			},
 			"patterns": [
 				{
-					"match": "\\b([a-zA-Z][0-9a-zA-Z_]*)\\b",
+					"match": "\\b([a-zA-Z][\\w]*)\\b",
 					"name": "variable.parameter.glsl"
 				}
 			]
 		},
 		"preprocessor_define_variable": {
-			"match": "^\\s*(#define)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+			"match": "^\\s*(#define)(\\s+[a-zA-Z_][\\w]*)?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor.glsl"
@@ -175,7 +175,7 @@
 		"preprocessor_define_setting": {
 			"patterns": [
 				{
-					"match": "^\\s*(#(if||elif)\\b)(\\s+(\\!)?defined)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"match": "^\\s*(#(if||elif)\\b)(\\s+(\\!)?defined)(\\s+[a-zA-Z_][\\w]*)?",
 					"captures": {
 						"1": {
 							"name": "keyword.control.preprocessor.glsl"
@@ -189,7 +189,7 @@
 					}
 				},
 				{
-					"match": "(?<=\\w)\\s+(\\|\\||&&)\\s+((\\!)?defined)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"match": "(?<=\\w)\\s+(\\|\\||&&)\\s+((\\!)?defined)(\\s+[a-zA-Z_][\\w]*)?",
 					"captures": {
 						"1": {
 							"name": "keyword.operator.arithmetic.glsl"
@@ -203,7 +203,7 @@
 					}
 				},
 				{
-					"match": "^\\s*(#(ifdef|ifndef|if|elif)\\b)(\\s+[a-zA-Z_][0-9a-zA-Z_]*)?",
+					"match": "^\\s*(#(ifdef|ifndef|if|elif)\\b)(\\s+[a-zA-Z_][\\w]*)?",
 					"captures": {
 						"1": {
 							"name": "keyword.control.preprocessor.glsl"
@@ -373,7 +373,7 @@
 			"name": "support.constant.glsl"
 		},
 		"reserved_vadiable_for_future_use": {
-			"match" :"\\bgl_[0-9a-zA-Z_]*\\b",
+			"match" :"\\bgl_[\\w]*\\b",
 			"name": "invalid.illegal.reserved-vadiable.glsl"
 		},
 		"types": {
@@ -497,7 +497,7 @@
 			"name": "support.function.glsl"
 		},
 		"function_define": {
-			"begin": "\\b([a-zA-Z_][0-9a-zA-Z]*)\\s+([a-zA-Z_][0-9a-zA-Z_]*)\\s*\\(",
+			"begin": "\\b([a-zA-Z_][0-9a-zA-Z]*)\\s+([a-zA-Z_][\\w]*)\\s*\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
@@ -520,7 +520,7 @@
 					"include": "#comments"
 				},
 				{
-					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][0-9a-zA-Z_]*)(\\s+([a-zA-Z_][0-9a-zA-Z_]*\\b)(\\[([0-9a-zA-Z_]*)\\])?)?(?=\\s*(\\)|,))",
+					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\s+([a-zA-Z_][\\w]*\\b)(\\[([\\w]*)\\])?)?(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
 							"name": "storage.modifier.glsl"
@@ -571,7 +571,7 @@
 			]
 		},
 		"function_call": {
-			"begin": "\\b([a-zA-Z_][0-9a-zA-Z_]*)[\\s\\n\\r]*\\(",
+			"begin": "\\b([a-zA-Z_][\\w]*)\\s*\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {

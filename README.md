@@ -26,6 +26,4 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
- - Fixed wrong syntax when using arrays as function parameter
-
  - < Waiting for development... If you find some issues, report them! >

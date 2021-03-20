@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.1.1
+
+ - Fixed wrong syntax when using arrays as function parameter
+
 ### 0.1.0
 
  - Added syntax for `#pragma` and `#line`
