@@ -26,4 +26,6 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
+ - Added more syntaxes (Function calls, preprocessors and comments) for array indexes
+
  - < Waiting for development... If you find some issues, report them! >
