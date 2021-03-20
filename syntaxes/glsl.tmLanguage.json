@@ -423,10 +423,19 @@
 			"end": "\\]",
 			"patterns": [
 				{
+					"include": "#preprocessors"
+				},
+				{
+					"include": "#comments"
+				},
+				{
 					"include": "#parens"
 				},
 				{
 					"include": "#expressions"
+				},
+				{
+					"include": "#functions"
 				},
 				{
 					"include": "#illegal_brackets"
