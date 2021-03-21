@@ -1,5 +1,11 @@
 ## Changelog (release)
 
+### 0.1.2
+
+ - Added more syntaxes for #if and #elif logical expressions
+
+ - Added more syntaxes (Function calls, preprocessors and comments) for array indexes
+
 ### 0.1.1
 
  - Fixed wrong syntax when using arrays as function parameter
