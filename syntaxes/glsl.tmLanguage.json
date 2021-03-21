@@ -503,7 +503,7 @@
 			"name": "support.function.glsl"
 		},
 		"function_define": {
-			"begin": "\\b([a-zA-Z_][0-9a-zA-Z]*)\\s+([a-zA-Z_][\\w]*)\\s*\\(",
+			"begin": "\\b([a-zA-Z_][0-9a-zA-Z]*)(\\[([0-9]*)?\\])?\\s+([a-zA-Z_][\\w]*)\\s*\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
@@ -514,7 +514,10 @@
 						}
 					]
 				},
-				"2": {
+				"3": {
+					"name": "constant.numeric.glsl"
+				},
+				"4": {
 					"name": "entity.name.function.glsl"
 				}
 			},

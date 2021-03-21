@@ -26,4 +26,6 @@ This extension is still in early development, and may become buggy in some situa
 
 ## Changelog (in dev)
 
+ - Arrays can be used as function return values now
+
  - < Waiting for development... If you find some issues, report them! >
