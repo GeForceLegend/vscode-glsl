@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.1.3
+
+ - Arrays can be used as function return values now
+
 ### 0.1.2
 
  - Added more syntaxes for #if and #elif logical expressions
