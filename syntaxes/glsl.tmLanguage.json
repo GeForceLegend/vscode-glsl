@@ -529,7 +529,7 @@
 					"include": "#comments"
 				},
 				{
-					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\s+([a-zA-Z_][\\w]*\\b)(\\[([\\w]*)\\])?)?(?=\\s*(\\)|,))",
+					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\[([0-9])?\\])?(\\s+([a-zA-Z_][\\w]*\\b)(\\[([\\w]*)\\])?)?(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
 							"name": "storage.modifier.glsl"
@@ -553,9 +553,12 @@
 							]
 						},
 						"9": {
-							"name": "variable.parameter.glsl"
+							"name": "constant.numeric.glsl"
 						},
 						"11": {
+							"name": "variable.parameter.glsl"
+						},
+						"13": {
 							"patterns": [
 								{
 									"match": "\\b[0-9]+\\b",
