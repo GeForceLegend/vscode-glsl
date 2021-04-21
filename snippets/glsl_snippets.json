@@ -1,2593 +1,2625 @@
 {
-	"variable.gl_BackColor": {
+	"glsl.variable.gl_BackColor": {
 		"prefix": "gl_BackColor",
 		"body": ["gl_BackColor"]
 	},
-	"variable.gl_BackLightModelProduct": {
+	"glsl.variable.gl_BackLightModelProduct": {
 		"prefix": "gl_BackLightModelProduct",
 		"body": ["gl_BackLightModelProduct"]
 	},
-	"variable.gl_BackLightProduct": {
+	"glsl.variable.gl_BackLightProduct": {
 		"prefix": "gl_BackLightProduct",
 		"body": ["gl_BackLightProduct[$1]"]
 	},
-	"variable.gl_BackMaterial": {
+	"glsl.variable.gl_BackMaterial": {
 		"prefix": "gl_BackMaterial",
 		"body": ["gl_BackMaterial"]
 	},
-	"variable.gl_BackSecondaryColor": {
+	"glsl.variable.gl_BackSecondaryColor": {
 		"prefix": "gl_BackSecondaryColor",
 		"body": ["gl_BackSecondaryColor"]
 	},
-	"variable.gl_BaseInstance": {
+	"glsl.variable.gl_BaseInstance": {
 		"prefix": "gl_BaseInstance",
 		"body": ["gl_BaseInstance"]
 	},
-	"variable.gl_BaseVertex": {
+	"glsl.variable.gl_BaseVertex": {
 		"prefix": "gl_BaseVertex",
 		"body": ["gl_BaseVertex"]
 	},
-	"variable.gl_ClipDistance": {
+	"glsl.variable.gl_ClipDistance": {
 		"prefix": "gl_ClipDistance",
 		"body": ["gl_ClipDistance[$1]"]
 	},
-	"variable.gl_ClipPlane": {
+	"glsl.variable.gl_ClipPlane": {
 		"prefix": "gl_ClipPlane",
 		"body": ["gl_ClipPlane[$1]"]
 	},
-	"variable.gl_ClipVertex": {
+	"glsl.variable.gl_ClipVertex": {
 		"prefix": "gl_ClipVertex",
 		"body": ["gl_ClipVertex"]
 	},
-	"variable.gl_CullDistance": {
+	"glsl.variable.gl_CullDistance": {
 		"prefix": "gl_CullDistance",
 		"body": ["gl_CullDistance[$1]"]
 	},
-	"variable.gl_Color": {
+	"glsl.variable.gl_Color": {
 		"prefix": "gl_Color",
 		"body": ["gl_Color"]
 	},
-	"variable.gl_DepthRange": {
+	"glsl.variable.gl_DepthRange": {
 		"prefix": "gl_DepthRange",
 		"body": ["gl_DepthRange"]
 	},
-	"variable.gl_DepthRangeParameters": {
+	"glsl.variable.gl_DepthRangeParameters": {
 		"prefix": "gl_DepthRangeParameters",
 		"body": ["gl_DepthRangeParameters"]
 	},
-	"variable.gl_DrawID": {
+	"glsl.variable.gl_DrawID": {
 		"prefix": "gl_DrawID",
 		"body": ["gl_DrawID"]
 	},
-	"variable.gl_EyePlaneQ": {
+	"glsl.variable.gl_EyePlaneQ": {
 		"prefix": "gl_EyePlaneQ",
 		"body": ["gl_EyePlaneQ[$1]"]
 	},
-	"variable.gl_EyePlaneR": {
+	"glsl.variable.gl_EyePlaneR": {
 		"prefix": "gl_EyePlaneR",
 		"body": ["gl_EyePlaneR[$1]"]
 	},
-	"variable.gl_EyePlaneS": {
+	"glsl.variable.gl_EyePlaneS": {
 		"prefix": "gl_EyePlaneS",
 		"body": ["gl_EyePlaneS[$1]"]
 	},
-	"variable.gl_EyePlaneT": {
+	"glsl.variable.gl_EyePlaneT": {
 		"prefix": "gl_EyePlaneT",
 		"body": ["gl_EyePlaneT[$1]"]
 	},
-	"variable.gl_Fog": {
+	"glsl.variable.gl_Fog": {
 		"prefix": "gl_Fog",
 		"body": ["gl_Fog"]
 	},
-	"variable.gl_FogCoord": {
+	"glsl.variable.gl_FogCoord": {
 		"prefix": "gl_FogCoord",
 		"body": ["gl_FogCoord"]
 	},
-	"variable.gl_FogFragCoord": {
+	"glsl.variable.gl_FogFragCoord": {
 		"prefix": "gl_FogFragCoord",
 		"body": ["gl_FogFragCoord"]
 	},
-	"variable.gl_FogParameters": {
+	"glsl.variable.gl_FogParameters": {
 		"prefix": "gl_FogParameters",
 		"body": ["gl_FogParameters"]
 	},
-	"variable.gl_FragColor": {
+	"glsl.variable.gl_FragColor": {
 		"prefix": "gl_FragColor",
 		"body": ["gl_FragColor"]
 	},
-	"variable.gl_FragCoord": {
+	"glsl.variable.gl_FragCoord": {
 		"prefix": "gl_FragCoord",
 		"body": ["gl_FragCoord"]
 	},
-	"variable.gl_FragData": {
+	"glsl.variable.gl_FragData": {
 		"prefix": "gl_FragData",
 		"body": ["gl_FragData[$1]"]
 	},
-	"variable.gl_FragDepth": {
+	"glsl.variable.gl_FragDepth": {
 		"prefix": "gl_FragDepth",
 		"body": ["gl_FragDepth"]
 	},
-	"variable.gl_FrontColor": {
+	"glsl.variable.gl_FrontColor": {
 		"prefix": "gl_FrontColor",
 		"body": ["gl_FrontColor"]
 	},
-	"variable.gl_FrontFacing": {
+	"glsl.variable.gl_FrontFacing": {
 		"prefix": "gl_FrontFacing",
 		"body": ["gl_FrontFacing"]
 	},
-	"variable.gl_FrontLightModelProduct": {
+	"glsl.variable.gl_FrontLightModelProduct": {
 		"prefix": "gl_FrontLightModelProduct",
 		"body": ["gl_FrontLightModelProduct"]
 	},
-	"variable.gl_FrontLightProduct": {
+	"glsl.variable.gl_FrontLightProduct": {
 		"prefix": "gl_FrontLightProduct",
 		"body": ["gl_FrontLightProduct[$1]"]
 	},
-	"variable.gl_FrontMaterial": {
+	"glsl.variable.gl_FrontMaterial": {
 		"prefix": "gl_FrontMaterial",
 		"body": ["gl_FrontMaterial"]
 	},
-	"variable.gl_FrontSecondaryColor": {
+	"glsl.variable.gl_FrontSecondaryColor": {
 		"prefix": "gl_FrontSecondaryColor",
 		"body": ["gl_FrontSecondaryColor"]
 	},
-	"variable.gl_GlobalInvocationID": {
+	"glsl.variable.gl_GlobalInvocationID": {
 		"prefix": "gl_GlobalInvocationID",
 		"body": ["gl_GlobalInvocationID"]
 	},
-	"variable.gl_HelperInvocation": {
+	"glsl.variable.gl_HelperInvocation": {
 		"prefix": "gl_HelperInvocation",
 		"body": ["gl_HelperInvocation"]
 	},
-	"variable.gl_in": {
+	"glsl.variable.gl_in": {
 		"prefix": "gl_in",
 		"body": ["gl_in[$1]"]
 	},
-	"variable.gl_InstanceID": {
+	"glsl.variable.gl_InstanceID": {
 		"prefix": "gl_InstanceID",
 		"body": ["gl_InstanceID"]
 	},
-	"variable.gl_InstanceIndex": {
+	"glsl.variable.gl_InstanceIndex": {
 		"prefix": "gl_InstanceIndex",
 		"body": ["gl_InstanceIndex"]
 	},
-	"variable.gl_InvocationID": {
+	"glsl.variable.gl_InvocationID": {
 		"prefix": "gl_InvocationID",
 		"body": ["gl_InvocationID"]
 	},
-	"variable.gl_Layer": {
+	"glsl.variable.gl_Layer": {
 		"prefix": "gl_Layer",
 		"body": ["gl_Layer"]
 	},
-	"variable.gl_LightModel": {
+	"glsl.variable.gl_LightModel": {
 		"prefix": "gl_LightModel",
 		"body": ["gl_LightModel"]
 	},
-	"variable.gl_LightModelParameters": {
+	"glsl.variable.gl_LightModelParameters": {
 		"prefix": "gl_LightModelParameters",
 		"body": ["gl_LightModelParameters"]
 	},
-	"variable.gl_LightModelProducts": {
+	"glsl.variable.gl_LightModelProducts": {
 		"prefix": "gl_LightModelProducts",
 		"body": ["gl_LightModelProducts"]
 	},
-	"variable.gl_LightProducts": {
+	"glsl.variable.gl_LightProducts": {
 		"prefix": "gl_LightProducts",
 		"body": ["gl_LightProducts"]
 	},
-	"variable.gl_LightSource": {
+	"glsl.variable.gl_LightSource": {
 		"prefix": "gl_LightSource",
 		"body": ["gl_LightSource[$1]"]
 	},
-	"variable.gl_LightSourceParameters": {
+	"glsl.variable.gl_LightSourceParameters": {
 		"prefix": "gl_LightSourceParameters",
 		"body": ["gl_LightSourceParameters"]
 	},
-	"variable.gl_LocalInvocationID": {
+	"glsl.variable.gl_LocalInvocationID": {
 		"prefix": "gl_LocalInvocationID",
 		"body": ["gl_LocalInvocationID"]
 	},
-	"variable.gl_LocalInvocationIndex": {
+	"glsl.variable.gl_LocalInvocationIndex": {
 		"prefix": "gl_LocalInvocationIndex",
 		"body": ["gl_LocalInvocationIndex"]
 	},
-	"variable.gl_MaterialParameters": {
+	"glsl.variable.gl_MaterialParameters": {
 		"prefix": "gl_MaterialParameters",
 		"body": ["gl_MaterialParameters"]
 	},
-	"variable.gl_ModelViewMatrix": {
+	"glsl.variable.gl_ModelViewMatrix": {
 		"prefix": "gl_ModelViewMatrix",
 		"body": ["gl_ModelViewMatrix"]
 	},
-	"variable.gl_ModelViewMatrixInverse": {
+	"glsl.variable.gl_ModelViewMatrixInverse": {
 		"prefix": "gl_ModelViewMatrixInverse",
 		"body": ["gl_ModelViewMatrixInverse"]
 	},
-	"variable.gl_ModelViewMatrixInverseTranspose": {
+	"glsl.variable.gl_ModelViewMatrixInverseTranspose": {
 		"prefix": "gl_ModelViewMatrixInverseTranspose",
 		"body": ["gl_ModelViewMatrixInverseTranspose"]
 	},
-	"variable.gl_ModelViewMatrixTranspose": {
+	"glsl.variable.gl_ModelViewMatrixTranspose": {
 		"prefix": "gl_ModelViewMatrixTranspose",
 		"body": ["gl_ModelViewMatrixTranspose"]
 	},
-	"variable.gl_ModelViewProjectionMatrix": {
+	"glsl.variable.gl_ModelViewProjectionMatrix": {
 		"prefix": "gl_ModelViewProjectionMatrix",
 		"body": ["gl_ModelViewProjectionMatrix"]
 	},
-	"variable.gl_ModelViewProjectionMatrixInverse": {
+	"glsl.variable.gl_ModelViewProjectionMatrixInverse": {
 		"prefix": "gl_ModelViewProjectionMatrixInverse",
 		"body": ["gl_ModelViewProjectionMatrixInverse"]
 	},
-	"variable.gl_ModelViewProjectionMatrixInverseTranspose": {
+	"glsl.variable.gl_ModelViewProjectionMatrixInverseTranspose": {
 		"prefix": "gl_ModelViewProjectionMatrixInverseTranspose",
 		"body": ["gl_ModelViewProjectionMatrixInverseTranspose"]
 	},
-	"variable.gl_ModelViewProjectionMatrixTranspose": {
+	"glsl.variable.gl_ModelViewProjectionMatrixTranspose": {
 		"prefix": "gl_ModelViewProjectionMatrixTranspose",
 		"body": ["gl_ModelViewProjectionMatrixTranspose"]
 	},
-	"variable.gl_MultiTexCoord": {
+	"glsl.variable.gl_MultiTexCoord": {
 		"prefix": "gl_MultiTexCoord",
 		"body": ["gl_MultiTexCoord"]
 	},
-	"variable.gl_NumWorkGroups": {
+	"glsl.variable.gl_NumWorkGroups": {
 		"prefix": "gl_NumWorkGroups",
 		"body": ["gl_NumWorkGroups"]
 	},
-	"variable.gl_Normal": {
+	"glsl.variable.gl_Normal": {
 		"prefix": "gl_Normal",
 		"body": ["gl_Normal"]
 	},
-	"variable.gl_NormalMatrix": {
+	"glsl.variable.gl_NormalMatrix": {
 		"prefix": "gl_NormalMatrix",
 		"body": ["gl_NormalMatrix"]
 	},
-	"variable.gl_NormalScale": {
+	"glsl.variable.gl_NormalScale": {
 		"prefix": "gl_NormalScale",
 		"body": ["gl_NormalScale"]
 	},
-	"variable.gl_out": {
+	"glsl.variable.gl_out": {
 		"prefix": "gl_out",
 		"body": ["gl_out[$1]"]
 	},
-	"variable.gl_ObjectPlaneQ": {
+	"glsl.variable.gl_ObjectPlaneQ": {
 		"prefix": "gl_ObjectPlaneQ",
 		"body": ["gl_ObjectPlaneQ[$1]"]
 	},
-	"variable.gl_ObjectPlaneR": {
+	"glsl.variable.gl_ObjectPlaneR": {
 		"prefix": "gl_ObjectPlaneR",
 		"body": ["gl_ObjectPlaneR[$1]"]
 	},
-	"variable.gl_ObjectPlaneS": {
+	"glsl.variable.gl_ObjectPlaneS": {
 		"prefix": "gl_ObjectPlaneS",
 		"body": ["gl_ObjectPlaneS[$1]"]
 	},
-	"variable.gl_ObjectPlaneT": {
+	"glsl.variable.gl_ObjectPlaneT": {
 		"prefix": "gl_ObjectPlaneT",
 		"body": ["gl_ObjectPlaneT[$1]"]
 	},
-	"variable.gl_PatchVerticesIn": {
+	"glsl.variable.gl_PatchVerticesIn": {
 		"prefix": "gl_PatchVerticesIn",
 		"body": ["gl_PatchVerticesIn"]
 	},
-	"variable.gl_PerFragment": {
+	"glsl.variable.gl_PerFragment": {
 		"prefix": "gl_PerFragment",
 		"body": ["gl_PerFragment"]
 	},
-	"variable.gl_PerVertex": {
+	"glsl.variable.gl_PerVertex": {
 		"prefix": "gl_PerVertex",
 		"body": ["gl_PerVertex"]
 	},
-	"variable.gl_Point": {
+	"glsl.variable.gl_Point": {
 		"prefix": "gl_Point",
 		"body": ["gl_Point"]
 	},
-	"variable.gl_PointCoord": {
+	"glsl.variable.gl_PointCoord": {
 		"prefix": "gl_PointCoord",
 		"body": ["gl_PointCoord"]
 	},
-	"variable.gl_PointParameters": {
+	"glsl.variable.gl_PointParameters": {
 		"prefix": "gl_PointParameters",
 		"body": ["gl_PointParameters"]
 	},
-	"variable.gl_PointSize": {
+	"glsl.variable.gl_PointSize": {
 		"prefix": "gl_PointSize",
 		"body": ["gl_PointSize"]
 	},
-	"variable.gl_Position": {
+	"glsl.variable.gl_Position": {
 		"prefix": "gl_Position",
 		"body": ["gl_Position"]
 	},
-	"variable.gl_PrimitiveID": {
+	"glsl.variable.gl_PrimitiveID": {
 		"prefix": "gl_PrimitiveID",
 		"body": ["gl_PrimitiveID"]
 	},
-	"variable.gl_PrimitiveIDIn": {
+	"glsl.variable.gl_PrimitiveIDIn": {
 		"prefix": "gl_PrimitiveIDIn",
 		"body": ["gl_PrimitiveIDIn"]
 	},
-	"variable.gl_ProjectionMatrix": {
+	"glsl.variable.gl_ProjectionMatrix": {
 		"prefix": "gl_ProjectionMatrix",
 		"body": ["gl_ProjectionMatrix"]
 	},
-	"variable.gl_ProjectionMatrixInverse": {
+	"glsl.variable.gl_ProjectionMatrixInverse": {
 		"prefix": "gl_ProjectionMatrixInverse",
 		"body": ["gl_ProjectionMatrixInverse"]
 	},
-	"variable.gl_ProjectionMatrixInverseTranspose": {
+	"glsl.variable.gl_ProjectionMatrixInverseTranspose": {
 		"prefix": "gl_ProjectionMatrixInverseTranspose",
 		"body": ["gl_ProjectionMatrixInverseTranspose"]
 	},
-	"variable.gl_ProjectionMatrixTranspose": {
+	"glsl.variable.gl_ProjectionMatrixTranspose": {
 		"prefix": "gl_ProjectionMatrixTranspose",
 		"body": ["gl_ProjectionMatrixTranspose"]
 	},
-	"variable.gl_SampleID": {
+	"glsl.variable.gl_SampleID": {
 		"prefix": "gl_SampleID",
 		"body": ["gl_SampleID"]
 	},
-	"variable.gl_SamplePosition": {
+	"glsl.variable.gl_SamplePosition": {
 		"prefix": "gl_SamplePosition",
 		"body": ["gl_SamplePosition"]
 	},
-	"variable.gl_SampleMask": {
+	"glsl.variable.gl_SampleMask": {
 		"prefix": "gl_SampleMask",
 		"body": ["gl_SampleMask[$1]"]
 	},
-	"variable.gl_SampleMaskIn": {
+	"glsl.variable.gl_SampleMaskIn": {
 		"prefix": "gl_SampleMaskIn",
 		"body": ["gl_SampleMaskIn[$1]"]
 	},
-	"variable.gl_SecondaryColor": {
+	"glsl.variable.gl_SecondaryColor": {
 		"prefix": "gl_SecondaryColor",
 		"body": ["gl_SecondaryColor"]
 	},
-	"variable.gl_TessCoord": {
+	"glsl.variable.gl_TessCoord": {
 		"prefix": "gl_TessCoord",
 		"body": ["gl_TessCoord"]
 	},
-	"variable.gl_TessLevelInner": {
+	"glsl.variable.gl_TessLevelInner": {
 		"prefix": "gl_TessLevelInner",
 		"body": ["gl_TessLevelInner"]
 	},
-	"variable.gl_TessLevelOuter": {
+	"glsl.variable.gl_TessLevelOuter": {
 		"prefix": "gl_TessLevelOuter",
 		"body": ["gl_TessLevelOuter"]
 	},
-	"variable.gl_TexCoord": {
+	"glsl.variable.gl_TexCoord": {
 		"prefix": "gl_TexCoord",
 		"body": ["gl_TexCoord[$1]"]
 	},
-	"variable.gl_TextureEnvColor": {
+	"glsl.variable.gl_TextureEnvColor": {
 		"prefix": "gl_TextureEnvColor",
 		"body": ["gl_TextureEnvColor[$1]"]
 	},
-	"variable.gl_Vertex": {
+	"glsl.variable.gl_Vertex": {
 		"prefix": "gl_Vertex",
 		"body": ["gl_Vertex"]
 	},
-	"variable.gl_VertexID": {
+	"glsl.variable.gl_VertexID": {
 		"prefix": "gl_VertexID",
 		"body": ["gl_VertexID"]
 	},
-	"variable.gl_VertexIndex": {
+	"glsl.variable.gl_VertexIndex": {
 		"prefix": "gl_VertexIndex",
 		"body": ["gl_VertexIndex"]
 	},
-	"variable.gl_ViewportIndex": {
+	"glsl.variable.gl_ViewportIndex": {
 		"prefix": "gl_ViewportIndex",
 		"body": ["gl_ViewportIndex"]
 	},
-	"variable.gl_WorkGroupID": {
+	"glsl.variable.gl_WorkGroupID": {
 		"prefix": "gl_WorkGroupID",
 		"body": ["gl_WorkGroupID"]
 	},
-	"variable.gl_WorkGroupSize": {
+	"glsl.variable.gl_WorkGroupSize": {
 		"prefix": "gl_WorkGroupSize",
 		"body": ["gl_WorkGroupSize"]
 	},
 
 
-	"constant.gl_MaxCombinedAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxCombinedAtomicCounterBuffers": {
 		"prefix": "gl_MaxCombinedAtomicCounterBuffers",
 		"body": ["gl_MaxCombinedAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxComputeAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxComputeAtomicCounterBuffers": {
 		"prefix": "gl_MaxComputeAtomicCounterBuffers",
 		"body": ["gl_MaxComputeAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxFragmentAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxFragmentAtomicCounterBuffers": {
 		"prefix": "gl_MaxFragmentAtomicCounterBuffers",
 		"body": ["gl_MaxFragmentAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxGeometryAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxGeometryAtomicCounterBuffers": {
 		"prefix": "gl_MaxGeometryAtomicCounterBuffers",
 		"body": ["gl_MaxGeometryAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxTessControlAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxTessControlAtomicCounterBuffers": {
 		"prefix": "gl_MaxTessControlAtomicCounterBuffers",
 		"body": ["gl_MaxTessControlAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxTessEvaluationAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxTessEvaluationAtomicCounterBuffers": {
 		"prefix": "gl_MaxTessEvaluationAtomicCounterBuffers",
 		"body": ["gl_MaxTessEvaluationAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxVertexAtomicCounterBuffers": {
+	"glsl.constant.gl_MaxVertexAtomicCounterBuffers": {
 		"prefix": "gl_MaxVertexAtomicCounterBuffers",
 		"body": ["gl_MaxVertexAtomicCounterBuffers"]
 	},
-	"constant.gl_MaxCombinedAtomicCounters": {
+	"glsl.constant.gl_MaxCombinedAtomicCounters": {
 		"prefix": "gl_MaxCombinedAtomicCounters",
 		"body": ["gl_MaxCombinedAtomicCounters"]
 	},
-	"constant.gl_MaxComputeAtomicCounters": {
+	"glsl.constant.gl_MaxComputeAtomicCounters": {
 		"prefix": "gl_MaxComputeAtomicCounters",
 		"body": ["gl_MaxComputeAtomicCounters"]
 	},
-	"constant.gl_MaxFragmentAtomicCounters": {
+	"glsl.constant.gl_MaxFragmentAtomicCounters": {
 		"prefix": "gl_MaxFragmentAtomicCounters",
 		"body": ["gl_MaxFragmentAtomicCounters"]
 	},
-	"constant.gl_MaxGeometryAtomicCounters": {
+	"glsl.constant.gl_MaxGeometryAtomicCounters": {
 		"prefix": "gl_MaxGeometryAtomicCounters",
 		"body": ["gl_MaxGeometryAtomicCounters"]
 	},
-	"constant.gl_MaxTessControlAtomicCounters": {
+	"glsl.constant.gl_MaxTessControlAtomicCounters": {
 		"prefix": "gl_MaxTessControlAtomicCounters",
 		"body": ["gl_MaxTessControlAtomicCounters"]
 	},
-	"constant.gl_MaxTessEvaluationAtomicCounters": {
+	"glsl.constant.gl_MaxTessEvaluationAtomicCounters": {
 		"prefix": "gl_MaxTessEvaluationAtomicCounters",
 		"body": ["gl_MaxTessEvaluationAtomicCounters"]
 	},
-	"constant.gl_MaxVertexAtomicCounters": {
+	"glsl.constant.gl_MaxVertexAtomicCounters": {
 		"prefix": "gl_MaxVertexAtomicCounters",
 		"body": ["gl_MaxVertexAtomicCounters"]
 	},
-	"constant.gl_MaxCombinedImageUniforms": {
+	"glsl.constant.gl_MaxCombinedImageUniforms": {
 		"prefix": "gl_MaxCombinedImageUniforms",
 		"body": ["gl_MaxCombinedImageUniforms"]
 	},
-	"constant.gl_MaxComputeImageUniforms": {
+	"glsl.constant.gl_MaxComputeImageUniforms": {
 		"prefix": "gl_MaxComputeImageUniforms",
 		"body": ["gl_MaxComputeImageUniforms"]
 	},
-	"constant.gl_MaxFragmentImageUniforms": {
+	"glsl.constant.gl_MaxFragmentImageUniforms": {
 		"prefix": "gl_MaxFragmentImageUniforms",
 		"body": ["gl_MaxFragmentImageUniforms"]
 	},
-	"constant.gl_MaxGeometryImageUniforms": {
+	"glsl.constant.gl_MaxGeometryImageUniforms": {
 		"prefix": "gl_MaxGeometryImageUniforms",
 		"body": ["gl_MaxGeometryImageUniforms"]
 	},
-	"constant.gl_MaxTessControlImageUniforms": {
+	"glsl.constant.gl_MaxTessControlImageUniforms": {
 		"prefix": "gl_MaxTessControlImageUniforms",
 		"body": ["gl_MaxTessControlImageUniforms"]
 	},
-	"constant.gl_MaxTessEvaluationImageUniforms": {
+	"glsl.constant.gl_MaxTessEvaluationImageUniforms": {
 		"prefix": "gl_MaxTessEvaluationImageUniforms",
 		"body": ["gl_MaxTessEvaluationImageUniforms"]
 	},
-	"constant.gl_MaxVertexImageUniforms": {
+	"glsl.constant.gl_MaxVertexImageUniforms": {
 		"prefix": "gl_MaxVertexImageUniforms",
 		"body": ["gl_MaxVertexImageUniforms"]
 	},
-	"constant.gl_MaxFragmentInputComponents": {
+	"glsl.constant.gl_MaxFragmentInputComponents": {
 		"prefix": "gl_MaxFragmentInputComponents",
 		"body": ["gl_MaxFragmentInputComponents"]
 	},
-	"constant.gl_MaxGeometryInputComponents": {
+	"glsl.constant.gl_MaxGeometryInputComponents": {
 		"prefix": "gl_MaxGeometryInputComponents",
 		"body": ["gl_MaxGeometryInputComponents"]
 	},
-	"constant.gl_MaxTessControlInputComponents": {
+	"glsl.constant.gl_MaxTessControlInputComponents": {
 		"prefix": "gl_MaxTessControlInputComponents",
 		"body": ["gl_MaxTessControlInputComponents"]
 	},
-	"constant.gl_MaxTessEvaluationInputComponents": {
+	"glsl.constant.gl_MaxTessEvaluationInputComponents": {
 		"prefix": "gl_MaxTessEvaluationInputComponents",
 		"body": ["gl_MaxTessEvaluationInputComponents"]
 	},
-	"constant.gl_MaxGeometryOutputComponents": {
+	"glsl.constant.gl_MaxGeometryOutputComponents": {
 		"prefix": "gl_MaxGeometryOutputComponents",
 		"body": ["gl_MaxGeometryOutputComponents"]
 	},
-	"constant.gl_MaxTessControlOutputComponents": {
+	"glsl.constant.gl_MaxTessControlOutputComponents": {
 		"prefix": "gl_MaxTessControlOutputComponents",
 		"body": ["gl_MaxTessControlOutputComponents"]
 	},
-	"constant.gl_MaxTessEvaluationOutputComponents": {
+	"glsl.constant.gl_MaxTessEvaluationOutputComponents": {
 		"prefix": "gl_MaxTessEvaluationOutputComponents",
 		"body": ["gl_MaxTessEvaluationOutputComponents"]
 	},
-	"constant.gl_MaxVertexOutputComponents": {
+	"glsl.constant.gl_MaxVertexOutputComponents": {
 		"prefix": "gl_MaxVertexOutputComponents",
 		"body": ["gl_MaxVertexOutputComponents"]
 	},
-	"constant.gl_MaxTextureImageUnits": {
+	"glsl.constant.gl_MaxTextureImageUnits": {
 		"prefix": "gl_MaxFragmentTextureImageUnits",
 		"body": ["gl_MaxFragmentTextureImageUnits"]
 	},
-	"constant.gl_MaxCombinedTextureImageUnits": {
+	"glsl.constant.gl_MaxCombinedTextureImageUnits": {
 		"prefix": "gl_MaxCombinedTextureImageUnits",
 		"body": ["gl_MaxCombinedTextureImageUnits"]
 	},
-	"constant.gl_MaxComputeTextureImageUnits": {
+	"glsl.constant.gl_MaxComputeTextureImageUnits": {
 		"prefix": "gl_MaxComputeTextureImageUnits",
 		"body": ["gl_MaxComputeTextureImageUnits"]
 	},
-	"constant.gl_MaxGeometryTextureImageUnits": {
+	"glsl.constant.gl_MaxGeometryTextureImageUnits": {
 		"prefix": "gl_MaxGeometryTextureImageUnits",
 		"body": ["gl_MaxGeometryTextureImageUnits"]
 	},
-	"constant.gl_MaxTessControlTextureImageUnits": {
+	"glsl.constant.gl_MaxTessControlTextureImageUnits": {
 		"prefix": "gl_MaxTessControlTextureImageUnits",
 		"body": ["gl_MaxTessControlTextureImageUnits"]
 	},
-	"constant.gl_MaxTessEvaluationTextureImageUnits": {
+	"glsl.constant.gl_MaxTessEvaluationTextureImageUnits": {
 		"prefix": "gl_MaxTessEvaluationTextureImageUnits",
 		"body": ["gl_MaxTessEvaluationTextureImageUnits"]
 	},
-	"constant.gl_MaxVertexTextureImageUnits": {
+	"glsl.constant.gl_MaxVertexTextureImageUnits": {
 		"prefix": "gl_MaxVertexTextureImageUnits",
 		"body": ["gl_MaxVertexTextureImageUnits"]
 	},
-	"constant.gl_MaxGeometryTotalOutputComponents": {
+	"glsl.constant.gl_MaxGeometryTotalOutputComponents": {
 		"prefix": "gl_MaxGeometryTotalOutputComponents",
 		"body": ["gl_MaxGeometryTotalOutputComponents"]
 	},
-	"constant.gl_MaxTessControlTotalOutputComponents": {
+	"glsl.constant.gl_MaxTessControlTotalOutputComponents": {
 		"prefix": "gl_MaxTessControlTotalOutputComponents",
 		"body": ["gl_MaxTessControlTotalOutputComponents"]
 	},
-	"constant.gl_MaxComputeUniformComponents": {
+	"glsl.constant.gl_MaxComputeUniformComponents": {
 		"prefix": "gl_MaxComputeUniformComponents",
 		"body": ["gl_MaxComputeUniformComponents"]
 	},
-	"constant.gl_MaxFragmentUniformComponents": {
+	"glsl.constant.gl_MaxFragmentUniformComponents": {
 		"prefix": "gl_MaxFragmentUniformComponents",
 		"body": ["gl_MaxFragmentUniformComponents"]
 	},
-	"constant.gl_MaxGeometryUniformComponents": {
+	"glsl.constant.gl_MaxGeometryUniformComponents": {
 		"prefix": "gl_MaxGeometryUniformComponents",
 		"body": ["gl_MaxGeometryUniformComponents"]
 	},
-	"constant.gl_MaxTessControlUniformComponents": {
+	"glsl.constant.gl_MaxTessControlUniformComponents": {
 		"prefix": "gl_MaxTessControlUniformComponents",
 		"body": ["gl_MaxTessControlUniformComponents"]
 	},
-	"constant.gl_MaxTessEvaluationUniformComponents": {
+	"glsl.constant.gl_MaxTessEvaluationUniformComponents": {
 		"prefix": "gl_MaxTessEvaluationUniformComponents",
 		"body": ["gl_MaxTessEvaluationUniformComponents"]
 	},
-	"constant.gl_MaxVertexUniformComponents": {
+	"glsl.constant.gl_MaxVertexUniformComponents": {
 		"prefix": "gl_MaxVertexUniformComponents",
 		"body": ["gl_MaxVertexUniformComponents"]
 	},
-	"constant.gl_MaxFragmentUniformVectors": {
+	"glsl.constant.gl_MaxFragmentUniformVectors": {
 		"prefix": "gl_MaxFragmentUniformVectors",
 		"body": ["gl_MaxFragmentUniformVectors"]
 	},
-	"constant.gl_MaxVertexUniformVectors": {
+	"glsl.constant.gl_MaxVertexUniformVectors": {
 		"prefix": "gl_MaxVertexUniformVectors",
 		"body": ["gl_MaxVertexUniformVectors"]
 	},
-	"constant.gl_MaxAtomicCounterBindings": {
+	"glsl.constant.gl_MaxAtomicCounterBindings": {
 		"prefix": "gl_MaxAtomicCounterBindings",
 		"body": ["gl_MaxAtomicCounterBindings"]
 	},
-	"constant.gl_MaxAtomicCounterBufferSize": {
+	"glsl.constant.gl_MaxAtomicCounterBufferSize": {
 		"prefix": "gl_MaxAtomicCounterBufferSize",
 		"body": ["gl_MaxAtomicCounterBufferSize"]
 	},
-	"constant.gl_MaxClipDistances": {
+	"glsl.constant.gl_MaxClipDistances": {
 		"prefix": "gl_MaxClipDistances",
 		"body": ["gl_MaxClipDistances"]
 	},
-	"constant.gl_MaxClipPlanes": {
+	"glsl.constant.gl_MaxClipPlanes": {
 		"prefix": "gl_MaxClipPlanes",
 		"body": ["gl_MaxClipPlanes"]
 	},
-	"constant.gl_MaxCullDistances": {
+	"glsl.constant.gl_MaxCullDistances": {
 		"prefix": "gl_MaxCullDistances",
 		"body": ["gl_MaxCullDistances"]
 	},
-	"constant.gl_MaxCombinedClipAndCullDistances": {
+	"glsl.constant.gl_MaxCombinedClipAndCullDistances": {
 		"prefix": "gl_MaxCombinedClipAndCullDistances",
 		"body": ["gl_MaxCombinedClipAndCullDistances"]
 	},
-	"constant.gl_MaxCombinedImageUnitsAndFragmentOutputs": {
+	"glsl.constant.gl_MaxCombinedImageUnitsAndFragmentOutputs": {
 		"prefix": "gl_MaxCombinedImageUnitsAndFragmentOutputs",
 		"body": ["gl_MaxCombinedImageUnitsAndFragmentOutputs"]
 	},
-	"constant.gl_MaxCombinedShaderOutputResources": {
+	"glsl.constant.gl_MaxCombinedShaderOutputResources": {
 		"prefix": "gl_MaxCombinedShaderOutputResources",
 		"body": ["gl_MaxCombinedShaderOutputResources"]
 	},
-	"constant.gl_MaxComputeWorkGroupCount": {
+	"glsl.constant.gl_MaxComputeWorkGroupCount": {
 		"prefix": "gl_MaxComputeWorkGroupCount",
 		"body": ["gl_MaxComputeWorkGroupCount"]
 	},
-	"constant.gl_MaxComputeWorkGroupSize": {
+	"glsl.constant.gl_MaxComputeWorkGroupSize": {
 		"prefix": "gl_MaxComputeWorkGroupSize",
 		"body": ["gl_MaxComputeWorkGroupSize"]
 	},
-	"constant.gl_MaxDrawBuffers": {
+	"glsl.constant.gl_MaxDrawBuffers": {
 		"prefix": "gl_MaxDrawBuffers",
 		"body": ["gl_MaxDrawBuffers"]
 	},
-	"constant.gl_MaxGeometryOutputVertices": {
+	"glsl.constant.gl_MaxGeometryOutputVertices": {
 		"prefix": "gl_MaxGeometryOutputVertices",
 		"body": ["gl_MaxGeometryOutputVertices"]
 	},
-	"constant.gl_MaxVaryingComponents": {
+	"glsl.constant.gl_MaxVaryingComponents": {
 		"prefix": "gl_MaxVaryingComponents",
 		"body": ["gl_MaxVaryingComponents"]
 	},
-	"constant.gl_MaxGeometryVaryingComponents": {
+	"glsl.constant.gl_MaxGeometryVaryingComponents": {
 		"prefix": "gl_MaxGeometryVaryingComponents",
 		"body": ["gl_MaxGeometryVaryingComponents"]
 	},
-	"constant.gl_MaxMaxImageSamples": {
+	"glsl.constant.gl_MaxMaxImageSamples": {
 		"prefix": "gl_MaxMaxImageSamples",
 		"body": ["gl_MaxMaxImageSamples"]
 	},
-	"constant.gl_MaxMaxImageUnits": {
+	"glsl.constant.gl_MaxMaxImageUnits": {
 		"prefix": "gl_MaxMaxImageUnits",
 		"body": ["gl_MaxMaxImageUnits"]
 	},
-	"constant.gl_MaxInputAttachments": {
+	"glsl.constant.gl_MaxInputAttachments": {
 		"prefix": "gl_MaxInputAttachments",
 		"body": ["gl_MaxInputAttachments"]
 	},
-	"constant.gl_MaxLights": {
+	"glsl.constant.gl_MaxLights": {
 		"prefix": "gl_MaxLights",
 		"body": ["gl_MaxLights"]
 	},
-	"constant.gl_MaxPatchVertices": {
+	"glsl.constant.gl_MaxPatchVertices": {
 		"prefix": "gl_MaxPatchVertices",
 		"body": ["gl_MaxPatchVertices"]
 	},
-	"constant.gl_MaxProgramTexelOffset": {
+	"glsl.constant.gl_MaxProgramTexelOffset": {
 		"prefix": "gl_MaxProgramTexelOffset",
 		"body": ["gl_MaxProgramTexelOffset"]
 	},
-	"constant.gl_MaxSamples": {
+	"glsl.constant.gl_MaxSamples": {
 		"prefix": "gl_MaxSamples",
 		"body": ["gl_MaxSamples"]
 	},
-	"constant.gl_MaxTessGenLevel": {
+	"glsl.constant.gl_MaxTessGenLevel": {
 		"prefix": "gl_MaxTessGenLevel",
 		"body": ["gl_MaxTessGenLevel"]
 	},
-	"constant.gl_MaxTessPatchComponents": {
+	"glsl.constant.gl_MaxTessPatchComponents": {
 		"prefix": "gl_MaxTessPatchComponents",
 		"body": ["gl_MaxTessPatchComponents"]
 	},
-	"constant.gl_MaxTextureCoords": {
+	"glsl.constant.gl_MaxTextureCoords": {
 		"prefix": "gl_MaxTextureCoords",
 		"body": ["gl_MaxTextureCoords"]
 	},
-	"constant.gl_MaxTextureUnits": {
+	"glsl.constant.gl_MaxTextureUnits": {
 		"prefix": "gl_MaxTextureUnits",
 		"body": ["gl_MaxTextureUnits"]
 	},
-	"constant.gl_MaxTransformFeedbackBuffers": {
+	"glsl.constant.gl_MaxTransformFeedbackBuffers": {
 		"prefix": "gl_MaxTransformFeedbackBuffers",
 		"body": ["gl_MaxTransformFeedbackBuffers"]
 	},
-	"constant.gl_MaxTransformFeedbackInterleavedComponents": {
+	"glsl.constant.gl_MaxTransformFeedbackInterleavedComponents": {
 		"prefix": "gl_MaxTransformFeedbackInterleavedComponents",
 		"body": ["gl_MaxTransformFeedbackInterleavedComponents"]
 	},
-	"constant.gl_MaxVaryingFloats": {
+	"glsl.constant.gl_MaxVaryingFloats": {
 		"prefix": "gl_MaxVaryingFloats",
 		"body": ["gl_MaxVaryingFloats"]
 	},
-	"constant.gl_MaxVaryingVectors": {
+	"glsl.constant.gl_MaxVaryingVectors": {
 		"prefix": "gl_MaxVaryingVectors",
 		"body": ["gl_MaxVaryingVectors"]
 	},
-	"constant.gl_MaxVertexAttribs": {
+	"glsl.constant.gl_MaxVertexAttribs": {
 		"prefix": "gl_MaxVertexAttribs",
 		"body": ["gl_MaxVertexAttribs"]
 	},
-	"constant.gl_MaxViewports": {
+	"glsl.constant.gl_MaxViewports": {
 		"prefix": "gl_MaxViewports",
 		"body": ["gl_MaxViewports"]
 	},
-	"constant.gl_MinProgramTexelOffset": {
+	"glsl.constant.gl_MinProgramTexelOffset": {
 		"prefix": "gl_MinProgramTexelOffset",
 		"body": ["gl_MinProgramTexelOffset"]
 	},
 
 
-	"type.void": {
+	"glsl.type.void": {
 		"prefix": "void",
 		"body": ["void"]
 	},
-	"type.bool": {
+	"glsl.type.bool": {
 		"prefix": "bool",
 		"body": ["bool"]
 	},
-	"type.int": {
+	"glsl.type.int": {
 		"prefix": "int",
 		"body": ["int"]
 	},
-	"type.uint": {
+	"glsl.type.uint": {
 		"prefix": "uint",
 		"body": ["uint"]
 	},
-	"type.float": {
+	"glsl.type.float": {
 		"prefix": "float",
 		"body": ["float"]
 	},
-	"type.double": {
+	"glsl.type.double": {
 		"prefix": "double",
 		"body": ["double"]
 	},
-	"type.vec2": {
+	"glsl.type.vec2": {
 		"prefix": "vec2",
 		"body": ["vec2"]
 	},
-	"type.vec3": {
+	"glsl.type.vec3": {
 		"prefix": "vec3",
 		"body": ["vec3"]
 	},
-	"type.vec4": {
+	"glsl.type.vec4": {
 		"prefix": "vec4",
 		"body": ["vec4"]
 	},
-	"type.dvec2": {
+	"glsl.type.dvec2": {
 		"prefix": "dvec2",
 		"body": ["dvec2"]
 	},
-	"type.dvec3": {
+	"glsl.type.dvec3": {
 		"prefix": "dvec3",
 		"body": ["dvec3"]
 	},
-	"type.dvec4": {
+	"glsl.type.dvec4": {
 		"prefix": "dvec4",
 		"body": ["dvec4"]
 	},
-	"type.bvec2": {
+	"glsl.type.bvec2": {
 		"prefix": "bvec2",
 		"body": ["bvec2"]
 	},
-	"type.bvec3": {
+	"glsl.type.bvec3": {
 		"prefix": "bvec3",
 		"body": ["bvec3"]
 	},
-	"type.bvec4": {
+	"glsl.type.bvec4": {
 		"prefix": "bvec4",
 		"body": ["bvec4"]
 	},
-	"type.ivec2": {
+	"glsl.type.ivec2": {
 		"prefix": "ivec2",
 		"body": ["ivec2"]
 	},
-	"type.ivec3": {
+	"glsl.type.ivec3": {
 		"prefix": "ivec3",
 		"body": ["ivec3"]
 	},
-	"type.ivec4": {
+	"glsl.type.ivec4": {
 		"prefix": "ivec4",
 		"body": ["ivec4"]
 	},
-	"type.uvec2": {
+	"glsl.type.uvec2": {
 		"prefix": "uvec2",
 		"body": ["uvec2"]
 	},
-	"type.uvec3": {
+	"glsl.type.uvec3": {
 		"prefix": "uvec3",
 		"body": ["uvec3"]
 	},
-	"type.uvec4": {
+	"glsl.type.uvec4": {
 		"prefix": "uvec4",
 		"body": ["uvec4"]
 	},
-	"type.mat2": {
+	"glsl.type.mat2": {
 		"prefix": "mat2",
 		"body": ["mat2"]
 	},
-	"type.mat3": {
+	"glsl.type.mat3": {
 		"prefix": "mat3",
 		"body": ["mat3"]
 	},
-	"type.mat4": {
+	"glsl.type.mat4": {
 		"prefix": "mat4",
 		"body": ["mat4"]
 	},
-	"type.mat2x2": {
+	"glsl.type.mat2x2": {
 		"prefix": "mat2x2",
 		"body": ["mat2x2"]
 	},
-	"type.mat2x3": {
+	"glsl.type.mat2x3": {
 		"prefix": "mat2x3",
 		"body": ["mat2x3"]
 	},
-	"type.mat2x4": {
+	"glsl.type.mat2x4": {
 		"prefix": "mat2x4",
 		"body": ["mat2x4"]
 	},
-	"type.mat3x2": {
+	"glsl.type.mat3x2": {
 		"prefix": "mat3x2",
 		"body": ["mat3x2"]
 	},
-	"type.mat3x3": {
+	"glsl.type.mat3x3": {
 		"prefix": "mat3x3",
 		"body": ["mat3x3"]
 	},
-	"type.mat3x4": {
+	"glsl.type.mat3x4": {
 		"prefix": "mat3x4",
 		"body": ["mat3x4"]
 	},
-	"type.mat4x2": {
+	"glsl.type.mat4x2": {
 		"prefix": "mat4x2",
 		"body": ["mat4x2"]
 	},
-	"type.mat4x3": {
+	"glsl.type.mat4x3": {
 		"prefix": "mat4x3",
 		"body": ["mat4x3"]
 	},
-	"type.mat4x4": {
+	"glsl.type.mat4x4": {
 		"prefix": "mat4x4",
 		"body": ["mat4x4"]
 	},
-	"type.dmat2": {
+	"glsl.type.dmat2": {
 		"prefix": "dmat2",
 		"body": ["dmat2"]
 	},
-	"type.dmat3": {
+	"glsl.type.dmat3": {
 		"prefix": "dmat3",
 		"body": ["dmat3"]
 	},
-	"type.dmat4": {
+	"glsl.type.dmat4": {
 		"prefix": "dmat4",
 		"body": ["dmat4"]
 	},
-	"type.dmat2x2": {
+	"glsl.type.dmat2x2": {
 		"prefix": "dmat2x2",
 		"body": ["dmat2x2"]
 	},
-	"type.dmat2x3": {
+	"glsl.type.dmat2x3": {
 		"prefix": "dmat2x3",
 		"body": ["dmat2x3"]
 	},
-	"type.dmat2x4": {
+	"glsl.type.dmat2x4": {
 		"prefix": "dmat2x4",
 		"body": ["dmat2x4"]
 	},
-	"type.dmat3x2": {
+	"glsl.type.dmat3x2": {
 		"prefix": "dmat3x2",
 		"body": ["dmat3x2"]
 	},
-	"type.dmat3x3": {
+	"glsl.type.dmat3x3": {
 		"prefix": "dmat3x3",
 		"body": ["dmat3x3"]
 	},
-	"type.dmat3x4": {
+	"glsl.type.dmat3x4": {
 		"prefix": "dmat3x4",
 		"body": ["dmat3x4"]
 	},
-	"type.dmat4x2": {
+	"glsl.type.dmat4x2": {
 		"prefix": "dmat4x2",
 		"body": ["dmat4x2"]
 	},
-	"type.dmat4x3": {
+	"glsl.type.dmat4x3": {
 		"prefix": "dmat4x3",
 		"body": ["dmat4x3"]
 	},
-	"type.dmat4x4": {
+	"glsl.type.dmat4x4": {
 		"prefix": "dmat4x4",
 		"body": ["dmat4x4"]
 	},
-	"type.sampler1D": {
+	"glsl.type.sampler1D": {
 		"prefix": "sampler1D",
 		"body": ["sampler1D"]
 	},
-	"type.sampler2D": {
+	"glsl.type.sampler2D": {
 		"prefix": "sampler2D",
 		"body": ["sampler2D"]
 	},
-	"type.sampler3D": {
+	"glsl.type.sampler3D": {
 		"prefix": "sampler3D",
 		"body": ["sampler3D"]
 	},
-	"type.image1D": {
+	"glsl.type.image1D": {
 		"prefix": "image1D",
 		"body": ["image1D"]
 	},
-	"type.image2D": {
+	"glsl.type.image2D": {
 		"prefix": "image2D",
 		"body": ["image2D"]
 	},
-	"type.image3D": {
+	"glsl.type.image3D": {
 		"prefix": "image3D",
 		"body": ["image3D"]
 	},
-	"type.samplerCube": {
+	"glsl.type.samplerCube": {
 		"prefix": "samplerCube",
 		"body": ["samplerCube"]
 	},
-	"type.imageCube": {
+	"glsl.type.imageCube": {
 		"prefix": "imageCube",
 		"body": ["imageCube"]
 	},
-	"type.sampler2DRect": {
+	"glsl.type.sampler2DRect": {
 		"prefix": "sampler2DRect",
 		"body": ["sampler2DRect"]
 	},
-	"type.image2DRect": {
+	"glsl.type.image2DRect": {
 		"prefix": "image2DRect",
 		"body": ["image2DRect"]
 	},
-	"type.sampler1DArray": {
+	"glsl.type.sampler1DArray": {
 		"prefix": "sampler1DArray",
 		"body": ["sampler1DArray"]
 	},
-	"type.sampler2DArray": {
+	"glsl.type.sampler2DArray": {
 		"prefix": "sampler2DArray",
 		"body": ["sampler2DArray"]
 	},
-	"type.image1DArray": {
+	"glsl.type.image1DArray": {
 		"prefix": "image1DArray",
 		"body": ["image1DArray"]
 	},
-	"type.image2DArray": {
+	"glsl.type.image2DArray": {
 		"prefix": "image2DArray",
 		"body": ["image2DArray"]
 	},
-	"type.samplerBuffer": {
+	"glsl.type.samplerBuffer": {
 		"prefix": "samplerBuffer",
 		"body": ["samplerBuffer"]
 	},
-	"type.imageBuffer": {
+	"glsl.type.imageBuffer": {
 		"prefix": "imageBuffer",
 		"body": ["imageBuffer"]
 	},
-	"type.sampler2DMS": {
+	"glsl.type.sampler2DMS": {
 		"prefix": "sampler2DMS",
 		"body": ["sampler2DMS"]
 	},
-	"type.image2DMS": {
+	"glsl.type.image2DMS": {
 		"prefix": "image2DMS",
 		"body": ["image2DMS"]
 	},
-	"type.sampler2DMSArray": {
+	"glsl.type.sampler2DMSArray": {
 		"prefix": "sampler2DMSArray",
 		"body": ["sampler2DMSArray"]
 	},
-	"type.image2DMSArray": {
+	"glsl.type.image2DMSArray": {
 		"prefix": "image2DMSArray",
 		"body": ["image2DMSArray"]
 	},
-	"type.samplerCubeArray": {
+	"glsl.type.samplerCubeArray": {
 		"prefix": "samplerCubeArray",
 		"body": ["samplerCubeArray"]
 	},
-	"type.imageCubeArray": {
+	"glsl.type.imageCubeArray": {
 		"prefix": "imageCubeArray",
 		"body": ["imageCubeArray"]
 	},
-	"type.sampler1DShadow": {
+	"glsl.type.sampler1DShadow": {
 		"prefix": "sampler1DShadow",
 		"body": ["sampler1DShadow"]
 	},
-	"type.sampler2DShadow": {
+	"glsl.type.sampler2DShadow": {
 		"prefix": "sampler2DShadow",
 		"body": ["sampler2DShadow"]
 	},
-	"type.sampler2DRectShadow": {
+	"glsl.type.sampler2DRectShadow": {
 		"prefix": "sampler2DRectShadow",
 		"body": ["sampler2DRectShadow"]
 	},
-	"type.sampler1DArrayShadow": {
+	"glsl.type.sampler1DArrayShadow": {
 		"prefix": "sampler1DArrayShadow",
 		"body": ["sampler1DArrayShadow"]
 	},
-	"type.sampler2DArrayShadow": {
+	"glsl.type.sampler2DArrayShadow": {
 		"prefix": "sampler2DArrayShadow",
 		"body": ["sampler2DArrayShadow"]
 	},
-	"type.samplerCubeShadow": {
+	"glsl.type.samplerCubeShadow": {
 		"prefix": "samplerCubeShadow",
 		"body": ["samplerCubeShadow"]
 	},
-	"type.samplerCubeArrayShadow": {
+	"glsl.type.samplerCubeArrayShadow": {
 		"prefix": "samplerCubeArrayShadow",
 		"body": ["samplerCubeArrayShadow"]
 	},
-	"type.isampler1D": {
+	"glsl.type.isampler1D": {
 		"prefix": "isampler1D",
 		"body": ["isampler1D"]
 	},
-	"type.isampler2D": {
+	"glsl.type.isampler2D": {
 		"prefix": "isampler2D",
 		"body": ["isampler2D"]
 	},
-	"type.isampler3D": {
+	"glsl.type.isampler3D": {
 		"prefix": "isampler3D",
 		"body": ["isampler3D"]
 	},
-	"type.iimage1D": {
+	"glsl.type.iimage1D": {
 		"prefix": "iimage1D",
 		"body": ["iimage1D"]
 	},
-	"type.iimage2D": {
+	"glsl.type.iimage2D": {
 		"prefix": "iimage2D",
 		"body": ["iimage2D"]
 	},
-	"type.iimage3D": {
+	"glsl.type.iimage3D": {
 		"prefix": "iimage3D",
 		"body": ["iimage3D"]
 	},
-	"type.isamplerCube": {
+	"glsl.type.isamplerCube": {
 		"prefix": "isamplerCube",
 		"body": ["isamplerCube"]
 	},
-	"type.iimageCube": {
+	"glsl.type.iimageCube": {
 		"prefix": "iimageCube",
 		"body": ["iimageCube"]
 	},
-	"type.isampler2DRect": {
+	"glsl.type.isampler2DRect": {
 		"prefix": "isampler2DRect",
 		"body": ["isampler2DRect"]
 	},
-	"type.iimage2DRect": {
+	"glsl.type.iimage2DRect": {
 		"prefix": "iimage2DRect",
 		"body": ["iimage2DRect"]
 	},
-	"type.isampler1DArray": {
+	"glsl.type.isampler1DArray": {
 		"prefix": "isampler1DArray",
 		"body": ["isampler1DArray"]
 	},
-	"type.isampler2DArray": {
+	"glsl.type.isampler2DArray": {
 		"prefix": "isampler2DArray",
 		"body": ["isampler2DArray"]
 	},
-	"type.iimage1DArray": {
+	"glsl.type.iimage1DArray": {
 		"prefix": "iimage1DArray",
 		"body": ["iimage1DArray"]
 	},
-	"type.iimage2DArray": {
+	"glsl.type.iimage2DArray": {
 		"prefix": "iimage2DArray",
 		"body": ["iimage2DArray"]
 	},
-	"type.isamplerBuffer": {
+	"glsl.type.isamplerBuffer": {
 		"prefix": "isamplerBuffer",
 		"body": ["isamplerBuffer"]
 	},
-	"type.iimageBuffer": {
+	"glsl.type.iimageBuffer": {
 		"prefix": "iimageBuffer",
 		"body": ["iimageBuffer"]
 	},
-	"type.isampler2DMS": {
+	"glsl.type.isampler2DMS": {
 		"prefix": "isampler2DMS",
 		"body": ["isampler2DMS"]
 	},
-	"type.iimage2DMS": {
+	"glsl.type.iimage2DMS": {
 		"prefix": "iimage2DMS",
 		"body": ["iimage2DMS"]
 	},
-	"type.isampler2DMSArray": {
+	"glsl.type.isampler2DMSArray": {
 		"prefix": "isampler2DMSArray",
 		"body": ["isampler2DMSArray"]
 	},
-	"type.iimage2DMSArray": {
+	"glsl.type.iimage2DMSArray": {
 		"prefix": "iimage2DMSArray",
 		"body": ["iimage2DMSArray"]
 	},
-	"type.isamplerCubeMSArray": {
+	"glsl.type.isamplerCubeMSArray": {
 		"prefix": "isamplerCubeMSArray",
 		"body": ["isamplerCubeMSArray"]
 	},
-	"type.iimageCubeMSArray": {
+	"glsl.type.iimageCubeMSArray": {
 		"prefix": "iimageCubeMSArray",
 		"body": ["iimageCubeMSArray"]
 	},
-	"type.usampler1D": {
+	"glsl.type.usampler1D": {
 		"prefix": "usampler1D",
 		"body": ["usampler1D"]
 	},
-	"type.usampler2D": {
+	"glsl.type.usampler2D": {
 		"prefix": "usampler2D",
 		"body": ["usampler2D"]
 	},
-	"type.usampler3D": {
+	"glsl.type.usampler3D": {
 		"prefix": "usampler3D",
 		"body": ["usampler3D"]
 	},
-	"type.uimage1D": {
+	"glsl.type.uimage1D": {
 		"prefix": "uimage1D",
 		"body": ["uimage1D"]
 	},
-	"type.uimage2D": {
+	"glsl.type.uimage2D": {
 		"prefix": "uimage2D",
 		"body": ["uimage2D"]
 	},
-	"type.uimage3D": {
+	"glsl.type.uimage3D": {
 		"prefix": "uimage3D",
 		"body": ["uimage3D"]
 	},
-	"type.usamplerCube": {
+	"glsl.type.usamplerCube": {
 		"prefix": "usamplerCube",
 		"body": ["usamplerCube"]
 	},
-	"type.uimageCube": {
+	"glsl.type.uimageCube": {
 		"prefix": "uimageCube",
 		"body": ["uimageCube"]
 	},
-	"type.usampler2DRect": {
+	"glsl.type.usampler2DRect": {
 		"prefix": "usampler2DRect",
 		"body": ["usampler2DRect"]
 	},
-	"type.uimage2DRect": {
+	"glsl.type.uimage2DRect": {
 		"prefix": "uimage2DRect",
 		"body": ["uimage2DRect"]
 	},
-	"type.usampler1DArray": {
+	"glsl.type.usampler1DArray": {
 		"prefix": "usampler1DArray",
 		"body": ["usampler1DArray"]
 	},
-	"type.usampler2DArray": {
+	"glsl.type.usampler2DArray": {
 		"prefix": "usampler2DArray",
 		"body": ["usampler2DArray"]
 	},
-	"type.uimage1DArray": {
+	"glsl.type.uimage1DArray": {
 		"prefix": "uimage1DArray",
 		"body": ["uimage1DArray"]
 	},
-	"type.uimage2DArray": {
+	"glsl.type.uimage2DArray": {
 		"prefix": "uimage2DArray",
 		"body": ["uimage2DArray"]
 	},
-	"type.usamplerBuffer": {
+	"glsl.type.usamplerBuffer": {
 		"prefix": "usamplerBuffer",
 		"body": ["usamplerBuffer"]
 	},
-	"type.uimageBuffer": {
+	"glsl.type.uimageBuffer": {
 		"prefix": "uimageBuffer",
 		"body": ["uimageBuffer"]
 	},
-	"type.usampler2DMS": {
+	"glsl.type.usampler2DMS": {
 		"prefix": "usampler2DMS",
 		"body": ["usampler2DMS"]
 	},
-	"type.uimage2DMS": {
+	"glsl.type.uimage2DMS": {
 		"prefix": "uimage2DMS",
 		"body": ["uimage2DMS"]
 	},
-	"type.usampler2DMSArray": {
+	"glsl.type.usampler2DMSArray": {
 		"prefix": "usampler2DMSArray",
 		"body": ["usampler2DMSArray"]
 	},
-	"type.uimage2DMSArray": {
+	"glsl.type.uimage2DMSArray": {
 		"prefix": "uimage2DMSArray",
 		"body": ["uimage2DMSArray"]
 	},
-	"type.usamplerCubeMSArray": {
+	"glsl.type.usamplerCubeMSArray": {
 		"prefix": "usamplerCubeMSArray",
 		"body": ["usamplerCubeMSArray"]
 	},
-	"type.uimageCubeMSArray": {
+	"glsl.type.uimageCubeMSArray": {
 		"prefix": "uimageCubeMSArray",
 		"body": ["uimageCubeMSArray"]
 	},
-	"type.sampler": {
+	"glsl.type.sampler": {
 		"prefix": "sampler",
 		"body": ["sampler"]
 	},
-	"type.samplerShadow": {
+	"glsl.type.samplerShadow": {
 		"prefix": "samplerShadow",
 		"body": ["samplerShadow"]
 	},
-	"type.texture1D": {
+	"glsl.type.texture1D": {
 		"prefix": "texture1D",
 		"body": ["texture1D"]
 	},
-	"type.texture1DArray": {
+	"glsl.type.texture1DArray": {
 		"prefix": "texture1DArray",
 		"body": ["texture1DArray"]
 	},
-	"type.texture2D": {
+	"glsl.type.texture2D": {
 		"prefix": "texture2D",
 		"body": ["texture2D"]
 	},
-	"type.texture2DArray": {
+	"glsl.type.texture2DArray": {
 		"prefix": "texture2DArray",
 		"body": ["texture2DArray"]
 	},
-	"type.texture2DRect": {
+	"glsl.type.texture2DRect": {
 		"prefix": "texture2DRect",
 		"body": ["texture2DRect"]
 	},
-	"type.texture2DMS": {
+	"glsl.type.texture2DMS": {
 		"prefix": "texture2DMS",
 		"body": ["texture2DMS"]
 	},
-	"type.texture2DMSArray": {
+	"glsl.type.texture2DMSArray": {
 		"prefix": "texture2DMSArray",
 		"body": ["texture2DMSArray"]
 	},
-	"type.texture3D": {
+	"glsl.type.texture3D": {
 		"prefix": "texture3D",
 		"body": ["texture3D"]
 	},
-	"type.textureCube": {
+	"glsl.type.textureCube": {
 		"prefix": "textureCube",
 		"body": ["textureCube"]
 	},
-	"type.textureCubeArray": {
+	"glsl.type.textureCubeArray": {
 		"prefix": "textureCubeArray",
 		"body": ["textureCubeArray"]
 	},
-	"type.textureBuffer": {
+	"glsl.type.textureBuffer": {
 		"prefix": "textureBuffer",
 		"body": ["textureBuffer"]
 	},
-	"type.itexture1D": {
+	"glsl.type.itexture1D": {
 		"prefix": "itexture1D",
 		"body": ["itexture1D"]
 	},
-	"type.itexture1DArray": {
+	"glsl.type.itexture1DArray": {
 		"prefix": "itexture1DArray",
 		"body": ["itexture1DArray"]
 	},
-	"type.itexture2D": {
+	"glsl.type.itexture2D": {
 		"prefix": "itexture2D",
 		"body": ["itexture2D"]
 	},
-	"type.itexture2DArray": {
+	"glsl.type.itexture2DArray": {
 		"prefix": "itexture2DArray",
 		"body": ["itexture2DArray"]
 	},
-	"type.itexture2DRect": {
+	"glsl.type.itexture2DRect": {
 		"prefix": "itexture2DRect",
 		"body": ["itexture2DRect"]
 	},
-	"type.itexture2DMS": {
+	"glsl.type.itexture2DMS": {
 		"prefix": "itexture2DMS",
 		"body": ["itexture2DMS"]
 	},
-	"type.itexture2DMSArray": {
+	"glsl.type.itexture2DMSArray": {
 		"prefix": "itexture2DMSArray",
 		"body": ["itexture2DMSArray"]
 	},
-	"type.itexture3D": {
+	"glsl.type.itexture3D": {
 		"prefix": "itexture3D",
 		"body": ["itexture3D"]
 	},
-	"type.itextureCube": {
+	"glsl.type.itextureCube": {
 		"prefix": "itextureCube",
 		"body": ["itextureCube"]
 	},
-	"type.itextureCubeArray": {
+	"glsl.type.itextureCubeArray": {
 		"prefix": "itextureCubeArray",
 		"body": ["itextureCubeArray"]
 	},
-	"type.itextureBuffer": {
+	"glsl.type.itextureBuffer": {
 		"prefix": "itextureBuffer",
 		"body": ["itextureBuffer"]
 	},
-	"type.utexture1D": {
+	"glsl.type.utexture1D": {
 		"prefix": "utexture1D",
 		"body": ["utexture1D"]
 	},
-	"type.utexture1DArray": {
+	"glsl.type.utexture1DArray": {
 		"prefix": "utexture1DArray",
 		"body": ["utexture1DArray"]
 	},
-	"type.utexture2D": {
+	"glsl.type.utexture2D": {
 		"prefix": "utexture2D",
 		"body": ["utexture2D"]
 	},
-	"type.utexture2DArray": {
+	"glsl.type.utexture2DArray": {
 		"prefix": "utexture2DArray",
 		"body": ["utexture2DArray"]
 	},
-	"type.utexture2DRect": {
+	"glsl.type.utexture2DRect": {
 		"prefix": "utexture2DRect",
 		"body": ["utexture2DRect"]
 	},
-	"type.utexture2DMS": {
+	"glsl.type.utexture2DMS": {
 		"prefix": "utexture2DMS",
 		"body": ["utexture2DMS"]
 	},
-	"type.utexture2DMSArray": {
+	"glsl.type.utexture2DMSArray": {
 		"prefix": "utexture2DMSArray",
 		"body": ["utexture2DMSArray"]
 	},
-	"type.utexture3D": {
+	"glsl.type.utexture3D": {
 		"prefix": "utexture3D",
 		"body": ["utexture3D"]
 	},
-	"type.utextureCube": {
+	"glsl.type.utextureCube": {
 		"prefix": "utextureCube",
 		"body": ["utextureCube"]
 	},
-	"type.utextureCubeArray": {
+	"glsl.type.utextureCubeArray": {
 		"prefix": "utextureCubeArray",
 		"body": ["utextureCubeArray"]
 	},
-	"type.utextureBuffer": {
+	"glsl.type.utextureBuffer": {
 		"prefix": "utextureBuffer",
 		"body": ["utextureBuffer"]
 	},
 
-	"type.struct": {
+	"glsl.type.struct": {
 		"prefix": "struct",
 		"body": ["struct"]
 	},
 
 
-	"keyword.atomic_uint": {
+	"glsl.keyword.atomic_uint": {
 		"prefix": "atomic_uint",
 		"body": ["atomic_uint"]
 	},
-	"keyword.attribute": {
+	"glsl.keyword.attribute": {
 		"prefix": "attribute",
 		"body": ["attribute"]
 	},
-	"keyword.buffer": {
+	"glsl.keyword.buffer": {
 		"prefix": "buffer",
 		"body": ["buffer"]
 	},
-	"keyword.centroid": {
+	"glsl.keyword.centroid": {
 		"prefix": "centroid",
 		"body": ["centroid"]
 	},
-	"keyword.coherent": {
+	"glsl.keyword.coherent": {
 		"prefix": "coherent",
 		"body": ["coherent"]
 	},
-	"keyword.const": {
+	"glsl.keyword.const": {
 		"prefix": "const",
 		"body": ["const"]
 	},
-	"keyword.flat": {
+	"glsl.keyword.flat": {
 		"prefix": "flat",
 		"body": ["flat"]
 	},
-	"keyword.highp": {
+	"glsl.keyword.highp": {
 		"prefix": "highp",
 		"body": ["highp"]
 	},
-	"keyword.in": {
+	"glsl.keyword.in": {
 		"prefix": "in",
 		"body": ["in"]
 	},
-	"keyword.inout": {
+	"glsl.keyword.inout": {
 		"prefix": "inout",
 		"body": ["inout"]
 	},
-	"keyword.invariant": {
+	"glsl.keyword.invariant": {
 		"prefix": "invariant",
 		"body": ["invariant"]
 	},
-	"keyword.layout": {
+	"glsl.keyword.layout": {
 		"prefix": "layout",
 		"body": ["layout"]
 	},
-	"keyword.lowp": {
+	"glsl.keyword.lowp": {
 		"prefix": "lowp",
 		"body": ["lowp"]
 	},
-	"keyword.mediump": {
+	"glsl.keyword.mediump": {
 		"prefix": "mediump",
 		"body": ["mediump"]
 	},
-	"keyword.noperspective": {
+	"glsl.keyword.noperspective": {
 		"prefix": "noperspective",
 		"body": ["noperspective"]
 	},
-	"keyword.out": {
+	"glsl.keyword.out": {
 		"prefix": "out",
 		"body": ["out"]
 	},
-	"keyword.patch": {
+	"glsl.keyword.patch": {
 		"prefix": "patch",
 		"body": ["patch"]
 	},
-	"keyword.precise": {
+	"glsl.keyword.precise": {
 		"prefix": "precise",
 		"body": ["precise"]
 	},
-	"keyword.precision": {
+	"glsl.keyword.precision": {
 		"prefix": "precision",
 		"body": ["precision"]
 	},
-	"keyword.readonly": {
+	"glsl.keyword.readonly": {
 		"prefix": "readonly",
 		"body": ["readonly"]
 	},
-	"keyword.restrict": {
+	"glsl.keyword.restrict": {
 		"prefix": "restrict",
 		"body": ["restrict"]
 	},
-	"keyword.sample": {
+	"glsl.keyword.sample": {
 		"prefix": "sample",
 		"body": ["sample"]
 	},
-	"keyword.shared": {
+	"glsl.keyword.shared": {
 		"prefix": "shared",
 		"body": ["shared"]
 	},
-	"keyword.smooth": {
+	"glsl.keyword.smooth": {
 		"prefix": "smooth",
 		"body": ["smooth"]
 	},
-	"keyword.subroutine": {
+	"glsl.keyword.subroutine": {
 		"prefix": "subroutine",
 		"body": ["subroutine"]
 	},
-	"keyword.uniform": {
+	"glsl.keyword.uniform": {
 		"prefix": "uniform",
 		"body": ["uniform"]
 	},
-	"keyword.varying": {
+	"glsl.keyword.varying": {
 		"prefix": "varying",
 		"body": ["varying"]
 	},
-	"keyword.writeonly": {
+	"glsl.keyword.writeonly": {
 		"prefix": "writeonly",
 		"body": ["writeonly"]
 	},
 
 
-	"keyword.break": {
+	"glsl.keyword.break": {
 		"prefix": "break",
 		"body": ["break"]
 	},
-	"keyword.case": {
+	"glsl.keyword.case": {
 		"prefix": "case",
 		"body": ["case"]
 	},
-	"keyword.continue": {
+	"glsl.keyword.continue": {
 		"prefix": "continue",
 		"body": ["continue"]
 	},
-	"keyword.default": {
+	"glsl.keyword.default": {
 		"prefix": "default",
 		"body": ["default"]
 	},
-	"keyword.defined": {
+	"glsl.keyword.defined": {
 		"prefix": "defined",
 		"body": ["defined"]
 	},
-	"keyword.discard": {
+	"glsl.keyword.discard": {
 		"prefix": "discard",
 		"body": ["discard"]
 	},
-	"keyword.do": {
+	"glsl.keyword.do": {
 		"prefix": "do",
 		"body": ["do"]
 	},
-	"keyword.else": {
+	"glsl.keyword.else": {
 		"prefix": "else",
 		"body": ["else"]
 	},
-	"keyword.for": {
+	"glsl.keyword.for": {
 		"prefix": "for",
 		"body": ["for"]
 	},
-	"keyword.if": {
+	"glsl.keyword.if": {
 		"prefix": "if",
 		"body": ["if"]
 	},
-	"keyword.return": {
+	"glsl.keyword.return": {
 		"prefix": "return",
 		"body": ["return"]
 	},
-	"keyword.swich": {
+	"glsl.keyword.swich": {
 		"prefix": "swich",
 		"body": ["swich"]
 	},
-	"keyword.while": {
+	"glsl.keyword.while": {
 		"prefix": "while",
 		"body": ["while"]
 	},
 
 
-	"preprocessor.define": {
+	"glsl.preprocessor.define": {
 		"prefix": "#define",
 		"body": ["#define"]
 	},
-	"preprocessor.elif": {
+	"glsl.preprocessor.elif": {
 		"prefix": "#elif",
 		"body": ["#elif"]
 	},
-	"preprocessor.else": {
+	"glsl.preprocessor.else": {
 		"prefix": "#else",
 		"body": ["#else"]
 	},
-	"preprocessor.error": {
+	"glsl.preprocessor.error": {
 		"prefix": "#error",
 		"body": ["#error"]
 	},
-	"preprocessor.extension": {
+	"glsl.preprocessor.extension": {
 		"prefix": "#extension",
 		"body": ["#extension"]
 	},
-	"preprocessor.if": {
+	"glsl.preprocessor.if": {
 		"prefix": "#if",
 		"body": ["#if"]
 	},
-	"preprocessor.ifdef": {
+	"glsl.preprocessor.ifdef": {
 		"prefix": "#ifdef",
 		"body": ["#ifdef"]
 	},
-	"preprocessor.ifndef": {
+	"glsl.preprocessor.ifndef": {
 		"prefix": "#ifndef",
 		"body": ["#ifndef"]
 	},
-	"preprocessor.import": {
+	"glsl.preprocessor.import": {
 		"prefix": "#import",
 		"body": ["#import"]
 	},
-	"preprocessor.include": {
+	"glsl.preprocessor.include": {
 		"prefix": "#include",
 		"body": ["#include"]
 	},
-	"preprocessor.include_next": {
+	"glsl.preprocessor.include_next": {
 		"prefix": "#include_next",
 		"body": ["#include_next"]
 	},
-	"preprocessor.line": {
+	"glsl.preprocessor.line": {
 		"prefix": "#line",
 		"body": ["#line"]
 	},
-	"preprocessor.pragma": {
+	"glsl.preprocessor.pragma": {
 		"prefix": "#pragma",
 		"body": ["#pragma"]
 	},
-	"preprocessor.undef": {
+	"glsl.preprocessor.undef": {
 		"prefix": "#undef",
 		"body": ["#undef"]
 	},
-	"preprocessor.version": {
+	"glsl.preprocessor.version": {
 		"prefix": "#version",
 		"body": ["#version"]
 	},
 
 
-	"constant.compatibility": {
+	"glsl.constant.compatibility": {
 		"prefix": "compatibility",
 		"body": ["compatibility"]
 	},
-	"constant.core": {
+	"glsl.constant.core": {
 		"prefix": "core",
 		"body": ["core"]
 	},
-	"constant.es": {
+	"glsl.constant.es": {
 		"prefix": "es",
 		"body": ["es"]
 	},
-	"constant.true": {
+	"glsl.constant.true": {
 		"prefix": "true",
 		"body": ["true"]
 	},
-	"constant.false": {
+	"glsl.constant.false": {
 		"prefix": "false",
 		"body": ["false"]
 	},
-	"constant.null": {
+	"glsl.constant.null": {
 		"prefix": "null",
 		"body": ["null"]
 	},
 
 
-	"function.abs": {
+	"glsl.function.abs": {
 		"prefix": "abs",
 		"body": ["abs($1)"],
 		"description": "Returns x if x ≥ 0; otherwise it returns -x"
 	},
-	"function.acos": {
+	"glsl.function.acos": {
 		"prefix": "acos",
 		"body": ["acos($1)"],
 		"description": "Arc cosine. Returns an angle whose cosine is x. The range of values returned by this function is [0,π]. Results are undefined if |x| > 1"
 	},
-	"function.acosh": {
+	"glsl.function.acosh": {
 		"prefix": "acosh",
 		"body": ["acosh($1)"],
 		"description": "Arc hyperbolic cosine; returns the non-negative inverse of cosh. Results are undefined if x < 1"
 	},
-	"function.all": {
+	"glsl.function.all": {
 		"prefix": "all",
 		"body": ["all($1)"],
 		"description": "Returns true only if all components of x are true"
 	},
-	"function.allInvocations": {
+	"glsl.function.allInvocations": {
 		"prefix": "allInvocations",
 		"body": ["allInvocations($1)"],
 		"description": "Returns true if and only if value is true for all active invocations in the group"
 	},
-	"function.allInvocationsEqual": {
+	"glsl.function.allInvocationsEqual": {
 		"prefix": "allInvocationsEqual",
 		"body": ["allInvocationsEqual($1)"],
 		"description": "Returns true if value is the same for all active invocations in the group"
 	},
-	"function.any": {
+	"glsl.function.any": {
 		"prefix": "any",
 		"body": ["any($1)"],
 		"description": "Returns true if any component of x is true"
 	},
-	"function.anyInvocation": {
+	"glsl.function.anyInvocation": {
 		"prefix": "anyInvocation",
 		"body": ["anyInvocation($1)"],
 		"description": "Returns true if and only if value is true for at least one active invocation in the group"
 	},
-	"function.asin": {
+	"glsl.function.asin": {
 		"prefix": "asin",
 		"body": ["asin($1)"],
 		"description": "Arc sine. Returns an angle whose sine is x. The range of values returned by this function is [-π / 2, π / 2]. Results are undefined if |x| > 1"
 	},
-	"function.asinh": {
+	"glsl.function.asinh": {
 		"prefix": "asinh",
 		"body": ["asinh($1)"],
 		"description": "Arc hyperbolic sine; returns the inverse of sinh"
 	},
-	"function.atan": {
+	"glsl.function.atan": {
 		"prefix": "atan",
 		"body": ["atan($1)"],
 		"description": "Arc tangent. Returns an angle whose tangent is y / x. The signs of x and y are used to determine what quadrant the angle is in. The range of values returned by this function is [-π, π]. Results are undefined if x and y are both 0"
 	},
-	"function.atanh": {
+	"glsl.function.atanh": {
 		"prefix": "atanh",
 		"body": ["atanh($1)"],
 		"description": "Arc hyperbolic tangent; returns the inverse of tanh. Results are undefined if x ≥ 1"
 	},
-	"function.atomicAdd": {
+	"glsl.function.atomicAdd": {
 		"prefix": "atomicAdd",
 		"body": ["atomicAdd($1)"],
 		"description": "Computes a new value by adding the value of data to the contents mem"
 	},
-	"function.atomicAnd": {
+	"glsl.function.atomicAnd": {
 		"prefix": "atomicAnd",
 		"body": ["atomicAnd($1)"],
 		"description": "Computes a new value by performing a bit-wise AND of the value of data and the contents of mem"
 	},
-	"function.atomicMax": {
+	"glsl.function.atomicMax": {
 		"prefix": "atomicMax",
 		"body": ["atomicMax($1)"],
 		"description": "Computes a new value by taking the maximum of the value of data and the contents of mem"
 	},
-	"function.atomicMin": {
+	"glsl.function.atomicMin": {
 		"prefix": "atomicMin",
 		"body": ["atomicMin($1)"],
 		"description": "Computes a new value by taking the minimum of the value of data and the contents of mem"
 	},
-	"function.atomicOr": {
+	"glsl.function.atomicOr": {
 		"prefix": "atomicOr",
 		"body": ["atomicOr($1)"],
 		"description": "Computes a new value by performing a bit-wise OR of the value of data and the contents of mem"
 	},
-	"function.atomicXor": {
+	"glsl.function.atomicXor": {
 		"prefix": "atomicXor",
 		"body": ["atomicXor($1)"],
 		"description": "Computes a new value by performing a bit-wise EXCLUSIVE OR of the value of data and the contents of mem"
 	},
-	"function.atomicCompSwap": {
+	"glsl.function.atomicCompSwap": {
 		"prefix": "atomicCompSwap",
 		"body": ["atomicCompSwap($1)"],
 		"description": "Compares the value of compare and the contents of mem. If the values are equal, the new value is given by data; otherwise, it is taken from the original contents of mem"
 	},
-	"function.atomicCounter": {
+	"glsl.function.atomicCounter": {
 		"prefix": "atomicCounter",
 		"body": ["atomicCounter($1)"],
 		"description": "Returns the counter value for c"
 	},
-	"function.atomicCounterAdd": {
+	"glsl.function.atomicCounterAdd": {
 		"prefix": "atomicCounterAdd",
 		"body": ["atomicCounterAdd($1)"],
 		"description": "Atomically\n\r1. adds the value of data to the counter for c, and\n\r2. returns its value prior to the operation"
 	},
-	"function.atomicCounterAnd": {
+	"glsl.function.atomicCounterAnd": {
 		"prefix": "atomicCounterAnd",
 		"body": ["atomicCounterAnd($1)"],
 		"description": "Atomically\n\r1. sets the counter for c to the bitwise AND of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
 	},
-	"function.atomicCounterCompSwap": {
+	"glsl.function.atomicCounterCompSwap": {
 		"prefix": "atomicCounterCompSwap",
 		"body": ["atomicCounterCompSwap($1)"],
 		"description": "Atomically\n\r1. compares the value of compare and the counter value for c\n\r2. if the values are equal, sets the counter value for c to the value of data, and\n\r3. returns its value prior to the operation"
 	},
-	"function.atomicCounterDecrement": {
+	"glsl.function.atomicCounterDecrement": {
 		"prefix": "atomicCounterDecrement",
 		"body": ["atomicCounterDecrement($1)"],
 		"description": "Atomically\n\r1. decrements the counter for c, and\n\r2. returns the value resulting from the decrement operation"
 	},
-	"function.atomicCounterExchange": {
+	"glsl.function.atomicCounterExchange": {
 		"prefix": "atomicCounterExchange",
 		"body": ["atomicCounterExchange($1)"],
 		"description": "Atomically\n\r1. sets the counter value for c to the value of data, and\n\r2. returns its value prior to the operation"
 	},
-	"function.atomicCounterIncrement": {
+	"glsl.function.atomicCounterIncrement": {
 		"prefix": "atomicCounterIncrement",
 		"body": ["atomicCounterIncrement($1)"],
 		"description": "Atomically\n\r1. increments the counter for c, and\n\r2. returns its value prior to the increment operation"
 	},
-	"function.atomicCounterMax": {
+	"glsl.function.atomicCounterMax": {
 		"prefix": "atomicCounterMax",
 		"body": ["atomicCounterMax($1)"],
 		"description": "Atomically\n\r1. sets the counter for c to the maximum of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
 	},
-	"function.atomicCounterMin": {
+	"glsl.function.atomicCounterMin": {
 		"prefix": "atomicCounterMin",
 		"body": ["atomicCounterMin($1)"],
 		"description": "Atomically\n\r1. sets the counter for c to the minimum of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
 	},
-	"function.atomicCounterOr": {
+	"glsl.function.atomicCounterOr": {
 		"prefix": "atomicCounterOr",
 		"body": ["atomicCounterOr($1)"],
 		"description": "Atomically\n\r1. sets the counter for c to the bitwise OR of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
 	},
-	"function.atomicCounterSubtract": {
+	"glsl.function.atomicCounterSubtract": {
 		"prefix": "atomicCounterSubtract",
 		"body": ["atomicCounterSubtract($1)"],
 		"description": "Atomically\n\r1. subtracts the value of data from the counter for c, and\n\r2. returns its value prior to the operation"
 	},
-	"function.atomicCounterXor": {
+	"glsl.function.atomicCounterXor": {
 		"prefix": "atomicCounterXor",
 		"body": ["atomicCounterXor($1)"],
 		"description": "Atomically\n\r1. sets the counter for c to the bitwise XOR of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
 	},
-	"function.atomicExchange": {
+	"glsl.function.atomicExchange": {
 		"prefix": "atomicExchange",
 		"body": ["atomicExchange($1)"],
 		"description": "Computes a new value by simply copying the value of data"
 	},
-	"function.barrier": {
+	"glsl.function.barrier": {
 		"prefix": "barrier",
 		"body": ["barrier()"],
 		"description": "For any given static instance of barrier(), all tessellation control shader invocations for a single input patch must enter it before any will be allowed to continue beyond it, or all compute shader invocations for a single workgroup must enter it before any will continue beyond it"
 	},
-	"function.bitCount": {
+	"glsl.function.bitCount": {
 		"prefix": "bitCount",
 		"body": ["bitCount($1)"],
 		"description": "Returns the number of one bits in the binary representation of value"
 	},
-	"function.bitfieldExtract": {
+	"glsl.function.bitfieldExtract": {
 		"prefix": "bitfieldExtract",
 		"body": ["bitfieldExtract($1)"],
 		"description": "Extracts bits [offset, offset + bits - 1] from value, returning them in the least significant bits of the result"
 	},
-	"function.bitfieldInsert": {
+	"glsl.function.bitfieldInsert": {
 		"prefix": "bitfieldInsert",
 		"body": ["bitfieldInsert($1)"],
 		"description": "Inserts the bits least significant bits of insert into base"
 	},
-	"function.bitfieldReverse": {
+	"glsl.function.bitfieldReverse": {
 		"prefix": "bitfieldReverse",
 		"body": ["bitfieldReverse($1)"],
 		"description": "Reverses the bits of value. The bit numbered n of the result will be taken from bit (bits - 1) - n of value, where bits is the total number of bits used to represent value"
 	},
-	"function.ceil": {
+	"glsl.function.ceil": {
 		"prefix": "ceil",
 		"body": ["ceil($1)"],
 		"description": "Returns a value equal to the nearest integer that is greater than or equal to x"
 	},
-	"function.clamp": {
+	"glsl.function.clamp": {
 		"prefix": "clamp",
 		"body": ["clamp($1)"],
 		"description": "Returns min(max(x, minVal), maxVal). Results are undefined if minVal > maxVal"
 	},
-	"function.cos": {
+	"glsl.function.cos": {
 		"prefix": "cos",
 		"body": ["cos($1)"],
 		"description": "The standard trigonometric cosine function"
 	},
-	"function.cosh": {
+	"glsl.function.cosh": {
 		"prefix": "cosh",
 		"body": ["cosh($1)"],
 		"description": "Returns the hyperbolic cosine function (e^x + e^-x) / 2"
 	},
-	"function.cross": {
+	"glsl.function.cross": {
 		"prefix": "cross",
 		"body": ["cross($1)"],
 		"description": "Returns the cross product of x and y, i.e., (x1 · y2 - y1 · x2, x2 · y0 - y2 · x0, x0 · y1 - y0 · x1)"
 	},
-	"function.degrees": {
+	"glsl.function.degrees": {
 		"prefix": "degrees",
 		"body": ["degrees($1)"],
 		"description": "Converts radians to degrees, i.e., (180 / π) · radians"
 	},
-	"function.determinant": {
+	"glsl.function.determinant": {
 		"prefix": "determinant",
 		"body": ["determinant($1)"],
 		"description": "Returns the determinant of m"
 	},
-	"function.dFdx": {
+	"glsl.function.dFdx": {
 		"prefix": "dFdx",
 		"body": ["dFdx($1)"],
 		"description": "Returns either dFdxFine(p) or dFdxCoarse(p), based on implementation choice, presumably whichever is the faster, or by whichever is selected in the API through quality-versus-speed hints"
 	},
-	"function.dFdxCoarse": {
+	"glsl.function.dFdxCoarse": {
 		"prefix": "dFdxCoarse",
 		"body": ["dFdxCoarse($1)"],
 		"description": "Returns the partial derivative of p with respect to the window x coordinate. Will use local differencing based on the value of p for the current fragment’s neighbors, and will possibly, but not necessarily, include the value of p for the current fragment. That is, over a given area, the implementation can x compute derivatives in fewer unique locations than would be allowed for dFdxFine(p)"
 	},
-	"function.dFdxFine": {
+	"glsl.function.dFdxFine": {
 		"prefix": "dFdxFine",
 		"body": ["dFdxFine($1)"],
 		"description": "Returns the partial derivative of p with respect to the window x coordinate. Will use local differencing based on the value of p for the current fragment and its immediate neighbor(s)"
 	},
-	"function.dFdy": {
+	"glsl.function.dFdy": {
 		"prefix": "dFdy",
 		"body": ["dFdy($1)"],
 		"description": "Returns either dFdyFine(p) or dFdyCoarse(p), based on implementation choice, presumably whichever is the faster, or by whichever is selected in the API through quality-versus-speed hints"
 	},
-	"function.dFdyCoarse": {
+	"glsl.function.dFdyCoarse": {
 		"prefix": "dFdyCoarse",
 		"body": ["dFdyCoarse($1)"],
 		"description": "Returns the partial derivative of p with respect to the window y coordinate. Will use local differencing based on the value of p for the current fragment’s neighbors, and will possibly, but not necessarily, include the value of p for the current fragment. That is, over a given area, the implementation can compute y derivatives in fewer unique locations than would be allowed for dFdyFine(p)"
 	},
-	"function.dFdyFine": {
+	"glsl.function.dFdyFine": {
 		"prefix": "dFdyFine",
 		"body": ["dFdyFine($1)"],
 		"description": "Returns the partial derivative of p with respect to the window y coordinate. Will use local differencing based on the value of p for the current fragment and its immediate neighbor(s)"
 	},
-	"function.distance": {
+	"glsl.function.distance": {
 		"prefix": "distance",
 		"body": ["distance($1)"],
 		"description": "Returns the distance between p0 and p1, i.e., length(p0 - p1)"
 	},
-	"function.dot": {
+	"glsl.function.dot": {
 		"prefix": "dot",
 		"body": ["dot($1)"],
 		"description": "Returns the dot product of x and y, i.e., x0 · y0 + x1 · y1 + …"
 	},
-	"function.EmitStreamVertex": {
+	"glsl.function.EmitStreamVertex": {
 		"prefix": "EmitStreamVertex",
 		"body": ["EmitStreamVertex($1)"],
 		"description": "Emits the current values of output variables to the current output primitive on stream stream. The argument to stream must be a constant integral expression. On return from this call, the values of all output variables are undefined"
 	},
-	"function.EmitVertex": {
+	"glsl.function.EmitVertex": {
 		"prefix": "EmitVertex",
 		"body": ["EmitVertex()"],
 		"description": "Emits the current values of output variables to the current output primitive. When multiple output streams are supported, this is equivalent to calling EmitStreamVertex(0)"
 	},
-	"function.EndPrimitive": {
+	"glsl.function.EndPrimitive": {
 		"prefix": "EndPrimitive",
 		"body": ["EndPrimitive()"],
 		"description": "Completes the current output primitive and starts a new one. When multiple output streams are supported, this is equivalent to calling EndStreamPrimitive(0)"
 	},
-	"function.EndStreamPrimitive": {
+	"glsl.function.EndStreamPrimitive": {
 		"prefix": "EndStreamPrimitive",
 		"body": ["EndStreamPrimitive($1)"],
 		"description": "Completes the current output primitive on stream stream and starts a new one. The argument to stream must be a constant integral expression. No vertex is emitted"
 	},
-	"function.equal": {
+	"glsl.function.equal": {
 		"prefix": "equal",
 		"body": ["equal($1)"],
 		"description": "Returns the component-wise compare of x == y"
 	},
-	"function.exp": {
+	"glsl.function.exp": {
 		"prefix": "exp",
 		"body": ["exp($1)"],
 		"description": "Returns the natural exponentiation of x, i.e., e^x"
 	},
-	"function.exp2": {
+	"glsl.function.exp2": {
 		"prefix": "exp2",
 		"body": ["exp2($1)"],
 		"description": "Returns 2 raised to the x power, i.e., 2^x"
 	},
-	"function.faceforward": {
+	"glsl.function.faceforward": {
 		"prefix": "faceforward",
 		"body": ["faceforward($1)"],
 		"description": "If dot(Nref, I) < 0 return N, otherwise return -N"
 	},
-	"function.findLSB": {
+	"glsl.function.findLSB": {
 		"prefix": "findLSB",
 		"body": ["findLSB($1)"],
 		"description": "Returns the bit number of the least significant one bit in the binary representation of value. If value is zero, -1 will be returned"
 	},
-	"function.findMSB": {
+	"glsl.function.findMSB": {
 		"prefix": "findMSB",
 		"body": ["findMSB($1)"],
 		"description": "Returns the bit number of the most significant bit in the binary representation of value"
 	},
-	"function.floatBitsToInt": {
+	"glsl.function.floatBitsToInt": {
 		"prefix": "floatBitsToInt",
 		"body": ["floatBitsToInt($1)"],
 		"description": "Returns a signed or unsigned integer value representing the encoding of a floating-point value. The float value’s bit-level representation is preserved"
 	},
-	"function.floatBitsToUint": {
+	"glsl.function.floatBitsToUint": {
 		"prefix": "floatBitsToUint",
 		"body": ["floatBitsToUint($1)"],
 		"description": "Returns a signed or unsigned integer value representing the encoding of a floating-point value. The float value’s bit-level representation is preserved"
 	},
-	"function.floor": {
+	"glsl.function.floor": {
 		"prefix": "floor",
 		"body": ["floor($1)"],
 		"description": "Returns a value equal to the nearest integer that is less than or equal to x"
 	},
-	"function.fma": {
+	"glsl.function.fma": {
 		"prefix": "fma",
 		"body": ["fma($1)"],
 		"description": "Computes and returns a * b + c. In uses where the return value is eventually consumed by a variable declared as precise"
 	},
-	"function.fract": {
+	"glsl.function.fract": {
 		"prefix": "fract",
 		"body": ["fract($1)"],
 		"description": "Returns x - floor(x)"
 	},
-	"function.frexp": {
+	"glsl.function.frexp": {
 		"prefix": "frexp",
 		"body": ["frexp($1)"],
 		"description": "Splits x into a floating-point significand in the range [0.5,1.0], and an integral exponent of two"
 	},
-	"function.ftransform": {
+	"glsl.function.ftransform": {
 		"prefix": "ftransform",
 		"body": ["ftransform()"],
 		"description": "Available only when using the compatibility profile. For core OpenGL, use invariant. For vertex shaders only. This function will ensure that the incoming vertex value will be transformed in a way that produces exactly the same result as would be produced by OpenGL’s fixed functionality transform. It is intended to be used to compute gl_Position"
 	},
-	"function.fwidth": {
+	"glsl.function.fwidth": {
 		"prefix": "fwidth",
 		"body": ["fwidth($1)"],
 		"description": "Returns abs(dFdx(p)) + abs(dFdy(p))"
 	},
-	"function.fwidthCoarse": {
+	"glsl.function.fwidthCoarse": {
 		"prefix": "fwidthCoarse",
 		"body": ["fwidthCoarse($1)"],
 		"description": "Returns abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))"
 	},
-	"function.fwidthFine": {
+	"glsl.function.fwidthFine": {
 		"prefix": "fwidthFine",
 		"body": ["fwidthFine($1)"],
 		"description": "Returns abs(dFdxFine(p)) + abs(dFdyFine(p))"
 	},
-	"function.greaterThan": {
+	"glsl.function.greaterThan": {
 		"prefix": "greaterThan",
 		"body": ["greaterThan($1)"],
 		"description": "Returns the component-wise compare of x > y"
 	},
-	"function.greaterThanEqual": {
+	"glsl.function.greaterThanEqual": {
 		"prefix": "greaterThanEqual",
 		"body": ["greaterThanEqual($1)"],
 		"description": "Returns the component-wise compare of x ≥ y"
 	},
-	"function.groupMemoryBarrier": {
+	"glsl.function.groupMemoryBarrier": {
 		"prefix": "groupMemoryBarrier",
 		"body": ["groupMemoryBarrier()"],
 		"description": "Control the ordering of all memory transactions issued within a single shader invocation, as viewed by other invocations in the same workgroup"
 	},
-	"function.imageAtomicAdd": {
+	"glsl.function.imageAtomicAdd": {
 		"prefix": "imageAtomicAdd",
 		"body": ["imageAtomicAdd($1)"],
 		"description": "Computes a new value by adding the value of data to the contents of the selected texel"
 	},
-	"function.imageAtomicAnd": {
+	"glsl.function.imageAtomicAnd": {
 		"prefix": "imageAtomicAnd",
 		"body": ["imageAtomicAnd($1)"],
 		"description": "Computes a new value by performing a bit-wise AND of the value of data and the contents of the selected texel"
 	},
-	"function.imageAtomicCompSwap": {
+	"glsl.function.imageAtomicCompSwap": {
 		"prefix": "imageAtomicCompSwap",
 		"body": ["imageAtomicCompSwap($1)"],
 		"description": "Compares the value of compare and the contents of the selected texel. If the values are equal, the new value is given by data; otherwise, it is taken from the original value loaded from the texel"
 	},
-	"function.imageAtomicExchange": {
+	"glsl.function.imageAtomicExchange": {
 		"prefix": "imageAtomicExchange",
 		"body": ["imageAtomicExchange($1)"],
 		"description": "Computes a new value by simply copying the value of data"
 	},
-	"function.imageAtomicMax": {
+	"glsl.function.imageAtomicMax": {
 		"prefix": "imageAtomicMax",
 		"body": ["imageAtomicMax($1)"],
 		"description": "Computes a new value by taking the maximum of the value data and the contents of the selected texel"
 	},
-	"function.imageAtomicMin": {
+	"glsl.function.imageAtomicMin": {
 		"prefix": "imageAtomicMin",
 		"body": ["imageAtomicMin($1)"],
 		"description": "Computes a new value by taking the minimum of the value of data and the contents of the selected texel"
 	},
-	"function.imageAtomicOr": {
+	"glsl.function.imageAtomicOr": {
 		"prefix": "imageAtomicOr",
 		"body": ["imageAtomicOr($1)"],
 		"description": "Computes a new value by performing a bit-wise OR of the value of data and the contents of the selected texel"
 	},
-	"function.imageAtomicXor": {
+	"glsl.function.imageAtomicXor": {
 		"prefix": "imageAtomicXor",
 		"body": ["imageAtomicXor($1)"],
 		"description": "Computes a new value by performing a bit-wise EXCLUSIVE OR of the value of data and the contents of the selected texel"
 	},
-	"function.imageLoad": {
+	"glsl.function.imageLoad": {
 		"prefix": "imageLoad",
 		"body": ["imageLoad($1)"],
 		"description": "Loads the texel at the coordinate P from the image unit image (in IMAGE_PARAMS). For multisample loads, the sample number is given by sample. When image, P, and sample identify a valid texel, the bits used to represent the selected texel in memory are converted to a vec4, ivec4, or uvec4 in the manner"
 	},
-	"function.imageSamples": {
+	"glsl.function.imageSamples": {
 		"prefix": "imageSamples",
 		"body": ["imageSamples($1)"],
 		"description": "Returns the number of samples of the image or images bound to image"
 	},
-	"function.imageSize": {
+	"glsl.function.imageSize": {
 		"prefix": "imageSize",
 		"body": ["imageSize($1)"],
 		"description": "Returns the dimensions of the image or images bound to image. For arrayed images, the last component of the return value will hold the size of the array. Cube images only return the dimensions of one face, and the number of cubes in the cube map array, if arrayed"
 	},
-	"function.imageStore": {
+	"glsl.function.imageStore": {
 		"prefix": "imageStore",
 		"body": ["imageStore($1)"],
 		"description": "Stores data into the texel at the coordinate P from the image specified by image. For multisample stores, the sample number is given by sample. When image, P, and sample identify a valid texel, the bits used to represent data are converted to the format of the image unit in the manner"
 	},
-	"function.imulExtended": {
+	"glsl.function.imulExtended": {
 		"prefix": "imulExtended",
 		"body": ["imulExtended($1)"],
 		"description": "Multiplies 32-bit unsigned or signed integers x and y, producing a 64-bit result. The 32 least-significant bits are returned in lsb. The 32 most-significant bits are returned in msb"
 	},
-	"function.intBitsToFloat": {
+	"glsl.function.intBitsToFloat": {
 		"prefix": "intBitsToFloat",
 		"body": ["intBitsToFloat($1)"],
 		"description": "Returns a floating-point value corresponding to a signed or unsigned integer encoding of a floating-point value. If a NaN is passed in, it will not signal, and the resulting value is unspecified. If an Inf is passed in, the resulting value is the corresponding Inf. Otherwise, the bit-level representation is preserved"
 	},
-	"function.interpolateAtCentroid": {
+	"glsl.function.interpolateAtCentroid": {
 		"prefix": "interpolateAtCentroid",
 		"body": ["interpolateAtCentroid($1)"],
 		"description": "Returns the value of the input interpolant variable sampled at an offset from the center of the pixel specified by offset. The two floating-point components of offset, give the offset in pixels in the x and y directions, respectively. An offset of (0, 0) identifies the center of the pixel. The range and granularity of offsets supported by this function is implementation-dependent"
 	},
-	"function.interpolateAtOffset": {
+	"glsl.function.interpolateAtOffset": {
 		"prefix": "interpolateAtOffset",
 		"body": ["interpolateAtOffset($1)"],
 		"description": "Returns the value of the input interpolant sampled at a location inside both the pixel and the primitive being processed. The value obtained would be the same value assigned to the input variable if declared with the centroid qualifier"
 	},
-	"function.interpolateAtSample": {
+	"glsl.function.interpolateAtSample": {
 		"prefix": "interpolateAtSample",
 		"body": ["interpolateAtSample($1)"],
 		"description": "Returns the value of the input interpolant variable at the location of sample number sample. If multisample buffers are not available, the input variable will be evaluated at the center of the pixel. If sample sample does not exist, the position used to interpolate the input variable is undefined"
 	},
-	"function.inverse": {
+	"glsl.function.inverse": {
 		"prefix": "inverse",
 		"body": ["inverse($1)"],
 		"description": "Returns a matrix that is the inverse of m. The input matrix m is not modified. The values in the returned matrix are undefined if m is singular or poorly-conditioned (nearly singular)"
 	},
-	"function.inversesqrt": {
+	"glsl.function.inversesqrt": {
 		"prefix": "inversesqrt",
 		"body": ["inversesqrt($1)"],
 		"description": "Returns 1 / sqrt(x). Results are undefined if x ≤ 0"
 	},
-	"function.isinf": {
+	"glsl.function.isinf": {
 		"prefix": "isinf",
 		"body": ["isinf($1)"],
 		"description": "Returns true if x holds a positive infinity or negative infinity. Returns false otherwise"
 	},
-	"function.isnan": {
+	"glsl.function.isnan": {
 		"prefix": "isnan",
 		"body": ["isnan($1)"],
 		"description": "Returns true if x holds a NaN. Returns false otherwise. Always returns false if NaNs are not implemented"
 	},
-	"function.ldexp": {
+	"glsl.function.ldexp": {
 		"prefix": "ldexp",
 		"body": ["ldexp($1)"],
 		"description": "Builds a floating-point number from x and the corresponding integral exponent of two in exp"
 	},
-	"function.length": {
+	"glsl.function.length": {
 		"prefix": "length",
 		"body": ["length($1)"],
 		"description": "Returns the length of vector x, i.e., sqrt( x0^2 + x1^2 + … )"
 	},
-	"function.lessThan": {
+	"glsl.function.lessThan": {
 		"prefix": "lessThan",
 		"body": ["lessThan($1)"],
 		"description": "Returns the component-wise compare of x < y"
 	},
-	"function.lessThanEqual": {
+	"glsl.function.lessThanEqual": {
 		"prefix": "lessThanEqual",
 		"body": ["lessThanEqual($1)"],
 		"description": "Returns the component-wise compare of x ≤ y"
 	},
-	"function.log": {
+	"glsl.function.log": {
 		"prefix": "log",
 		"body": ["log($1)"],
 		"description": "Returns the natural logarithm of x, i.e., returns the value y which satisfies the equation x = e^y. Results are undefined if x ≤ 0"
 	},
-	"function.log2": {
+	"glsl.function.log2": {
 		"prefix": "log2",
 		"body": ["log2($1)"],
 		"description": "Returns the base 2 logarithm of x, i.e., returns the value y which satisfies the equation x = 2^y. Results are undefined if x ≤ 0"
 	},
-	"function.matrixCompMult": {
+	"glsl.function.matrixCompMult": {
 		"prefix": "matrixCompMult",
 		"body": ["matrixCompMult($1)"],
 		"description": "Multiply matrix x by matrix y component-wise, i.e., result[i][j] is the scalar product of x[i][j] and y[i][j]"
 	},
-	"function.max": {
+	"glsl.function.max": {
 		"prefix": "max",
 		"body": ["max($1)"],
 		"description": "Returns y if x < y; otherwise it returns x"
 	},
-	"function.min": {
+	"glsl.function.min": {
 		"prefix": "min",
 		"body": ["min($1)"],
 		"description": "Returns y if y < x; otherwise it returns x"
 	},
-	"function.mix": {
+	"glsl.function.mix": {
 		"prefix": "mix",
 		"body": ["mix($1)"],
 		"description": "Returns the linear blend of x and y, i.e., x · (1 - a) + y · a"
 	},
-	"function.memoryBarrier": {
+	"glsl.function.memoryBarrier": {
 		"prefix": "memoryBarrier",
 		"body": ["memoryBarrier()"],
 		"description": "Control the ordering of memory transactions issued by a single shader invocation"
 	},
-	"function.memoryBarrierAtomicCounter": {
+	"glsl.function.memoryBarrierAtomicCounter": {
 		"prefix": "memoryBarrierAtomicCounter",
 		"body": ["memoryBarrierAtomicCounter()"],
 		"description": "Control the ordering of accesses to atomic-counter variables issued by a single shader invocation"
 	},
-	"function.memoryBarrierBuffer": {
+	"glsl.function.memoryBarrierBuffer": {
 		"prefix": "memoryBarrierBuffer",
 		"body": ["memoryBarrierBuffer()"],
 		"description": "Control the ordering of memory transactions to buffer variables issued within a single shader invocation"
 	},
-	"function.memoryBarrierImage": {
+	"glsl.function.memoryBarrierImage": {
 		"prefix": "memoryBarrierImage",
 		"body": ["memoryBarrierImage()"],
 		"description": "Control the ordering of memory transactions to images issued within a single shader invocation"
 	},
-	"function.memoryBarrierShared": {
+	"glsl.function.memoryBarrierShared": {
 		"prefix": "memoryBarrierShared",
 		"body": ["memoryBarrierShared()"],
 		"description": "Control the ordering of memory transactions to shared variables issued within a single shader invocation, as viewed by other invocations in the same workgroup."
 	},
-	"function.mod": {
+	"glsl.function.mod": {
 		"prefix": "mod",
 		"body": ["mod($1)"],
 		"description": "Modulus. Returns x - y · floor(x / y)"
 	},
-	"function.modf": {
+	"glsl.function.modf": {
 		"prefix": "modf",
 		"body": ["modf($1)"],
 		"description": "Returns the fractional part of x and sets i to the integer part (as a whole number floating-point value). Both the return value and the output parameter will have the same sign as x"
 	},
-	"function.noise1": {
+	"glsl.function.noise1": {
 		"prefix": "noise1",
 		"body": ["noise1($1)"],
 		"description": "Returns a 1D noise value based on the input value x"
 	},
-	"function.noise2": {
+	"glsl.function.noise2": {
 		"prefix": "noise2",
 		"body": ["noise2($1)"],
 		"description": "Returns a 2D noise value based on the input value x"
 	},
-	"function.noise3": {
+	"glsl.function.noise3": {
 		"prefix": "noise3",
 		"body": ["noise3($1)"],
 		"description": "Returns a 3D noise value based on the input value x"
 	},
-	"function.noise4": {
+	"glsl.function.noise4": {
 		"prefix": "noise4",
 		"body": ["noise4($1)"],
 		"description": "Returns a 4D noise value based on the input value x"
 	},
-	"function.normalize": {
+	"glsl.function.normalize": {
 		"prefix": "normalize",
 		"body": ["normalize($1)"],
 		"description": "Returns a vector in the same direction as x but with a length of 1, i.e. x / length(x)"
 	},
-	"function.not": {
+	"glsl.function.not": {
 		"prefix": "not",
 		"body": ["not($1)"],
 		"description": "Returns the component-wise logical complement of x"
 	},
-	"function.notEqual": {
+	"glsl.function.notEqual": {
 		"prefix": "notEqual",
 		"body": ["notEqual($1)"],
 		"description": "Returns the component-wise compare of x ≠ y"
 	},
-	"function.outerProduct": {
+	"glsl.function.outerProduct": {
 		"prefix": "outerProduct",
 		"body": ["outerProduct($1)"],
 		"description": "Treats the first parameter c as a column vector (matrix with one column) and the second parameter r as a row vector (matrix with one row) and does a linear algebraic matrix multiply c * r, yielding a matrix whose number of rows is the number of components in c and whose number of columns is the number of components in r"
 	},
-	"function.packDouble2x32": {
+	"glsl.function.packDouble2x32": {
 		"prefix": "packDouble2x32",
 		"body": ["packDouble2x32($1)"],
 		"description": "Returns a double-precision value obtained by packing the components of v into a 64-bit value. If an IEEE 754 Inf or NaN is created, it will not signal, and the resulting floating-point value is unspecified. Otherwise, the bit-level representation of v is preserved. The first vector component specifies the 32 least significant bits; the second component specifies the 32 most significant bits"
 	},
-	"function.packHalf2x16": {
+	"glsl.function.packHalf2x16": {
 		"prefix": "packHalf2x16",
 		"body": ["packHalf2x16($1)"],
 		"description": "Returns an unsigned integer obtained by converting the components of a two-component floating-point vector to the 16-bit floating-point representation of the API, and then packing these two 16-bit integers into a 32-bit unsigned integer"
 	},
-	"function.packSnorm2x16": {
+	"glsl.function.packSnorm2x16": {
 		"prefix": "packSnorm2x16",
 		"body": ["packSnorm2x16($1)"],
 		"description": "First, converts each component of the normalized floating-point value v into 16-bit (2x16) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
 	},
-	"function.packSnorm4x8": {
+	"glsl.function.packSnorm4x8": {
 		"prefix": "packSnorm4x8",
 		"body": ["packSnorm4x8($1)"],
 		"description": "First, converts each component of the normalized floating-point value v into 8-bit (4x8) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
 	},
-	"function.packUnorm2x16": {
+	"glsl.function.packUnorm2x16": {
 		"prefix": "packUnorm2x16",
 		"body": ["packUnorm2x16($1)"],
 		"description": "First, converts each component of the normalized floating-point value v into 16-bit (2x16) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
 	},
-	"function.packUnorm4x8": {
+	"glsl.function.packUnorm4x8": {
 		"prefix": "packUnorm4x8",
 		"body": ["packUnorm4x8($1)"],
 		"description": "First, converts each component of the normalized floating-point value v into 8-bit (4x8) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
 	},
-	"function.pow": {
+	"glsl.function.pow": {
 		"prefix": "pow",
 		"body": ["pow($1)"],
 		"description": "Returns x raised to the y power, i.e., x^y. Results are undefined if x < 0. Results are undefined if x = 0 and y ≤ 0"
 	},
-	"function.radians": {
+	"glsl.function.radians": {
 		"prefix": "radians",
 		"body": ["radians($1)"],
 		"description": "Converts degrees to radians, i.e., (π / 180) · degrees"
 	},
-	"function.reflect": {
+	"glsl.function.reflect": {
 		"prefix": "reflect",
 		"body": ["reflect($1)"],
 		"description": "For the incident vector I and surface orientation N, returns the reflection direction: I - 2 · dot(N, I) · N. N must already be normalized in order to achieve the desired result"
 	},
-	"function.refract": {
+	"glsl.function.refract": {
 		"prefix": "refract",
 		"body": ["refract($1)"],
 		"description": "For the incident vector I and surface normal N, and the ratio of indices of refraction eta, return the refraction vector. The result is computed by the refraction equation"
 	},
-	"function.round": {
+	"glsl.function.round": {
 		"prefix": "round",
 		"body": ["round($1)"],
 		"description": "Returns a value equal to the nearest integer to x. The fraction 0.5 will round in a direction chosen by the implementation, presumably the direction that is fastest. This includes the possibility that round(x) returns the same value as roundEven(x) for all values of x"
 	},
-	"function.roundEven": {
+	"glsl.function.roundEven": {
 		"prefix": "roundEven",
 		"body": ["roundEven($1)"],
 		"description": "Returns a value equal to the nearest integer to x. A fractional part of 0.5 will round toward the nearest even integer. (Both 3.5 and 4.5 for x will return 4.0.)"
 	},
-	"function.shadow1D": {
+	"glsl.function.shadow1D": {
 		"prefix": "shadow1D",
 		"body": ["shadow1D($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow1DLod": {
+	"glsl.function.shadow1DLod": {
 		"prefix": "shadow1DLod",
 		"body": ["shadow1DLod($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow1DProj": {
+	"glsl.function.shadow1DProj": {
 		"prefix": "shadow1DProj",
 		"body": ["shadow1DProj($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow1DProjLod": {
+	"glsl.function.shadow1DProjLod": {
 		"prefix": "shadow1DProjLod",
 		"body": ["shadow1DProjLod($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow2D": {
+	"glsl.function.shadow2D": {
 		"prefix": "shadow2D",
 		"body": ["shadow2D($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow2DLod": {
+	"glsl.function.shadow2DLod": {
 		"prefix": "shadow2DLod",
 		"body": ["shadow2DLod($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow2DProj": {
+	"glsl.function.shadow2DProj": {
 		"prefix": "shadow2DProj",
 		"body": ["shadow2DProj($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.shadow2DProjLod": {
+	"glsl.function.shadow2DProjLod": {
 		"prefix": "shadow2DProjLod",
 		"body": ["shadow2DProjLod($1)"],
 		"description": "Same functionality as the “texture” based names above with the same signature"
 	},
-	"function.sign": {
+	"glsl.function.sign": {
 		"prefix": "sign",
 		"body": ["sign($1)"],
 		"description": "Returns 1.0 if x > 0, 0.0 if x = 0, or -1.0 if x < 0"
 	},
-	"function.sin": {
+	"glsl.function.sin": {
 		"prefix": "sin",
 		"body": ["sin($1)"],
 		"description": "The standard trigonometric sine function"
 	},
-	"function.sinh": {
+	"glsl.function.sinh": {
 		"prefix": "sinh",
 		"body": ["sinh($1)"],
 		"description": "Returns the hyperbolic sine function (e^x - e^-x) / 2"
 	},
-	"function.smoothstep": {
+	"glsl.function.smoothstep": {
 		"prefix": "smoothstep",
 		"body": ["smoothstep($1)"],
 		"description": "Returns 0.0 if x ≤ edge0 and 1.0 if x ≥ edge1, and performs smooth Hermite interpolation between 0 and 1 when edge0 < x < edge1. This is useful in cases where you would want a threshold function with a smooth transition"
 	},
-	"function.sqrt": {
+	"glsl.function.sqrt": {
 		"prefix": "sqrt",
 		"body": ["sqrt($1)"],
 		"description": "Returns sqrt(x). Results are undefined if x < 0"
 	},
-	"function.step": {
+	"glsl.function.step": {
 		"prefix": "step",
 		"body": ["step($1)"],
 		"description": "Returns 0.0 if x < edge; otherwise it returns 1.0"
 	},
-	"function.subpassLoad": {
+	"glsl.function.subpassLoad": {
 		"prefix": "subpassLoad",
 		"body": ["subpassLoad($1)"],
 		"description": "Read from a subpass input, from the implicit location (x, y, layer) of the current fragment coordinate"
 	},
-	"function.tan": {
+	"glsl.function.tan": {
 		"prefix": "tan",
 		"body": ["tan($1)"],
 		"description": "The standard trigonometric tangent"
 	},
-	"function.tanh": {
+	"glsl.function.tanh": {
 		"prefix": "tanh",
 		"body": ["tanh($1)"],
 		"description": "Returns the hyperbolic tangent function sinh(x) / cosh(x)"
 	},
-	"function.texelFetch": {
+	"glsl.function.texelFetch": {
 		"prefix": "texelFetch",
 		"body": ["texelFetch($1)"],
 		"description": "Use integer texture coordinate P to lookup a single texel from sampler. The array layer comes from the last component of P for the array forms"
 	},
-	"function.texelFetchOffset": {
+	"glsl.function.texelFetchOffset": {
 		"prefix": "texelFetchOffset",
 		"body": ["texelFetchOffset($1)"],
 		"description": "Fetch a single texel as in texelFetch, offset by offset as described in textureOffset"
 	},
-	"function.texture": {
+	"glsl.function.texture": {
 		"prefix": "texture",
 		"body": ["texture($1)"],
 		"description": "Use the texture coordinate P to do a texture lookup in the texture currently bound to sampler"
 	},
-	"function.texture1D": {
+	"glsl.function.texture1D": {
 		"prefix": "texture1D",
 		"body": ["texture1D($1)"],
 		"description": "See corresponding signature above without “1D” in the name"
 	},
-	"function.texture1DLod": {
+	"glsl.function.texture1DLod": {
 		"prefix": "texture1DLod",
 		"body": ["texture1DLod($1)"],
 		"description": "See corresponding signature above without “1D” in the name"
 	},
-	"function.texture1DProj": {
+	"glsl.function.texture1DProj": {
 		"prefix": "texture1DProj",
 		"body": ["texture1DProj($1)"],
 		"description": "See corresponding signature above without “1D” in the name"
 	},
-	"function.texture1DProjLod": {
+	"glsl.function.texture1DProjLod": {
 		"prefix": "texture1DProjLod",
 		"body": ["texture1DProjLod($1)"],
 		"description": "See corresponding signature above without “1D” in the name"
 	},
-	"function.texture2D": {
+	"glsl.function.texture2D": {
 		"prefix": "texture2D",
 		"body": ["texture2D($1)"],
 		"description": "See corresponding signature above without “2D” in the name"
 	},
-	"function.texture2DLod": {
+	"glsl.function.texture2DLod": {
 		"prefix": "texture2DLod",
 		"body": ["texture2DLod($1)"],
 		"description": "See corresponding signature above without “2D” in the name"
 	},
-	"function.texture2DProj": {
+	"glsl.function.texture2DProj": {
 		"prefix": "texture2DProj",
 		"body": ["texture2DProj($1)"],
 		"description": "See corresponding signature above without “2D” in the name"
 	},
-	"function.texture2DProjLod": {
+	"glsl.function.texture2DProjLod": {
 		"prefix": "texture2DProjLod",
 		"body": ["texture2DProjLod($1)"],
 		"description": "See corresponding signature above without “2D” in the name"
 	},
-	"function.texture3D": {
+	"glsl.function.texture3D": {
 		"prefix": "texture3D",
 		"body": ["texture3D($1)"],
 		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
 	},
-	"function.texture3DLod": {
+	"glsl.function.texture3DLod": {
 		"prefix": "texture3DLod",
 		"body": ["texture3DLod($1)"],
 		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
 	},
-	"function.texture3DProj": {
+	"glsl.function.texture3DProj": {
 		"prefix": "texture3DProj",
 		"body": ["texture3DProj($1)"],
 		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
 	},
-	"function.texture3DProjLod": {
+	"glsl.function.texture3DProjLod": {
 		"prefix": "texture3DProjLod",
 		"body": ["texture3DProjLod($1)"],
 		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
 	},
-	"function.textureCube": {
+	"glsl.function.textureCube": {
 		"prefix": "textureCube",
 		"body": ["textureCube($1)"],
 		"description": "See corresponding signature above without “Cube” in the name"
 	},
-	"function.textureCubeLod": {
+	"glsl.function.textureCubeLod": {
 		"prefix": "textureCubeLod",
 		"body": ["textureCubeLod($1)"],
 		"description": "See corresponding signature above without “Cube” in the name"
 	},
-	"function.textureGather": {
+	"glsl.function.textureGather": {
 		"prefix": "textureGather",
 		"body": ["textureGather($1)"],
 		"description": "Returns the value\n\rvec4(Sample_i0_j1(P, base).comp,\n\r  Sample_i1_j1(P, base).comp,\n\r  Sample_i1_j0(P, base).comp,\n\r  Sample_i0_j0(P, base).comp)\n\r"
 	},
-	"function.textureGatherOffset": {
+	"glsl.function.textureGatherOffset": {
 		"prefix": "textureGatherOffset",
 		"body": ["textureGatherOffset($1)"],
 		"description": "Perform a texture gather operation as in textureGather by offset as described in textureOffset except that the offset can be variable (non constant) and the implementation-dependent minimum and maximum offset values are given by MIN_PROGRAM_TEXTURE_GATHER_OFFSET and MAX_PROGRAM_TEXTURE_GATHER_OFFSET, respectively"
 	},
-	"function.textureGatherOffsets": {
+	"glsl.function.textureGatherOffsets": {
 		"prefix": "textureGatherOffsets",
 		"body": ["textureGatherOffsets($1)"],
 		"description": "Operate identically to textureGatherOffset except that offsets is used to determine the location of the four texels to sample. Each of the four texels is obtained by applying the corresponding offset in offsets as a (u, v) coordinate offset to P, identifying the four-texel LINEAR footprint, and then selecting the texel i0 j0 of that footprint. The specified values in offsets must be constant integral expressions"
 	},
-	"function.textureGrad": {
+	"glsl.function.textureGrad": {
 		"prefix": "textureGrad",
 		"body": ["textureGrad($1)"],
 		"description": "Do a texture lookup as in texture but with explicit gradients as shown below. The partial derivatives of P are with respect to window x and window y"
 	},
-	"function.textureGradOffset": {
+	"glsl.function.textureGradOffset": {
 		"prefix": "textureGradOffset",
 		"body": ["textureGradOffset($1)"],
 		"description": "Do a texture lookup with both explicit gradient and offset, as described in textureGrad and textureOffset"
 	},
-	"function.textureLod": {
+	"glsl.function.textureLod": {
 		"prefix": "textureLod",
 		"body": ["textureLod($1)"],
 		"description": "Do a texture lookup as in texture but with explicit level-of-detail; lod specifies λbase and sets the partial derivatives"
 	},
-	"function.textureLodOffset": {
+	"glsl.function.textureLodOffset": {
 		"prefix": "textureLodOffset",
 		"body": ["textureLodOffset($1)"],
 		"description": "Do an offset texture lookup with explicit level-of-detail. See textureLod and textureOffset"
 	},
-	"function.textureOffset": {
+	"glsl.function.textureOffset": {
 		"prefix": "textureOffset",
 		"body": ["textureOffset($1)"],
 		"description": "Do a texture lookup as in texture but with offset added to the (u,v,w) texel coordinates before looking up each texel. The offset value must be a constant expression. A limited range of offset values are supported; the minimum and maximum offset values are implementation-dependent and given by gl_MinProgramTexelOffset and gl_MaxProgramTexelOffset, respectively"
 	},
-	"function.textureProj": {
+	"glsl.function.textureProj": {
 		"prefix": "textureProj",
 		"body": ["textureProj($1)"],
 		"description": "Do a texture lookup with projection. The texture coordinates consumed from P, not including the last component of P, are divided by the last component of P to form projected coordinates P'"
 	},
-	"function.textureProjGrad": {
+	"glsl.function.textureProjGrad": {
 		"prefix": "textureProjGrad",
 		"body": ["textureProjGrad($1)"],
 		"description": "Do a texture lookup both projectively, as described in textureProj, and with explicit gradient as described in textureGrad. The partial derivatives dPdx and dPdy are assumed to be already projected"
 	},
-	"function.textureProjGradOffset": {
+	"glsl.function.textureProjGradOffset": {
 		"prefix": "textureProjGradOffset",
 		"body": ["textureProjGradOffset($1)"],
 		"description": "Do a texture lookup projectively and with explicit gradient as described in textureProjGrad, as well as with offset, as described in textureOffset"
 	},
-	"function.textureProjLod": {
+	"glsl.function.textureProjLod": {
 		"prefix": "textureProjLod",
 		"body": ["textureProjLod($1)"],
 		"description": "Do a projective texture lookup with explicit level-of-detail. See textureProj and textureLod"
 	},
-	"function.textureProjLodOffset": {
+	"glsl.function.textureProjLodOffset": {
 		"prefix": "textureProjLodOffset",
 		"body": ["textureProjLodOffset($1)"],
 		"description": "Do an offset projective texture lookup with explicit level-of-detail. See textureProj, textureLod, and textureOffset"
 	},
-	"function.textureProjOffset": {
+	"glsl.function.textureProjOffset": {
 		"prefix": "textureProjOffset",
 		"body": ["textureProjOffset($1)"],
 		"description": "Do a projective texture lookup as described in textureProj, offset by offset as described in textureOffset"
 	},
-	"function.textureQueryLevels": {
+	"glsl.function.textureQueryLevels": {
 		"prefix": "textureQueryLevels",
 		"body": ["textureQueryLevels($1)"],
 		"description": "Returns the number of mipmap levels accessible in the texture associated with sampler"
 	},
-	"function.textureQueryLod": {
+	"glsl.function.textureQueryLod": {
 		"prefix": "textureQueryLod",
 		"body": ["textureQueryLod($1)"],
 		"description": "Returns the mipmap array(s) that would be accessed in the x component of the return value"
 	},
-	"function.textureSamples": {
+	"glsl.function.textureSamples": {
 		"prefix": "textureSamples",
 		"body": ["textureSamples($1)"],
 		"description": "Returns the number of samples of the texture or textures bound to sampler"
 	},
-	"function.textureSize": {
+	"glsl.function.textureSize": {
 		"prefix": "textureSize",
 		"body": ["textureSize($1)"],
 		"description": "Returns the dimensions of level lod (if present) for the texture bound to sampler"
 	},
-	"function.transpose": {
+	"glsl.function.transpose": {
 		"prefix": "transpose",
 		"body": ["transpose($1)"],
 		"description": "Returns a matrix that is the transpose of m. The input matrix m is not modified"
 	},
-	"function.trunc": {
+	"glsl.function.trunc": {
 		"prefix": "trunc",
 		"body": ["trunc($1)"],
 		"description": "Returns a value equal to the nearest integer to x whose absolute value is not larger than the absolute value of x"
 	},
-	"function.uaddCarry": {
+	"glsl.function.uaddCarry": {
 		"prefix": "uaddCarry",
 		"body": ["uaddCarry($1)"],
 		"description": "Adds 32-bit unsigned integers x and y, returning the sum modulo 232. The value carry is set to zero if the sum was less than 232, or one otherwise"
 	},
-	"function.uintBitsToFloat": {
+	"glsl.function.uintBitsToFloat": {
 		"prefix": "uintBitsToFloat",
 		"body": ["uintBitsToFloat($1)"],
 		"description": "Returns a floating-point value corresponding to a signed or unsigned integer encoding of a floating-point value. If a NaN is passed in, it will not signal, and the resulting value is unspecified. If an Inf is passed in, the resulting value is the corresponding Inf. Otherwise, the bit-level representation is preserved"
 	},
-	"function.unpackDouble2x32": {
+	"glsl.function.unpackDouble2x32": {
 		"prefix": "unpackDouble2x32",
 		"body": ["unpackDouble2x32($1)"],
 		"description": "Returns a two-component unsigned integer vector representation of v. The bit-level representation of v is preserved. The first component of the vector contains the 32 least significant bits of the double; the second component consists of the 32 most significant bits."
 	},
-	"function.unpackHalf2x16": {
+	"glsl.function.unpackHalf2x16": {
 		"prefix": "unpackHalf2x16",
 		"body": ["unpackHalf2x16($1)"],
 		"description": "Returns a two-component floating-point vector with components obtained by unpacking a 32-bit unsigned integer into a pair of 16-bit values, interpreting those values as 16-bit floating-point numbers according to the API, and converting them to 32-bit floating-point values"
 	},
-	"function.umulExtended": {
+	"glsl.function.umulExtended": {
 		"prefix": "umulExtended",
 		"body": ["umulExtended($1)"],
 		"description": "Multiplies 32-bit unsigned or signed integers x and y, producing a 64-bit result. The 32 least-significant bits are returned in lsb. The 32 most-significant bits are returned in msb"
 	},
-	"function.unpackSnorm2x16": {
+	"glsl.function.unpackSnorm2x16": {
 		"prefix": "unpackSnorm2x16",
 		"body": ["unpackSnorm2x16($1)"],
 		"description": "First, unpacks a single 32-bit unsigned integer p into a pair of 16-bit signed integers. Then, each component is converted to a normalized floating-point value to generate the returned two-component vector"
 	},
-	"function.unpackSnorm4x8": {
+	"glsl.function.unpackSnorm4x8": {
 		"prefix": "unpackSnorm4x8",
 		"body": ["unpackSnorm4x8($1)"],
 		"description": "First, unpacks a single 32-bit unsigned integer p into four 8-bit signed integers. Then, each component is converted to a normalized floating-point value to generate the returned four-component vector"
 	},
-	"function.unpackUnorm2x16": {
+	"glsl.function.unpackUnorm2x16": {
 		"prefix": "unpackUnorm2x16",
 		"body": ["unpackUnorm2x16($1)"],
 		"description": "First, unpacks a single 32-bit unsigned integer p into a pair of 16-bit unsigned integers. Then, each component is converted to a normalized floating-point value to generate the returned two-component vector"
 	},
-	"function.unpackUnorm4x8": {
+	"glsl.function.unpackUnorm4x8": {
 		"prefix": "unpackUnorm4x8",
 		"body": ["unpackUnorm4x8($1)"],
 		"description": "First, unpacks a single 32-bit unsigned integer p into four 8-bit unsigned integers. Then, each component is converted to a normalized floating-point value to generate the returned four-component vector"
 	},
-	"function.usubBorrow": {
+	"glsl.function.usubBorrow": {
 		"prefix": "usubBorrow",
 		"body": ["usubBorrow($1)"],
 		"description": "Subtracts the 32-bit unsigned integer y from x, returning the difference if non-negative, or 232 plus the difference otherwise. The value borrow is set to zero if x ≥ y, or one otherwise"
 	},
 
 
-	"snippets.ftransform": {
+	"glsl.snippets.ftransform": {
 		"prefix": "gl_Position = ftransform();",
 		"body": ["gl_Position = ftransform();"]
 	},
-	"snippets.main": {
-		"prefix": "main",
+	"glsl.snippets.main": {
+		"prefix": "void main()",
 		"body": ["void main(){", "\t$1", "}"]
 	},
-	"snippets.layout_location": {
+	"glsl.snippets.layout_location": {
 		"prefix": "layout(location = )",
 		"body": ["layout(location = $1)"]
 	},
-	"snippets.version_core": {
+	"glsl.snippets.version_core": {
 		"prefix": "#version core",
 		"body": ["#version $1 core"]
 	},
-	"snippets.version_compatibility": {
+	"glsl.snippets.version_compatibility": {
 		"prefix": "#version compatibility",
 		"body": ["#version $1 compatibility"]
 	},
-	"snippets.version_es": {
+	"glsl.snippets.version_es": {
 		"prefix": "#version es",
 		"body": ["#version $1 es"]
+	},
+	"glsl.snippets.#if": {
+		"prefix": "#if",
+		"body": ["#if $1", "\t", "#endif"]
+	},
+	"glsl.snippets.#ifdef": {
+		"prefix": "#ifdef",
+		"body": ["#ifdef $1", "\t", "#endif"]
+	},
+	"glsl.snippets.if": {
+		"prefix": "if(",
+		"body": ["if($1) {", "\t", "}"]
+	},
+	"glsl.snippets.else": {
+		"prefix": "else {",
+		"body": ["else {", "\t$1", "}"]
+	},
+	"glsl.snippets.elseif": {
+		"prefix": "else if",
+		"body": ["else if($1) {", "\t", "}"]
+	},
+	"glsl.snippets.for": {
+		"prefix": "for(",
+		"body": ["for(int i = 0; i < $1; i++) {", "\t", "}"]
+	},
+	"glsl.snippets.while": {
+		"prefix": "while(",
+		"body": ["while($1) {", "\t", "}"]
+	},
+	"glsl.snippets.do": {
+		"prefix": "do {",
+		"body": ["do {", "\t$1", "} while();"]
 	},
 
 
