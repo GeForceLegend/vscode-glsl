@@ -1,0 +1,4117 @@
+{
+	"variable.gl_BackColor": {
+		"prefix": "gl_BackColor",
+		"body": ["gl_BackColor"]
+	},
+	"variable.gl_BackLightModelProduct": {
+		"prefix": "gl_BackLightModelProduct",
+		"body": ["gl_BackLightModelProduct"]
+	},
+	"variable.gl_BackLightProduct": {
+		"prefix": "gl_BackLightProduct",
+		"body": ["gl_BackLightProduct[$1]"]
+	},
+	"variable.gl_BackMaterial": {
+		"prefix": "gl_BackMaterial",
+		"body": ["gl_BackMaterial"]
+	},
+	"variable.gl_BackSecondaryColor": {
+		"prefix": "gl_BackSecondaryColor",
+		"body": ["gl_BackSecondaryColor"]
+	},
+	"variable.gl_BaseInstance": {
+		"prefix": "gl_BaseInstance",
+		"body": ["gl_BaseInstance"]
+	},
+	"variable.gl_BaseVertex": {
+		"prefix": "gl_BaseVertex",
+		"body": ["gl_BaseVertex"]
+	},
+	"variable.gl_ClipDistance": {
+		"prefix": "gl_ClipDistance",
+		"body": ["gl_ClipDistance[$1]"]
+	},
+	"variable.gl_ClipPlane": {
+		"prefix": "gl_ClipPlane",
+		"body": ["gl_ClipPlane[$1]"]
+	},
+	"variable.gl_ClipVertex": {
+		"prefix": "gl_ClipVertex",
+		"body": ["gl_ClipVertex"]
+	},
+	"variable.gl_CullDistance": {
+		"prefix": "gl_CullDistance",
+		"body": ["gl_CullDistance[$1]"]
+	},
+	"variable.gl_Color": {
+		"prefix": "gl_Color",
+		"body": ["gl_Color"]
+	},
+	"variable.gl_DepthRange": {
+		"prefix": "gl_DepthRange",
+		"body": ["gl_DepthRange"]
+	},
+	"variable.gl_DepthRangeParameters": {
+		"prefix": "gl_DepthRangeParameters",
+		"body": ["gl_DepthRangeParameters"]
+	},
+	"variable.gl_DrawID": {
+		"prefix": "gl_DrawID",
+		"body": ["gl_DrawID"]
+	},
+	"variable.gl_EyePlaneQ": {
+		"prefix": "gl_EyePlaneQ",
+		"body": ["gl_EyePlaneQ[$1]"]
+	},
+	"variable.gl_EyePlaneR": {
+		"prefix": "gl_EyePlaneR",
+		"body": ["gl_EyePlaneR[$1]"]
+	},
+	"variable.gl_EyePlaneS": {
+		"prefix": "gl_EyePlaneS",
+		"body": ["gl_EyePlaneS[$1]"]
+	},
+	"variable.gl_EyePlaneT": {
+		"prefix": "gl_EyePlaneT",
+		"body": ["gl_EyePlaneT[$1]"]
+	},
+	"variable.gl_Fog": {
+		"prefix": "gl_Fog",
+		"body": ["gl_Fog"]
+	},
+	"variable.gl_FogCoord": {
+		"prefix": "gl_FogCoord",
+		"body": ["gl_FogCoord"]
+	},
+	"variable.gl_FogFragCoord": {
+		"prefix": "gl_FogFragCoord",
+		"body": ["gl_FogFragCoord"]
+	},
+	"variable.gl_FogParameters": {
+		"prefix": "gl_FogParameters",
+		"body": ["gl_FogParameters"]
+	},
+	"variable.gl_FragColor": {
+		"prefix": "gl_FragColor",
+		"body": ["gl_FragColor"]
+	},
+	"variable.gl_FragCoord": {
+		"prefix": "gl_FragCoord",
+		"body": ["gl_FragCoord"]
+	},
+	"variable.gl_FragData": {
+		"prefix": "gl_FragData",
+		"body": ["gl_FragData[$1]"]
+	},
+	"variable.gl_FragDepth": {
+		"prefix": "gl_FragDepth",
+		"body": ["gl_FragDepth"]
+	},
+	"variable.gl_FrontColor": {
+		"prefix": "gl_FrontColor",
+		"body": ["gl_FrontColor"]
+	},
+	"variable.gl_FrontFacing": {
+		"prefix": "gl_FrontFacing",
+		"body": ["gl_FrontFacing"]
+	},
+	"variable.gl_FrontLightModelProduct": {
+		"prefix": "gl_FrontLightModelProduct",
+		"body": ["gl_FrontLightModelProduct"]
+	},
+	"variable.gl_FrontLightProduct": {
+		"prefix": "gl_FrontLightProduct",
+		"body": ["gl_FrontLightProduct[$1]"]
+	},
+	"variable.gl_FrontMaterial": {
+		"prefix": "gl_FrontMaterial",
+		"body": ["gl_FrontMaterial"]
+	},
+	"variable.gl_FrontSecondaryColor": {
+		"prefix": "gl_FrontSecondaryColor",
+		"body": ["gl_FrontSecondaryColor"]
+	},
+	"variable.gl_GlobalInvocationID": {
+		"prefix": "gl_GlobalInvocationID",
+		"body": ["gl_GlobalInvocationID"]
+	},
+	"variable.gl_HelperInvocation": {
+		"prefix": "gl_HelperInvocation",
+		"body": ["gl_HelperInvocation"]
+	},
+	"variable.gl_in": {
+		"prefix": "gl_in",
+		"body": ["gl_in[$1]"]
+	},
+	"variable.gl_InstanceID": {
+		"prefix": "gl_InstanceID",
+		"body": ["gl_InstanceID"]
+	},
+	"variable.gl_InstanceIndex": {
+		"prefix": "gl_InstanceIndex",
+		"body": ["gl_InstanceIndex"]
+	},
+	"variable.gl_InvocationID": {
+		"prefix": "gl_InvocationID",
+		"body": ["gl_InvocationID"]
+	},
+	"variable.gl_Layer": {
+		"prefix": "gl_Layer",
+		"body": ["gl_Layer"]
+	},
+	"variable.gl_LightModel": {
+		"prefix": "gl_LightModel",
+		"body": ["gl_LightModel"]
+	},
+	"variable.gl_LightModelParameters": {
+		"prefix": "gl_LightModelParameters",
+		"body": ["gl_LightModelParameters"]
+	},
+	"variable.gl_LightModelProducts": {
+		"prefix": "gl_LightModelProducts",
+		"body": ["gl_LightModelProducts"]
+	},
+	"variable.gl_LightProducts": {
+		"prefix": "gl_LightProducts",
+		"body": ["gl_LightProducts"]
+	},
+	"variable.gl_LightSource": {
+		"prefix": "gl_LightSource",
+		"body": ["gl_LightSource[$1]"]
+	},
+	"variable.gl_LightSourceParameters": {
+		"prefix": "gl_LightSourceParameters",
+		"body": ["gl_LightSourceParameters"]
+	},
+	"variable.gl_LocalInvocationID": {
+		"prefix": "gl_LocalInvocationID",
+		"body": ["gl_LocalInvocationID"]
+	},
+	"variable.gl_LocalInvocationIndex": {
+		"prefix": "gl_LocalInvocationIndex",
+		"body": ["gl_LocalInvocationIndex"]
+	},
+	"variable.gl_MaterialParameters": {
+		"prefix": "gl_MaterialParameters",
+		"body": ["gl_MaterialParameters"]
+	},
+	"variable.gl_ModelViewMatrix": {
+		"prefix": "gl_ModelViewMatrix",
+		"body": ["gl_ModelViewMatrix"]
+	},
+	"variable.gl_ModelViewMatrixInverse": {
+		"prefix": "gl_ModelViewMatrixInverse",
+		"body": ["gl_ModelViewMatrixInverse"]
+	},
+	"variable.gl_ModelViewMatrixInverseTranspose": {
+		"prefix": "gl_ModelViewMatrixInverseTranspose",
+		"body": ["gl_ModelViewMatrixInverseTranspose"]
+	},
+	"variable.gl_ModelViewMatrixTranspose": {
+		"prefix": "gl_ModelViewMatrixTranspose",
+		"body": ["gl_ModelViewMatrixTranspose"]
+	},
+	"variable.gl_ModelViewProjectionMatrix": {
+		"prefix": "gl_ModelViewProjectionMatrix",
+		"body": ["gl_ModelViewProjectionMatrix"]
+	},
+	"variable.gl_ModelViewProjectionMatrixInverse": {
+		"prefix": "gl_ModelViewProjectionMatrixInverse",
+		"body": ["gl_ModelViewProjectionMatrixInverse"]
+	},
+	"variable.gl_ModelViewProjectionMatrixInverseTranspose": {
+		"prefix": "gl_ModelViewProjectionMatrixInverseTranspose",
+		"body": ["gl_ModelViewProjectionMatrixInverseTranspose"]
+	},
+	"variable.gl_ModelViewProjectionMatrixTranspose": {
+		"prefix": "gl_ModelViewProjectionMatrixTranspose",
+		"body": ["gl_ModelViewProjectionMatrixTranspose"]
+	},
+	"variable.gl_MultiTexCoord": {
+		"prefix": "gl_MultiTexCoord",
+		"body": ["gl_MultiTexCoord"]
+	},
+	"variable.gl_NumWorkGroups": {
+		"prefix": "gl_NumWorkGroups",
+		"body": ["gl_NumWorkGroups"]
+	},
+	"variable.gl_Normal": {
+		"prefix": "gl_Normal",
+		"body": ["gl_Normal"]
+	},
+	"variable.gl_NormalMatrix": {
+		"prefix": "gl_NormalMatrix",
+		"body": ["gl_NormalMatrix"]
+	},
+	"variable.gl_NormalScale": {
+		"prefix": "gl_NormalScale",
+		"body": ["gl_NormalScale"]
+	},
+	"variable.gl_out": {
+		"prefix": "gl_out",
+		"body": ["gl_out[$1]"]
+	},
+	"variable.gl_ObjectPlaneQ": {
+		"prefix": "gl_ObjectPlaneQ",
+		"body": ["gl_ObjectPlaneQ[$1]"]
+	},
+	"variable.gl_ObjectPlaneR": {
+		"prefix": "gl_ObjectPlaneR",
+		"body": ["gl_ObjectPlaneR[$1]"]
+	},
+	"variable.gl_ObjectPlaneS": {
+		"prefix": "gl_ObjectPlaneS",
+		"body": ["gl_ObjectPlaneS[$1]"]
+	},
+	"variable.gl_ObjectPlaneT": {
+		"prefix": "gl_ObjectPlaneT",
+		"body": ["gl_ObjectPlaneT[$1]"]
+	},
+	"variable.gl_PatchVerticesIn": {
+		"prefix": "gl_PatchVerticesIn",
+		"body": ["gl_PatchVerticesIn"]
+	},
+	"variable.gl_PerFragment": {
+		"prefix": "gl_PerFragment",
+		"body": ["gl_PerFragment"]
+	},
+	"variable.gl_PerVertex": {
+		"prefix": "gl_PerVertex",
+		"body": ["gl_PerVertex"]
+	},
+	"variable.gl_Point": {
+		"prefix": "gl_Point",
+		"body": ["gl_Point"]
+	},
+	"variable.gl_PointCoord": {
+		"prefix": "gl_PointCoord",
+		"body": ["gl_PointCoord"]
+	},
+	"variable.gl_PointParameters": {
+		"prefix": "gl_PointParameters",
+		"body": ["gl_PointParameters"]
+	},
+	"variable.gl_PointSize": {
+		"prefix": "gl_PointSize",
+		"body": ["gl_PointSize"]
+	},
+	"variable.gl_Position": {
+		"prefix": "gl_Position",
+		"body": ["gl_Position"]
+	},
+	"variable.gl_PrimitiveID": {
+		"prefix": "gl_PrimitiveID",
+		"body": ["gl_PrimitiveID"]
+	},
+	"variable.gl_PrimitiveIDIn": {
+		"prefix": "gl_PrimitiveIDIn",
+		"body": ["gl_PrimitiveIDIn"]
+	},
+	"variable.gl_ProjectionMatrix": {
+		"prefix": "gl_ProjectionMatrix",
+		"body": ["gl_ProjectionMatrix"]
+	},
+	"variable.gl_ProjectionMatrixInverse": {
+		"prefix": "gl_ProjectionMatrixInverse",
+		"body": ["gl_ProjectionMatrixInverse"]
+	},
+	"variable.gl_ProjectionMatrixInverseTranspose": {
+		"prefix": "gl_ProjectionMatrixInverseTranspose",
+		"body": ["gl_ProjectionMatrixInverseTranspose"]
+	},
+	"variable.gl_ProjectionMatrixTranspose": {
+		"prefix": "gl_ProjectionMatrixTranspose",
+		"body": ["gl_ProjectionMatrixTranspose"]
+	},
+	"variable.gl_SampleID": {
+		"prefix": "gl_SampleID",
+		"body": ["gl_SampleID"]
+	},
+	"variable.gl_SamplePosition": {
+		"prefix": "gl_SamplePosition",
+		"body": ["gl_SamplePosition"]
+	},
+	"variable.gl_SampleMask": {
+		"prefix": "gl_SampleMask",
+		"body": ["gl_SampleMask[$1]"]
+	},
+	"variable.gl_SampleMaskIn": {
+		"prefix": "gl_SampleMaskIn",
+		"body": ["gl_SampleMaskIn[$1]"]
+	},
+	"variable.gl_SecondaryColor": {
+		"prefix": "gl_SecondaryColor",
+		"body": ["gl_SecondaryColor"]
+	},
+	"variable.gl_TessCoord": {
+		"prefix": "gl_TessCoord",
+		"body": ["gl_TessCoord"]
+	},
+	"variable.gl_TessLevelInner": {
+		"prefix": "gl_TessLevelInner",
+		"body": ["gl_TessLevelInner"]
+	},
+	"variable.gl_TessLevelOuter": {
+		"prefix": "gl_TessLevelOuter",
+		"body": ["gl_TessLevelOuter"]
+	},
+	"variable.gl_TexCoord": {
+		"prefix": "gl_TexCoord",
+		"body": ["gl_TexCoord[$1]"]
+	},
+	"variable.gl_TextureEnvColor": {
+		"prefix": "gl_TextureEnvColor",
+		"body": ["gl_TextureEnvColor[$1]"]
+	},
+	"variable.gl_Vertex": {
+		"prefix": "gl_Vertex",
+		"body": ["gl_Vertex"]
+	},
+	"variable.gl_VertexID": {
+		"prefix": "gl_VertexID",
+		"body": ["gl_VertexID"]
+	},
+	"variable.gl_VertexIndex": {
+		"prefix": "gl_VertexIndex",
+		"body": ["gl_VertexIndex"]
+	},
+	"variable.gl_ViewportIndex": {
+		"prefix": "gl_ViewportIndex",
+		"body": ["gl_ViewportIndex"]
+	},
+	"variable.gl_WorkGroupID": {
+		"prefix": "gl_WorkGroupID",
+		"body": ["gl_WorkGroupID"]
+	},
+	"variable.gl_WorkGroupSize": {
+		"prefix": "gl_WorkGroupSize",
+		"body": ["gl_WorkGroupSize"]
+	},
+
+
+	"constant.gl_MaxCombinedAtomicCounterBuffers": {
+		"prefix": "gl_MaxCombinedAtomicCounterBuffers",
+		"body": ["gl_MaxCombinedAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxComputeAtomicCounterBuffers": {
+		"prefix": "gl_MaxComputeAtomicCounterBuffers",
+		"body": ["gl_MaxComputeAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxFragmentAtomicCounterBuffers": {
+		"prefix": "gl_MaxFragmentAtomicCounterBuffers",
+		"body": ["gl_MaxFragmentAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxGeometryAtomicCounterBuffers": {
+		"prefix": "gl_MaxGeometryAtomicCounterBuffers",
+		"body": ["gl_MaxGeometryAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxTessControlAtomicCounterBuffers": {
+		"prefix": "gl_MaxTessControlAtomicCounterBuffers",
+		"body": ["gl_MaxTessControlAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxTessEvaluationAtomicCounterBuffers": {
+		"prefix": "gl_MaxTessEvaluationAtomicCounterBuffers",
+		"body": ["gl_MaxTessEvaluationAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxVertexAtomicCounterBuffers": {
+		"prefix": "gl_MaxVertexAtomicCounterBuffers",
+		"body": ["gl_MaxVertexAtomicCounterBuffers"]
+	},
+	"constant.gl_MaxCombinedAtomicCounters": {
+		"prefix": "gl_MaxCombinedAtomicCounters",
+		"body": ["gl_MaxCombinedAtomicCounters"]
+	},
+	"constant.gl_MaxComputeAtomicCounters": {
+		"prefix": "gl_MaxComputeAtomicCounters",
+		"body": ["gl_MaxComputeAtomicCounters"]
+	},
+	"constant.gl_MaxFragmentAtomicCounters": {
+		"prefix": "gl_MaxFragmentAtomicCounters",
+		"body": ["gl_MaxFragmentAtomicCounters"]
+	},
+	"constant.gl_MaxGeometryAtomicCounters": {
+		"prefix": "gl_MaxGeometryAtomicCounters",
+		"body": ["gl_MaxGeometryAtomicCounters"]
+	},
+	"constant.gl_MaxTessControlAtomicCounters": {
+		"prefix": "gl_MaxTessControlAtomicCounters",
+		"body": ["gl_MaxTessControlAtomicCounters"]
+	},
+	"constant.gl_MaxTessEvaluationAtomicCounters": {
+		"prefix": "gl_MaxTessEvaluationAtomicCounters",
+		"body": ["gl_MaxTessEvaluationAtomicCounters"]
+	},
+	"constant.gl_MaxVertexAtomicCounters": {
+		"prefix": "gl_MaxVertexAtomicCounters",
+		"body": ["gl_MaxVertexAtomicCounters"]
+	},
+	"constant.gl_MaxCombinedImageUniforms": {
+		"prefix": "gl_MaxCombinedImageUniforms",
+		"body": ["gl_MaxCombinedImageUniforms"]
+	},
+	"constant.gl_MaxComputeImageUniforms": {
+		"prefix": "gl_MaxComputeImageUniforms",
+		"body": ["gl_MaxComputeImageUniforms"]
+	},
+	"constant.gl_MaxFragmentImageUniforms": {
+		"prefix": "gl_MaxFragmentImageUniforms",
+		"body": ["gl_MaxFragmentImageUniforms"]
+	},
+	"constant.gl_MaxGeometryImageUniforms": {
+		"prefix": "gl_MaxGeometryImageUniforms",
+		"body": ["gl_MaxGeometryImageUniforms"]
+	},
+	"constant.gl_MaxTessControlImageUniforms": {
+		"prefix": "gl_MaxTessControlImageUniforms",
+		"body": ["gl_MaxTessControlImageUniforms"]
+	},
+	"constant.gl_MaxTessEvaluationImageUniforms": {
+		"prefix": "gl_MaxTessEvaluationImageUniforms",
+		"body": ["gl_MaxTessEvaluationImageUniforms"]
+	},
+	"constant.gl_MaxVertexImageUniforms": {
+		"prefix": "gl_MaxVertexImageUniforms",
+		"body": ["gl_MaxVertexImageUniforms"]
+	},
+	"constant.gl_MaxFragmentInputComponents": {
+		"prefix": "gl_MaxFragmentInputComponents",
+		"body": ["gl_MaxFragmentInputComponents"]
+	},
+	"constant.gl_MaxGeometryInputComponents": {
+		"prefix": "gl_MaxGeometryInputComponents",
+		"body": ["gl_MaxGeometryInputComponents"]
+	},
+	"constant.gl_MaxTessControlInputComponents": {
+		"prefix": "gl_MaxTessControlInputComponents",
+		"body": ["gl_MaxTessControlInputComponents"]
+	},
+	"constant.gl_MaxTessEvaluationInputComponents": {
+		"prefix": "gl_MaxTessEvaluationInputComponents",
+		"body": ["gl_MaxTessEvaluationInputComponents"]
+	},
+	"constant.gl_MaxGeometryOutputComponents": {
+		"prefix": "gl_MaxGeometryOutputComponents",
+		"body": ["gl_MaxGeometryOutputComponents"]
+	},
+	"constant.gl_MaxTessControlOutputComponents": {
+		"prefix": "gl_MaxTessControlOutputComponents",
+		"body": ["gl_MaxTessControlOutputComponents"]
+	},
+	"constant.gl_MaxTessEvaluationOutputComponents": {
+		"prefix": "gl_MaxTessEvaluationOutputComponents",
+		"body": ["gl_MaxTessEvaluationOutputComponents"]
+	},
+	"constant.gl_MaxVertexOutputComponents": {
+		"prefix": "gl_MaxVertexOutputComponents",
+		"body": ["gl_MaxVertexOutputComponents"]
+	},
+	"constant.gl_MaxTextureImageUnits": {
+		"prefix": "gl_MaxFragmentTextureImageUnits",
+		"body": ["gl_MaxFragmentTextureImageUnits"]
+	},
+	"constant.gl_MaxCombinedTextureImageUnits": {
+		"prefix": "gl_MaxCombinedTextureImageUnits",
+		"body": ["gl_MaxCombinedTextureImageUnits"]
+	},
+	"constant.gl_MaxComputeTextureImageUnits": {
+		"prefix": "gl_MaxComputeTextureImageUnits",
+		"body": ["gl_MaxComputeTextureImageUnits"]
+	},
+	"constant.gl_MaxGeometryTextureImageUnits": {
+		"prefix": "gl_MaxGeometryTextureImageUnits",
+		"body": ["gl_MaxGeometryTextureImageUnits"]
+	},
+	"constant.gl_MaxTessControlTextureImageUnits": {
+		"prefix": "gl_MaxTessControlTextureImageUnits",
+		"body": ["gl_MaxTessControlTextureImageUnits"]
+	},
+	"constant.gl_MaxTessEvaluationTextureImageUnits": {
+		"prefix": "gl_MaxTessEvaluationTextureImageUnits",
+		"body": ["gl_MaxTessEvaluationTextureImageUnits"]
+	},
+	"constant.gl_MaxVertexTextureImageUnits": {
+		"prefix": "gl_MaxVertexTextureImageUnits",
+		"body": ["gl_MaxVertexTextureImageUnits"]
+	},
+	"constant.gl_MaxGeometryTotalOutputComponents": {
+		"prefix": "gl_MaxGeometryTotalOutputComponents",
+		"body": ["gl_MaxGeometryTotalOutputComponents"]
+	},
+	"constant.gl_MaxTessControlTotalOutputComponents": {
+		"prefix": "gl_MaxTessControlTotalOutputComponents",
+		"body": ["gl_MaxTessControlTotalOutputComponents"]
+	},
+	"constant.gl_MaxComputeUniformComponents": {
+		"prefix": "gl_MaxComputeUniformComponents",
+		"body": ["gl_MaxComputeUniformComponents"]
+	},
+	"constant.gl_MaxFragmentUniformComponents": {
+		"prefix": "gl_MaxFragmentUniformComponents",
+		"body": ["gl_MaxFragmentUniformComponents"]
+	},
+	"constant.gl_MaxGeometryUniformComponents": {
+		"prefix": "gl_MaxGeometryUniformComponents",
+		"body": ["gl_MaxGeometryUniformComponents"]
+	},
+	"constant.gl_MaxTessControlUniformComponents": {
+		"prefix": "gl_MaxTessControlUniformComponents",
+		"body": ["gl_MaxTessControlUniformComponents"]
+	},
+	"constant.gl_MaxTessEvaluationUniformComponents": {
+		"prefix": "gl_MaxTessEvaluationUniformComponents",
+		"body": ["gl_MaxTessEvaluationUniformComponents"]
+	},
+	"constant.gl_MaxVertexUniformComponents": {
+		"prefix": "gl_MaxVertexUniformComponents",
+		"body": ["gl_MaxVertexUniformComponents"]
+	},
+	"constant.gl_MaxFragmentUniformVectors": {
+		"prefix": "gl_MaxFragmentUniformVectors",
+		"body": ["gl_MaxFragmentUniformVectors"]
+	},
+	"constant.gl_MaxVertexUniformVectors": {
+		"prefix": "gl_MaxVertexUniformVectors",
+		"body": ["gl_MaxVertexUniformVectors"]
+	},
+	"constant.gl_MaxAtomicCounterBindings": {
+		"prefix": "gl_MaxAtomicCounterBindings",
+		"body": ["gl_MaxAtomicCounterBindings"]
+	},
+	"constant.gl_MaxAtomicCounterBufferSize": {
+		"prefix": "gl_MaxAtomicCounterBufferSize",
+		"body": ["gl_MaxAtomicCounterBufferSize"]
+	},
+	"constant.gl_MaxClipDistances": {
+		"prefix": "gl_MaxClipDistances",
+		"body": ["gl_MaxClipDistances"]
+	},
+	"constant.gl_MaxClipPlanes": {
+		"prefix": "gl_MaxClipPlanes",
+		"body": ["gl_MaxClipPlanes"]
+	},
+	"constant.gl_MaxCullDistances": {
+		"prefix": "gl_MaxCullDistances",
+		"body": ["gl_MaxCullDistances"]
+	},
+	"constant.gl_MaxCombinedClipAndCullDistances": {
+		"prefix": "gl_MaxCombinedClipAndCullDistances",
+		"body": ["gl_MaxCombinedClipAndCullDistances"]
+	},
+	"constant.gl_MaxCombinedImageUnitsAndFragmentOutputs": {
+		"prefix": "gl_MaxCombinedImageUnitsAndFragmentOutputs",
+		"body": ["gl_MaxCombinedImageUnitsAndFragmentOutputs"]
+	},
+	"constant.gl_MaxCombinedShaderOutputResources": {
+		"prefix": "gl_MaxCombinedShaderOutputResources",
+		"body": ["gl_MaxCombinedShaderOutputResources"]
+	},
+	"constant.gl_MaxComputeWorkGroupCount": {
+		"prefix": "gl_MaxComputeWorkGroupCount",
+		"body": ["gl_MaxComputeWorkGroupCount"]
+	},
+	"constant.gl_MaxComputeWorkGroupSize": {
+		"prefix": "gl_MaxComputeWorkGroupSize",
+		"body": ["gl_MaxComputeWorkGroupSize"]
+	},
+	"constant.gl_MaxDrawBuffers": {
+		"prefix": "gl_MaxDrawBuffers",
+		"body": ["gl_MaxDrawBuffers"]
+	},
+	"constant.gl_MaxGeometryOutputVertices": {
+		"prefix": "gl_MaxGeometryOutputVertices",
+		"body": ["gl_MaxGeometryOutputVertices"]
+	},
+	"constant.gl_MaxVaryingComponents": {
+		"prefix": "gl_MaxVaryingComponents",
+		"body": ["gl_MaxVaryingComponents"]
+	},
+	"constant.gl_MaxGeometryVaryingComponents": {
+		"prefix": "gl_MaxGeometryVaryingComponents",
+		"body": ["gl_MaxGeometryVaryingComponents"]
+	},
+	"constant.gl_MaxMaxImageSamples": {
+		"prefix": "gl_MaxMaxImageSamples",
+		"body": ["gl_MaxMaxImageSamples"]
+	},
+	"constant.gl_MaxMaxImageUnits": {
+		"prefix": "gl_MaxMaxImageUnits",
+		"body": ["gl_MaxMaxImageUnits"]
+	},
+	"constant.gl_MaxInputAttachments": {
+		"prefix": "gl_MaxInputAttachments",
+		"body": ["gl_MaxInputAttachments"]
+	},
+	"constant.gl_MaxLights": {
+		"prefix": "gl_MaxLights",
+		"body": ["gl_MaxLights"]
+	},
+	"constant.gl_MaxPatchVertices": {
+		"prefix": "gl_MaxPatchVertices",
+		"body": ["gl_MaxPatchVertices"]
+	},
+	"constant.gl_MaxProgramTexelOffset": {
+		"prefix": "gl_MaxProgramTexelOffset",
+		"body": ["gl_MaxProgramTexelOffset"]
+	},
+	"constant.gl_MaxSamples": {
+		"prefix": "gl_MaxSamples",
+		"body": ["gl_MaxSamples"]
+	},
+	"constant.gl_MaxTessGenLevel": {
+		"prefix": "gl_MaxTessGenLevel",
+		"body": ["gl_MaxTessGenLevel"]
+	},
+	"constant.gl_MaxTessPatchComponents": {
+		"prefix": "gl_MaxTessPatchComponents",
+		"body": ["gl_MaxTessPatchComponents"]
+	},
+	"constant.gl_MaxTextureCoords": {
+		"prefix": "gl_MaxTextureCoords",
+		"body": ["gl_MaxTextureCoords"]
+	},
+	"constant.gl_MaxTextureUnits": {
+		"prefix": "gl_MaxTextureUnits",
+		"body": ["gl_MaxTextureUnits"]
+	},
+	"constant.gl_MaxTransformFeedbackBuffers": {
+		"prefix": "gl_MaxTransformFeedbackBuffers",
+		"body": ["gl_MaxTransformFeedbackBuffers"]
+	},
+	"constant.gl_MaxTransformFeedbackInterleavedComponents": {
+		"prefix": "gl_MaxTransformFeedbackInterleavedComponents",
+		"body": ["gl_MaxTransformFeedbackInterleavedComponents"]
+	},
+	"constant.gl_MaxVaryingFloats": {
+		"prefix": "gl_MaxVaryingFloats",
+		"body": ["gl_MaxVaryingFloats"]
+	},
+	"constant.gl_MaxVaryingVectors": {
+		"prefix": "gl_MaxVaryingVectors",
+		"body": ["gl_MaxVaryingVectors"]
+	},
+	"constant.gl_MaxVertexAttribs": {
+		"prefix": "gl_MaxVertexAttribs",
+		"body": ["gl_MaxVertexAttribs"]
+	},
+	"constant.gl_MaxViewports": {
+		"prefix": "gl_MaxViewports",
+		"body": ["gl_MaxViewports"]
+	},
+	"constant.gl_MinProgramTexelOffset": {
+		"prefix": "gl_MinProgramTexelOffset",
+		"body": ["gl_MinProgramTexelOffset"]
+	},
+
+
+	"type.void": {
+		"prefix": "void",
+		"body": ["void"]
+	},
+	"type.bool": {
+		"prefix": "bool",
+		"body": ["bool"]
+	},
+	"type.int": {
+		"prefix": "int",
+		"body": ["int"]
+	},
+	"type.uint": {
+		"prefix": "uint",
+		"body": ["uint"]
+	},
+	"type.float": {
+		"prefix": "float",
+		"body": ["float"]
+	},
+	"type.double": {
+		"prefix": "double",
+		"body": ["double"]
+	},
+	"type.vec2": {
+		"prefix": "vec2",
+		"body": ["vec2"]
+	},
+	"type.vec3": {
+		"prefix": "vec3",
+		"body": ["vec3"]
+	},
+	"type.vec4": {
+		"prefix": "vec4",
+		"body": ["vec4"]
+	},
+	"type.dvec2": {
+		"prefix": "dvec2",
+		"body": ["dvec2"]
+	},
+	"type.dvec3": {
+		"prefix": "dvec3",
+		"body": ["dvec3"]
+	},
+	"type.dvec4": {
+		"prefix": "dvec4",
+		"body": ["dvec4"]
+	},
+	"type.bvec2": {
+		"prefix": "bvec2",
+		"body": ["bvec2"]
+	},
+	"type.bvec3": {
+		"prefix": "bvec3",
+		"body": ["bvec3"]
+	},
+	"type.bvec4": {
+		"prefix": "bvec4",
+		"body": ["bvec4"]
+	},
+	"type.ivec2": {
+		"prefix": "ivec2",
+		"body": ["ivec2"]
+	},
+	"type.ivec3": {
+		"prefix": "ivec3",
+		"body": ["ivec3"]
+	},
+	"type.ivec4": {
+		"prefix": "ivec4",
+		"body": ["ivec4"]
+	},
+	"type.uvec2": {
+		"prefix": "uvec2",
+		"body": ["uvec2"]
+	},
+	"type.uvec3": {
+		"prefix": "uvec3",
+		"body": ["uvec3"]
+	},
+	"type.uvec4": {
+		"prefix": "uvec4",
+		"body": ["uvec4"]
+	},
+	"type.mat2": {
+		"prefix": "mat2",
+		"body": ["mat2"]
+	},
+	"type.mat3": {
+		"prefix": "mat3",
+		"body": ["mat3"]
+	},
+	"type.mat4": {
+		"prefix": "mat4",
+		"body": ["mat4"]
+	},
+	"type.mat2x2": {
+		"prefix": "mat2x2",
+		"body": ["mat2x2"]
+	},
+	"type.mat2x3": {
+		"prefix": "mat2x3",
+		"body": ["mat2x3"]
+	},
+	"type.mat2x4": {
+		"prefix": "mat2x4",
+		"body": ["mat2x4"]
+	},
+	"type.mat3x2": {
+		"prefix": "mat3x2",
+		"body": ["mat3x2"]
+	},
+	"type.mat3x3": {
+		"prefix": "mat3x3",
+		"body": ["mat3x3"]
+	},
+	"type.mat3x4": {
+		"prefix": "mat3x4",
+		"body": ["mat3x4"]
+	},
+	"type.mat4x2": {
+		"prefix": "mat4x2",
+		"body": ["mat4x2"]
+	},
+	"type.mat4x3": {
+		"prefix": "mat4x3",
+		"body": ["mat4x3"]
+	},
+	"type.mat4x4": {
+		"prefix": "mat4x4",
+		"body": ["mat4x4"]
+	},
+	"type.dmat2": {
+		"prefix": "dmat2",
+		"body": ["dmat2"]
+	},
+	"type.dmat3": {
+		"prefix": "dmat3",
+		"body": ["dmat3"]
+	},
+	"type.dmat4": {
+		"prefix": "dmat4",
+		"body": ["dmat4"]
+	},
+	"type.dmat2x2": {
+		"prefix": "dmat2x2",
+		"body": ["dmat2x2"]
+	},
+	"type.dmat2x3": {
+		"prefix": "dmat2x3",
+		"body": ["dmat2x3"]
+	},
+	"type.dmat2x4": {
+		"prefix": "dmat2x4",
+		"body": ["dmat2x4"]
+	},
+	"type.dmat3x2": {
+		"prefix": "dmat3x2",
+		"body": ["dmat3x2"]
+	},
+	"type.dmat3x3": {
+		"prefix": "dmat3x3",
+		"body": ["dmat3x3"]
+	},
+	"type.dmat3x4": {
+		"prefix": "dmat3x4",
+		"body": ["dmat3x4"]
+	},
+	"type.dmat4x2": {
+		"prefix": "dmat4x2",
+		"body": ["dmat4x2"]
+	},
+	"type.dmat4x3": {
+		"prefix": "dmat4x3",
+		"body": ["dmat4x3"]
+	},
+	"type.dmat4x4": {
+		"prefix": "dmat4x4",
+		"body": ["dmat4x4"]
+	},
+	"type.sampler1D": {
+		"prefix": "sampler1D",
+		"body": ["sampler1D"]
+	},
+	"type.sampler2D": {
+		"prefix": "sampler2D",
+		"body": ["sampler2D"]
+	},
+	"type.sampler3D": {
+		"prefix": "sampler3D",
+		"body": ["sampler3D"]
+	},
+	"type.image1D": {
+		"prefix": "image1D",
+		"body": ["image1D"]
+	},
+	"type.image2D": {
+		"prefix": "image2D",
+		"body": ["image2D"]
+	},
+	"type.image3D": {
+		"prefix": "image3D",
+		"body": ["image3D"]
+	},
+	"type.samplerCube": {
+		"prefix": "samplerCube",
+		"body": ["samplerCube"]
+	},
+	"type.imageCube": {
+		"prefix": "imageCube",
+		"body": ["imageCube"]
+	},
+	"type.sampler2DRect": {
+		"prefix": "sampler2DRect",
+		"body": ["sampler2DRect"]
+	},
+	"type.image2DRect": {
+		"prefix": "image2DRect",
+		"body": ["image2DRect"]
+	},
+	"type.sampler1DArray": {
+		"prefix": "sampler1DArray",
+		"body": ["sampler1DArray"]
+	},
+	"type.sampler2DArray": {
+		"prefix": "sampler2DArray",
+		"body": ["sampler2DArray"]
+	},
+	"type.image1DArray": {
+		"prefix": "image1DArray",
+		"body": ["image1DArray"]
+	},
+	"type.image2DArray": {
+		"prefix": "image2DArray",
+		"body": ["image2DArray"]
+	},
+	"type.samplerBuffer": {
+		"prefix": "samplerBuffer",
+		"body": ["samplerBuffer"]
+	},
+	"type.imageBuffer": {
+		"prefix": "imageBuffer",
+		"body": ["imageBuffer"]
+	},
+	"type.sampler2DMS": {
+		"prefix": "sampler2DMS",
+		"body": ["sampler2DMS"]
+	},
+	"type.image2DMS": {
+		"prefix": "image2DMS",
+		"body": ["image2DMS"]
+	},
+	"type.sampler2DMSArray": {
+		"prefix": "sampler2DMSArray",
+		"body": ["sampler2DMSArray"]
+	},
+	"type.image2DMSArray": {
+		"prefix": "image2DMSArray",
+		"body": ["image2DMSArray"]
+	},
+	"type.samplerCubeArray": {
+		"prefix": "samplerCubeArray",
+		"body": ["samplerCubeArray"]
+	},
+	"type.imageCubeArray": {
+		"prefix": "imageCubeArray",
+		"body": ["imageCubeArray"]
+	},
+	"type.sampler1DShadow": {
+		"prefix": "sampler1DShadow",
+		"body": ["sampler1DShadow"]
+	},
+	"type.sampler2DShadow": {
+		"prefix": "sampler2DShadow",
+		"body": ["sampler2DShadow"]
+	},
+	"type.sampler2DRectShadow": {
+		"prefix": "sampler2DRectShadow",
+		"body": ["sampler2DRectShadow"]
+	},
+	"type.sampler1DArrayShadow": {
+		"prefix": "sampler1DArrayShadow",
+		"body": ["sampler1DArrayShadow"]
+	},
+	"type.sampler2DArrayShadow": {
+		"prefix": "sampler2DArrayShadow",
+		"body": ["sampler2DArrayShadow"]
+	},
+	"type.samplerCubeShadow": {
+		"prefix": "samplerCubeShadow",
+		"body": ["samplerCubeShadow"]
+	},
+	"type.samplerCubeArrayShadow": {
+		"prefix": "samplerCubeArrayShadow",
+		"body": ["samplerCubeArrayShadow"]
+	},
+	"type.isampler1D": {
+		"prefix": "isampler1D",
+		"body": ["isampler1D"]
+	},
+	"type.isampler2D": {
+		"prefix": "isampler2D",
+		"body": ["isampler2D"]
+	},
+	"type.isampler3D": {
+		"prefix": "isampler3D",
+		"body": ["isampler3D"]
+	},
+	"type.iimage1D": {
+		"prefix": "iimage1D",
+		"body": ["iimage1D"]
+	},
+	"type.iimage2D": {
+		"prefix": "iimage2D",
+		"body": ["iimage2D"]
+	},
+	"type.iimage3D": {
+		"prefix": "iimage3D",
+		"body": ["iimage3D"]
+	},
+	"type.isamplerCube": {
+		"prefix": "isamplerCube",
+		"body": ["isamplerCube"]
+	},
+	"type.iimageCube": {
+		"prefix": "iimageCube",
+		"body": ["iimageCube"]
+	},
+	"type.isampler2DRect": {
+		"prefix": "isampler2DRect",
+		"body": ["isampler2DRect"]
+	},
+	"type.iimage2DRect": {
+		"prefix": "iimage2DRect",
+		"body": ["iimage2DRect"]
+	},
+	"type.isampler1DArray": {
+		"prefix": "isampler1DArray",
+		"body": ["isampler1DArray"]
+	},
+	"type.isampler2DArray": {
+		"prefix": "isampler2DArray",
+		"body": ["isampler2DArray"]
+	},
+	"type.iimage1DArray": {
+		"prefix": "iimage1DArray",
+		"body": ["iimage1DArray"]
+	},
+	"type.iimage2DArray": {
+		"prefix": "iimage2DArray",
+		"body": ["iimage2DArray"]
+	},
+	"type.isamplerBuffer": {
+		"prefix": "isamplerBuffer",
+		"body": ["isamplerBuffer"]
+	},
+	"type.iimageBuffer": {
+		"prefix": "iimageBuffer",
+		"body": ["iimageBuffer"]
+	},
+	"type.isampler2DMS": {
+		"prefix": "isampler2DMS",
+		"body": ["isampler2DMS"]
+	},
+	"type.iimage2DMS": {
+		"prefix": "iimage2DMS",
+		"body": ["iimage2DMS"]
+	},
+	"type.isampler2DMSArray": {
+		"prefix": "isampler2DMSArray",
+		"body": ["isampler2DMSArray"]
+	},
+	"type.iimage2DMSArray": {
+		"prefix": "iimage2DMSArray",
+		"body": ["iimage2DMSArray"]
+	},
+	"type.isamplerCubeMSArray": {
+		"prefix": "isamplerCubeMSArray",
+		"body": ["isamplerCubeMSArray"]
+	},
+	"type.iimageCubeMSArray": {
+		"prefix": "iimageCubeMSArray",
+		"body": ["iimageCubeMSArray"]
+	},
+	"type.usampler1D": {
+		"prefix": "usampler1D",
+		"body": ["usampler1D"]
+	},
+	"type.usampler2D": {
+		"prefix": "usampler2D",
+		"body": ["usampler2D"]
+	},
+	"type.usampler3D": {
+		"prefix": "usampler3D",
+		"body": ["usampler3D"]
+	},
+	"type.uimage1D": {
+		"prefix": "uimage1D",
+		"body": ["uimage1D"]
+	},
+	"type.uimage2D": {
+		"prefix": "uimage2D",
+		"body": ["uimage2D"]
+	},
+	"type.uimage3D": {
+		"prefix": "uimage3D",
+		"body": ["uimage3D"]
+	},
+	"type.usamplerCube": {
+		"prefix": "usamplerCube",
+		"body": ["usamplerCube"]
+	},
+	"type.uimageCube": {
+		"prefix": "uimageCube",
+		"body": ["uimageCube"]
+	},
+	"type.usampler2DRect": {
+		"prefix": "usampler2DRect",
+		"body": ["usampler2DRect"]
+	},
+	"type.uimage2DRect": {
+		"prefix": "uimage2DRect",
+		"body": ["uimage2DRect"]
+	},
+	"type.usampler1DArray": {
+		"prefix": "usampler1DArray",
+		"body": ["usampler1DArray"]
+	},
+	"type.usampler2DArray": {
+		"prefix": "usampler2DArray",
+		"body": ["usampler2DArray"]
+	},
+	"type.uimage1DArray": {
+		"prefix": "uimage1DArray",
+		"body": ["uimage1DArray"]
+	},
+	"type.uimage2DArray": {
+		"prefix": "uimage2DArray",
+		"body": ["uimage2DArray"]
+	},
+	"type.usamplerBuffer": {
+		"prefix": "usamplerBuffer",
+		"body": ["usamplerBuffer"]
+	},
+	"type.uimageBuffer": {
+		"prefix": "uimageBuffer",
+		"body": ["uimageBuffer"]
+	},
+	"type.usampler2DMS": {
+		"prefix": "usampler2DMS",
+		"body": ["usampler2DMS"]
+	},
+	"type.uimage2DMS": {
+		"prefix": "uimage2DMS",
+		"body": ["uimage2DMS"]
+	},
+	"type.usampler2DMSArray": {
+		"prefix": "usampler2DMSArray",
+		"body": ["usampler2DMSArray"]
+	},
+	"type.uimage2DMSArray": {
+		"prefix": "uimage2DMSArray",
+		"body": ["uimage2DMSArray"]
+	},
+	"type.usamplerCubeMSArray": {
+		"prefix": "usamplerCubeMSArray",
+		"body": ["usamplerCubeMSArray"]
+	},
+	"type.uimageCubeMSArray": {
+		"prefix": "uimageCubeMSArray",
+		"body": ["uimageCubeMSArray"]
+	},
+	"type.sampler": {
+		"prefix": "sampler",
+		"body": ["sampler"]
+	},
+	"type.samplerShadow": {
+		"prefix": "samplerShadow",
+		"body": ["samplerShadow"]
+	},
+	"type.texture1D": {
+		"prefix": "texture1D",
+		"body": ["texture1D"]
+	},
+	"type.texture1DArray": {
+		"prefix": "texture1DArray",
+		"body": ["texture1DArray"]
+	},
+	"type.texture2D": {
+		"prefix": "texture2D",
+		"body": ["texture2D"]
+	},
+	"type.texture2DArray": {
+		"prefix": "texture2DArray",
+		"body": ["texture2DArray"]
+	},
+	"type.texture2DRect": {
+		"prefix": "texture2DRect",
+		"body": ["texture2DRect"]
+	},
+	"type.texture2DMS": {
+		"prefix": "texture2DMS",
+		"body": ["texture2DMS"]
+	},
+	"type.texture2DMSArray": {
+		"prefix": "texture2DMSArray",
+		"body": ["texture2DMSArray"]
+	},
+	"type.texture3D": {
+		"prefix": "texture3D",
+		"body": ["texture3D"]
+	},
+	"type.textureCube": {
+		"prefix": "textureCube",
+		"body": ["textureCube"]
+	},
+	"type.textureCubeArray": {
+		"prefix": "textureCubeArray",
+		"body": ["textureCubeArray"]
+	},
+	"type.textureBuffer": {
+		"prefix": "textureBuffer",
+		"body": ["textureBuffer"]
+	},
+	"type.itexture1D": {
+		"prefix": "itexture1D",
+		"body": ["itexture1D"]
+	},
+	"type.itexture1DArray": {
+		"prefix": "itexture1DArray",
+		"body": ["itexture1DArray"]
+	},
+	"type.itexture2D": {
+		"prefix": "itexture2D",
+		"body": ["itexture2D"]
+	},
+	"type.itexture2DArray": {
+		"prefix": "itexture2DArray",
+		"body": ["itexture2DArray"]
+	},
+	"type.itexture2DRect": {
+		"prefix": "itexture2DRect",
+		"body": ["itexture2DRect"]
+	},
+	"type.itexture2DMS": {
+		"prefix": "itexture2DMS",
+		"body": ["itexture2DMS"]
+	},
+	"type.itexture2DMSArray": {
+		"prefix": "itexture2DMSArray",
+		"body": ["itexture2DMSArray"]
+	},
+	"type.itexture3D": {
+		"prefix": "itexture3D",
+		"body": ["itexture3D"]
+	},
+	"type.itextureCube": {
+		"prefix": "itextureCube",
+		"body": ["itextureCube"]
+	},
+	"type.itextureCubeArray": {
+		"prefix": "itextureCubeArray",
+		"body": ["itextureCubeArray"]
+	},
+	"type.itextureBuffer": {
+		"prefix": "itextureBuffer",
+		"body": ["itextureBuffer"]
+	},
+	"type.utexture1D": {
+		"prefix": "utexture1D",
+		"body": ["utexture1D"]
+	},
+	"type.utexture1DArray": {
+		"prefix": "utexture1DArray",
+		"body": ["utexture1DArray"]
+	},
+	"type.utexture2D": {
+		"prefix": "utexture2D",
+		"body": ["utexture2D"]
+	},
+	"type.utexture2DArray": {
+		"prefix": "utexture2DArray",
+		"body": ["utexture2DArray"]
+	},
+	"type.utexture2DRect": {
+		"prefix": "utexture2DRect",
+		"body": ["utexture2DRect"]
+	},
+	"type.utexture2DMS": {
+		"prefix": "utexture2DMS",
+		"body": ["utexture2DMS"]
+	},
+	"type.utexture2DMSArray": {
+		"prefix": "utexture2DMSArray",
+		"body": ["utexture2DMSArray"]
+	},
+	"type.utexture3D": {
+		"prefix": "utexture3D",
+		"body": ["utexture3D"]
+	},
+	"type.utextureCube": {
+		"prefix": "utextureCube",
+		"body": ["utextureCube"]
+	},
+	"type.utextureCubeArray": {
+		"prefix": "utextureCubeArray",
+		"body": ["utextureCubeArray"]
+	},
+	"type.utextureBuffer": {
+		"prefix": "utextureBuffer",
+		"body": ["utextureBuffer"]
+	},
+
+	"type.struct": {
+		"prefix": "struct",
+		"body": ["struct"]
+	},
+
+
+	"keyword.atomic_uint": {
+		"prefix": "atomic_uint",
+		"body": ["atomic_uint"]
+	},
+	"keyword.attribute": {
+		"prefix": "attribute",
+		"body": ["attribute"]
+	},
+	"keyword.buffer": {
+		"prefix": "buffer",
+		"body": ["buffer"]
+	},
+	"keyword.centroid": {
+		"prefix": "centroid",
+		"body": ["centroid"]
+	},
+	"keyword.coherent": {
+		"prefix": "coherent",
+		"body": ["coherent"]
+	},
+	"keyword.const": {
+		"prefix": "const",
+		"body": ["const"]
+	},
+	"keyword.flat": {
+		"prefix": "flat",
+		"body": ["flat"]
+	},
+	"keyword.highp": {
+		"prefix": "highp",
+		"body": ["highp"]
+	},
+	"keyword.in": {
+		"prefix": "in",
+		"body": ["in"]
+	},
+	"keyword.inout": {
+		"prefix": "inout",
+		"body": ["inout"]
+	},
+	"keyword.invariant": {
+		"prefix": "invariant",
+		"body": ["invariant"]
+	},
+	"keyword.layout": {
+		"prefix": "layout",
+		"body": ["layout"]
+	},
+	"keyword.lowp": {
+		"prefix": "lowp",
+		"body": ["lowp"]
+	},
+	"keyword.mediump": {
+		"prefix": "mediump",
+		"body": ["mediump"]
+	},
+	"keyword.noperspective": {
+		"prefix": "noperspective",
+		"body": ["noperspective"]
+	},
+	"keyword.out": {
+		"prefix": "out",
+		"body": ["out"]
+	},
+	"keyword.patch": {
+		"prefix": "patch",
+		"body": ["patch"]
+	},
+	"keyword.precise": {
+		"prefix": "precise",
+		"body": ["precise"]
+	},
+	"keyword.precision": {
+		"prefix": "precision",
+		"body": ["precision"]
+	},
+	"keyword.readonly": {
+		"prefix": "readonly",
+		"body": ["readonly"]
+	},
+	"keyword.restrict": {
+		"prefix": "restrict",
+		"body": ["restrict"]
+	},
+	"keyword.sample": {
+		"prefix": "sample",
+		"body": ["sample"]
+	},
+	"keyword.shared": {
+		"prefix": "shared",
+		"body": ["shared"]
+	},
+	"keyword.smooth": {
+		"prefix": "smooth",
+		"body": ["smooth"]
+	},
+	"keyword.subroutine": {
+		"prefix": "subroutine",
+		"body": ["subroutine"]
+	},
+	"keyword.uniform": {
+		"prefix": "uniform",
+		"body": ["uniform"]
+	},
+	"keyword.varying": {
+		"prefix": "varying",
+		"body": ["varying"]
+	},
+	"keyword.writeonly": {
+		"prefix": "writeonly",
+		"body": ["writeonly"]
+	},
+
+
+	"keyword.break": {
+		"prefix": "break",
+		"body": ["break"]
+	},
+	"keyword.case": {
+		"prefix": "case",
+		"body": ["case"]
+	},
+	"keyword.continue": {
+		"prefix": "continue",
+		"body": ["continue"]
+	},
+	"keyword.default": {
+		"prefix": "default",
+		"body": ["default"]
+	},
+	"keyword.defined": {
+		"prefix": "defined",
+		"body": ["defined"]
+	},
+	"keyword.discard": {
+		"prefix": "discard",
+		"body": ["discard"]
+	},
+	"keyword.do": {
+		"prefix": "do",
+		"body": ["do"]
+	},
+	"keyword.else": {
+		"prefix": "else",
+		"body": ["else"]
+	},
+	"keyword.for": {
+		"prefix": "for",
+		"body": ["for"]
+	},
+	"keyword.if": {
+		"prefix": "if",
+		"body": ["if"]
+	},
+	"keyword.return": {
+		"prefix": "return",
+		"body": ["return"]
+	},
+	"keyword.swich": {
+		"prefix": "swich",
+		"body": ["swich"]
+	},
+	"keyword.while": {
+		"prefix": "while",
+		"body": ["while"]
+	},
+
+
+	"preprocessor.define": {
+		"prefix": "#define",
+		"body": ["#define"]
+	},
+	"preprocessor.elif": {
+		"prefix": "#elif",
+		"body": ["#elif"]
+	},
+	"preprocessor.else": {
+		"prefix": "#else",
+		"body": ["#else"]
+	},
+	"preprocessor.error": {
+		"prefix": "#error",
+		"body": ["#error"]
+	},
+	"preprocessor.extension": {
+		"prefix": "#extension",
+		"body": ["#extension"]
+	},
+	"preprocessor.if": {
+		"prefix": "#if",
+		"body": ["#if"]
+	},
+	"preprocessor.ifdef": {
+		"prefix": "#ifdef",
+		"body": ["#ifdef"]
+	},
+	"preprocessor.ifndef": {
+		"prefix": "#ifndef",
+		"body": ["#ifndef"]
+	},
+	"preprocessor.import": {
+		"prefix": "#import",
+		"body": ["#import"]
+	},
+	"preprocessor.include": {
+		"prefix": "#include",
+		"body": ["#include"]
+	},
+	"preprocessor.include_next": {
+		"prefix": "#include_next",
+		"body": ["#include_next"]
+	},
+	"preprocessor.line": {
+		"prefix": "#line",
+		"body": ["#line"]
+	},
+	"preprocessor.pragma": {
+		"prefix": "#pragma",
+		"body": ["#pragma"]
+	},
+	"preprocessor.undef": {
+		"prefix": "#undef",
+		"body": ["#undef"]
+	},
+	"preprocessor.version": {
+		"prefix": "#version",
+		"body": ["#version"]
+	},
+
+
+	"constant.compatibility": {
+		"prefix": "compatibility",
+		"body": ["compatibility"]
+	},
+	"constant.core": {
+		"prefix": "core",
+		"body": ["core"]
+	},
+	"constant.es": {
+		"prefix": "es",
+		"body": ["es"]
+	},
+	"constant.true": {
+		"prefix": "true",
+		"body": ["true"]
+	},
+	"constant.false": {
+		"prefix": "false",
+		"body": ["false"]
+	},
+	"constant.null": {
+		"prefix": "null",
+		"body": ["null"]
+	},
+
+
+	"function.abs": {
+		"prefix": "abs",
+		"body": ["abs($1)"],
+		"description": "Returns x if x ≥ 0; otherwise it returns -x"
+	},
+	"function.acos": {
+		"prefix": "acos",
+		"body": ["acos($1)"],
+		"description": "Arc cosine. Returns an angle whose cosine is x. The range of values returned by this function is [0,π]. Results are undefined if |x| > 1"
+	},
+	"function.acosh": {
+		"prefix": "acosh",
+		"body": ["acosh($1)"],
+		"description": "Arc hyperbolic cosine; returns the non-negative inverse of cosh. Results are undefined if x < 1"
+	},
+	"function.all": {
+		"prefix": "all",
+		"body": ["all($1)"],
+		"description": "Returns true only if all components of x are true"
+	},
+	"function.allInvocations": {
+		"prefix": "allInvocations",
+		"body": ["allInvocations($1)"],
+		"description": "Returns true if and only if value is true for all active invocations in the group"
+	},
+	"function.allInvocationsEqual": {
+		"prefix": "allInvocationsEqual",
+		"body": ["allInvocationsEqual($1)"],
+		"description": "Returns true if value is the same for all active invocations in the group"
+	},
+	"function.any": {
+		"prefix": "any",
+		"body": ["any($1)"],
+		"description": "Returns true if any component of x is true"
+	},
+	"function.anyInvocation": {
+		"prefix": "anyInvocation",
+		"body": ["anyInvocation($1)"],
+		"description": "Returns true if and only if value is true for at least one active invocation in the group"
+	},
+	"function.asin": {
+		"prefix": "asin",
+		"body": ["asin($1)"],
+		"description": "Arc sine. Returns an angle whose sine is x. The range of values returned by this function is [-π / 2, π / 2]. Results are undefined if |x| > 1"
+	},
+	"function.asinh": {
+		"prefix": "asinh",
+		"body": ["asinh($1)"],
+		"description": "Arc hyperbolic sine; returns the inverse of sinh"
+	},
+	"function.atan": {
+		"prefix": "atan",
+		"body": ["atan($1)"],
+		"description": "Arc tangent. Returns an angle whose tangent is y / x. The signs of x and y are used to determine what quadrant the angle is in. The range of values returned by this function is [-π, π]. Results are undefined if x and y are both 0"
+	},
+	"function.atanh": {
+		"prefix": "atanh",
+		"body": ["atanh($1)"],
+		"description": "Arc hyperbolic tangent; returns the inverse of tanh. Results are undefined if x ≥ 1"
+	},
+	"function.atomicAdd": {
+		"prefix": "atomicAdd",
+		"body": ["atomicAdd($1)"],
+		"description": "Computes a new value by adding the value of data to the contents mem"
+	},
+	"function.atomicAnd": {
+		"prefix": "atomicAnd",
+		"body": ["atomicAnd($1)"],
+		"description": "Computes a new value by performing a bit-wise AND of the value of data and the contents of mem"
+	},
+	"function.atomicMax": {
+		"prefix": "atomicMax",
+		"body": ["atomicMax($1)"],
+		"description": "Computes a new value by taking the maximum of the value of data and the contents of mem"
+	},
+	"function.atomicMin": {
+		"prefix": "atomicMin",
+		"body": ["atomicMin($1)"],
+		"description": "Computes a new value by taking the minimum of the value of data and the contents of mem"
+	},
+	"function.atomicOr": {
+		"prefix": "atomicOr",
+		"body": ["atomicOr($1)"],
+		"description": "Computes a new value by performing a bit-wise OR of the value of data and the contents of mem"
+	},
+	"function.atomicXor": {
+		"prefix": "atomicXor",
+		"body": ["atomicXor($1)"],
+		"description": "Computes a new value by performing a bit-wise EXCLUSIVE OR of the value of data and the contents of mem"
+	},
+	"function.atomicCompSwap": {
+		"prefix": "atomicCompSwap",
+		"body": ["atomicCompSwap($1)"],
+		"description": "Compares the value of compare and the contents of mem. If the values are equal, the new value is given by data; otherwise, it is taken from the original contents of mem"
+	},
+	"function.atomicCounter": {
+		"prefix": "atomicCounter",
+		"body": ["atomicCounter($1)"],
+		"description": "Returns the counter value for c"
+	},
+	"function.atomicCounterAdd": {
+		"prefix": "atomicCounterAdd",
+		"body": ["atomicCounterAdd($1)"],
+		"description": "Atomically\n\r1. adds the value of data to the counter for c, and\n\r2. returns its value prior to the operation"
+	},
+	"function.atomicCounterAnd": {
+		"prefix": "atomicCounterAnd",
+		"body": ["atomicCounterAnd($1)"],
+		"description": "Atomically\n\r1. sets the counter for c to the bitwise AND of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
+	},
+	"function.atomicCounterCompSwap": {
+		"prefix": "atomicCounterCompSwap",
+		"body": ["atomicCounterCompSwap($1)"],
+		"description": "Atomically\n\r1. compares the value of compare and the counter value for c\n\r2. if the values are equal, sets the counter value for c to the value of data, and\n\r3. returns its value prior to the operation"
+	},
+	"function.atomicCounterDecrement": {
+		"prefix": "atomicCounterDecrement",
+		"body": ["atomicCounterDecrement($1)"],
+		"description": "Atomically\n\r1. decrements the counter for c, and\n\r2. returns the value resulting from the decrement operation"
+	},
+	"function.atomicCounterExchange": {
+		"prefix": "atomicCounterExchange",
+		"body": ["atomicCounterExchange($1)"],
+		"description": "Atomically\n\r1. sets the counter value for c to the value of data, and\n\r2. returns its value prior to the operation"
+	},
+	"function.atomicCounterIncrement": {
+		"prefix": "atomicCounterIncrement",
+		"body": ["atomicCounterIncrement($1)"],
+		"description": "Atomically\n\r1. increments the counter for c, and\n\r2. returns its value prior to the increment operation"
+	},
+	"function.atomicCounterMax": {
+		"prefix": "atomicCounterMax",
+		"body": ["atomicCounterMax($1)"],
+		"description": "Atomically\n\r1. sets the counter for c to the maximum of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
+	},
+	"function.atomicCounterMin": {
+		"prefix": "atomicCounterMin",
+		"body": ["atomicCounterMin($1)"],
+		"description": "Atomically\n\r1. sets the counter for c to the minimum of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
+	},
+	"function.atomicCounterOr": {
+		"prefix": "atomicCounterOr",
+		"body": ["atomicCounterOr($1)"],
+		"description": "Atomically\n\r1. sets the counter for c to the bitwise OR of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
+	},
+	"function.atomicCounterSubtract": {
+		"prefix": "atomicCounterSubtract",
+		"body": ["atomicCounterSubtract($1)"],
+		"description": "Atomically\n\r1. subtracts the value of data from the counter for c, and\n\r2. returns its value prior to the operation"
+	},
+	"function.atomicCounterXor": {
+		"prefix": "atomicCounterXor",
+		"body": ["atomicCounterXor($1)"],
+		"description": "Atomically\n\r1. sets the counter for c to the bitwise XOR of the value of the counter and the value of data, and\n\r2. returns the value prior to the operation"
+	},
+	"function.atomicExchange": {
+		"prefix": "atomicExchange",
+		"body": ["atomicExchange($1)"],
+		"description": "Computes a new value by simply copying the value of data"
+	},
+	"function.barrier": {
+		"prefix": "barrier",
+		"body": ["barrier()"],
+		"description": "For any given static instance of barrier(), all tessellation control shader invocations for a single input patch must enter it before any will be allowed to continue beyond it, or all compute shader invocations for a single workgroup must enter it before any will continue beyond it"
+	},
+	"function.bitCount": {
+		"prefix": "bitCount",
+		"body": ["bitCount($1)"],
+		"description": "Returns the number of one bits in the binary representation of value"
+	},
+	"function.bitfieldExtract": {
+		"prefix": "bitfieldExtract",
+		"body": ["bitfieldExtract($1)"],
+		"description": "Extracts bits [offset, offset + bits - 1] from value, returning them in the least significant bits of the result"
+	},
+	"function.bitfieldInsert": {
+		"prefix": "bitfieldInsert",
+		"body": ["bitfieldInsert($1)"],
+		"description": "Inserts the bits least significant bits of insert into base"
+	},
+	"function.bitfieldReverse": {
+		"prefix": "bitfieldReverse",
+		"body": ["bitfieldReverse($1)"],
+		"description": "Reverses the bits of value. The bit numbered n of the result will be taken from bit (bits - 1) - n of value, where bits is the total number of bits used to represent value"
+	},
+	"function.ceil": {
+		"prefix": "ceil",
+		"body": ["ceil($1)"],
+		"description": "Returns a value equal to the nearest integer that is greater than or equal to x"
+	},
+	"function.clamp": {
+		"prefix": "clamp",
+		"body": ["clamp($1)"],
+		"description": "Returns min(max(x, minVal), maxVal). Results are undefined if minVal > maxVal"
+	},
+	"function.cos": {
+		"prefix": "cos",
+		"body": ["cos($1)"],
+		"description": "The standard trigonometric cosine function"
+	},
+	"function.cosh": {
+		"prefix": "cosh",
+		"body": ["cosh($1)"],
+		"description": "Returns the hyperbolic cosine function (e^x + e^-x) / 2"
+	},
+	"function.cross": {
+		"prefix": "cross",
+		"body": ["cross($1)"],
+		"description": "Returns the cross product of x and y, i.e., (x1 · y2 - y1 · x2, x2 · y0 - y2 · x0, x0 · y1 - y0 · x1)"
+	},
+	"function.degrees": {
+		"prefix": "degrees",
+		"body": ["degrees($1)"],
+		"description": "Converts radians to degrees, i.e., (180 / π) · radians"
+	},
+	"function.determinant": {
+		"prefix": "determinant",
+		"body": ["determinant($1)"],
+		"description": "Returns the determinant of m"
+	},
+	"function.dFdx": {
+		"prefix": "dFdx",
+		"body": ["dFdx($1)"],
+		"description": "Returns either dFdxFine(p) or dFdxCoarse(p), based on implementation choice, presumably whichever is the faster, or by whichever is selected in the API through quality-versus-speed hints"
+	},
+	"function.dFdxCoarse": {
+		"prefix": "dFdxCoarse",
+		"body": ["dFdxCoarse($1)"],
+		"description": "Returns the partial derivative of p with respect to the window x coordinate. Will use local differencing based on the value of p for the current fragment’s neighbors, and will possibly, but not necessarily, include the value of p for the current fragment. That is, over a given area, the implementation can x compute derivatives in fewer unique locations than would be allowed for dFdxFine(p)"
+	},
+	"function.dFdxFine": {
+		"prefix": "dFdxFine",
+		"body": ["dFdxFine($1)"],
+		"description": "Returns the partial derivative of p with respect to the window x coordinate. Will use local differencing based on the value of p for the current fragment and its immediate neighbor(s)"
+	},
+	"function.dFdy": {
+		"prefix": "dFdy",
+		"body": ["dFdy($1)"],
+		"description": "Returns either dFdyFine(p) or dFdyCoarse(p), based on implementation choice, presumably whichever is the faster, or by whichever is selected in the API through quality-versus-speed hints"
+	},
+	"function.dFdyCoarse": {
+		"prefix": "dFdyCoarse",
+		"body": ["dFdyCoarse($1)"],
+		"description": "Returns the partial derivative of p with respect to the window y coordinate. Will use local differencing based on the value of p for the current fragment’s neighbors, and will possibly, but not necessarily, include the value of p for the current fragment. That is, over a given area, the implementation can compute y derivatives in fewer unique locations than would be allowed for dFdyFine(p)"
+	},
+	"function.dFdyFine": {
+		"prefix": "dFdyFine",
+		"body": ["dFdyFine($1)"],
+		"description": "Returns the partial derivative of p with respect to the window y coordinate. Will use local differencing based on the value of p for the current fragment and its immediate neighbor(s)"
+	},
+	"function.distance": {
+		"prefix": "distance",
+		"body": ["distance($1)"],
+		"description": "Returns the distance between p0 and p1, i.e., length(p0 - p1)"
+	},
+	"function.dot": {
+		"prefix": "dot",
+		"body": ["dot($1)"],
+		"description": "Returns the dot product of x and y, i.e., x0 · y0 + x1 · y1 + …"
+	},
+	"function.EmitStreamVertex": {
+		"prefix": "EmitStreamVertex",
+		"body": ["EmitStreamVertex($1)"],
+		"description": "Emits the current values of output variables to the current output primitive on stream stream. The argument to stream must be a constant integral expression. On return from this call, the values of all output variables are undefined"
+	},
+	"function.EmitVertex": {
+		"prefix": "EmitVertex",
+		"body": ["EmitVertex()"],
+		"description": "Emits the current values of output variables to the current output primitive. When multiple output streams are supported, this is equivalent to calling EmitStreamVertex(0)"
+	},
+	"function.EndPrimitive": {
+		"prefix": "EndPrimitive",
+		"body": ["EndPrimitive()"],
+		"description": "Completes the current output primitive and starts a new one. When multiple output streams are supported, this is equivalent to calling EndStreamPrimitive(0)"
+	},
+	"function.EndStreamPrimitive": {
+		"prefix": "EndStreamPrimitive",
+		"body": ["EndStreamPrimitive($1)"],
+		"description": "Completes the current output primitive on stream stream and starts a new one. The argument to stream must be a constant integral expression. No vertex is emitted"
+	},
+	"function.equal": {
+		"prefix": "equal",
+		"body": ["equal($1)"],
+		"description": "Returns the component-wise compare of x == y"
+	},
+	"function.exp": {
+		"prefix": "exp",
+		"body": ["exp($1)"],
+		"description": "Returns the natural exponentiation of x, i.e., e^x"
+	},
+	"function.exp2": {
+		"prefix": "exp2",
+		"body": ["exp2($1)"],
+		"description": "Returns 2 raised to the x power, i.e., 2^x"
+	},
+	"function.faceforward": {
+		"prefix": "faceforward",
+		"body": ["faceforward($1)"],
+		"description": "If dot(Nref, I) < 0 return N, otherwise return -N"
+	},
+	"function.findLSB": {
+		"prefix": "findLSB",
+		"body": ["findLSB($1)"],
+		"description": "Returns the bit number of the least significant one bit in the binary representation of value. If value is zero, -1 will be returned"
+	},
+	"function.findMSB": {
+		"prefix": "findMSB",
+		"body": ["findMSB($1)"],
+		"description": "Returns the bit number of the most significant bit in the binary representation of value"
+	},
+	"function.floatBitsToInt": {
+		"prefix": "floatBitsToInt",
+		"body": ["floatBitsToInt($1)"],
+		"description": "Returns a signed or unsigned integer value representing the encoding of a floating-point value. The float value’s bit-level representation is preserved"
+	},
+	"function.floatBitsToUint": {
+		"prefix": "floatBitsToUint",
+		"body": ["floatBitsToUint($1)"],
+		"description": "Returns a signed or unsigned integer value representing the encoding of a floating-point value. The float value’s bit-level representation is preserved"
+	},
+	"function.floor": {
+		"prefix": "floor",
+		"body": ["floor($1)"],
+		"description": "Returns a value equal to the nearest integer that is less than or equal to x"
+	},
+	"function.fma": {
+		"prefix": "fma",
+		"body": ["fma($1)"],
+		"description": "Computes and returns a * b + c. In uses where the return value is eventually consumed by a variable declared as precise"
+	},
+	"function.fract": {
+		"prefix": "fract",
+		"body": ["fract($1)"],
+		"description": "Returns x - floor(x)"
+	},
+	"function.frexp": {
+		"prefix": "frexp",
+		"body": ["frexp($1)"],
+		"description": "Splits x into a floating-point significand in the range [0.5,1.0], and an integral exponent of two"
+	},
+	"function.ftransform": {
+		"prefix": "ftransform",
+		"body": ["ftransform()"],
+		"description": "Available only when using the compatibility profile. For core OpenGL, use invariant. For vertex shaders only. This function will ensure that the incoming vertex value will be transformed in a way that produces exactly the same result as would be produced by OpenGL’s fixed functionality transform. It is intended to be used to compute gl_Position"
+	},
+	"function.fwidth": {
+		"prefix": "fwidth",
+		"body": ["fwidth($1)"],
+		"description": "Returns abs(dFdx(p)) + abs(dFdy(p))"
+	},
+	"function.fwidthCoarse": {
+		"prefix": "fwidthCoarse",
+		"body": ["fwidthCoarse($1)"],
+		"description": "Returns abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))"
+	},
+	"function.fwidthFine": {
+		"prefix": "fwidthFine",
+		"body": ["fwidthFine($1)"],
+		"description": "Returns abs(dFdxFine(p)) + abs(dFdyFine(p))"
+	},
+	"function.greaterThan": {
+		"prefix": "greaterThan",
+		"body": ["greaterThan($1)"],
+		"description": "Returns the component-wise compare of x > y"
+	},
+	"function.greaterThanEqual": {
+		"prefix": "greaterThanEqual",
+		"body": ["greaterThanEqual($1)"],
+		"description": "Returns the component-wise compare of x ≥ y"
+	},
+	"function.groupMemoryBarrier": {
+		"prefix": "groupMemoryBarrier",
+		"body": ["groupMemoryBarrier()"],
+		"description": "Control the ordering of all memory transactions issued within a single shader invocation, as viewed by other invocations in the same workgroup"
+	},
+	"function.imageAtomicAdd": {
+		"prefix": "imageAtomicAdd",
+		"body": ["imageAtomicAdd($1)"],
+		"description": "Computes a new value by adding the value of data to the contents of the selected texel"
+	},
+	"function.imageAtomicAnd": {
+		"prefix": "imageAtomicAnd",
+		"body": ["imageAtomicAnd($1)"],
+		"description": "Computes a new value by performing a bit-wise AND of the value of data and the contents of the selected texel"
+	},
+	"function.imageAtomicCompSwap": {
+		"prefix": "imageAtomicCompSwap",
+		"body": ["imageAtomicCompSwap($1)"],
+		"description": "Compares the value of compare and the contents of the selected texel. If the values are equal, the new value is given by data; otherwise, it is taken from the original value loaded from the texel"
+	},
+	"function.imageAtomicExchange": {
+		"prefix": "imageAtomicExchange",
+		"body": ["imageAtomicExchange($1)"],
+		"description": "Computes a new value by simply copying the value of data"
+	},
+	"function.imageAtomicMax": {
+		"prefix": "imageAtomicMax",
+		"body": ["imageAtomicMax($1)"],
+		"description": "Computes a new value by taking the maximum of the value data and the contents of the selected texel"
+	},
+	"function.imageAtomicMin": {
+		"prefix": "imageAtomicMin",
+		"body": ["imageAtomicMin($1)"],
+		"description": "Computes a new value by taking the minimum of the value of data and the contents of the selected texel"
+	},
+	"function.imageAtomicOr": {
+		"prefix": "imageAtomicOr",
+		"body": ["imageAtomicOr($1)"],
+		"description": "Computes a new value by performing a bit-wise OR of the value of data and the contents of the selected texel"
+	},
+	"function.imageAtomicXor": {
+		"prefix": "imageAtomicXor",
+		"body": ["imageAtomicXor($1)"],
+		"description": "Computes a new value by performing a bit-wise EXCLUSIVE OR of the value of data and the contents of the selected texel"
+	},
+	"function.imageLoad": {
+		"prefix": "imageLoad",
+		"body": ["imageLoad($1)"],
+		"description": "Loads the texel at the coordinate P from the image unit image (in IMAGE_PARAMS). For multisample loads, the sample number is given by sample. When image, P, and sample identify a valid texel, the bits used to represent the selected texel in memory are converted to a vec4, ivec4, or uvec4 in the manner"
+	},
+	"function.imageSamples": {
+		"prefix": "imageSamples",
+		"body": ["imageSamples($1)"],
+		"description": "Returns the number of samples of the image or images bound to image"
+	},
+	"function.imageSize": {
+		"prefix": "imageSize",
+		"body": ["imageSize($1)"],
+		"description": "Returns the dimensions of the image or images bound to image. For arrayed images, the last component of the return value will hold the size of the array. Cube images only return the dimensions of one face, and the number of cubes in the cube map array, if arrayed"
+	},
+	"function.imageStore": {
+		"prefix": "imageStore",
+		"body": ["imageStore($1)"],
+		"description": "Stores data into the texel at the coordinate P from the image specified by image. For multisample stores, the sample number is given by sample. When image, P, and sample identify a valid texel, the bits used to represent data are converted to the format of the image unit in the manner"
+	},
+	"function.imulExtended": {
+		"prefix": "imulExtended",
+		"body": ["imulExtended($1)"],
+		"description": "Multiplies 32-bit unsigned or signed integers x and y, producing a 64-bit result. The 32 least-significant bits are returned in lsb. The 32 most-significant bits are returned in msb"
+	},
+	"function.intBitsToFloat": {
+		"prefix": "intBitsToFloat",
+		"body": ["intBitsToFloat($1)"],
+		"description": "Returns a floating-point value corresponding to a signed or unsigned integer encoding of a floating-point value. If a NaN is passed in, it will not signal, and the resulting value is unspecified. If an Inf is passed in, the resulting value is the corresponding Inf. Otherwise, the bit-level representation is preserved"
+	},
+	"function.interpolateAtCentroid": {
+		"prefix": "interpolateAtCentroid",
+		"body": ["interpolateAtCentroid($1)"],
+		"description": "Returns the value of the input interpolant variable sampled at an offset from the center of the pixel specified by offset. The two floating-point components of offset, give the offset in pixels in the x and y directions, respectively. An offset of (0, 0) identifies the center of the pixel. The range and granularity of offsets supported by this function is implementation-dependent"
+	},
+	"function.interpolateAtOffset": {
+		"prefix": "interpolateAtOffset",
+		"body": ["interpolateAtOffset($1)"],
+		"description": "Returns the value of the input interpolant sampled at a location inside both the pixel and the primitive being processed. The value obtained would be the same value assigned to the input variable if declared with the centroid qualifier"
+	},
+	"function.interpolateAtSample": {
+		"prefix": "interpolateAtSample",
+		"body": ["interpolateAtSample($1)"],
+		"description": "Returns the value of the input interpolant variable at the location of sample number sample. If multisample buffers are not available, the input variable will be evaluated at the center of the pixel. If sample sample does not exist, the position used to interpolate the input variable is undefined"
+	},
+	"function.inverse": {
+		"prefix": "inverse",
+		"body": ["inverse($1)"],
+		"description": "Returns a matrix that is the inverse of m. The input matrix m is not modified. The values in the returned matrix are undefined if m is singular or poorly-conditioned (nearly singular)"
+	},
+	"function.inversesqrt": {
+		"prefix": "inversesqrt",
+		"body": ["inversesqrt($1)"],
+		"description": "Returns 1 / sqrt(x). Results are undefined if x ≤ 0"
+	},
+	"function.isinf": {
+		"prefix": "isinf",
+		"body": ["isinf($1)"],
+		"description": "Returns true if x holds a positive infinity or negative infinity. Returns false otherwise"
+	},
+	"function.isnan": {
+		"prefix": "isnan",
+		"body": ["isnan($1)"],
+		"description": "Returns true if x holds a NaN. Returns false otherwise. Always returns false if NaNs are not implemented"
+	},
+	"function.ldexp": {
+		"prefix": "ldexp",
+		"body": ["ldexp($1)"],
+		"description": "Builds a floating-point number from x and the corresponding integral exponent of two in exp"
+	},
+	"function.length": {
+		"prefix": "length",
+		"body": ["length($1)"],
+		"description": "Returns the length of vector x, i.e., sqrt( x0^2 + x1^2 + … )"
+	},
+	"function.lessThan": {
+		"prefix": "lessThan",
+		"body": ["lessThan($1)"],
+		"description": "Returns the component-wise compare of x < y"
+	},
+	"function.lessThanEqual": {
+		"prefix": "lessThanEqual",
+		"body": ["lessThanEqual($1)"],
+		"description": "Returns the component-wise compare of x ≤ y"
+	},
+	"function.log": {
+		"prefix": "log",
+		"body": ["log($1)"],
+		"description": "Returns the natural logarithm of x, i.e., returns the value y which satisfies the equation x = e^y. Results are undefined if x ≤ 0"
+	},
+	"function.log2": {
+		"prefix": "log2",
+		"body": ["log2($1)"],
+		"description": "Returns the base 2 logarithm of x, i.e., returns the value y which satisfies the equation x = 2^y. Results are undefined if x ≤ 0"
+	},
+	"function.matrixCompMult": {
+		"prefix": "matrixCompMult",
+		"body": ["matrixCompMult($1)"],
+		"description": "Multiply matrix x by matrix y component-wise, i.e., result[i][j] is the scalar product of x[i][j] and y[i][j]"
+	},
+	"function.max": {
+		"prefix": "max",
+		"body": ["max($1)"],
+		"description": "Returns y if x < y; otherwise it returns x"
+	},
+	"function.min": {
+		"prefix": "min",
+		"body": ["min($1)"],
+		"description": "Returns y if y < x; otherwise it returns x"
+	},
+	"function.mix": {
+		"prefix": "mix",
+		"body": ["mix($1)"],
+		"description": "Returns the linear blend of x and y, i.e., x · (1 - a) + y · a"
+	},
+	"function.memoryBarrier": {
+		"prefix": "memoryBarrier",
+		"body": ["memoryBarrier()"],
+		"description": "Control the ordering of memory transactions issued by a single shader invocation"
+	},
+	"function.memoryBarrierAtomicCounter": {
+		"prefix": "memoryBarrierAtomicCounter",
+		"body": ["memoryBarrierAtomicCounter()"],
+		"description": "Control the ordering of accesses to atomic-counter variables issued by a single shader invocation"
+	},
+	"function.memoryBarrierBuffer": {
+		"prefix": "memoryBarrierBuffer",
+		"body": ["memoryBarrierBuffer()"],
+		"description": "Control the ordering of memory transactions to buffer variables issued within a single shader invocation"
+	},
+	"function.memoryBarrierImage": {
+		"prefix": "memoryBarrierImage",
+		"body": ["memoryBarrierImage()"],
+		"description": "Control the ordering of memory transactions to images issued within a single shader invocation"
+	},
+	"function.memoryBarrierShared": {
+		"prefix": "memoryBarrierShared",
+		"body": ["memoryBarrierShared()"],
+		"description": "Control the ordering of memory transactions to shared variables issued within a single shader invocation, as viewed by other invocations in the same workgroup."
+	},
+	"function.mod": {
+		"prefix": "mod",
+		"body": ["mod($1)"],
+		"description": "Modulus. Returns x - y · floor(x / y)"
+	},
+	"function.modf": {
+		"prefix": "modf",
+		"body": ["modf($1)"],
+		"description": "Returns the fractional part of x and sets i to the integer part (as a whole number floating-point value). Both the return value and the output parameter will have the same sign as x"
+	},
+	"function.noise1": {
+		"prefix": "noise1",
+		"body": ["noise1($1)"],
+		"description": "Returns a 1D noise value based on the input value x"
+	},
+	"function.noise2": {
+		"prefix": "noise2",
+		"body": ["noise2($1)"],
+		"description": "Returns a 2D noise value based on the input value x"
+	},
+	"function.noise3": {
+		"prefix": "noise3",
+		"body": ["noise3($1)"],
+		"description": "Returns a 3D noise value based on the input value x"
+	},
+	"function.noise4": {
+		"prefix": "noise4",
+		"body": ["noise4($1)"],
+		"description": "Returns a 4D noise value based on the input value x"
+	},
+	"function.normalize": {
+		"prefix": "normalize",
+		"body": ["normalize($1)"],
+		"description": "Returns a vector in the same direction as x but with a length of 1, i.e. x / length(x)"
+	},
+	"function.not": {
+		"prefix": "not",
+		"body": ["not($1)"],
+		"description": "Returns the component-wise logical complement of x"
+	},
+	"function.notEqual": {
+		"prefix": "notEqual",
+		"body": ["notEqual($1)"],
+		"description": "Returns the component-wise compare of x ≠ y"
+	},
+	"function.outerProduct": {
+		"prefix": "outerProduct",
+		"body": ["outerProduct($1)"],
+		"description": "Treats the first parameter c as a column vector (matrix with one column) and the second parameter r as a row vector (matrix with one row) and does a linear algebraic matrix multiply c * r, yielding a matrix whose number of rows is the number of components in c and whose number of columns is the number of components in r"
+	},
+	"function.packDouble2x32": {
+		"prefix": "packDouble2x32",
+		"body": ["packDouble2x32($1)"],
+		"description": "Returns a double-precision value obtained by packing the components of v into a 64-bit value. If an IEEE 754 Inf or NaN is created, it will not signal, and the resulting floating-point value is unspecified. Otherwise, the bit-level representation of v is preserved. The first vector component specifies the 32 least significant bits; the second component specifies the 32 most significant bits"
+	},
+	"function.packHalf2x16": {
+		"prefix": "packHalf2x16",
+		"body": ["packHalf2x16($1)"],
+		"description": "Returns an unsigned integer obtained by converting the components of a two-component floating-point vector to the 16-bit floating-point representation of the API, and then packing these two 16-bit integers into a 32-bit unsigned integer"
+	},
+	"function.packSnorm2x16": {
+		"prefix": "packSnorm2x16",
+		"body": ["packSnorm2x16($1)"],
+		"description": "First, converts each component of the normalized floating-point value v into 16-bit (2x16) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
+	},
+	"function.packSnorm4x8": {
+		"prefix": "packSnorm4x8",
+		"body": ["packSnorm4x8($1)"],
+		"description": "First, converts each component of the normalized floating-point value v into 8-bit (4x8) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
+	},
+	"function.packUnorm2x16": {
+		"prefix": "packUnorm2x16",
+		"body": ["packUnorm2x16($1)"],
+		"description": "First, converts each component of the normalized floating-point value v into 16-bit (2x16) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
+	},
+	"function.packUnorm4x8": {
+		"prefix": "packUnorm4x8",
+		"body": ["packUnorm4x8($1)"],
+		"description": "First, converts each component of the normalized floating-point value v into 8-bit (4x8) integer values. Then, the results are packed into the returned 32-bit unsigned integer"
+	},
+	"function.pow": {
+		"prefix": "pow",
+		"body": ["pow($1)"],
+		"description": "Returns x raised to the y power, i.e., x^y. Results are undefined if x < 0. Results are undefined if x = 0 and y ≤ 0"
+	},
+	"function.radians": {
+		"prefix": "radians",
+		"body": ["radians($1)"],
+		"description": "Converts degrees to radians, i.e., (π / 180) · degrees"
+	},
+	"function.reflect": {
+		"prefix": "reflect",
+		"body": ["reflect($1)"],
+		"description": "For the incident vector I and surface orientation N, returns the reflection direction: I - 2 · dot(N, I) · N. N must already be normalized in order to achieve the desired result"
+	},
+	"function.refract": {
+		"prefix": "refract",
+		"body": ["refract($1)"],
+		"description": "For the incident vector I and surface normal N, and the ratio of indices of refraction eta, return the refraction vector. The result is computed by the refraction equation"
+	},
+	"function.round": {
+		"prefix": "round",
+		"body": ["round($1)"],
+		"description": "Returns a value equal to the nearest integer to x. The fraction 0.5 will round in a direction chosen by the implementation, presumably the direction that is fastest. This includes the possibility that round(x) returns the same value as roundEven(x) for all values of x"
+	},
+	"function.roundEven": {
+		"prefix": "roundEven",
+		"body": ["roundEven($1)"],
+		"description": "Returns a value equal to the nearest integer to x. A fractional part of 0.5 will round toward the nearest even integer. (Both 3.5 and 4.5 for x will return 4.0.)"
+	},
+	"function.shadow1D": {
+		"prefix": "shadow1D",
+		"body": ["shadow1D($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow1DLod": {
+		"prefix": "shadow1DLod",
+		"body": ["shadow1DLod($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow1DProj": {
+		"prefix": "shadow1DProj",
+		"body": ["shadow1DProj($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow1DProjLod": {
+		"prefix": "shadow1DProjLod",
+		"body": ["shadow1DProjLod($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow2D": {
+		"prefix": "shadow2D",
+		"body": ["shadow2D($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow2DLod": {
+		"prefix": "shadow2DLod",
+		"body": ["shadow2DLod($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow2DProj": {
+		"prefix": "shadow2DProj",
+		"body": ["shadow2DProj($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.shadow2DProjLod": {
+		"prefix": "shadow2DProjLod",
+		"body": ["shadow2DProjLod($1)"],
+		"description": "Same functionality as the “texture” based names above with the same signature"
+	},
+	"function.sign": {
+		"prefix": "sign",
+		"body": ["sign($1)"],
+		"description": "Returns 1.0 if x > 0, 0.0 if x = 0, or -1.0 if x < 0"
+	},
+	"function.sin": {
+		"prefix": "sin",
+		"body": ["sin($1)"],
+		"description": "The standard trigonometric sine function"
+	},
+	"function.sinh": {
+		"prefix": "sinh",
+		"body": ["sinh($1)"],
+		"description": "Returns the hyperbolic sine function (e^x - e^-x) / 2"
+	},
+	"function.smoothstep": {
+		"prefix": "smoothstep",
+		"body": ["smoothstep($1)"],
+		"description": "Returns 0.0 if x ≤ edge0 and 1.0 if x ≥ edge1, and performs smooth Hermite interpolation between 0 and 1 when edge0 < x < edge1. This is useful in cases where you would want a threshold function with a smooth transition"
+	},
+	"function.sqrt": {
+		"prefix": "sqrt",
+		"body": ["sqrt($1)"],
+		"description": "Returns sqrt(x). Results are undefined if x < 0"
+	},
+	"function.step": {
+		"prefix": "step",
+		"body": ["step($1)"],
+		"description": "Returns 0.0 if x < edge; otherwise it returns 1.0"
+	},
+	"function.subpassLoad": {
+		"prefix": "subpassLoad",
+		"body": ["subpassLoad($1)"],
+		"description": "Read from a subpass input, from the implicit location (x, y, layer) of the current fragment coordinate"
+	},
+	"function.tan": {
+		"prefix": "tan",
+		"body": ["tan($1)"],
+		"description": "The standard trigonometric tangent"
+	},
+	"function.tanh": {
+		"prefix": "tanh",
+		"body": ["tanh($1)"],
+		"description": "Returns the hyperbolic tangent function sinh(x) / cosh(x)"
+	},
+	"function.texelFetch": {
+		"prefix": "texelFetch",
+		"body": ["texelFetch($1)"],
+		"description": "Use integer texture coordinate P to lookup a single texel from sampler. The array layer comes from the last component of P for the array forms"
+	},
+	"function.texelFetchOffset": {
+		"prefix": "texelFetchOffset",
+		"body": ["texelFetchOffset($1)"],
+		"description": "Fetch a single texel as in texelFetch, offset by offset as described in textureOffset"
+	},
+	"function.texture": {
+		"prefix": "texture",
+		"body": ["texture($1)"],
+		"description": "Use the texture coordinate P to do a texture lookup in the texture currently bound to sampler"
+	},
+	"function.texture1D": {
+		"prefix": "texture1D",
+		"body": ["texture1D($1)"],
+		"description": "See corresponding signature above without “1D” in the name"
+	},
+	"function.texture1DLod": {
+		"prefix": "texture1DLod",
+		"body": ["texture1DLod($1)"],
+		"description": "See corresponding signature above without “1D” in the name"
+	},
+	"function.texture1DProj": {
+		"prefix": "texture1DProj",
+		"body": ["texture1DProj($1)"],
+		"description": "See corresponding signature above without “1D” in the name"
+	},
+	"function.texture1DProjLod": {
+		"prefix": "texture1DProjLod",
+		"body": ["texture1DProjLod($1)"],
+		"description": "See corresponding signature above without “1D” in the name"
+	},
+	"function.texture2D": {
+		"prefix": "texture2D",
+		"body": ["texture2D($1)"],
+		"description": "See corresponding signature above without “2D” in the name"
+	},
+	"function.texture2DLod": {
+		"prefix": "texture2DLod",
+		"body": ["texture2DLod($1)"],
+		"description": "See corresponding signature above without “2D” in the name"
+	},
+	"function.texture2DProj": {
+		"prefix": "texture2DProj",
+		"body": ["texture2DProj($1)"],
+		"description": "See corresponding signature above without “2D” in the name"
+	},
+	"function.texture2DProjLod": {
+		"prefix": "texture2DProjLod",
+		"body": ["texture2DProjLod($1)"],
+		"description": "See corresponding signature above without “2D” in the name"
+	},
+	"function.texture3D": {
+		"prefix": "texture3D",
+		"body": ["texture3D($1)"],
+		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
+	},
+	"function.texture3DLod": {
+		"prefix": "texture3DLod",
+		"body": ["texture3DLod($1)"],
+		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
+	},
+	"function.texture3DProj": {
+		"prefix": "texture3DProj",
+		"body": ["texture3DProj($1)"],
+		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
+	},
+	"function.texture3DProjLod": {
+		"prefix": "texture3DProjLod",
+		"body": ["texture3DProjLod($1)"],
+		"description": "See corresponding signature above without “3D” in the name. Use the texture coordinate coord to do a texture lookup in the 3D texture currently bound to sampler. For the projective (“Proj”) versions, the texture coordinate is divided by coord.q"
+	},
+	"function.textureCube": {
+		"prefix": "textureCube",
+		"body": ["textureCube($1)"],
+		"description": "See corresponding signature above without “Cube” in the name"
+	},
+	"function.textureCubeLod": {
+		"prefix": "textureCubeLod",
+		"body": ["textureCubeLod($1)"],
+		"description": "See corresponding signature above without “Cube” in the name"
+	},
+	"function.textureGather": {
+		"prefix": "textureGather",
+		"body": ["textureGather($1)"],
+		"description": "Returns the value\n\rvec4(Sample_i0_j1(P, base).comp,\n\r  Sample_i1_j1(P, base).comp,\n\r  Sample_i1_j0(P, base).comp,\n\r  Sample_i0_j0(P, base).comp)\n\r"
+	},
+	"function.textureGatherOffset": {
+		"prefix": "textureGatherOffset",
+		"body": ["textureGatherOffset($1)"],
+		"description": "Perform a texture gather operation as in textureGather by offset as described in textureOffset except that the offset can be variable (non constant) and the implementation-dependent minimum and maximum offset values are given by MIN_PROGRAM_TEXTURE_GATHER_OFFSET and MAX_PROGRAM_TEXTURE_GATHER_OFFSET, respectively"
+	},
+	"function.textureGatherOffsets": {
+		"prefix": "textureGatherOffsets",
+		"body": ["textureGatherOffsets($1)"],
+		"description": "Operate identically to textureGatherOffset except that offsets is used to determine the location of the four texels to sample. Each of the four texels is obtained by applying the corresponding offset in offsets as a (u, v) coordinate offset to P, identifying the four-texel LINEAR footprint, and then selecting the texel i0 j0 of that footprint. The specified values in offsets must be constant integral expressions"
+	},
+	"function.textureGrad": {
+		"prefix": "textureGrad",
+		"body": ["textureGrad($1)"],
+		"description": "Do a texture lookup as in texture but with explicit gradients as shown below. The partial derivatives of P are with respect to window x and window y"
+	},
+	"function.textureGradOffset": {
+		"prefix": "textureGradOffset",
+		"body": ["textureGradOffset($1)"],
+		"description": "Do a texture lookup with both explicit gradient and offset, as described in textureGrad and textureOffset"
+	},
+	"function.textureLod": {
+		"prefix": "textureLod",
+		"body": ["textureLod($1)"],
+		"description": "Do a texture lookup as in texture but with explicit level-of-detail; lod specifies λbase and sets the partial derivatives"
+	},
+	"function.textureLodOffset": {
+		"prefix": "textureLodOffset",
+		"body": ["textureLodOffset($1)"],
+		"description": "Do an offset texture lookup with explicit level-of-detail. See textureLod and textureOffset"
+	},
+	"function.textureOffset": {
+		"prefix": "textureOffset",
+		"body": ["textureOffset($1)"],
+		"description": "Do a texture lookup as in texture but with offset added to the (u,v,w) texel coordinates before looking up each texel. The offset value must be a constant expression. A limited range of offset values are supported; the minimum and maximum offset values are implementation-dependent and given by gl_MinProgramTexelOffset and gl_MaxProgramTexelOffset, respectively"
+	},
+	"function.textureProj": {
+		"prefix": "textureProj",
+		"body": ["textureProj($1)"],
+		"description": "Do a texture lookup with projection. The texture coordinates consumed from P, not including the last component of P, are divided by the last component of P to form projected coordinates P'"
+	},
+	"function.textureProjGrad": {
+		"prefix": "textureProjGrad",
+		"body": ["textureProjGrad($1)"],
+		"description": "Do a texture lookup both projectively, as described in textureProj, and with explicit gradient as described in textureGrad. The partial derivatives dPdx and dPdy are assumed to be already projected"
+	},
+	"function.textureProjGradOffset": {
+		"prefix": "textureProjGradOffset",
+		"body": ["textureProjGradOffset($1)"],
+		"description": "Do a texture lookup projectively and with explicit gradient as described in textureProjGrad, as well as with offset, as described in textureOffset"
+	},
+	"function.textureProjLod": {
+		"prefix": "textureProjLod",
+		"body": ["textureProjLod($1)"],
+		"description": "Do a projective texture lookup with explicit level-of-detail. See textureProj and textureLod"
+	},
+	"function.textureProjLodOffset": {
+		"prefix": "textureProjLodOffset",
+		"body": ["textureProjLodOffset($1)"],
+		"description": "Do an offset projective texture lookup with explicit level-of-detail. See textureProj, textureLod, and textureOffset"
+	},
+	"function.textureProjOffset": {
+		"prefix": "textureProjOffset",
+		"body": ["textureProjOffset($1)"],
+		"description": "Do a projective texture lookup as described in textureProj, offset by offset as described in textureOffset"
+	},
+	"function.textureQueryLevels": {
+		"prefix": "textureQueryLevels",
+		"body": ["textureQueryLevels($1)"],
+		"description": "Returns the number of mipmap levels accessible in the texture associated with sampler"
+	},
+	"function.textureQueryLod": {
+		"prefix": "textureQueryLod",
+		"body": ["textureQueryLod($1)"],
+		"description": "Returns the mipmap array(s) that would be accessed in the x component of the return value"
+	},
+	"function.textureSamples": {
+		"prefix": "textureSamples",
+		"body": ["textureSamples($1)"],
+		"description": "Returns the number of samples of the texture or textures bound to sampler"
+	},
+	"function.textureSize": {
+		"prefix": "textureSize",
+		"body": ["textureSize($1)"],
+		"description": "Returns the dimensions of level lod (if present) for the texture bound to sampler"
+	},
+	"function.transpose": {
+		"prefix": "transpose",
+		"body": ["transpose($1)"],
+		"description": "Returns a matrix that is the transpose of m. The input matrix m is not modified"
+	},
+	"function.trunc": {
+		"prefix": "trunc",
+		"body": ["trunc($1)"],
+		"description": "Returns a value equal to the nearest integer to x whose absolute value is not larger than the absolute value of x"
+	},
+	"function.uaddCarry": {
+		"prefix": "uaddCarry",
+		"body": ["uaddCarry($1)"],
+		"description": "Adds 32-bit unsigned integers x and y, returning the sum modulo 232. The value carry is set to zero if the sum was less than 232, or one otherwise"
+	},
+	"function.uintBitsToFloat": {
+		"prefix": "uintBitsToFloat",
+		"body": ["uintBitsToFloat($1)"],
+		"description": "Returns a floating-point value corresponding to a signed or unsigned integer encoding of a floating-point value. If a NaN is passed in, it will not signal, and the resulting value is unspecified. If an Inf is passed in, the resulting value is the corresponding Inf. Otherwise, the bit-level representation is preserved"
+	},
+	"function.unpackDouble2x32": {
+		"prefix": "unpackDouble2x32",
+		"body": ["unpackDouble2x32($1)"],
+		"description": "Returns a two-component unsigned integer vector representation of v. The bit-level representation of v is preserved. The first component of the vector contains the 32 least significant bits of the double; the second component consists of the 32 most significant bits."
+	},
+	"function.unpackHalf2x16": {
+		"prefix": "unpackHalf2x16",
+		"body": ["unpackHalf2x16($1)"],
+		"description": "Returns a two-component floating-point vector with components obtained by unpacking a 32-bit unsigned integer into a pair of 16-bit values, interpreting those values as 16-bit floating-point numbers according to the API, and converting them to 32-bit floating-point values"
+	},
+	"function.umulExtended": {
+		"prefix": "umulExtended",
+		"body": ["umulExtended($1)"],
+		"description": "Multiplies 32-bit unsigned or signed integers x and y, producing a 64-bit result. The 32 least-significant bits are returned in lsb. The 32 most-significant bits are returned in msb"
+	},
+	"function.unpackSnorm2x16": {
+		"prefix": "unpackSnorm2x16",
+		"body": ["unpackSnorm2x16($1)"],
+		"description": "First, unpacks a single 32-bit unsigned integer p into a pair of 16-bit signed integers. Then, each component is converted to a normalized floating-point value to generate the returned two-component vector"
+	},
+	"function.unpackSnorm4x8": {
+		"prefix": "unpackSnorm4x8",
+		"body": ["unpackSnorm4x8($1)"],
+		"description": "First, unpacks a single 32-bit unsigned integer p into four 8-bit signed integers. Then, each component is converted to a normalized floating-point value to generate the returned four-component vector"
+	},
+	"function.unpackUnorm2x16": {
+		"prefix": "unpackUnorm2x16",
+		"body": ["unpackUnorm2x16($1)"],
+		"description": "First, unpacks a single 32-bit unsigned integer p into a pair of 16-bit unsigned integers. Then, each component is converted to a normalized floating-point value to generate the returned two-component vector"
+	},
+	"function.unpackUnorm4x8": {
+		"prefix": "unpackUnorm4x8",
+		"body": ["unpackUnorm4x8($1)"],
+		"description": "First, unpacks a single 32-bit unsigned integer p into four 8-bit unsigned integers. Then, each component is converted to a normalized floating-point value to generate the returned four-component vector"
+	},
+	"function.usubBorrow": {
+		"prefix": "usubBorrow",
+		"body": ["usubBorrow($1)"],
+		"description": "Subtracts the 32-bit unsigned integer y from x, returning the difference if non-negative, or 232 plus the difference otherwise. The value borrow is set to zero if x ≥ y, or one otherwise"
+	},
+
+
+	"snippets.ftransform": {
+		"prefix": "gl_Position = ftransform();",
+		"body": ["gl_Position = ftransform();"]
+	},
+	"snippets.main": {
+		"prefix": "main",
+		"body": ["void main(){", "\t$1", "}"]
+	},
+	"snippets.layout_location": {
+		"prefix": "layout(location = )",
+		"body": ["layout(location = $1)"]
+	},
+	"snippets.version_core": {
+		"prefix": "#version core",
+		"body": ["#version $1 core"]
+	},
+	"snippets.version_compatibility": {
+		"prefix": "#version compatibility",
+		"body": ["#version $1 compatibility"]
+	},
+	"snippets.version_es": {
+		"prefix": "#version es",
+		"body": ["#version $1 es"]
+	},
+
+
+	"minecraft.preprocessor.moj_import": {
+		"prefix": "#moj_import",
+		"body": ["#moj_import"]
+	},
+
+	"minecraft.attribute.mc_Entity": {
+		"prefix": "mc_Entity",
+		"body": ["mc_Entity"],
+		"description": "xy = blockId, renderType\n\r\"blockId\" is used only for blocks specified in \"block.properties\""
+	},
+	"minecraft.attribute.mc_Entity.full": {
+		"prefix": "attribute vec3 mc_Entity;",
+		"body": ["attribute vec3 mc_Entity;"],
+		"description": "xy = blockId, renderType\n\r\"blockId\" is used only for blocks specified in \"block.properties\""
+	},
+	"minecraft.attribute.mc_midTexCoord": {
+		"prefix": "mc_midTexCoord",
+		"body": ["mc_midTexCoord"],
+		"description": "st = midTexU, midTexV\n\rsprite middle UV coordinates"
+	},
+	"minecraft.attribute.mc_midTexCoord.full": {
+		"prefix": "attribute vec2 mc_midTexCoord;",
+		"body": ["attribute vec2 mc_midTexCoord;"],
+		"description": "st = midTexU, midTexV\n\rsprite middle UV coordinates"
+	},
+	"minecraft.attribute.at_tangent": {
+		"prefix": "at_tangent",
+		"body": ["at_tangent"],
+		"description": "xyz = tangent vector, w = handedness"
+	},
+	"minecraft.attribute.at_tangent.full": {
+		"prefix": "attribute vec4 at_tangent;",
+		"body": ["attribute vec4 at_tangent;"],
+		"description": "xyz = tangent vector, w = handedness"
+	},
+	"minecraft.attribute.at_velocity": {
+		"prefix": "at_velocity",
+		"body": ["at_velocity"],
+		"description": "vertex offset to previous frame\n\rin view space, only for entities and block entities"
+	},
+	"minecraft.attribute.at_velocity.full": {
+		"prefix": "attribute vec3 at_velocity;",
+		"body": ["attribute vec3 at_velocity;"],
+		"description": "vertex offset to previous frame\n\rin view space, only for entities and block entities"
+	},
+	"minecraft.attribute.at_midBlock": {
+		"prefix": "at_midBlock",
+		"body": ["at_midBlock"],
+		"description": "offset to block center in 1/64m units\n\ronly for blocks"
+	},
+	"minecraft.attribute.at_midBlock.full": {
+		"prefix": "attribute vec3 at_midBlock;",
+		"body": ["attribute vec3 at_midBlock;"],
+		"description": "offset to block center in 1/64m units\n\ronly for blocks"
+	},
+
+	"minecraft.uniform.heldItemId": {
+		"prefix": "heldItemId",
+		"body": ["heldItemId"],
+		"description": "held item ID (main hand), used only for items defined in \"item.properties\""
+	},
+	"minecraft.uniform.heldItemId.full": {
+		"prefix": "uniform int heldItemId;",
+		"body": ["uniform int heldItemId;"],
+		"description": "held item ID (main hand), used only for items defined in \"item.properties\""
+	},
+	"minecraft.uniform.heldBlockLightValue": {
+		"prefix": "heldBlockLightValue",
+		"body": ["heldBlockLightValue"],
+		"description": "held item light value (main hand)"
+	},
+	"minecraft.uniform.heldBlockLightValue.full": {
+		"prefix": "uniform int heldBlockLightValue;",
+		"body": ["uniform int heldBlockLightValue;"],
+		"description": "held item light value (main hand)"
+	},
+	"minecraft.uniform.heldItemId2": {
+		"prefix": "heldItemId2",
+		"body": ["heldItemId2"],
+		"description": "held item ID (off hand), used only for items defined in \"item.properties\""
+	},
+	"minecraft.uniform.heldItemId2.full": {
+		"prefix": "uniform int heldItemId2;",
+		"body": ["uniform int heldItemId2;"],
+		"description": "held item ID (off hand), used only for items defined in \"item.properties\""
+	},
+	"minecraft.uniform.heldBlockLightValue2": {
+		"prefix": "heldBlockLightValue2",
+		"body": ["heldBlockLightValue2"],
+		"description": "held item light value (off hand)"
+	},
+	"minecraft.uniform.heldBlockLightValue2.full": {
+		"prefix": "uniform int heldBlockLightValue2;",
+		"body": ["uniform int heldBlockLightValue2;"],
+		"description": "held item light value (off hand)"
+	},
+	"minecraft.uniform.fogMode": {
+		"prefix": "fogMode",
+		"body": ["fogMode"],
+		"description": "GL_LINEAR, GL_EXP or GL_EXP2"
+	},
+	"minecraft.uniform.fogMode.full": {
+		"prefix": "uniform int fogMode;",
+		"body": ["uniform int fogMode;"],
+		"description": "GL_LINEAR, GL_EXP or GL_EXP2"
+	},
+	"minecraft.uniform.fogDensity": {
+		"prefix": "fogDensity",
+		"body": ["fogDensity"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.fogDensity.full": {
+		"prefix": "uniform float fogDensity;",
+		"body": ["uniform float fogDensity;"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.fogColor": {
+		"prefix": "fogColor",
+		"body": ["fogColor"],
+		"description": "r, g, b"
+	},
+	"minecraft.uniform.fogColor.full": {
+		"prefix": "uniform vec3 fogColor;",
+		"body": ["uniform vec3 fogColor;"],
+		"description": "r, g, b"
+	},
+	"minecraft.uniform.skyColor": {
+		"prefix": "skyColor",
+		"body": ["skyColor"],
+		"description": "r, g, b"
+	},
+	"minecraft.uniform.skyColor.full": {
+		"prefix": "uniform vec3 skyColor;",
+		"body": ["uniform vec3 skyColor;"],
+		"description": "r, g, b"
+	},
+	"minecraft.uniform.worldTime": {
+		"prefix": "worldTime",
+		"body": ["worldTime"],
+		"description": "<ticks> = worldTicks % 24000"
+	},
+	"minecraft.uniform.worldTime.full": {
+		"prefix": "uniform int worldTime;",
+		"body": ["uniform int worldTime;"],
+		"description": "<ticks> = worldTicks % 24000"
+	},
+	"minecraft.uniform.worldDay": {
+		"prefix": "worldDay",
+		"body": ["worldDay"],
+		"description": "<days> = worldTicks / 24000"
+	},
+	"minecraft.uniform.worldDay.full": {
+		"prefix": "uniform int worldDay;",
+		"body": ["uniform int worldDay;"],
+		"description": "<days> = worldTicks / 24000"
+	},
+	"minecraft.uniform.moonPhase": {
+		"prefix": "moonPhase",
+		"body": ["moonPhase"],
+		"description": "0-7"
+	},
+	"minecraft.uniform.moonPhase.full": {
+		"prefix": "uniform int moonPhase;",
+		"body": ["uniform int moonPhase;"],
+		"description": "0-7"
+	},
+	"minecraft.uniform.frameCounter": {
+		"prefix": "frameCounter",
+		"body": ["frameCounter"],
+		"description": "Frame index (0 to 720719, then resets to 0)"
+	},
+	"minecraft.uniform.frameCounter.full": {
+		"prefix": "uniform int frameCounter;",
+		"body": ["uniform int frameCounter;"],
+		"description": "Frame index (0 to 720719, then resets to 0)"
+	},
+	"minecraft.uniform.frameTime": {
+		"prefix": "frameTime",
+		"body": ["frameTime"],
+		"description": "last frame time, seconds"
+	},
+	"minecraft.uniform.frameTime.full": {
+		"prefix": "uniform float frameTime;",
+		"body": ["uniform float frameTime;"],
+		"description": "last frame time, seconds"
+	},
+	"minecraft.uniform.frameTimeCounter": {
+		"prefix": "frameTimeCounter",
+		"body": ["frameTimeCounter"],
+		"description": "run time, seconds (resets to 0 after 3600s)"
+	},
+	"minecraft.uniform.frameTimeCounter.full": {
+		"prefix": "uniform float frameTimeCounter;",
+		"body": ["uniform float frameTimeCounter;"],
+		"description": "run time, seconds (resets to 0 after 3600s)"
+	},
+	"minecraft.uniform.sunAngle": {
+		"prefix": "sunAngle",
+		"body": ["sunAngle"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.sunAngle.full": {
+		"prefix": "uniform float sunAngle;",
+		"body": ["uniform float sunAngle;"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.shadowAngle": {
+		"prefix": "shadowAngle",
+		"body": ["shadowAngle"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.shadowAngle.full": {
+		"prefix": "uniform float shadowAngle;",
+		"body": ["uniform float shadowAngle;"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.rainStrength": {
+		"prefix": "rainStrength",
+		"body": ["rainStrength"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.rainStrength.full": {
+		"prefix": "uniform float rainStrength;",
+		"body": ["uniform float rainStrength;"],
+		"description": "0.0-1.0"
+	},
+	"minecraft.uniform.aspectRatio": {
+		"prefix": "aspectRatio",
+		"body": ["aspectRatio"],
+		"description": "viewWidth / viewHeight"
+	},
+	"minecraft.uniform.aspectRatio.full": {
+		"prefix": "uniform float aspectRatio;",
+		"body": ["uniform float aspectRatio;"],
+		"description": "viewWidth / viewHeight"
+	},
+	"minecraft.uniform.viewWidth": {
+		"prefix": "viewWidth",
+		"body": ["viewWidth"],
+		"description": "viewWidth"
+	},
+	"minecraft.uniform.viewWidth.full": {
+		"prefix": "uniform float viewWidth;",
+		"body": ["uniform float viewWidth;"],
+		"description": "viewWidth"
+	},
+	"minecraft.uniform.viewHeight": {
+		"prefix": "viewHeight",
+		"body": ["viewHeight"],
+		"description": "viewHeight"
+	},
+	"minecraft.uniform.viewHeight.full": {
+		"prefix": "uniform float viewHeight;",
+		"body": ["uniform float viewHeight;"],
+		"description": "viewHeight"
+	},
+	"minecraft.uniform.near": {
+		"prefix": "near",
+		"body": ["near"],
+		"description": "near viewing plane distance"
+	},
+	"minecraft.uniform.near.full": {
+		"prefix": "uniform float near;",
+		"body": ["uniform float near;"],
+		"description": "near viewing plane distance"
+	},
+	"minecraft.uniform.far": {
+		"prefix": "far",
+		"body": ["far"],
+		"description": "far viewing plane distance"
+	},
+	"minecraft.uniform.far.full": {
+		"prefix": "uniform float far;",
+		"body": ["uniform float far;"],
+		"description": "far viewing plane distance"
+	},
+	"minecraft.uniform.sunPosition": {
+		"prefix": "sunPosition",
+		"body": ["sunPosition"],
+		"description": "sun position in eye space"
+	},
+	"minecraft.uniform.sunPosition.full": {
+		"prefix": "uniform vec3 sunPosition;",
+		"body": ["uniform vec3 sunPosition;"],
+		"description": "sun position in eye space"
+	},
+	"minecraft.uniform.moonPosition": {
+		"prefix": "moonPosition",
+		"body": ["moonPosition"],
+		"description": "moon position in eye space"
+	},
+	"minecraft.uniform.moonPosition.full": {
+		"prefix": "uniform vec3 moonPosition;",
+		"body": ["uniform vec3 moonPosition;"],
+		"description": "moon position in eye space"
+	},
+	"minecraft.uniform.shadowLightPosition": {
+		"prefix": "shadowLightPosition",
+		"body": ["shadowLightPosition"],
+		"description": "shadow light (sun or moon) position in eye space"
+	},
+	"minecraft.uniform.shadowLightPosition.full": {
+		"prefix": "uniform vec3 shadowLightPosition;",
+		"body": ["uniform vec3 shadowLightPosition;"],
+		"description": "shadow light (sun or moon) position in eye space"
+	},
+	"minecraft.uniform.upPosition": {
+		"prefix": "upPosition",
+		"body": ["upPosition"],
+		"description": "direction up"
+	},
+	"minecraft.uniform.upPosition.full": {
+		"prefix": "uniform vec3 upPosition;",
+		"body": ["uniform vec3 upPosition;"],
+		"description": "direction up"
+	},
+	"minecraft.uniform.cameraPosition": {
+		"prefix": "cameraPosition",
+		"body": ["cameraPosition"],
+		"description": "camera position in world space"
+	},
+	"minecraft.uniform.cameraPosition.full": {
+		"prefix": "uniform vec3 cameraPosition;",
+		"body": ["uniform vec3 cameraPosition;"],
+		"description": "camera position in world space"
+	},
+	"minecraft.uniform.previouscameraPosition": {
+		"prefix": "previouscameraPosition",
+		"body": ["previouscameraPosition"],
+		"description": "last frame cameraPosition"
+	},
+	"minecraft.uniform.previouscameraPosition.full": {
+		"prefix": "uniform vec3 previouscameraPosition;",
+		"body": ["uniform vec3 previouscameraPosition;"],
+		"description": "last frame cameraPosition"
+	},
+	"minecraft.uniform.gbufferModelView": {
+		"prefix": "gbufferModelView",
+		"body": ["gbufferModelView"],
+		"description": "modelview matrix after setting up the camera transformations"
+	},
+	"minecraft.uniform.gbufferModelView.full": {
+		"prefix": "uniform mat4 gbufferModelView;",
+		"body": ["uniform mat4 gbufferModelView;"],
+		"description": "modelview matrix after setting up the camera transformations"
+	},
+	"minecraft.uniform.gbufferModelViewInverse": {
+		"prefix": "gbufferModelViewInverse",
+		"body": ["gbufferModelViewInverse"],
+		"description": "inverse gbufferModelView"
+	},
+	"minecraft.uniform.gbufferModelViewInverse.full": {
+		"prefix": "uniform mat4 gbufferModelViewInverse;",
+		"body": ["uniform mat4 gbufferModelViewInverse;"],
+		"description": "inverse gbufferModelView"
+	},
+	"minecraft.uniform.gbufferPreviousModelView": {
+		"prefix": "gbufferPreviousModelView",
+		"body": ["gbufferPreviousModelView"],
+		"description": "last frame gbufferModelView"
+	},
+	"minecraft.uniform.gbufferPreviousModelView.full": {
+		"prefix": "uniform mat4 gbufferPreviousModelView;",
+		"body": ["uniform mat4 gbufferPreviousModelView;"],
+		"description": "last frame gbufferModelView"
+	},
+	"minecraft.uniform.gbufferProjection": {
+		"prefix": "gbufferProjection",
+		"body": ["gbufferProjection"],
+		"description": "projection matrix when the gbuffers were generated"
+	},
+	"minecraft.uniform.gbufferProjection.full": {
+		"prefix": "uniform mat4 gbufferProjection;",
+		"body": ["uniform mat4 gbufferProjection;"],
+		"description": "projection matrix when the gbuffers were generated"
+	},
+	"minecraft.uniform.gbufferProjectionInverse": {
+		"prefix": "gbufferProjectionInverse",
+		"body": ["gbufferProjectionInverse"],
+		"description": "inverse gbufferProjection"
+	},
+	"minecraft.uniform.gbufferProjectionInverse.full": {
+		"prefix": "uniform mat4 gbufferProjectionInverse;",
+		"body": ["uniform mat4 gbufferProjectionInverse;"],
+		"description": "inverse gbufferProjection"
+	},
+	"minecraft.uniform.gbufferPreviousProjection": {
+		"prefix": "gbufferPreviousProjection",
+		"body": ["gbufferPreviousProjection"],
+		"description": "last frame gbufferProjection"
+	},
+	"minecraft.uniform.gbufferPreviousProjection.full": {
+		"prefix": "uniform mat4 gbufferPreviousProjection;",
+		"body": ["uniform mat4 gbufferPreviousProjection;"],
+		"description": "last frame gbufferProjection"
+	},
+	"minecraft.uniform.shadowProjection": {
+		"prefix": "shadowProjection",
+		"body": ["shadowProjection"],
+		"description": "projection matrix when the shadow map was generated"
+	},
+	"minecraft.uniform.shadowProjection.full": {
+		"prefix": "uniform mat4 shadowProjection;",
+		"body": ["uniform mat4 shadowProjection;"],
+		"description": "projection matrix when the shadow map was generated"
+	},
+	"minecraft.uniform.shadowProjectionInverse": {
+		"prefix": "shadowProjectionInverse",
+		"body": ["shadowProjectionInverse"],
+		"description": "inverse shadowProjection"
+	},
+	"minecraft.uniform.shadowProjectionInverse.full": {
+		"prefix": "uniform mat4 shadowProjectionInverse;",
+		"body": ["uniform mat4 shadowProjectionInverse;"],
+		"description": "inverse shadowProjection"
+	},
+	"minecraft.uniform.shadowModelView": {
+		"prefix": "shadowModelView",
+		"body": ["shadowModelView"],
+		"description": "modelview matrix when the shadow map was generated"
+	},
+	"minecraft.uniform.shadowModelView.full": {
+		"prefix": "uniform mat4 shadowModelView;",
+		"body": ["uniform mat4 shadowModelView;"],
+		"description": "modelview matrix when the shadow map was generated"
+	},
+	"minecraft.uniform.shadowModelViewInverse": {
+		"prefix": "shadowModelViewInverse",
+		"body": ["shadowModelViewInverse"],
+		"description": "inverse shadowModelView"
+	},
+	"minecraft.uniform.shadowModelViewInverse.full": {
+		"prefix": "uniform mat4 shadowModelViewInverse;",
+		"body": ["uniform mat4 shadowModelViewInverse;"],
+		"description": "inverse shadowModelView"
+	},
+	"minecraft.uniform.wetness": {
+		"prefix": "wetness",
+		"body": ["wetness"],
+		"description": "rainStrength smoothed with wetnessHalfLife or drynessHalfLife"
+	},
+	"minecraft.uniform.wetness.full": {
+		"prefix": "uniform float wetness;",
+		"body": ["uniform float wetness;"],
+		"description": "rainStrength smoothed with wetnessHalfLife or drynessHalfLife"
+	},
+	"minecraft.uniform.eyeAltitude": {
+		"prefix": "eyeAltitude",
+		"body": ["eyeAltitude"],
+		"description": "view entity Y position"
+	},
+	"minecraft.uniform.eyeAltitude.full": {
+		"prefix": "uniform float eyeAltitude;",
+		"body": ["uniform float eyeAltitude;"],
+		"description": "view entity Y position"
+	},
+	"minecraft.uniform.eyeBrightness": {
+		"prefix": "eyeBrightness",
+		"body": ["eyeBrightness"],
+		"description": "x = block brightness, y = sky brightness, light 0-15 = brightness 0-240"
+	},
+	"minecraft.uniform.eyeBrightness.full": {
+		"prefix": "uniform ivec2 eyeBrightness;",
+		"body": ["uniform ivec2 eyeBrightness;"],
+		"description": "x = block brightness, y = sky brightness, light 0-15 = brightness 0-240"
+	},
+	"minecraft.uniform.eyeBrightnessSmooth": {
+		"prefix": "eyeBrightnessSmooth",
+		"body": ["eyeBrightnessSmooth"],
+		"description": "eyeBrightness smoothed with eyeBrightnessHalflife"
+	},
+	"minecraft.uniform.eyeBrightnessSmooth.full": {
+		"prefix": "uniform ivec2 eyeBrightnessSmooth;",
+		"body": ["uniform ivec2 eyeBrightnessSmooth;"],
+		"description": "eyeBrightness smoothed with eyeBrightnessHalflife"
+	},
+	"minecraft.uniform.isEyeInWater": {
+		"prefix": "isEyeInWater",
+		"body": ["isEyeInWater"],
+		"description": "1 = camera is in water, 2 = camera is in lava"
+	},
+	"minecraft.uniform.isEyeInWater.full": {
+		"prefix": "uniform int isEyeInWater;",
+		"body": ["uniform int isEyeInWater;"],
+		"description": "1 = camera is in water, 2 = camera is in lava"
+	},
+	"minecraft.uniform.nightVision": {
+		"prefix": "nightVision",
+		"body": ["nightVision"],
+		"description": "night vision (0.0-1.0)"
+	},
+	"minecraft.uniform.nightVision.full": {
+		"prefix": "uniform float nightVision;",
+		"body": ["uniform float nightVision;"],
+		"description": "night vision (0.0-1.0)"
+	},
+	"minecraft.uniform.blindness": {
+		"prefix": "blindness",
+		"body": ["blindness"],
+		"description": "blindness (0.0-1.0)"
+	},
+	"minecraft.uniform.blindness.full": {
+		"prefix": "uniform float blindness;",
+		"body": ["uniform float blindness;"],
+		"description": "blindness (0.0-1.0)"
+	},
+	"minecraft.uniform.screenBrightness": {
+		"prefix": "screenBrightness",
+		"body": ["screenBrightness"],
+		"description": "screen brightness (0.0-1.0)"
+	},
+	"minecraft.uniform.screenBrightness.full": {
+		"prefix": "uniform float screenBrightness;",
+		"body": ["uniform float screenBrightness;"],
+		"description": "screen brightness (0.0-1.0)"
+	},
+	"minecraft.uniform.hideGUI": {
+		"prefix": "hideGUI",
+		"body": ["hideGUI"],
+		"description": "GUI is hidden"
+	},
+	"minecraft.uniform.hideGUI.full": {
+		"prefix": "uniform int hideGUI;",
+		"body": ["uniform int hideGUI;"],
+		"description": "GUI is hidden"
+	},
+	"minecraft.uniform.centerDepthSmooth": {
+		"prefix": "centerDepthSmooth",
+		"body": ["centerDepthSmooth"],
+		"description": "centerDepth smoothed with centerDepthSmoothHalflife"
+	},
+	"minecraft.uniform.centerDepthSmooth.full": {
+		"prefix": "uniform float centerDepthSmooth;",
+		"body": ["uniform float centerDepthSmooth;"],
+		"description": "centerDepth smoothed with centerDepthSmoothHalflife"
+	},
+	"minecraft.uniform.atlasSize": {
+		"prefix": "atlasSize",
+		"body": ["atlasSize"],
+		"description": "texture atlas size (only set when the atlas texture is bound)"
+	},
+	"minecraft.uniform.atlasSize.full": {
+		"prefix": "uniform ivec2 atlasSize;",
+		"body": ["uniform ivec2 atlasSize;"],
+		"description": "texture atlas size (only set when the atlas texture is bound)"
+	},
+	"minecraft.uniform.spriteBounds": {
+		"prefix": "spriteBounds",
+		"body": ["spriteBounds"],
+		"description": "sprite bounds in the texture atlas (u0, v0, u1, v1), set when MC_ANISOTROPIC_FILTERING is enabled"
+	},
+	"minecraft.uniform.spriteBounds.full": {
+		"prefix": "uniform vec4 spriteBounds;",
+		"body": ["uniform vec4 spriteBounds;"],
+		"description": "sprite bounds in the texture atlas (u0, v0, u1, v1), set when MC_ANISOTROPIC_FILTERING is enabled"
+	},
+	"minecraft.uniform.entityColor": {
+		"prefix": "entityColor",
+		"body": ["entityColor"],
+		"description": "entity color multiplier (entity hurt, creeper flashing when exploding)"
+	},
+	"minecraft.uniform.entityColor.full": {
+		"prefix": "uniform vec4 entityColor;",
+		"body": ["uniform vec4 entityColor;"],
+		"description": "entity color multiplier (entity hurt, creeper flashing when exploding)"
+	},
+	"minecraft.uniform.entityId": {
+		"prefix": "entityId",
+		"body": ["entityId"],
+		"description": "entity ID"
+	},
+	"minecraft.uniform.entityId.full": {
+		"prefix": "uniform int entityId;",
+		"body": ["uniform int entityId;"],
+		"description": "entity ID"
+	},
+	"minecraft.uniform.blockEntityId": {
+		"prefix": "blockEntityId",
+		"body": ["blockEntityId"],
+		"description": "block entity ID (block ID for the tile entity, only for blocks specified in \"block.properties\")"
+	},
+	"minecraft.uniform.blockEntityId.full": {
+		"prefix": "uniform int blockEntityId;",
+		"body": ["uniform int blockEntityId;"],
+		"description": "block entity ID (block ID for the tile entity, only for blocks specified in \"block.properties\")"
+	},
+	"minecraft.uniform.blendFunc": {
+		"prefix": "blendFunc",
+		"body": ["blendFunc"],
+		"description": "blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)"
+	},
+	"minecraft.uniform.blendFunc.full": {
+		"prefix": "uniform ivec4 blendFunc;",
+		"body": ["uniform ivec4 blendFunc;"],
+		"description": "blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)"
+	},
+	"minecraft.uniform.instanceId": {
+		"prefix": "instanceId",
+		"body": ["instanceId"],
+		"description": "instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies"
+	},
+	"minecraft.uniform.instanceId.full": {
+		"prefix": "uniform int instanceId;",
+		"body": ["uniform int instanceId;"],
+		"description": "instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies"
+	},
+	"minecraft.uniform.playerMood": {
+		"prefix": "playerMood",
+		"body": ["playerMood"],
+		"description": "player mood (0.0-1.0), increases the longer a player stays underground"
+	},
+	"minecraft.uniform.playerMood.full": {
+		"prefix": "uniform float playerMood;",
+		"body": ["uniform float playerMood;"],
+		"description": "player mood (0.0-1.0), increases the longer a player stays underground"
+	},
+	"minecraft.uniform.renderStage": {
+		"prefix": "renderStage",
+		"body": ["renderStage"],
+		"description": "Render stage, see \"Standard Macros\", \"J. Render stages\""
+	},
+	"minecraft.uniform.renderStage.full": {
+		"prefix": "uniform int renderStage;",
+		"body": ["uniform int renderStage;"],
+		"description": "Render stage, see \"Standard Macros\", \"J. Render stages\""
+	},
+
+
+	"minecraft.sampler.tex": {
+		"prefix": "tex",
+		"body": ["tex"]
+	},
+	"minecraft.sampler.tex.full": {
+		"prefix": "uniform sampler2D tex;",
+		"body": ["uniform sampler2D tex;"]
+	},
+	"minecraft.sampler.texture": {
+		"prefix": "texture",
+		"body": ["texture"]
+	},
+	"minecraft.sampler.texture.full": {
+		"prefix": "uniform sampler2D texture;",
+		"body": ["uniform sampler2D texture;"]
+	},
+	"minecraft.sampler.lightmap": {
+		"prefix": "lightmap",
+		"body": ["lightmap"]
+	},
+	"minecraft.sampler.lightmap.full": {
+		"prefix": "uniform sampler2D lightmap;",
+		"body": ["uniform sampler2D lightmap;"]
+	},
+	"minecraft.sampler.normals": {
+		"prefix": "normals",
+		"body": ["normals"]
+	},
+	"minecraft.sampler.normals.full": {
+		"prefix": "uniform sampler2D normals;",
+		"body": ["uniform sampler2D normals;"]
+	},
+	"minecraft.sampler.specular": {
+		"prefix": "specular",
+		"body": ["specular"]
+	},
+	"minecraft.sampler.specular.full": {
+		"prefix": "uniform sampler2D specular;",
+		"body": ["uniform sampler2D specular;"]
+	},
+	"minecraft.sampler.gcolor": {
+		"prefix": "gcolor",
+		"body": ["gcolor"]
+	},
+	"minecraft.sampler.gcolor.full": {
+		"prefix": "uniform sampler2D gcolor;",
+		"body": ["uniform sampler2D gcolor;"]
+	},
+	"minecraft.sampler.gdepth": {
+		"prefix": "gdepth",
+		"body": ["gdepth"]
+	},
+	"minecraft.sampler.gdepth.full": {
+		"prefix": "uniform sampler2D gdepth;",
+		"body": ["uniform sampler2D gdepth;"]
+	},
+	"minecraft.sampler.gnormal": {
+		"prefix": "gnormal",
+		"body": ["gnormal"]
+	},
+	"minecraft.sampler.gnormal.full": {
+		"prefix": "uniform sampler2D gnormal;",
+		"body": ["uniform sampler2D gnormal;"]
+	},
+	"minecraft.sampler.composite": {
+		"prefix": "composite",
+		"body": ["composite"]
+	},
+	"minecraft.sampler.composite.full": {
+		"prefix": "uniform sampler2D composite;",
+		"body": ["uniform sampler2D composite;"]
+	},
+	"minecraft.sampler.gaux1": {
+		"prefix": "gaux1",
+		"body": ["gaux1"]
+	},
+	"minecraft.sampler.gaux1.full": {
+		"prefix": "uniform sampler2D gaux1;",
+		"body": ["uniform sampler2D gaux1;"]
+	},
+	"minecraft.sampler.gaux2": {
+		"prefix": "gaux2",
+		"body": ["gaux2"]
+	},
+	"minecraft.sampler.gaux2.full": {
+		"prefix": "uniform sampler2D gaux2;",
+		"body": ["uniform sampler2D gaux2;"]
+	},
+	"minecraft.sampler.gaux3": {
+		"prefix": "gaux3",
+		"body": ["gaux3"]
+	},
+	"minecraft.sampler.gaux3.full": {
+		"prefix": "uniform sampler2D gaux3;",
+		"body": ["uniform sampler2D gaux3;"]
+	},
+	"minecraft.sampler.gaux4": {
+		"prefix": "gaux4",
+		"body": ["gaux4"]
+	},
+	"minecraft.sampler.gaux4.full": {
+		"prefix": "uniform sampler2D gaux4;",
+		"body": ["uniform sampler2D gaux4;"]
+	},
+	"minecraft.sampler.depthtex0": {
+		"prefix": "depthtex0",
+		"body": ["depthtex0"]
+	},
+	"minecraft.sampler.depthtex0.full": {
+		"prefix": "uniform sampler2D depthtex0;",
+		"body": ["uniform sampler2D depthtex0;"]
+	},
+	"minecraft.sampler.depthtex1": {
+		"prefix": "depthtex1",
+		"body": ["depthtex1"]
+	},
+	"minecraft.sampler.depthtex1.full": {
+		"prefix": "uniform sampler2D depthtex1;",
+		"body": ["uniform sampler2D depthtex1;"]
+	},
+	"minecraft.sampler.depthtex2": {
+		"prefix": "depthtex2",
+		"body": ["depthtex2"]
+	},
+	"minecraft.sampler.depthtex2.full": {
+		"prefix": "uniform sampler2D depthtex2;",
+		"body": ["uniform sampler2D depthtex2;"]
+	},
+	"minecraft.sampler.shadow": {
+		"prefix": "shadow",
+		"body": ["shadow"]
+	},
+	"minecraft.sampler.shadow.full": {
+		"prefix": "uniform sampler2D shadow;",
+		"body": ["uniform sampler2D shadow;"]
+	},
+	"minecraft.sampler.watershadow": {
+		"prefix": "watershadow",
+		"body": ["watershadow"]
+	},
+	"minecraft.sampler.watershadow.full": {
+		"prefix": "uniform sampler2D watershadow;",
+		"body": ["uniform sampler2D watershadow;"]
+	},
+	"minecraft.sampler.shadowtex0": {
+		"prefix": "shadowtex0",
+		"body": ["shadowtex0"]
+	},
+	"minecraft.sampler.shadowtex0.full": {
+		"prefix": "uniform sampler2D shadowtex0;",
+		"body": ["uniform sampler2D shadowtex0;"]
+	},
+	"minecraft.sampler.shadowtex1": {
+		"prefix": "shadowtex1",
+		"body": ["shadowtex1"]
+	},
+	"minecraft.sampler.shadowtex1.full": {
+		"prefix": "uniform sampler2D shadowtex1;",
+		"body": ["uniform sampler2D shadowtex1;"]
+	},
+	"minecraft.sampler.shadowcolor": {
+		"prefix": "shadowcolor",
+		"body": ["shadowcolor"]
+	},
+	"minecraft.sampler.shadowcolor.full": {
+		"prefix": "uniform sampler2D shadowcolor;",
+		"body": ["uniform sampler2D shadowcolor;"]
+	},
+	"minecraft.sampler.shadowcolor0": {
+		"prefix": "shadowcolor0",
+		"body": ["shadowcolor0"]
+	},
+	"minecraft.sampler.shadowcolor0.full": {
+		"prefix": "uniform sampler2D shadowcolor0;",
+		"body": ["uniform sampler2D shadowcolor0;"]
+	},
+	"minecraft.sampler.shadowcolor1": {
+		"prefix": "shadowcolor1",
+		"body": ["shadowcolor1"]
+	},
+	"minecraft.sampler.shadowcolor1.full": {
+		"prefix": "uniform sampler2D shadowcolor1;",
+		"body": ["uniform sampler2D shadowcolor1;"]
+	},
+	"minecraft.sampler.noisetex": {
+		"prefix": "noisetex",
+		"body": ["noisetex"]
+	},
+	"minecraft.sampler.noisetex.full": {
+		"prefix": "uniform sampler2D noisetex;",
+		"body": ["uniform sampler2D noisetex;"]
+	},
+	"minecraft.sampler.colortex0": {
+		"prefix": "colortex0",
+		"body": ["colortex0"]
+	},
+	"minecraft.sampler.colortex0.full": {
+		"prefix": "uniform sampler2D colortex0;",
+		"body": ["uniform sampler2D colortex0;"]
+	},
+	"minecraft.sampler.colortex1": {
+		"prefix": "colortex1",
+		"body": ["colortex1"]
+	},
+	"minecraft.sampler.colortex1.full": {
+		"prefix": "uniform sampler2D colortex1;",
+		"body": ["uniform sampler2D colortex1;"]
+	},
+	"minecraft.sampler.colortex2": {
+		"prefix": "colortex2",
+		"body": ["colortex2"]
+	},
+	"minecraft.sampler.colortex2.full": {
+		"prefix": "uniform sampler2D colortex2;",
+		"body": ["uniform sampler2D colortex2;"]
+	},
+	"minecraft.sampler.colortex3": {
+		"prefix": "colortex3",
+		"body": ["colortex3"]
+	},
+	"minecraft.sampler.colortex3.full": {
+		"prefix": "uniform sampler2D colortex3;",
+		"body": ["uniform sampler2D colortex3;"]
+	},
+	"minecraft.sampler.colortex4": {
+		"prefix": "colortex4",
+		"body": ["colortex4"]
+	},
+	"minecraft.sampler.colortex4.full": {
+		"prefix": "uniform sampler2D colortex4;",
+		"body": ["uniform sampler2D colortex4;"]
+	},
+	"minecraft.sampler.colortex5": {
+		"prefix": "colortex5",
+		"body": ["colortex5"]
+	},
+	"minecraft.sampler.colortex5.full": {
+		"prefix": "uniform sampler2D colortex5;",
+		"body": ["uniform sampler2D colortex5;"]
+	},
+	"minecraft.sampler.colortex6": {
+		"prefix": "colortex6",
+		"body": ["colortex6"]
+	},
+	"minecraft.sampler.colortex6.full": {
+		"prefix": "uniform sampler2D colortex6;",
+		"body": ["uniform sampler2D colortex6;"]
+	},
+	"minecraft.sampler.colortex7": {
+		"prefix": "colortex7",
+		"body": ["colortex7"]
+	},
+	"minecraft.sampler.colortex7.full": {
+		"prefix": "uniform sampler2D colortex7;",
+		"body": ["uniform sampler2D colortex7;"]
+	},
+	"minecraft.sampler.colortex8": {
+		"prefix": "colortex8",
+		"body": ["colortex8"]
+	},
+	"minecraft.sampler.colortex8.full": {
+		"prefix": "uniform sampler2D colortex8;",
+		"body": ["uniform sampler2D colortex8;"]
+	},
+	"minecraft.sampler.colortex9": {
+		"prefix": "colortex9",
+		"body": ["colortex9"]
+	},
+	"minecraft.sampler.colortex9.full": {
+		"prefix": "uniform sampler2D colortex9;",
+		"body": ["uniform sampler2D colortex9;"]
+	},
+	"minecraft.sampler.colortex10": {
+		"prefix": "colortex10",
+		"body": ["colortex10"]
+	},
+	"minecraft.sampler.colortex10.full": {
+		"prefix": "uniform sampler2D colortex10;",
+		"body": ["uniform sampler2D colortex10;"]
+	},
+	"minecraft.sampler.colortex11": {
+		"prefix": "colortex11",
+		"body": ["colortex11"]
+	},
+	"minecraft.sampler.colortex11.full": {
+		"prefix": "uniform sampler2D colortex11;",
+		"body": ["uniform sampler2D colortex11;"]
+	},
+	"minecraft.sampler.colortex12": {
+		"prefix": "colortex12",
+		"body": ["colortex12"]
+	},
+	"minecraft.sampler.colortex12.full": {
+		"prefix": "uniform sampler2D colortex12;",
+		"body": ["uniform sampler2D colortex12;"]
+	},
+	"minecraft.sampler.colortex13": {
+		"prefix": "colortex13",
+		"body": ["colortex13"]
+	},
+	"minecraft.sampler.colortex13.full": {
+		"prefix": "uniform sampler2D colortex13;",
+		"body": ["uniform sampler2D colortex13;"]
+	},
+	"minecraft.sampler.colortex14": {
+		"prefix": "colortex14",
+		"body": ["colortex14"]
+	},
+	"minecraft.sampler.colortex14.full": {
+		"prefix": "uniform sampler2D colortex14;",
+		"body": ["uniform sampler2D colortex14;"]
+	},
+	"minecraft.sampler.colortex15": {
+		"prefix": "colortex15",
+		"body": ["colortex15"]
+	},
+	"minecraft.sampler.colortex15.full": {
+		"prefix": "uniform sampler2D colortex15;",
+		"body": ["uniform sampler2D colortex15;"]
+	},
+
+
+	"minecraft.setting.shadowMapResolution": {
+		"prefix": "shadowMapResolution",
+		"body": ["shadowMapResolution"]
+	},
+	"minecraft.setting.shadowMapResolution.full": {
+		"prefix": "const int shadowMapResolution = ",
+		"body": ["const int shadowMapResolution = $1;"]
+	},
+	"minecraft.setting.shadowMapResolution.comment": {
+		"prefix": "/* SHADOWRES:",
+		"body": ["/* SHADOWRES:$1 */"]
+	},
+	"minecraft.setting.shadowMapFov": {
+		"prefix": "shadowMapFov",
+		"body": ["shadowMapFov"]
+	},
+	"minecraft.setting.shadowMapFov.full": {
+		"prefix": "const float shadowMapFov = ",
+		"body": ["const float shadowMapFov = $1;"]
+	},
+	"minecraft.setting.shadowMapFov.comment": {
+		"prefix": "/* SHADOWFOV:",
+		"body": ["/* SHADOWFOV:$1 */"]
+	},
+	"minecraft.setting.shadowMapDistance": {
+		"prefix": "shadowMapDistance",
+		"body": ["shadowMapDistance"]
+	},
+	"minecraft.setting.shadowMapDistance.full": {
+		"prefix": "const float shadowMapDistance = ",
+		"body": ["const float shadowMapDistance = $1;"]
+	},
+	"minecraft.setting.shadowMapDistance.comment": {
+		"prefix": "/* SHADOWHPL:",
+		"body": ["/* SHADOWHPL:$1 */"]
+	},
+	"minecraft.setting.shadowDistanceRenderMul": {
+		"prefix": "shadowDistanceRenderMul",
+		"body": ["shadowDistanceRenderMul"]
+	},
+	"minecraft.setting.shadowDistanceRenderMul.full": {
+		"prefix": "const float shadowDistanceRenderMul = ",
+		"body": ["const float shadowDistanceRenderMul = $1;"]
+	},
+	"minecraft.setting.shadowIntervalSize": {
+		"prefix": "shadowIntervalSize",
+		"body": ["shadowIntervalSize"]
+	},
+	"minecraft.setting.shadowIntervalSize.full": {
+		"prefix": "const float shadowIntervalSize = ",
+		"body": ["const float shadowIntervalSize = $1;"]
+	},
+	"minecraft.setting.generateShadowMipmap": {
+		"prefix": "generateShadowMipmap",
+		"body": ["generateShadowMipmap"]
+	},
+	"minecraft.setting.generateShadowMipmap.full": {
+		"prefix": "const bool generateShadowMipmap = ",
+		"body": ["const bool generateShadowMipmap = $1;"]
+	},
+	"minecraft.setting.generateShadowColorMipmap": {
+		"prefix": "generateShadowColorMipmap",
+		"body": ["generateShadowColorMipmap"]
+	},
+	"minecraft.setting.generateShadowColorMipmap.full": {
+		"prefix": "const bool generateShadowColorMipmap = ",
+		"body": ["const bool generateShadowColorMipmap = $1;"]
+	},
+	"minecraft.setting.shadowHardwareFiltering": {
+		"prefix": "shadowHardwareFiltering",
+		"body": ["shadowHardwareFiltering"]
+	},
+	"minecraft.setting.shadowHardwareFiltering.full": {
+		"prefix": "const bool shadowHardwareFiltering = ",
+		"body": ["const bool shadowHardwareFiltering = $1;"]
+	},
+	"minecraft.setting.shadowHardwareFiltering0": {
+		"prefix": "shadowHardwareFiltering0",
+		"body": ["shadowHardwareFiltering0"]
+	},
+	"minecraft.setting.shadowHardwareFiltering0.full": {
+		"prefix": "const bool shadowHardwareFiltering0 = ",
+		"body": ["const bool shadowHardwareFiltering0 = $1;"]
+	},
+	"minecraft.setting.shadowHardwareFiltering1": {
+		"prefix": "shadowHardwareFiltering1",
+		"body": ["shadowHardwareFiltering1"]
+	},
+	"minecraft.setting.shadowHardwareFiltering1.full": {
+		"prefix": "const bool shadowHardwareFiltering1 = ",
+		"body": ["const bool shadowHardwareFiltering1 = $1;"]
+	},
+	"minecraft.setting.shadowtexMipmap": {
+		"prefix": "shadowtexMipmap",
+		"body": ["shadowtexMipmap"]
+	},
+	"minecraft.setting.shadowtexMipmap.full": {
+		"prefix": "const bool shadowtexMipmap = ",
+		"body": ["const bool shadowtexMipmap = $1;"]
+	},
+	"minecraft.setting.shadowtex0Mipmap": {
+		"prefix": "shadowtex0Mipmap",
+		"body": ["shadowtex0Mipmap"]
+	},
+	"minecraft.setting.shadowtex0Mipmap.full": {
+		"prefix": "const bool shadowtex0Mipmap = ",
+		"body": ["const bool shadowtex0Mipmap = $1;"]
+	},
+	"minecraft.setting.shadowtex1Mipmap": {
+		"prefix": "shadowtex1Mipmap",
+		"body": ["shadowtex1Mipmap"]
+	},
+	"minecraft.setting.shadowtex1Mipmap.full": {
+		"prefix": "const bool shadowtex1Mipmap = ",
+		"body": ["const bool shadowtex1Mipmap = $1;"]
+	},
+	"minecraft.setting.shadowcolor0Mipmap": {
+		"prefix": "shadowcolor0Mipmap",
+		"body": ["shadowcolor0Mipmap"]
+	},
+	"minecraft.setting.shadowcolor0Mipmap.full": {
+		"prefix": "const bool shadowcolor0Mipmap = ",
+		"body": ["const bool shadowcolor0Mipmap = $1;"]
+	},
+	"minecraft.setting.shadowColor0Mipmap": {
+		"prefix": "shadowColor0Mipmap",
+		"body": ["shadowColor0Mipmap"]
+	},
+	"minecraft.setting.shadowColor0Mipmap.full": {
+		"prefix": "const bool shadowColor0Mipmap = ",
+		"body": ["const bool shadowColor0Mipmap = $1;"]
+	},
+	"minecraft.setting.shadowcolor1Mipmap": {
+		"prefix": "shadowcolor1Mipmap",
+		"body": ["shadowcolor1Mipmap"]
+	},
+	"minecraft.setting.shadowcolor1Mipmap.full": {
+		"prefix": "const bool shadowcolor1Mipmap = ",
+		"body": ["const bool shadowcolor1Mipmap = $1;"]
+	},
+	"minecraft.setting.shadowColor1Mipmap": {
+		"prefix": "shadowColor1Mipmap",
+		"body": ["shadowColor1Mipmap"]
+	},
+	"minecraft.setting.shadowColor1Mipmap.full": {
+		"prefix": "const bool shadowColor1Mipmap = ",
+		"body": ["const bool shadowColor1Mipmap = $1;"]
+	},
+	"minecraft.setting.shadowtexNearest": {
+		"prefix": "shadowtexNearest",
+		"body": ["shadowtexNearest"]
+	},
+	"minecraft.setting.shadowtexNearest.full": {
+		"prefix": "const bool shadowtexNearest = ",
+		"body": ["const bool shadowtexNearest = $1;"]
+	},
+	"minecraft.setting.shadowtex0Nearest": {
+		"prefix": "shadowtex0Nearest",
+		"body": ["shadowtex0Nearest"]
+	},
+	"minecraft.setting.shadowtex0Nearest.full": {
+		"prefix": "const bool shadowtex0Nearest = ",
+		"body": ["const bool shadowtex0Nearest = $1;"]
+	},
+	"minecraft.setting.shadow0MinMagNearest": {
+		"prefix": "shadow0MinMagNearest",
+		"body": ["shadow0MinMagNearest"]
+	},
+	"minecraft.setting.shadow0MinMagNearest.full": {
+		"prefix": "const bool shadow0MinMagNearest = ",
+		"body": ["const bool shadow0MinMagNearest = $1;"]
+	},
+	"minecraft.setting.shadowtex1Nearest": {
+		"prefix": "shadowtex1Nearest",
+		"body": ["shadowtex1Nearest"]
+	},
+	"minecraft.setting.shadowtex1Nearest.full": {
+		"prefix": "const bool shadowtex1Nearest = ",
+		"body": ["const bool shadowtex1Nearest = $1;"]
+	},
+	"minecraft.setting.shadow1MinMagNearest": {
+		"prefix": "shadow1MinMagNearest",
+		"body": ["shadow1MinMagNearest"]
+	},
+	"minecraft.setting.shadow1MinMagNearest.full": {
+		"prefix": "const bool shadow1MinMagNearest = ",
+		"body": ["const bool shadow1MinMagNearest = $1;"]
+	},
+	"minecraft.setting.shadowcolor0Nearest": {
+		"prefix": "shadowcolor0Nearest",
+		"body": ["shadowcolor0Nearest"]
+	},
+	"minecraft.setting.shadowcolor0Nearest.full": {
+		"prefix": "const bool shadowcolor0Nearest = ",
+		"body": ["const bool shadowcolor0Nearest = $1;"]
+	},
+	"minecraft.setting.shadowColor0Nearest": {
+		"prefix": "shadowColor0Nearest",
+		"body": ["shadowColor0Nearest"]
+	},
+	"minecraft.setting.shadowColor0Nearest.full": {
+		"prefix": "const bool shadowColor0Nearest = ",
+		"body": ["const bool shadowColor0Nearest = $1;"]
+	},
+	"minecraft.setting.shadowColor0MinMagNearest": {
+		"prefix": "shadowColor0MinMagNearest",
+		"body": ["shadowColor0MinMagNearest"]
+	},
+	"minecraft.setting.shadowColor0MinMagNearest.full": {
+		"prefix": "const bool shadowColor0MinMagNearest = ",
+		"body": ["const bool shadowColor0MinMagNearest = $1;"]
+	},
+	"minecraft.setting.shadowcolor1Nearest": {
+		"prefix": "shadowcolor1Nearest",
+		"body": ["shadowcolor1Nearest"]
+	},
+	"minecraft.setting.shadowcolor1Nearest.full": {
+		"prefix": "const bool shadowcolor1Nearest = ",
+		"body": ["const bool shadowcolor1Nearest = $1;"]
+	},
+	"minecraft.setting.shadowColor1Nearest": {
+		"prefix": "shadowColor1Nearest",
+		"body": ["shadowColor1Nearest"]
+	},
+	"minecraft.setting.shadowColor1Nearest.full": {
+		"prefix": "const bool shadowColor1Nearest = ",
+		"body": ["const bool shadowColor1Nearest = $1;"]
+	},
+	"minecraft.setting.shadowColor1MinMagNearest": {
+		"prefix": "shadowColor1MinMagNearest",
+		"body": ["shadowColor1MinMagNearest"]
+	},
+	"minecraft.setting.shadowColor1MinMagNearest.full": {
+		"prefix": "const bool shadowColor1MinMagNearest = ",
+		"body": ["const bool shadowColor1MinMagNearest = $1;"]
+	},
+	"minecraft.setting.wetnessHalflife": {
+		"prefix": "wetnessHalflife",
+		"body": ["wetnessHalflife"]
+	},
+	"minecraft.setting.wetnessHalflife.full": {
+		"prefix": "const float wetnessHalflife = ",
+		"body": ["const float wetnessHalflife = $1;"]
+	},
+	"minecraft.setting.wetnessHalflife.comment": {
+		"prefix": "/* WETNESSHL:",
+		"body": ["/* WETNESSHL:$1 */"]
+	},
+	"minecraft.setting.drynessHalflife": {
+		"prefix": "drynessHalflife",
+		"body": ["drynessHalflife"]
+	},
+	"minecraft.setting.drynessHalflife.full": {
+		"prefix": "const float drynessHalflife = ",
+		"body": ["const float drynessHalflife = $1;"]
+	},
+	"minecraft.setting.drynessHalflife.comment": {
+		"prefix": "/* DRYNESSHL:",
+		"body": ["/* DRYNESSHL:$1 */"]
+	},
+	"minecraft.setting.eyeBrightnessHalflife": {
+		"prefix": "eyeBrightnessHalflife",
+		"body": ["eyeBrightnessHalflife"]
+	},
+	"minecraft.setting.eyeBrightnessHalflife.full": {
+		"prefix": "const float eyeBrightnessHalflife = ",
+		"body": ["const float eyeBrightnessHalflife = $1;"]
+	},
+	"minecraft.setting.centerDepthHalflife": {
+		"prefix": "centerDepthHalflife",
+		"body": ["centerDepthHalflife"]
+	},
+	"minecraft.setting.centerDepthHalflife.full": {
+		"prefix": "const float centerDepthHalflife = ",
+		"body": ["const float centerDepthHalflife = $1;"]
+	},
+	"minecraft.setting.sunPathRotation": {
+		"prefix": "sunPathRotation",
+		"body": ["sunPathRotation"]
+	},
+	"minecraft.setting.sunPathRotation.full": {
+		"prefix": "const float sunPathRotation = ",
+		"body": ["const float sunPathRotation = $1;"]
+	},
+	"minecraft.setting.ambientOcclusionLevel": {
+		"prefix": "ambientOcclusionLevel",
+		"body": ["ambientOcclusionLevel"]
+	},
+	"minecraft.setting.ambientOcclusionLevel.full": {
+		"prefix": "const float ambientOcclusionLevel = ",
+		"body": ["const float ambientOcclusionLevel = $1;"]
+	},
+	"minecraft.setting.superSamplingLevel": {
+		"prefix": "superSamplingLevel",
+		"body": ["superSamplingLevel"]
+	},
+	"minecraft.setting.superSamplingLevel.full": {
+		"prefix": "const int superSamplingLevel = ",
+		"body": ["const int superSamplingLevel = $1;"]
+	},
+	"minecraft.setting.noiseTextureResolution": {
+		"prefix": "noiseTextureResolution",
+		"body": ["noiseTextureResolution"]
+	},
+	"minecraft.setting.noiseTextureResolution.full": {
+		"prefix": "const int noiseTextureResolution = ",
+		"body": ["const int noiseTextureResolution = $1;"]
+	},
+	"minecraft.setting.drawbuffers": {
+		"prefix": "/* DRAWBUFFERS:",
+		"body": ["/* DRAWBUFFERS:$1 */"]
+	},
+	"minecraft.setting.rendertargets": {
+		"prefix": "/* RENDERTARGETS:",
+		"body": ["/* RENDERTARGETS: $1 */"]
+	},
+
+
+	"minecraft.macro.mcversion": {
+		"prefix": "MC_VERSION",
+		"body": ["MC_VERSION"]
+	},
+	"minecraft.macro.mcGlversion": {
+		"prefix": "MC_GL_VERSION",
+		"body": ["MC_GL_VERSION"]
+	},
+	"minecraft.macro.mcGlslversion": {
+		"prefix": "MC_GLSL_VERSION",
+		"body": ["MC_GLSL_VERSION"]
+	},
+	"minecraft.macro.mcoswindows": {
+		"prefix": "MC_OS_WINDOWS",
+		"body": ["MC_OS_WINDOWS"]
+	},
+	"minecraft.macro.mcosmac": {
+		"prefix": "MC_OS_MAC",
+		"body": ["MC_OS_MAC"]
+	},
+	"minecraft.macro.mcoslinux": {
+		"prefix": "MC_OS_LINUX",
+		"body": ["MC_OS_LINUX"]
+	},
+	"minecraft.macro.mcosother": {
+		"prefix": "MC_OS_OTHER",
+		"body": ["MC_OS_OTHER"]
+	},
+	"minecraft.macro.mcGlVendorAMD": {
+		"prefix": "MC_GL_VENDOR_AMD",
+		"body": ["MC_GL_VENDOR_AMD"]
+	},
+	"minecraft.macro.mcGlVendorATI": {
+		"prefix": "MC_GL_VENDOR_ATI",
+		"body": ["MC_GL_VENDOR_ATI"]
+	},
+	"minecraft.macro.mcGlVendorINTEL": {
+		"prefix": "MC_GL_VENDOR_INTEL",
+		"body": ["MC_GL_VENDOR_INTEL"]
+	},
+	"minecraft.macro.mcGlVendorNVIDIA": {
+		"prefix": "MC_GL_VENDOR_NVIDIA",
+		"body": ["MC_GL_VENDOR_NVIDIA"]
+	},
+	"minecraft.macro.mcGlVendorXORG": {
+		"prefix": "MC_GL_VENDOR_XORG",
+		"body": ["MC_GL_VENDOR_XORG"]
+	},
+	"minecraft.macro.mcGlVendorOTHER": {
+		"prefix": "MC_GL_VENDOR_OTHER",
+		"body": ["MC_GL_VENDOR_OTHER"]
+	},
+	"minecraft.macro.mcGlDriverRADEON": {
+		"prefix": "MC_GL_DRIVER_RADEON",
+		"body": ["MC_GL_DRIVER_RADEON"]
+	},
+	"minecraft.macro.mcGlDriverGEFORCE": {
+		"prefix": "MC_GL_DRIVER_GEFORCE",
+		"body": ["MC_GL_DRIVER_GEFORCE"]
+	},
+	"minecraft.macro.mcGlDriverQUADRO": {
+		"prefix": "MC_GL_DRIVER_QUADRO",
+		"body": ["MC_GL_DRIVER_QUADRO"]
+	},
+	"minecraft.macro.mcGlDriverINTEL": {
+		"prefix": "MC_GL_DRIVER_INTEL",
+		"body": ["MC_GL_DRIVER_INTEL"]
+	},
+	"minecraft.macro.mcGlDriverGALLIUM": {
+		"prefix": "MC_GL_DRIVER_GALLIUM",
+		"body": ["MC_GL_DRIVER_GALLIUM"]
+	},
+	"minecraft.macro.mcGlDriverMESA": {
+		"prefix": "MC_GL_DRIVER_MESA",
+		"body": ["MC_GL_DRIVER_MESA"]
+	},
+	"minecraft.macro.mcGlDriverOTHER": {
+		"prefix": "MC_GL_DRIVER_OTHER",
+		"body": ["MC_GL_DRIVER_OTHER"]
+	},
+	"minecraft.macro.mcFxaaLevel": {
+		"prefix": "MC_FXAA_LEVEL",
+		"body": ["MC_FXAA_LEVEL"],
+		"description": "When FXAA is enabled, values: 2, 4"
+	},
+	"minecraft.macro.mcNormalMap": {
+		"prefix": "MC_NORMAL_MAP",
+		"body": ["MC_NORMAL_MAP"],
+		"description": "When the normal map is enabled"
+	},
+	"minecraft.macro.mcSpecularMap": {
+		"prefix": "MC_SPECULAR_MAP",
+		"body": ["MC_SPECULAR_MAP"],
+		"description": "When the specular map is enabled"
+	},
+	"minecraft.macro.mcRenderQuality": {
+		"prefix": "MC_RENDER_QUALITY",
+		"body": ["MC_RENDER_QUALITY"],
+		"description": "Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0"
+	},
+	"minecraft.macro.mcShadowQuality": {
+		"prefix": "MC_SHADOW_QUALITY",
+		"body": ["MC_SHADOW_QUALITY"],
+		"description": "Values: 0.5, 0.70710677, 1.0, 1.4142135, 2.0"
+	},
+	"minecraft.macro.mcHandDepth": {
+		"prefix": "MC_HAND_DEPTH",
+		"body": ["MC_HAND_DEPTH"],
+		"description": "Values: 0.0625, 0.125, 0.25"
+	},
+	"minecraft.macro.mcOldHandLight": {
+		"prefix": "MC_OLD_HAND_LIGHT",
+		"body": ["MC_OLD_HAND_LIGHT"],
+		"description": "When Old Hand Light is enabled"
+	},
+	"minecraft.macro.mcOldLighting": {
+		"prefix": "MC_OLD_LIGHTING",
+		"body": ["MC_OLD_LIGHTING"],
+		"description": "When Old Lighting is enabled"
+	},
+	"minecraft.macro.mcAnisotropicFiltering": {
+		"prefix": "MC_ANISOTROPIC_FILTERING",
+		"body": ["MC_ANISOTROPIC_FILTERING"],
+		"description": "When anisotropic filtering is enabled"
+	},
+	"minecraft.macro.mcTextureFormatLabPBR": {
+		"prefix": "MC_TEXTURE_FORMAT_LAB_PBR",
+		"body": ["MC_TEXTURE_FORMAT_LAB_PBR"],
+		"description": "Texture format LabPBR (https://github.com/rre36/lab-pbr/wiki)"
+	},
+	"minecraft.macro.mcTextureFormatLabPBR130": {
+		"prefix": "MC_TEXTURE_FORMAT_LAB_PBR_1_3",
+		"body": ["MC_TEXTURE_FORMAT_LAB_PBR_1_3"],
+		"description": "Version 1.3"
+	},
+	"minecraft.macro.mcRenderStageNONE": {
+		"prefix": "MC_RENDER_STAGE_NONE",
+		"body": ["MC_RENDER_STAGE_NONE"],
+		"description": "Undefined"
+	},
+	"minecraft.macro.mcRenderStageSKY": {
+		"prefix": "MC_RENDER_STAGE_SKY",
+		"body": ["MC_RENDER_STAGE_SKY"],
+		"description": "Sky"
+	},
+	"minecraft.macro.mcRenderStageSUNSET": {
+		"prefix": "MC_RENDER_STAGE_SUNSET",
+		"body": ["MC_RENDER_STAGE_SUNSET"],
+		"description": "Sunset and sunrise overlay"
+	},
+	"minecraft.macro.mcRenderStageCUSTOMSKY": {
+		"prefix": "MC_RENDER_STAGE_CUSTOM_SKY",
+		"body": ["MC_RENDER_STAGE_CUSTOM_SKY"],
+		"description": "Custom sky"
+	},
+	"minecraft.macro.mcRenderStageSUN": {
+		"prefix": "MC_RENDER_STAGE_SUN",
+		"body": ["MC_RENDER_STAGE_SUN"],
+		"description": "Sun"
+	},
+	"minecraft.macro.mcRenderStageMOON": {
+		"prefix": "MC_RENDER_STAGE_MOON",
+		"body": ["MC_RENDER_STAGE_MOON"],
+		"description": "Moon"
+	},
+	"minecraft.macro.mcRenderStageSTARS": {
+		"prefix": "MC_RENDER_STAGE_STARS",
+		"body": ["MC_RENDER_STAGE_STARS"],
+		"description": "Stars"
+	},
+	"minecraft.macro.mcRenderStageVOID": {
+		"prefix": "MC_RENDER_STAGE_VOID",
+		"body": ["MC_RENDER_STAGE_VOID"],
+		"description": "Void"
+	},
+	"minecraft.macro.mcRenderStageTERRAINSOLID": {
+		"prefix": "MC_RENDER_STAGE_TERRAIN_SOLID",
+		"body": ["MC_RENDER_STAGE_TERRAIN_SOLID"],
+		"description": "Terrain solid"
+	},
+	"minecraft.macro.mcRenderStageTERRAINCUTOUTMIPPED": {
+		"prefix": "MC_RENDER_STAGE_TERRAIN_CUTOUT_MIPPED",
+		"body": ["MC_RENDER_STAGE_TERRAIN_CUTOUT_MIPPED"],
+		"description": "Terrain cutout mipped"
+	},
+	"minecraft.macro.mcRenderStageTERRAINCUTOUT": {
+		"prefix": "MC_RENDER_STAGE_TERRAIN_CUTOUT",
+		"body": ["MC_RENDER_STAGE_TERRAIN_CUTOUT"],
+		"description": "Terrain cutout"
+	},
+	"minecraft.macro.mcRenderStageENTITIES": {
+		"prefix": "MC_RENDER_STAGE_ENTITIES",
+		"body": ["MC_RENDER_STAGE_ENTITIES"],
+		"description": "Entities"
+	},
+	"minecraft.macro.mcRenderStageBLOCKENTITIES": {
+		"prefix": "MC_RENDER_STAGE_BLOCK_ENTITIES",
+		"body": ["MC_RENDER_STAGE_BLOCK_ENTITIES"],
+		"description": "Block entities"
+	},
+	"minecraft.macro.mcRenderStageDESTROY": {
+		"prefix": "MC_RENDER_STAGE_DESTROY",
+		"body": ["MC_RENDER_STAGE_DESTROY"],
+		"description": "Destroy overlay"
+	},
+	"minecraft.macro.mcRenderStageOUTLINE": {
+		"prefix": "MC_RENDER_STAGE_OUTLINE",
+		"body": ["MC_RENDER_STAGE_OUTLINE"],
+		"description": "Selection outline"
+	},
+	"minecraft.macro.mcRenderStageDEBUG": {
+		"prefix": "MC_RENDER_STAGE_DEBUG",
+		"body": ["MC_RENDER_STAGE_DEBUG"],
+		"description": "Debug renderers"
+	},
+	"minecraft.macro.mcRenderStageHANDSOLID": {
+		"prefix": "MC_RENDER_STAGE_HAND_SOLID",
+		"body": ["MC_RENDER_STAGE_HAND_SOLID"],
+		"description": "Solid handheld objects"
+	},
+	"minecraft.macro.mcRenderStageTERRAINTRANSLUCENT": {
+		"prefix": "MC_RENDER_STAGE_TERRAIN_TRANSLUCENT",
+		"body": ["MC_RENDER_STAGE_TERRAIN_TRANSLUCENT"],
+		"description": "Terrain translucent"
+	},
+	"minecraft.macro.mcRenderStageTRIPWIRE": {
+		"prefix": "MC_RENDER_STAGE_TRIPWIRE",
+		"body": ["MC_RENDER_STAGE_TRIPWIRE"],
+		"description": "Tripwire string"
+	},
+	"minecraft.macro.mcRenderStagePARTICLES": {
+		"prefix": "MC_RENDER_STAGE_PARTICLES",
+		"body": ["MC_RENDER_STAGE_PARTICLES"],
+		"description": "Particles"
+	},
+	"minecraft.macro.mcRenderStageCLOUDS": {
+		"prefix": "MC_RENDER_STAGE_CLOUDS",
+		"body": ["MC_RENDER_STAGE_CLOUDS"],
+		"description": "Clouds"
+	},
+	"minecraft.macro.mcRenderStageRAINSNOW": {
+		"prefix": "MC_RENDER_STAGE_RAIN_SNOW",
+		"body": ["MC_RENDER_STAGE_RAIN_SNOW"],
+		"description": "Rain and snow"
+	},
+	"minecraft.macro.mcRenderStageWORLDBORDER": {
+		"prefix": "MC_RENDER_STAGE_WORLD_BORDER",
+		"body": ["MC_RENDER_STAGE_WORLD_BORDER"],
+		"description": "World border"
+	},
+	"minecraft.macro.mcRenderStageHANDTRANSLUCENT": {
+		"prefix": "MC_RENDER_STAGE_HAND_TRANSLUCENT",
+		"body": ["MC_RENDER_STAGE_HAND_TRANSLUCENT"],
+		"description": "Translucent handheld objects"
+	}
+}
