@@ -1,5 +1,11 @@
 ## Changelog (release)
 
+### 0.2.0
+
+ - Added code snippets for GLSL
+
+ - Added some missing functions from GLSL 4.6 document
+
 ### 0.1.4
 
  - Arrays can be used as function parameters now

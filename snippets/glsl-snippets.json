@@ -2620,5 +2620,9 @@
 	"glsl.snippets.do": {
 		"prefix": "do {",
 		"body": ["do {", "\t$1", "} while();"]
+	},
+	"glsl.snippets.switch": {
+		"prefix": "switch()",
+		"body": ["switch($1) {", "\tdefault: ", "}"]
 	}
 }
