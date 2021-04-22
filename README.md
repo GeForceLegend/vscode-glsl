@@ -16,6 +16,8 @@ This extension is still in early development, and may become buggy in some situa
 
  - Syntax highlighting for `GLSL`.
 
+ - Code snippets for `GLSL`.
+
  - Some syntax for Minecraft shaderpacks made for [Optifine](https://www.optifine.net) (e.g. `/* DRAWBUFFERS:0 */` output).
 
 ## Syntax
