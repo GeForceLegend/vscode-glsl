@@ -74,7 +74,7 @@
 			}
 		},
 		"preprocessor_pragma": {
-			"match": "^\\s*(#pragma)(\\s+([a-zA-Z_][\\w]*))?(\\(([a-zA-Z_][\\w])\\))?",
+			"match": "^\\s*(#pragma)(\\s+([a-zA-Z_][\\w]*))?(\\(([a-zA-Z_][\\w]*)\\))?",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor.glsl"

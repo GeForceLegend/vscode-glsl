@@ -2574,8 +2574,8 @@
 		"body": ["void main(){", "\t$1", "}"]
 	},
 	"glsl.snippets.layout_location": {
-		"prefix": "layout(location = )",
-		"body": ["layout(location = $1)"]
+		"prefix": "layout (location = )",
+		"body": ["layout (location = $1)"]
 	},
 	"glsl.snippets.version_core": {
 		"prefix": "#version core",
@@ -2623,6 +2623,10 @@
 	},
 	"glsl.snippets.switch": {
 		"prefix": "switch()",
-		"body": ["switch($1) {", "\tdefault: ", "}"]
+		"body": ["switch($1) {", "\tdefault: ;", "}"]
+	},
+	"glsl.snippets.comment": {
+		"prefix": "/* */",
+		"body": ["/*", " *$1", " */"]
 	}
 }
