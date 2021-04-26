@@ -1,75 +1,93 @@
 {
-    "name": "vscode-glsl",
-    "displayName": "GLSL Syntax for VS Code",
-    "description": "Provides GLSL(OpenGL Shading Language) syntax for Visual Studio Code",
-    "version": "0.2.1",
-    "publisher": "GeForceLegend",
-    "categories": [
-        "Snippets",
-        "Programming Languages"
-    ],
-    "license": "LICENSE",
-    "icon": "icon.png",
-    "bugs": {
-        "url": "https://github.com/GeForceLegend/vscode-glsl/issues"
-    },
-    "engines": {
-        "vscode": "^1.53.0"
-    },
-    "homepage": "https://github.com/GeForceLegend/vscode-glsl",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GeForceLegend/vscode-glsl.git"
-    },
-    "keywords": [
-        "GLSL",
-        "glsl",
-        "OpenGL",
-        "shader"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "glsl",
-                "aliases": [
-                    "OpenGL Shading Language",
-                    "GLSL",
-                    "glsl"
-                ],
-                "extensions": [
-                    ".vs",
-                    ".fs",
-                    ".gs",
-                    ".vsh",
-                    ".fsh",
-                    ".gsh",
-                    ".csh",
-                    ".vshader",
-                    ".fshader",
-                    ".gshader",
-                    ".vert",
-                    ".frag",
-                    ".geom",
-                    ".tesc",
-                    ".tese",
-                    ".comp",
-                    ".glsl"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "glsl",
-                "scopeName": "source.glsl",
-                "path": "./syntaxes/glsl.tmLanguage.json"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "glsl",
-                "path": "./snippets/glsl-snippets.json"
-            }
-        ]
-    }
+	"name": "vscode-glsl",
+	"displayName": "GLSL Syntax for VS Code",
+	"description": "Provides GLSL(OpenGL Shading Language) syntax for Visual Studio Code",
+	"version": "0.2.1",
+	"publisher": "GeForceLegend",
+	"categories": [
+		"Snippets",
+		"Programming Languages"
+	],
+	"license": "LICENSE",
+	"icon": "icon.png",
+	"bugs": {
+		"url": "https://github.com/GeForceLegend/vscode-glsl/issues"
+	},
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"homepage": "https://github.com/GeForceLegend/vscode-glsl",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GeForceLegend/vscode-glsl.git"
+	},
+	"keywords": [
+		"GLSL",
+		"glsl",
+		"OpenGL",
+		"shader"
+	],
+	"activationEvents": [
+		"onLanguage:glsl"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"languages": [
+			{
+				"id": "glsl",
+				"aliases": [
+					"OpenGL Shading Language",
+					"GLSL",
+					"glsl"
+				],
+				"extensions": [
+					".vs",
+					".fs",
+					".gs",
+					".vsh",
+					".fsh",
+					".gsh",
+					".csh",
+					".vshader",
+					".fshader",
+					".gshader",
+					".vert",
+					".frag",
+					".geom",
+					".tesc",
+					".tese",
+					".comp",
+					".glsl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "glsl",
+				"scopeName": "source.glsl",
+				"path": "./syntaxes/glsl.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl-snippets.json"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.42.0",
+		"@typescript-eslint/eslint-plugin": "^4.16.0",
+		"@typescript-eslint/parser": "^4.16.0",
+		"eslint": "^7.21.0",
+		"typescript": "^4.2.2"
+	}
 }

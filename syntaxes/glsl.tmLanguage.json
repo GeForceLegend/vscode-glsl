@@ -66,7 +66,7 @@
 					"name": "keyword.control.preprocessor.glsl"
 				},
 				"2": {
-					"name": "string.unquoted.version.glsl"
+					"name": "constant.numeric.glsl"
 				},
 				"4": {
 					"name": "variable.parameter.glsl"
