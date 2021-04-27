@@ -377,9 +377,6 @@
 			"patterns": [
 				{
 					"include": "#basic_types"
-				},
-				{
-					"include": "#before_tags"
 				}
 			]
 		},

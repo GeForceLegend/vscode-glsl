@@ -1,15 +1,798 @@
 {
+	"glsl.type.void": {
+		"prefix": "void",
+		"body": ["void"]
+	},
+	"glsl.type.bool": {
+		"prefix": "bool",
+		"body": ["bool"]
+	},
+	"glsl.type.int": {
+		"prefix": "int",
+		"body": ["int"]
+	},
+	"glsl.type.uint": {
+		"prefix": "uint",
+		"body": ["uint"]
+	},
+	"glsl.type.float": {
+		"prefix": "float",
+		"body": ["float"]
+	},
+	"glsl.type.double": {
+		"prefix": "double",
+		"body": ["double"]
+	},
+	"glsl.type.vec2": {
+		"prefix": "vec2",
+		"body": ["vec2"]
+	},
+	"glsl.type.vec3": {
+		"prefix": "vec3",
+		"body": ["vec3"]
+	},
+	"glsl.type.vec4": {
+		"prefix": "vec4",
+		"body": ["vec4"]
+	},
+	"glsl.type.dvec2": {
+		"prefix": "dvec2",
+		"body": ["dvec2"]
+	},
+	"glsl.type.dvec3": {
+		"prefix": "dvec3",
+		"body": ["dvec3"]
+	},
+	"glsl.type.dvec4": {
+		"prefix": "dvec4",
+		"body": ["dvec4"]
+	},
+	"glsl.type.bvec2": {
+		"prefix": "bvec2",
+		"body": ["bvec2"]
+	},
+	"glsl.type.bvec3": {
+		"prefix": "bvec3",
+		"body": ["bvec3"]
+	},
+	"glsl.type.bvec4": {
+		"prefix": "bvec4",
+		"body": ["bvec4"]
+	},
+	"glsl.type.ivec2": {
+		"prefix": "ivec2",
+		"body": ["ivec2"]
+	},
+	"glsl.type.ivec3": {
+		"prefix": "ivec3",
+		"body": ["ivec3"]
+	},
+	"glsl.type.ivec4": {
+		"prefix": "ivec4",
+		"body": ["ivec4"]
+	},
+	"glsl.type.uvec2": {
+		"prefix": "uvec2",
+		"body": ["uvec2"]
+	},
+	"glsl.type.uvec3": {
+		"prefix": "uvec3",
+		"body": ["uvec3"]
+	},
+	"glsl.type.uvec4": {
+		"prefix": "uvec4",
+		"body": ["uvec4"]
+	},
+	"glsl.type.mat2": {
+		"prefix": "mat2",
+		"body": ["mat2"]
+	},
+	"glsl.type.mat3": {
+		"prefix": "mat3",
+		"body": ["mat3"]
+	},
+	"glsl.type.mat4": {
+		"prefix": "mat4",
+		"body": ["mat4"]
+	},
+	"glsl.type.mat2x2": {
+		"prefix": "mat2x2",
+		"body": ["mat2x2"]
+	},
+	"glsl.type.mat2x3": {
+		"prefix": "mat2x3",
+		"body": ["mat2x3"]
+	},
+	"glsl.type.mat2x4": {
+		"prefix": "mat2x4",
+		"body": ["mat2x4"]
+	},
+	"glsl.type.mat3x2": {
+		"prefix": "mat3x2",
+		"body": ["mat3x2"]
+	},
+	"glsl.type.mat3x3": {
+		"prefix": "mat3x3",
+		"body": ["mat3x3"]
+	},
+	"glsl.type.mat3x4": {
+		"prefix": "mat3x4",
+		"body": ["mat3x4"]
+	},
+	"glsl.type.mat4x2": {
+		"prefix": "mat4x2",
+		"body": ["mat4x2"]
+	},
+	"glsl.type.mat4x3": {
+		"prefix": "mat4x3",
+		"body": ["mat4x3"]
+	},
+	"glsl.type.mat4x4": {
+		"prefix": "mat4x4",
+		"body": ["mat4x4"]
+	},
+	"glsl.type.dmat2": {
+		"prefix": "dmat2",
+		"body": ["dmat2"]
+	},
+	"glsl.type.dmat3": {
+		"prefix": "dmat3",
+		"body": ["dmat3"]
+	},
+	"glsl.type.dmat4": {
+		"prefix": "dmat4",
+		"body": ["dmat4"]
+	},
+	"glsl.type.dmat2x2": {
+		"prefix": "dmat2x2",
+		"body": ["dmat2x2"]
+	},
+	"glsl.type.dmat2x3": {
+		"prefix": "dmat2x3",
+		"body": ["dmat2x3"]
+	},
+	"glsl.type.dmat2x4": {
+		"prefix": "dmat2x4",
+		"body": ["dmat2x4"]
+	},
+	"glsl.type.dmat3x2": {
+		"prefix": "dmat3x2",
+		"body": ["dmat3x2"]
+	},
+	"glsl.type.dmat3x3": {
+		"prefix": "dmat3x3",
+		"body": ["dmat3x3"]
+	},
+	"glsl.type.dmat3x4": {
+		"prefix": "dmat3x4",
+		"body": ["dmat3x4"]
+	},
+	"glsl.type.dmat4x2": {
+		"prefix": "dmat4x2",
+		"body": ["dmat4x2"]
+	},
+	"glsl.type.dmat4x3": {
+		"prefix": "dmat4x3",
+		"body": ["dmat4x3"]
+	},
+	"glsl.type.dmat4x4": {
+		"prefix": "dmat4x4",
+		"body": ["dmat4x4"]
+	},
+	"glsl.type.sampler1D": {
+		"prefix": "sampler1D",
+		"body": ["sampler1D"]
+	},
+	"glsl.type.sampler2D": {
+		"prefix": "sampler2D",
+		"body": ["sampler2D"]
+	},
+	"glsl.type.sampler3D": {
+		"prefix": "sampler3D",
+		"body": ["sampler3D"]
+	},
+	"glsl.type.image1D": {
+		"prefix": "image1D",
+		"body": ["image1D"]
+	},
+	"glsl.type.image2D": {
+		"prefix": "image2D",
+		"body": ["image2D"]
+	},
+	"glsl.type.image3D": {
+		"prefix": "image3D",
+		"body": ["image3D"]
+	},
+	"glsl.type.samplerCube": {
+		"prefix": "samplerCube",
+		"body": ["samplerCube"]
+	},
+	"glsl.type.imageCube": {
+		"prefix": "imageCube",
+		"body": ["imageCube"]
+	},
+	"glsl.type.sampler2DRect": {
+		"prefix": "sampler2DRect",
+		"body": ["sampler2DRect"]
+	},
+	"glsl.type.image2DRect": {
+		"prefix": "image2DRect",
+		"body": ["image2DRect"]
+	},
+	"glsl.type.sampler1DArray": {
+		"prefix": "sampler1DArray",
+		"body": ["sampler1DArray"]
+	},
+	"glsl.type.sampler2DArray": {
+		"prefix": "sampler2DArray",
+		"body": ["sampler2DArray"]
+	},
+	"glsl.type.image1DArray": {
+		"prefix": "image1DArray",
+		"body": ["image1DArray"]
+	},
+	"glsl.type.image2DArray": {
+		"prefix": "image2DArray",
+		"body": ["image2DArray"]
+	},
+	"glsl.type.samplerBuffer": {
+		"prefix": "samplerBuffer",
+		"body": ["samplerBuffer"]
+	},
+	"glsl.type.imageBuffer": {
+		"prefix": "imageBuffer",
+		"body": ["imageBuffer"]
+	},
+	"glsl.type.sampler2DMS": {
+		"prefix": "sampler2DMS",
+		"body": ["sampler2DMS"]
+	},
+	"glsl.type.image2DMS": {
+		"prefix": "image2DMS",
+		"body": ["image2DMS"]
+	},
+	"glsl.type.sampler2DMSArray": {
+		"prefix": "sampler2DMSArray",
+		"body": ["sampler2DMSArray"]
+	},
+	"glsl.type.image2DMSArray": {
+		"prefix": "image2DMSArray",
+		"body": ["image2DMSArray"]
+	},
+	"glsl.type.samplerCubeArray": {
+		"prefix": "samplerCubeArray",
+		"body": ["samplerCubeArray"]
+	},
+	"glsl.type.imageCubeArray": {
+		"prefix": "imageCubeArray",
+		"body": ["imageCubeArray"]
+	},
+	"glsl.type.sampler1DShadow": {
+		"prefix": "sampler1DShadow",
+		"body": ["sampler1DShadow"]
+	},
+	"glsl.type.sampler2DShadow": {
+		"prefix": "sampler2DShadow",
+		"body": ["sampler2DShadow"]
+	},
+	"glsl.type.sampler2DRectShadow": {
+		"prefix": "sampler2DRectShadow",
+		"body": ["sampler2DRectShadow"]
+	},
+	"glsl.type.sampler1DArrayShadow": {
+		"prefix": "sampler1DArrayShadow",
+		"body": ["sampler1DArrayShadow"]
+	},
+	"glsl.type.sampler2DArrayShadow": {
+		"prefix": "sampler2DArrayShadow",
+		"body": ["sampler2DArrayShadow"]
+	},
+	"glsl.type.samplerCubeShadow": {
+		"prefix": "samplerCubeShadow",
+		"body": ["samplerCubeShadow"]
+	},
+	"glsl.type.samplerCubeArrayShadow": {
+		"prefix": "samplerCubeArrayShadow",
+		"body": ["samplerCubeArrayShadow"]
+	},
+	"glsl.type.isampler1D": {
+		"prefix": "isampler1D",
+		"body": ["isampler1D"]
+	},
+	"glsl.type.isampler2D": {
+		"prefix": "isampler2D",
+		"body": ["isampler2D"]
+	},
+	"glsl.type.isampler3D": {
+		"prefix": "isampler3D",
+		"body": ["isampler3D"]
+	},
+	"glsl.type.iimage1D": {
+		"prefix": "iimage1D",
+		"body": ["iimage1D"]
+	},
+	"glsl.type.iimage2D": {
+		"prefix": "iimage2D",
+		"body": ["iimage2D"]
+	},
+	"glsl.type.iimage3D": {
+		"prefix": "iimage3D",
+		"body": ["iimage3D"]
+	},
+	"glsl.type.isamplerCube": {
+		"prefix": "isamplerCube",
+		"body": ["isamplerCube"]
+	},
+	"glsl.type.iimageCube": {
+		"prefix": "iimageCube",
+		"body": ["iimageCube"]
+	},
+	"glsl.type.isampler2DRect": {
+		"prefix": "isampler2DRect",
+		"body": ["isampler2DRect"]
+	},
+	"glsl.type.iimage2DRect": {
+		"prefix": "iimage2DRect",
+		"body": ["iimage2DRect"]
+	},
+	"glsl.type.isampler1DArray": {
+		"prefix": "isampler1DArray",
+		"body": ["isampler1DArray"]
+	},
+	"glsl.type.isampler2DArray": {
+		"prefix": "isampler2DArray",
+		"body": ["isampler2DArray"]
+	},
+	"glsl.type.iimage1DArray": {
+		"prefix": "iimage1DArray",
+		"body": ["iimage1DArray"]
+	},
+	"glsl.type.iimage2DArray": {
+		"prefix": "iimage2DArray",
+		"body": ["iimage2DArray"]
+	},
+	"glsl.type.isamplerBuffer": {
+		"prefix": "isamplerBuffer",
+		"body": ["isamplerBuffer"]
+	},
+	"glsl.type.iimageBuffer": {
+		"prefix": "iimageBuffer",
+		"body": ["iimageBuffer"]
+	},
+	"glsl.type.isampler2DMS": {
+		"prefix": "isampler2DMS",
+		"body": ["isampler2DMS"]
+	},
+	"glsl.type.iimage2DMS": {
+		"prefix": "iimage2DMS",
+		"body": ["iimage2DMS"]
+	},
+	"glsl.type.isampler2DMSArray": {
+		"prefix": "isampler2DMSArray",
+		"body": ["isampler2DMSArray"]
+	},
+	"glsl.type.iimage2DMSArray": {
+		"prefix": "iimage2DMSArray",
+		"body": ["iimage2DMSArray"]
+	},
+	"glsl.type.isamplerCubeMSArray": {
+		"prefix": "isamplerCubeMSArray",
+		"body": ["isamplerCubeMSArray"]
+	},
+	"glsl.type.iimageCubeMSArray": {
+		"prefix": "iimageCubeMSArray",
+		"body": ["iimageCubeMSArray"]
+	},
+	"glsl.type.usampler1D": {
+		"prefix": "usampler1D",
+		"body": ["usampler1D"]
+	},
+	"glsl.type.usampler2D": {
+		"prefix": "usampler2D",
+		"body": ["usampler2D"]
+	},
+	"glsl.type.usampler3D": {
+		"prefix": "usampler3D",
+		"body": ["usampler3D"]
+	},
+	"glsl.type.uimage1D": {
+		"prefix": "uimage1D",
+		"body": ["uimage1D"]
+	},
+	"glsl.type.uimage2D": {
+		"prefix": "uimage2D",
+		"body": ["uimage2D"]
+	},
+	"glsl.type.uimage3D": {
+		"prefix": "uimage3D",
+		"body": ["uimage3D"]
+	},
+	"glsl.type.usamplerCube": {
+		"prefix": "usamplerCube",
+		"body": ["usamplerCube"]
+	},
+	"glsl.type.uimageCube": {
+		"prefix": "uimageCube",
+		"body": ["uimageCube"]
+	},
+	"glsl.type.usampler2DRect": {
+		"prefix": "usampler2DRect",
+		"body": ["usampler2DRect"]
+	},
+	"glsl.type.uimage2DRect": {
+		"prefix": "uimage2DRect",
+		"body": ["uimage2DRect"]
+	},
+	"glsl.type.usampler1DArray": {
+		"prefix": "usampler1DArray",
+		"body": ["usampler1DArray"]
+	},
+	"glsl.type.usampler2DArray": {
+		"prefix": "usampler2DArray",
+		"body": ["usampler2DArray"]
+	},
+	"glsl.type.uimage1DArray": {
+		"prefix": "uimage1DArray",
+		"body": ["uimage1DArray"]
+	},
+	"glsl.type.uimage2DArray": {
+		"prefix": "uimage2DArray",
+		"body": ["uimage2DArray"]
+	},
+	"glsl.type.usamplerBuffer": {
+		"prefix": "usamplerBuffer",
+		"body": ["usamplerBuffer"]
+	},
+	"glsl.type.uimageBuffer": {
+		"prefix": "uimageBuffer",
+		"body": ["uimageBuffer"]
+	},
+	"glsl.type.usampler2DMS": {
+		"prefix": "usampler2DMS",
+		"body": ["usampler2DMS"]
+	},
+	"glsl.type.uimage2DMS": {
+		"prefix": "uimage2DMS",
+		"body": ["uimage2DMS"]
+	},
+	"glsl.type.usampler2DMSArray": {
+		"prefix": "usampler2DMSArray",
+		"body": ["usampler2DMSArray"]
+	},
+	"glsl.type.uimage2DMSArray": {
+		"prefix": "uimage2DMSArray",
+		"body": ["uimage2DMSArray"]
+	},
+	"glsl.type.usamplerCubeMSArray": {
+		"prefix": "usamplerCubeMSArray",
+		"body": ["usamplerCubeMSArray"]
+	},
+	"glsl.type.uimageCubeMSArray": {
+		"prefix": "uimageCubeMSArray",
+		"body": ["uimageCubeMSArray"]
+	},
+	"glsl.type.sampler": {
+		"prefix": "sampler",
+		"body": ["sampler"]
+	},
+	"glsl.type.samplerShadow": {
+		"prefix": "samplerShadow",
+		"body": ["samplerShadow"]
+	},
+	"glsl.type.texture1D": {
+		"prefix": "texture1D",
+		"body": ["texture1D"]
+	},
+	"glsl.type.texture1DArray": {
+		"prefix": "texture1DArray",
+		"body": ["texture1DArray"]
+	},
+	"glsl.type.texture2D": {
+		"prefix": "texture2D",
+		"body": ["texture2D"]
+	},
+	"glsl.type.texture2DArray": {
+		"prefix": "texture2DArray",
+		"body": ["texture2DArray"]
+	},
+	"glsl.type.texture2DRect": {
+		"prefix": "texture2DRect",
+		"body": ["texture2DRect"]
+	},
+	"glsl.type.texture2DMS": {
+		"prefix": "texture2DMS",
+		"body": ["texture2DMS"]
+	},
+	"glsl.type.texture2DMSArray": {
+		"prefix": "texture2DMSArray",
+		"body": ["texture2DMSArray"]
+	},
+	"glsl.type.texture3D": {
+		"prefix": "texture3D",
+		"body": ["texture3D"]
+	},
+	"glsl.type.textureCube": {
+		"prefix": "textureCube",
+		"body": ["textureCube"]
+	},
+	"glsl.type.textureCubeArray": {
+		"prefix": "textureCubeArray",
+		"body": ["textureCubeArray"]
+	},
+	"glsl.type.textureBuffer": {
+		"prefix": "textureBuffer",
+		"body": ["textureBuffer"]
+	},
+	"glsl.type.itexture1D": {
+		"prefix": "itexture1D",
+		"body": ["itexture1D"]
+	},
+	"glsl.type.itexture1DArray": {
+		"prefix": "itexture1DArray",
+		"body": ["itexture1DArray"]
+	},
+	"glsl.type.itexture2D": {
+		"prefix": "itexture2D",
+		"body": ["itexture2D"]
+	},
+	"glsl.type.itexture2DArray": {
+		"prefix": "itexture2DArray",
+		"body": ["itexture2DArray"]
+	},
+	"glsl.type.itexture2DRect": {
+		"prefix": "itexture2DRect",
+		"body": ["itexture2DRect"]
+	},
+	"glsl.type.itexture2DMS": {
+		"prefix": "itexture2DMS",
+		"body": ["itexture2DMS"]
+	},
+	"glsl.type.itexture2DMSArray": {
+		"prefix": "itexture2DMSArray",
+		"body": ["itexture2DMSArray"]
+	},
+	"glsl.type.itexture3D": {
+		"prefix": "itexture3D",
+		"body": ["itexture3D"]
+	},
+	"glsl.type.itextureCube": {
+		"prefix": "itextureCube",
+		"body": ["itextureCube"]
+	},
+	"glsl.type.itextureCubeArray": {
+		"prefix": "itextureCubeArray",
+		"body": ["itextureCubeArray"]
+	},
+	"glsl.type.itextureBuffer": {
+		"prefix": "itextureBuffer",
+		"body": ["itextureBuffer"]
+	},
+	"glsl.type.utexture1D": {
+		"prefix": "utexture1D",
+		"body": ["utexture1D"]
+	},
+	"glsl.type.utexture1DArray": {
+		"prefix": "utexture1DArray",
+		"body": ["utexture1DArray"]
+	},
+	"glsl.type.utexture2D": {
+		"prefix": "utexture2D",
+		"body": ["utexture2D"]
+	},
+	"glsl.type.utexture2DArray": {
+		"prefix": "utexture2DArray",
+		"body": ["utexture2DArray"]
+	},
+	"glsl.type.utexture2DRect": {
+		"prefix": "utexture2DRect",
+		"body": ["utexture2DRect"]
+	},
+	"glsl.type.utexture2DMS": {
+		"prefix": "utexture2DMS",
+		"body": ["utexture2DMS"]
+	},
+	"glsl.type.utexture2DMSArray": {
+		"prefix": "utexture2DMSArray",
+		"body": ["utexture2DMSArray"]
+	},
+	"glsl.type.utexture3D": {
+		"prefix": "utexture3D",
+		"body": ["utexture3D"]
+	},
+	"glsl.type.utextureCube": {
+		"prefix": "utextureCube",
+		"body": ["utextureCube"]
+	},
+	"glsl.type.utextureCubeArray": {
+		"prefix": "utextureCubeArray",
+		"body": ["utextureCubeArray"]
+	},
+	"glsl.type.utextureBuffer": {
+		"prefix": "utextureBuffer",
+		"body": ["utextureBuffer"]
+	},
+
+	"glsl.type.struct": {
+		"prefix": "struct",
+		"body": ["struct"]
+	},
+
+	
+	"glsl.keyword.atomic_uint": {
+		"prefix": "atomic_uint",
+		"body": ["atomic_uint"]
+	},
+	"glsl.keyword.attribute": {
+		"prefix": "attribute",
+		"body": ["attribute"]
+	},
+	"glsl.keyword.buffer": {
+		"prefix": "buffer",
+		"body": ["buffer"]
+	},
+	"glsl.keyword.centroid": {
+		"prefix": "centroid",
+		"body": ["centroid"]
+	},
+	"glsl.keyword.coherent": {
+		"prefix": "coherent",
+		"body": ["coherent"]
+	},
+	"glsl.keyword.const": {
+		"prefix": "const",
+		"body": ["const"]
+	},
+	"glsl.keyword.flat": {
+		"prefix": "flat",
+		"body": ["flat"]
+	},
+	"glsl.keyword.highp": {
+		"prefix": "highp",
+		"body": ["highp"]
+	},
+	"glsl.keyword.in": {
+		"prefix": "in",
+		"body": ["in"]
+	},
+	"glsl.keyword.inout": {
+		"prefix": "inout",
+		"body": ["inout"]
+	},
+	"glsl.keyword.invariant": {
+		"prefix": "invariant",
+		"body": ["invariant"]
+	},
+	"glsl.keyword.layout": {
+		"prefix": "layout",
+		"body": ["layout"]
+	},
+	"glsl.keyword.lowp": {
+		"prefix": "lowp",
+		"body": ["lowp"]
+	},
+	"glsl.keyword.mediump": {
+		"prefix": "mediump",
+		"body": ["mediump"]
+	},
+	"glsl.keyword.noperspective": {
+		"prefix": "noperspective",
+		"body": ["noperspective"]
+	},
+	"glsl.keyword.out": {
+		"prefix": "out",
+		"body": ["out"]
+	},
+	"glsl.keyword.patch": {
+		"prefix": "patch",
+		"body": ["patch"]
+	},
+	"glsl.keyword.precise": {
+		"prefix": "precise",
+		"body": ["precise"]
+	},
+	"glsl.keyword.precision": {
+		"prefix": "precision",
+		"body": ["precision"]
+	},
+	"glsl.keyword.readonly": {
+		"prefix": "readonly",
+		"body": ["readonly"]
+	},
+	"glsl.keyword.restrict": {
+		"prefix": "restrict",
+		"body": ["restrict"]
+	},
+	"glsl.keyword.sample": {
+		"prefix": "sample",
+		"body": ["sample"]
+	},
+	"glsl.keyword.shared": {
+		"prefix": "shared",
+		"body": ["shared"]
+	},
+	"glsl.keyword.smooth": {
+		"prefix": "smooth",
+		"body": ["smooth"]
+	},
+	"glsl.keyword.subroutine": {
+		"prefix": "subroutine",
+		"body": ["subroutine"]
+	},
+	"glsl.keyword.uniform": {
+		"prefix": "uniform",
+		"body": ["uniform"]
+	},
+	"glsl.keyword.varying": {
+		"prefix": "varying",
+		"body": ["varying"]
+	},
+	"glsl.keyword.writeonly": {
+		"prefix": "writeonly",
+		"body": ["writeonly"]
+	},
+
+
+	"glsl.keyword.break": {
+		"prefix": "break",
+		"body": ["break"]
+	},
+	"glsl.keyword.case": {
+		"prefix": "case",
+		"body": ["case"]
+	},
+	"glsl.keyword.continue": {
+		"prefix": "continue",
+		"body": ["continue"]
+	},
+	"glsl.keyword.default": {
+		"prefix": "default",
+		"body": ["default"]
+	},
+	"glsl.keyword.defined": {
+		"prefix": "defined",
+		"body": ["defined"]
+	},
+	"glsl.keyword.discard": {
+		"prefix": "discard",
+		"body": ["discard"]
+	},
+	"glsl.keyword.do": {
+		"prefix": "do",
+		"body": ["do"]
+	},
+	"glsl.keyword.else": {
+		"prefix": "else",
+		"body": ["else"]
+	},
+	"glsl.keyword.for": {
+		"prefix": "for",
+		"body": ["for"]
+	},
+	"glsl.keyword.if": {
+		"prefix": "if",
+		"body": ["if"]
+	},
+	"glsl.keyword.return": {
+		"prefix": "return",
+		"body": ["return"]
+	},
+	"glsl.keyword.swich": {
+		"prefix": "swich",
+		"body": ["swich"]
+	},
+	"glsl.keyword.while": {
+		"prefix": "while",
+		"body": ["while"]
+	},
+
+
 	"glsl.snippets.ftransform": {
-		"prefix": "gl_Position = ftransform",
+		"prefix": "ftransform",
 		"body": ["gl_Position = ftransform();"]
 	},
 	"glsl.snippets.main": {
 		"prefix": "void main",
 		"body": ["void main(){", "\t$1", "}"]
-	},
-	"glsl.snippets.layout_location": {
-		"prefix": "layout",
-		"body": ["layout (location = $1)"]
 	},
 	"glsl.snippets.#if": {
 		"prefix": "#if",

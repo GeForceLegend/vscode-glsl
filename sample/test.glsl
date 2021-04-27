@@ -29,3 +29,5 @@ An error case:
 
 #if !defined SSAO && defined SSR
 
+layout (location = 0) in vec3 POSITION;
+
