@@ -10,6 +10,11 @@ interface IParsedToken {
 	tokenModifiers: string[];
 }
 
+interface Block {
+	start: number;
+	end: number;
+}
+
 const tokenTypes = new Map<string, number>();
 const tokenModifiers = new Map<string, number>();
 
@@ -30,19 +35,55 @@ const legend = (function () {
 	return new vscode.SemanticTokensLegend(tokenTypesLegend, tokenModifiersLegend);
 })();
 
-function pushPreProcessor(document: string): IParsedToken[] {
-	const parsedTokens: IParsedToken[] = [];
-	const lines = document.split(/\r\n|\r|\n/);
-	return parsedTokens;
+const blocks: Block[] = [];
+
+function parseBlocks(document: string) {
+	let offset = 0;
+	while (true) {
+		const block: Block = { start: 0, end: 0 };
+		block.start = document.indexOf('{', offset);
+		if (block.start < 0) {
+			return;
+		}
+		offset = block.start + 1;
+		let leftParenPos;
+		let rightParenPos;
+		let parensDepth = 0;
+		while (true) {
+			leftParenPos = document.indexOf('{', offset);
+			rightParenPos = document.indexOf('}', offset);
+			if (leftParenPos > rightParenPos || leftParenPos < 0) {
+				offset = rightParenPos + 1;
+				if (parensDepth > 0) {
+					parensDepth--;
+					continue;
+				}
+				block.end = rightParenPos;
+				blocks.push(block);
+				break;
+			}
+			while (true) {
+				offset = leftParenPos + 1;
+				leftParenPos = document.indexOf('{', offset);
+				if (leftParenPos < 0 || leftParenPos > rightParenPos) {
+					offset = rightParenPos + 1;
+					break;
+				}
+				parensDepth++;
+			}
+			offset = rightParenPos + 1;
+		}
+	}
 }
 
 class DocumentSemanticTokensProvider implements vscode.DocumentSemanticTokensProvider {
 	async provideDocumentSemanticTokens(document: vscode.TextDocument, token: vscode.CancellationToken): Promise<vscode.SemanticTokens> {
 		const text = document.getText();
-		const preprocessors = pushPreProcessor(text);
 		const builder = new vscode.SemanticTokensBuilder();
-		preprocessors.forEach((token) => {
-			builder.push(token.line, token.startCharacter, token.length, tokenTypes.get(token.tokenType)!, this._encodeTokenModifiers(token.tokenModifiers));
+		parseBlocks(text);
+		blocks.forEach((block) => {
+			builder.push(document.positionAt(block.start).line, document.positionAt(block.start).character, 1, tokenTypes.get('comment')!);
+			builder.push(document.positionAt(block.end).line, document.positionAt(block.end).character, 1, tokenTypes.get('comment')!);
 		});
 		return builder.build();
 	}
@@ -60,5 +101,5 @@ class DocumentSemanticTokensProvider implements vscode.DocumentSemanticTokensPro
 }
 
 export const semanticTokensProvider = vscode.languages.registerDocumentSemanticTokensProvider(
-	{ language: 'glsl' }, new DocumentSemanticTokensProvider(), legend
+	{ language: 'glsl', scheme: 'file' }, new DocumentSemanticTokensProvider(), legend
 );
