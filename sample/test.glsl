@@ -31,3 +31,32 @@ An error case:
 
 layout (location = 0) in vec3 POSITION;
 
+SpecularData LabPBR(vec4 texData)
+{
+    SpecularData specularData;
+    specularData.smoothness = texData.r;
+    specularData.metalness = texData.g;
+    specularData.porosity = texData.b;
+    specularData.emissive = texData.a - step(1.0, texData.a);
+    return specularData;
+}
+
+SpecularData ClassicPBR(vec4 texData)
+{
+    SpecularData specularData;
+    specularData.smoothness = texData.r;
+    specularData.metalness = texData.g;
+    specularData.porosity = 0.0;
+    specularData.emissive = texData.b;
+    return specularData;
+}
+
+SpecularData BedrockRTX(vec4 texData)
+{
+    SpecularData specularData;
+    specularData.smoothness = 1.0 - texData.b;
+    specularData.metalness = texData.r;
+    specularData.porosity = 0.0;
+    specularData.emissive = texData.g;
+    return specularData;
+}

@@ -1,6 +1,8 @@
 'use strict';
 
+import { off } from 'node:process';
 import * as vscode from 'vscode';
+import * as main from './extension';
 
 interface IParsedToken {
 	line: number;
@@ -76,16 +78,60 @@ function parseBlocks(document: string) {
 	}
 }
 
+function parseFunctionDefination(document: vscode.TextDocument, offset: number): string[] {
+	const parameters: string[] = [];
+	const text = document.getText();
+	const rightParens = text.lastIndexOf(')', offset);
+	if (text.indexOf('{', rightParens) != offset) {
+		return parameters;
+	}
+	const leftParens = text.lastIndexOf('(', rightParens);
+	const contents = document.getText(new vscode.Range(document.positionAt(leftParens + 1), document.positionAt(rightParens))).split(',');
+	contents.forEach((content) => {
+		if (new RegExp("\\s*((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\[([0-9]+)?\\])?(\\s+([a-zA-Z_][\\w]*\\b)(\\[([a-zA-Z_][\\w]*)\\])?)?").test(content)) {
+			const parts = content.split(' ');
+			parameters.push(parts[parts.length - 1]);
+		}
+	});
+	return parameters;
+}
+
 class DocumentSemanticTokensProvider implements vscode.DocumentSemanticTokensProvider {
 	async provideDocumentSemanticTokens(document: vscode.TextDocument, token: vscode.CancellationToken): Promise<vscode.SemanticTokens> {
 		const text = document.getText();
 		const builder = new vscode.SemanticTokensBuilder();
 		parseBlocks(text);
 		blocks.forEach((block) => {
-			builder.push(document.positionAt(block.start).line, document.positionAt(block.start).character, 1, tokenTypes.get('comment')!);
-			builder.push(document.positionAt(block.end).line, document.positionAt(block.end).character, 1, tokenTypes.get('comment')!);
+			const parameters = parseFunctionDefination(document, block.start);
+			const startLine = document.positionAt(block.start).line;
+			const startOffset = document.positionAt(block.start).character;
+			const endLine = document.positionAt(block.end).line;
+			const endOffset = document.positionAt(block.end).character;
+			for(let i = startLine; i <= endLine; i++) {
+				const line = document.lineAt(i).text;
+				parameters.forEach((parameter) => {
+					let offset;
+					offset = i == startLine ? startOffset : 0;
+					while (true) {
+						const position = line.indexOf('texData', offset);
+						if (position < 0 || (i == endLine && position > endOffset)) {
+							break;
+						}
+						builder.push(i, position, parameter.length, this._encodeTokenType('parameter'));
+						offset = position + parameter.length;
+					}
+				});
+			}
 		});
 		return builder.build();
+	}
+
+	private _encodeTokenType(tokenType: string): number {
+		if (tokenTypes.has(tokenType)) {
+			return tokenTypes.get(tokenType)!;
+		} else {
+			return tokenTypes.size + 2;
+		}
 	}
 
 	private _encodeTokenModifiers(strTokenModifiers: string[]): number {
