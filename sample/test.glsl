@@ -42,7 +42,8 @@ SpecularData LabPBR(vec4 texData)
 {
     // texData
     /* texData */
-    texData
+    texData // texData
+    test.texData
     atexData
     texDataa
     SpecularData specularData;

@@ -113,8 +113,9 @@ function parseFunctionDefination(document: vscode.TextDocument, offset: number):
 	}
 	const leftParens = text.lastIndexOf('(', rightParens);
 	const contents = document.getText(new vscode.Range(document.positionAt(leftParens + 1), document.positionAt(rightParens))).split(',');
+	const isParameter = new RegExp("\\s*((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\[([0-9]+)?\\])?(\\s+([a-zA-Z_][\\w]*\\b)(\\[([a-zA-Z_][\\w]*)\\])?)?");
 	contents.forEach((content) => {
-		if (new RegExp("\\s*((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\[([0-9]+)?\\])?(\\s+([a-zA-Z_][\\w]*\\b)(\\[([a-zA-Z_][\\w]*)\\])?)?").test(content)) {
+		if (isParameter.test(content)) {
 			const parts = content.split(' ');
 			parameters.push(parts[parts.length - 1]);
 		}
@@ -140,9 +141,8 @@ class DocumentSemanticTokensProvider implements vscode.DocumentSemanticTokensPro
 					const lineNum = documentPos.line;
 					const line = document.lineAt(lineNum).text;
 					const character = documentPos.character;
-					const regexp = new RegExp("\\w");
 					offset = position + parameter.length;
-					if (regexp.test(line.charAt(character - 1)) || regexp.test(line.charAt(character + parameter.length)) || isComment(position, document)) {
+					if (new RegExp("(\\w|\\.)").test(line.charAt(character - 1)) || new RegExp("\\w").test(line.charAt(character + parameter.length)) || isComment(position, document)) {
 						continue;
 					}
 					builder.push(lineNum, character, parameter.length, this._encodeTokenType('parameter'));
