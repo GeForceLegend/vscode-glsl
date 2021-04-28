@@ -179,7 +179,7 @@ const glVariableCompletionItemProvider = vscode.languages.registerCompletionItem
 		const line = document.lineAt(position);
 		const text = line.text.substring(position.character - 3, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("[^\\w.]gl").test(text)) {
+		if (new RegExp("([^\\w.]|^)gl").test(text)) {
 			completionItems.push(new vscode.CompletionItem('gl_BackColor'));
 			completionItems.push(new vscode.CompletionItem('gl_BackLightModelProduct'));
 			completionItems.push(new vscode.CompletionItem('gl_BackLightProduct'));
@@ -298,7 +298,7 @@ const glConstantCompletionItemProvider = vscode.languages.registerCompletionItem
 		const line = document.lineAt(position);
 		const text = line.text.substring(position.character - 3, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("[^\\w.]gl").test(text)) {
+		if (new RegExp("([^\\w.]|^)gl").test(text)) {
 			completionItems.push(new vscode.CompletionItem('gl_MaxCombinedAtomicCounterBuffers'));
 			completionItems.push(new vscode.CompletionItem('gl_MaxComputeAtomicCounterBuffers'));
 			completionItems.push(new vscode.CompletionItem('gl_MaxFragmentAtomicCounterBuffers'));
