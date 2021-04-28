@@ -1,8 +1,6 @@
 'use strict';
 
-import { off } from 'node:process';
 import * as vscode from 'vscode';
-import * as main from './extension';
 
 interface IParsedToken {
 	line: number;
@@ -37,23 +35,44 @@ const legend = (function () {
 	return new vscode.SemanticTokensLegend(tokenTypesLegend, tokenModifiersLegend);
 })();
 
-const blocks: Block[] = [];
+function isComment(position: number, document: vscode.TextDocument): boolean {
+	const lineComment = document.lineAt(document.positionAt(position).line).text.indexOf('//');
+	const linePos = document.positionAt(position).character;
+	if (lineComment > -1 && lineComment < linePos) {
+		return true;
+	}
+	const blockCommentStart = document.getText().lastIndexOf('/*', position);
+	if (blockCommentStart < 0) {
+		return false;
+	}
+	const blockCommentEnd = document.getText().indexOf('*/', blockCommentStart + 2);
+	if (blockCommentEnd < 0 || blockCommentEnd > position) {
+		return true;
+	}
+	return false;
+}
 
-function parseBlocks(document: string) {
+function parseBlocks(document: vscode.TextDocument): Block[] {
+	const blocks: Block[] = [];
+	const text = document.getText();
 	let offset = 0;
 	while (true) {
 		const block: Block = { start: 0, end: 0 };
-		block.start = document.indexOf('{', offset);
+		block.start = text.indexOf('{', offset);
 		if (block.start < 0) {
-			return;
+			return blocks;
+		}
+		if (isComment(block.start, document)) {
+			offset = block.start + 1;
+			continue;
 		}
 		offset = block.start + 1;
 		let leftParenPos;
 		let rightParenPos;
 		let parensDepth = 0;
 		while (true) {
-			leftParenPos = document.indexOf('{', offset);
-			rightParenPos = document.indexOf('}', offset);
+			leftParenPos = text.indexOf('{', offset);
+			rightParenPos = text.indexOf('}', offset);
 			if (leftParenPos > rightParenPos || leftParenPos < 0) {
 				offset = rightParenPos + 1;
 				if (parensDepth > 0) {
@@ -66,7 +85,7 @@ function parseBlocks(document: string) {
 			}
 			while (true) {
 				offset = leftParenPos + 1;
-				leftParenPos = document.indexOf('{', offset);
+				leftParenPos = text.indexOf('{', offset);
 				if (leftParenPos < 0 || leftParenPos > rightParenPos) {
 					offset = rightParenPos + 1;
 					break;
@@ -81,7 +100,14 @@ function parseBlocks(document: string) {
 function parseFunctionDefination(document: vscode.TextDocument, offset: number): string[] {
 	const parameters: string[] = [];
 	const text = document.getText();
-	const rightParens = text.lastIndexOf(')', offset);
+	let rightParens = text.lastIndexOf(')', offset);
+	while (isComment(rightParens, document)) {
+		rightParens = text.lastIndexOf(')', rightParens - 1);
+	}
+	let blockPos = text.indexOf('{', rightParens);
+	while (isComment(blockPos, document)) {
+		blockPos = text.indexOf('{', blockPos + 1);
+	}
 	if (text.indexOf('{', rightParens) != offset) {
 		return parameters;
 	}
@@ -100,28 +126,29 @@ class DocumentSemanticTokensProvider implements vscode.DocumentSemanticTokensPro
 	async provideDocumentSemanticTokens(document: vscode.TextDocument, token: vscode.CancellationToken): Promise<vscode.SemanticTokens> {
 		const text = document.getText();
 		const builder = new vscode.SemanticTokensBuilder();
-		parseBlocks(text);
+		const blocks = parseBlocks(document);
 		blocks.forEach((block) => {
 			const parameters = parseFunctionDefination(document, block.start);
-			const startLine = document.positionAt(block.start).line;
-			const startOffset = document.positionAt(block.start).character;
-			const endLine = document.positionAt(block.end).line;
-			const endOffset = document.positionAt(block.end).character;
-			for(let i = startLine; i <= endLine; i++) {
-				const line = document.lineAt(i).text;
-				parameters.forEach((parameter) => {
-					let offset;
-					offset = i == startLine ? startOffset : 0;
-					while (true) {
-						const position = line.indexOf('texData', offset);
-						if (position < 0 || (i == endLine && position > endOffset)) {
-							break;
-						}
-						builder.push(i, position, parameter.length, this._encodeTokenType('parameter'));
-						offset = position + parameter.length;
+			parameters.forEach((parameter) => {
+				let offset = block.start;
+				while (true) {
+					const position = text.indexOf(parameter, offset);
+					if (position < 0 || (position > block.end)) {
+						break;
 					}
-				});
-			}
+					const documentPos = document.positionAt(position);
+					const lineNum = documentPos.line;
+					const line = document.lineAt(lineNum).text;
+					const character = documentPos.character;
+					const regexp = new RegExp("\\w");
+					offset = position + parameter.length;
+					if (regexp.test(line.charAt(character - 1)) || regexp.test(line.charAt(character + parameter.length)) ||
+						isComment(position, document)) {
+						continue;
+					}
+					builder.push(lineNum, character, parameter.length, this._encodeTokenType('parameter'));
+				}
+			});
 		});
 		return builder.build();
 	}
