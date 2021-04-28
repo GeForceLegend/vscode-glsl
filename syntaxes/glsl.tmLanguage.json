@@ -500,7 +500,7 @@
 			"name": "support.function.glsl"
 		},
 		"function_define": {
-			"begin": "\\b([a-zA-Z_][0-9a-zA-Z]*)(\\[([0-9]*)?\\])?\\s+([a-zA-Z_][\\w]*)\\s*\\(",
+			"begin": "\\b([a-zA-Z_][0-9a-zA-Z]*)(\\[(([0-9]*)|([a-zA-Z_][\\w]*))?\\])?\\s+([a-zA-Z_][\\w]*)\\s*\\(",
 			"end": "\\)",
 			"beginCaptures": {
 				"1": {
@@ -515,10 +515,10 @@
 						}
 					]
 				},
-				"3": {
+				"4": {
 					"name": "constant.numeric.glsl"
 				},
-				"4": {
+				"6": {
 					"name": "entity.name.function.glsl",
 					"patterns": [
 						{
@@ -536,7 +536,7 @@
 					"include": "#comments"
 				},
 				{
-					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\[([0-9])?\\])?(\\s+([a-zA-Z_][\\w]*\\b)(\\[([\\w]*)\\])?)?(?=\\s*(\\)|,))",
+					"match": "\\b((const)\\s+)?((inout|out|in)\\s+)?((highp|mediump|lowp)\\s+)?([a-zA-Z_][\\w]*)(\\[(([0-9]+)|([a-zA-Z_][\\w]*))?\\])?(\\s+([a-zA-Z_][\\w]*\\b)(\\[([\\w]*)\\])?)?(?=\\s*(\\)|,))",
 					"captures": {
 						"2": {
 							"name": "storage.modifier.glsl"
@@ -559,13 +559,13 @@
 								}
 							]
 						},
-						"9": {
+						"10": {
 							"name": "constant.numeric.glsl"
 						},
-						"11": {
+						"13": {
 							"name": "variable.parameter.glsl"
 						},
-						"13": {
+						"15": {
 							"patterns": [
 								{
 									"match": "\\b[0-9]+\\b",

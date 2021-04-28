@@ -142,8 +142,7 @@ class DocumentSemanticTokensProvider implements vscode.DocumentSemanticTokensPro
 					const character = documentPos.character;
 					const regexp = new RegExp("\\w");
 					offset = position + parameter.length;
-					if (regexp.test(line.charAt(character - 1)) || regexp.test(line.charAt(character + parameter.length)) ||
-						isComment(position, document)) {
+					if (regexp.test(line.charAt(character - 1)) || regexp.test(line.charAt(character + parameter.length)) || isComment(position, document)) {
 						continue;
 					}
 					builder.push(lineNum, character, parameter.length, this._encodeTokenType('parameter'));
