@@ -52,6 +52,24 @@ function isComment(position: number, document: vscode.TextDocument): boolean {
 	return false;
 }
 
+function parseMacros(document: vscode.TextDocument): string[] {
+	const macros: string[] = [];
+	const text = document.getText();
+	const regexp = new RegExp('^\\s*#define\\s+[a-zA-Z_][\\w]*(\\s+[\\w.]+)?\\s*(//.*)?$');
+	let offset = 0;
+	let position;
+	let line;
+	while (true) {
+		position = text.indexOf('#define', offset);
+		if(position < 0) {
+			break;
+		}
+		line = document.lineAt(document.positionAt(position).line).text;
+		offset = position + 1;
+	}
+	return macros;
+}
+
 function parseBlocks(document: vscode.TextDocument): Block[] {
 	const blocks: Block[] = [];
 	const text = document.getText();
