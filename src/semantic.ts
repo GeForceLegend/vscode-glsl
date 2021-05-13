@@ -10,7 +10,7 @@ interface IParsedToken {
 	tokenModifiers: string[];
 }
 
-interface Block {
+export interface Block {
 	start: number;
 	end: number;
 }
@@ -70,7 +70,7 @@ function parseMacros(document: vscode.TextDocument): string[] {
 	return macros;
 }
 
-function parseBlocks(document: vscode.TextDocument): Block[] {
+export function parseBlocks(document: vscode.TextDocument): Block[] {
 	const blocks: Block[] = [];
 	const text = document.getText();
 	let offset = 0;

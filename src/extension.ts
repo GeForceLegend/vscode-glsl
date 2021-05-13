@@ -1,7 +1,7 @@
 'use strict';
 
 import * as vscode from 'vscode';
-import * as semantic from './semantic';
+// import * as semantic from './semantic';
 import * as completion from './completion';
 
 
