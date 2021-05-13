@@ -2,7 +2,7 @@
 
 import * as vscode from 'vscode';
 import {parseBlocks, Block} from './semantic';
-
+/* 
 const glKeywordCompletionItemProvider = vscode.languages.registerCompletionItemProvider('glsl', {
 	provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext): vscode.CompletionItem[] {
 		const line = document.lineAt(position);
@@ -46,11 +46,43 @@ const glKeywordCompletionItemProvider = vscode.languages.registerCompletionItemP
 				break;
 			} else if(blocks[i].end > positionIndex) {
 				break;
+			} else if (i == blocks.length - 1) {
+				if (!new RegExp('\\w+\\s+').test(text)) {
+					completionItems.push(new vscode.CompletionItem('atomic_uint', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('attribute', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('buffer', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('centroid', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('coherent', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('const', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('flat', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('highp', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('in', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('inout', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('invariant', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('layout', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('lowp', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('mediump', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('noperspective', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('out', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('patch', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('precise', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('precision', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('readonly', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('restrict', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('sample', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('shared', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('smooth', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('subroutine', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('uniform', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('varying', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('volatile', vscode.CompletionItemKind.Keyword));
+					completionItems.push(new vscode.CompletionItem('writeonly', vscode.CompletionItemKind.Keyword));
+				}
 			}
 		}
 		return completionItems;
 	}
-}, ' ');
+}, ' '); */
 
 const glVariableCompletionItemProvider = vscode.languages.registerCompletionItemProvider('glsl', {
 	provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext): vscode.CompletionItem[] {
@@ -434,9 +466,9 @@ const colonCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 }, ':');
 
 export const completionItemProviders: vscode.Disposable[] = [
+	// glKeywordCompletionItemProvider,
 	glVariableCompletionItemProvider,
 	glConstantCompletionItemProvider,
-	glKeywordCompletionItemProvider,
 	blankCompletionItemProvider,
 	preprocessorCompletionItemProvider,
 	parenCompletionItemProvider,
