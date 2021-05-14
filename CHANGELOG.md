@@ -1,5 +1,11 @@
 ## Changelog (release)
 
+### 0.2.2
+
+ - Simplified code snippets, most deleted snippets should be provided by language server (though there is no plan for language server right now)
+
+ - Beta typescript system, almost nothing useful for now
+
 ### 0.2.1
 
  - Added code snippets for GLSL
