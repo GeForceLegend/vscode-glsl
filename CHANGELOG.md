@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.2.3
+
+ - Deleted code snippets because of problems caused by the new version of vscode
+
 ### 0.2.2
 
  - Simplified code snippets, most deleted snippets should be provided by language server (though there is no plan for language server right now)
