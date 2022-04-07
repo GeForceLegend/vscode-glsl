@@ -43,7 +43,7 @@
 		},
 		{
 			"match": "}",
-			"name": "invalid.illegal.stray-comment-end.glsl"
+			"name": "invalid.illegal.stray-bracket-end.glsl"
 		},
 		{
 			"match": "\\]",
@@ -51,7 +51,7 @@
 		},
 		{
 			"match": "\\)",
-			"name": "invalid.illegal.stray-comment-end.glsl"
+			"name": "invalid.illegal.stray-bracket-end.glsl"
 		}
 	],
 	"repository": {
