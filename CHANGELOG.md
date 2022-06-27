@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.2.4
+
+ - Added syntax highlighting for glsl code blocks in markdown files
+
 ### 0.2.3
 
  - Deleted code snippets because of problems caused by the new version of vscode
