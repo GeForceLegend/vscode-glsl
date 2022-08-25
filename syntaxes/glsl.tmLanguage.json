@@ -346,9 +346,6 @@
 			"match": "\\b(?:common|partition|active|asm|class|union|enum|typedef|template|this|resource|goto|inline|noinline|public|static|extern|external|interface|long|short|half|fixed|unsigned|superp|input|output|hvec2|hvec3|hvec4|fvec2|fvec3|fvec4|sampler3DRect|filter|sizeof|cast|namespace|using)\\b",
 			"name": "invalid.illegal.reserved-keyword.glsl"
 		},
-		"keywords": {
-			"include": "#control_keywords"
-		},
 		"macros": {
 			"match": "\\b(__LINE__|__FILE__|__VERSION__|GL_core_profile|GL_es_profile|GL_compatibility_profile)\\b",
 			"name": "constant.macro.predefined.glsl"
@@ -446,9 +443,6 @@
 				},
 				{
 					"include": "#reserved_keyword_for_future_use"
-				},
-				{
-					"include": "#keywords"
 				},
 				{
 					"include": "#macros"
@@ -564,6 +558,28 @@
 							]
 						}
 					}
+				},
+				{
+					"match": "\\b(in|out|inout|const|highp|mediump|lowp)\\b",
+					"name": "storage.modifier.glsl"
+				},
+				{
+					"include": "#types"
+				},
+				{
+					"include": "#index"
+				},
+				{
+					"match": "\\b([a-zA-Z_][\\w]*)\\s+([a-zA-Z_][\\w]*)\\b",
+					"captures": {
+						"2": {
+							"name": "variable.parameter.glsl"
+						}
+					}
+				},
+				{
+					"match": "\\b[a-zA-Z_][\\w]*\\b",
+					"name": "variable.parameter.glsl"
 				},
 				{
 					"include": "#illegal_brackets"
