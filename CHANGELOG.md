@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.2.5
+
+ - Improved syntax highlighting for function definiation on certain situation
+
 ### 0.2.4
 
  - Added syntax highlighting for glsl code blocks in markdown files
