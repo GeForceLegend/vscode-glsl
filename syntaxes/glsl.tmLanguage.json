@@ -17,7 +17,15 @@
 		"tesc",
 		"tese",
 		"comp",
-		"glsl"
+		"glsl",
+		"mesh",
+  		"task",
+  		"rgen",
+  		"rint",
+  		"rahit",
+  		"rchit",
+  		"rmiss",
+  		"rcall"
 	],
 	"patterns": [
 		{

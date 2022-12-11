@@ -2,7 +2,7 @@
 	"name": "vscode-glsl",
 	"displayName": "GLSL Syntax for VS Code",
 	"description": "Provides GLSL(OpenGL Shading Language) syntax for Visual Studio Code",
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"publisher": "GeForceLegend",
 	"categories": [
 		"Programming Languages"
@@ -56,7 +56,15 @@
 					".tesc",
 					".tese",
 					".comp",
-					".glsl"
+					".glsl",
+					".mesh",
+					".task",
+					".rgen",
+					".rint",
+					".rahit",
+					".rchit",
+					".rmiss",
+					".rcall"
 				],
 				"configuration": "./language-configuration.json"
 			}
