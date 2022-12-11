@@ -303,6 +303,10 @@ const blankCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 			completionItems.push(new vscode.CompletionItem('compatibility', vscode.CompletionItemKind.Property));
 		}
 		else if (new RegExp("\\s*#(if|elif)\\s*").test(text)) {
+			const trigger = line.text.substring(position.character - 1, position.character);
+			if (trigger != "d") {
+				return completionItems;
+			}
 			completionItems.push(new vscode.CompletionItem('defined', vscode.CompletionItemKind.Keyword));
 			completionItems.push(new vscode.CompletionItem('!defined', vscode.CompletionItemKind.Keyword));
 		}
@@ -407,6 +411,9 @@ const blankCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 			completionItems.push(new vscode.CompletionItem('r8ui', vscode.CompletionItemKind.Property));
 		}
 		return completionItems;
+	},
+	resolveCompletionItem(item: vscode.CompletionItem): vscode.ProviderResult<vscode.CompletionItem> {
+		return undefined;
 	}
 }, ' ');
 
@@ -415,6 +422,10 @@ const preprocessorCompletionItemProvider = vscode.languages.registerCompletionIt
 		const line = document.lineAt(position);
 		const text = line.text.substring(0, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
+		const trigger = context.triggerCharacter;
+		if (trigger != "#") {
+			return completionItems;
+		}
 		if (new RegExp("\\s*#\\s*").test(text)) {
 			completionItems.push(new vscode.CompletionItem('version', vscode.CompletionItemKind.Keyword));
 			completionItems.push(new vscode.CompletionItem('pragma', vscode.CompletionItemKind.Keyword));
@@ -466,7 +477,6 @@ const colonCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 }, ':');
 
 export const completionItemProviders: vscode.Disposable[] = [
-	// glKeywordCompletionItemProvider,
 	glVariableCompletionItemProvider,
 	glConstantCompletionItemProvider,
 	blankCompletionItemProvider,

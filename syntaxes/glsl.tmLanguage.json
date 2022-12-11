@@ -164,7 +164,10 @@
 			},
 			"patterns": [
 				{
-					"match": "\\b([a-zA-Z][\\w]*)\\b",
+					"include": "#comments"
+				},
+				{
+					"match": "\\b([a-zA-Z_][\\w]*)\\b",
 					"name": "variable.parameter.glsl"
 				}
 			]
