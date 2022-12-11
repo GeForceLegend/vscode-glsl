@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.2.6
+
+ - Updated file extensions
+
 ### 0.2.5
 
  - Improved syntax highlighting for function definiation on certain situation
