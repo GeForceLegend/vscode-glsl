@@ -1,5 +1,10 @@
 ## Changelog (release)
 
+### 0.2.7
+
+ - Updated completion provider, less disturbance with completion item provided by vscode itself
+
+
 ### 0.2.6
 
  - Updated file extensions
