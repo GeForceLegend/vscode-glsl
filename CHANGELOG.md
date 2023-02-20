@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.2.8
+
+ - Updated logo :D Thanks ExDragine for the new logo
+
 ### 0.2.7
 
  - Updated completion provider, less disturbance with completion item provided by vscode itself

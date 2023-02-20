@@ -2,7 +2,7 @@
 	"name": "vscode-glsl",
 	"displayName": "GLSL Syntax for VS Code",
 	"description": "Provides GLSL(OpenGL Shading Language) syntax for Visual Studio Code",
-	"version": "0.2.7",
+	"version": "0.2.8",
 	"publisher": "GeForceLegend",
 	"categories": [
 		"Programming Languages"
