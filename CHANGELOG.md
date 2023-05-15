@@ -1,5 +1,11 @@
 ## Changelog (release)
 
+### 0.2.9
+
+ - Updated syntax highlighting for `#undef`
+
+ - Updated completion provider
+
 ### 0.2.8
 
  - Updated logo :D Thanks ExDragine for the new logo
