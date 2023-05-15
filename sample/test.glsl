@@ -11,6 +11,8 @@
 
 #extension GL_ARB_gpu_shader5 : enable
 
+#define DEF
+#undef DEF
 #if !defined SSAO && defined SSR
 
 layout (location = 0) in vec3 POSITION;
