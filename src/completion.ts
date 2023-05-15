@@ -215,28 +215,25 @@ const blankCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 		const line = document.lineAt(position);
 		const text = line.text.substring(0, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("\\s*#version\\s+[0-9]+\\s*").test(text)) {
+		if (new RegExp("^\\s*#version\\s+[0-9]+\\s*$").test(text)) {
 			completionItems.push(new vscode.CompletionItem('core', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('es', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('compatibility', vscode.CompletionItemKind.Property));
 		}
 		else if (new RegExp("\\s*#(if|elif)\\s*").test(text)) {
 			const trigger = line.text.substring(position.character - 1, position.character);
-			if (trigger != "d") {
-				return completionItems;
-			}
-			completionItems.push(new vscode.CompletionItem('defined', vscode.CompletionItemKind.Keyword));
-			completionItems.push(new vscode.CompletionItem('!defined', vscode.CompletionItemKind.Keyword));
-		}
-		else if (new RegExp("\\s*layout\\s*\\(.*\\)\\s*").test(text)) {
-			if (!new RegExp("\\s*layout\\s*\\(.*\\)\\s*\\w+").test(text)) {
-				completionItems.push(new vscode.CompletionItem('in', vscode.CompletionItemKind.Keyword));
-				completionItems.push(new vscode.CompletionItem('out', vscode.CompletionItemKind.Keyword));
-				completionItems.push(new vscode.CompletionItem('uniform', vscode.CompletionItemKind.Keyword));
-				completionItems.push(new vscode.CompletionItem('buffer', vscode.CompletionItemKind.Keyword));
+			if (trigger == "d") {
+				completionItems.push(new vscode.CompletionItem('defined', vscode.CompletionItemKind.Keyword));
+				completionItems.push(new vscode.CompletionItem('!defined', vscode.CompletionItemKind.Keyword));
 			}
 		}
-		else if (new RegExp("\\s*layout\\s*\\([^\\)]*").test(text)) {
+		else if (new RegExp("\\s*layout\\s*\\(.*\\)\\s*$").test(text)) {
+			completionItems.push(new vscode.CompletionItem('in', vscode.CompletionItemKind.Keyword));
+			completionItems.push(new vscode.CompletionItem('out', vscode.CompletionItemKind.Keyword));
+			completionItems.push(new vscode.CompletionItem('uniform', vscode.CompletionItemKind.Keyword));
+			completionItems.push(new vscode.CompletionItem('buffer', vscode.CompletionItemKind.Keyword));
+		}
+		else if (new RegExp("\\s*layout\\s*\\([^\\)]*$").test(text)) {
 			completionItems.push(new vscode.CompletionItem('shared', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('packed', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('std140', vscode.CompletionItemKind.Property));
@@ -370,7 +367,7 @@ const parenCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 		const line = document.lineAt(position);
 		const text = line.text.substring(0, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("\\s*#pragma(\\s+[a-zA-Z_][\\w]*)+\\(\\s*").test(text)) {
+		if (new RegExp("\\s*#pragma(\\s+[a-zA-Z_][\\w]*)+\\(\\s*$").test(text)) {
 			completionItems.push(new vscode.CompletionItem('on', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('off', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('all', vscode.CompletionItemKind.Property));
@@ -384,7 +381,7 @@ const colonCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 		const line = document.lineAt(position);
 		const text = line.text.substring(0, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("\\s*#extension\\s+[a-zA-Z_][\\w]*\\s*:").test(text)) {
+		if (new RegExp("\\s*#extension\\s+[a-zA-Z_][\\w]*\\s*:\\s*$").test(text)) {
 			completionItems.push(new vscode.CompletionItem(' require', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem(' enable', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem(' warn', vscode.CompletionItemKind.Property));
