@@ -41,7 +41,16 @@
 			"include": "#parens"
 		},
 		{
+			"include": "#modifiers"
+		},
+		{
 			"include": "#function_define"
+		},
+		{
+			"include": "#control_keywords"
+		},
+		{
+			"include": "#reserved_keyword_for_future_use"
 		},
 		{
 			"include": "#function_call"
@@ -358,16 +367,12 @@
 				}
 			]
 		},
-		"non_func_keywords": {
-			"match": "\\b(if|for|switch|while)\\b",
-			"name": "keyword.control.glsl"
-		},
 		"before_tag": {
 			"match": "\\bstruct\\b",
 			"name": "storage.type.glsl"
 		},
 		"control_keywords": {
-			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while)\\b",
+			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|switch|while)\\b",
 			"name": "keyword.control.glsl"
 		},
 		"reserved_keyword_for_future_use": {
@@ -390,7 +395,7 @@
 			"match": "\\bgl_(Max(Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)AtomicCounterBuffers|Max(Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)AtomicCounters|Max(Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)ImageUniforms|Max(Fragment|Geometry|TessControl|TessEvaluation)InputComponents|Max(Geometry|TessControl|TessEvaluation|Vertex)OutputComponents|Max(Combined|Compute|Geometry|TessControl|TessEvaluation|Vertex)?TextureImageUnits|Max(Geometry|TessControl)TotalOutputComponents|Max(Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)UniformComponents|Max(Fragment|Vertex)UniformVectors|MaxAtomicCounterBindings|MaxAtomicCounterBufferSize|MaxClipDistances|MaxClipPlanes|Max(CombinedClipAnd)?CullDistances|MaxCombinedImageUnitsAndFragmentOutputs|MaxCombinedShaderOutputResources|MaxComputeWorkGroup(Count|Size)|MaxDrawBuffers|MaxGeometryOutputVertices|Max(Geometry)?VaryingComponents|MaxImageSamples|MaxImageUnits|MaxInputAttachments|MaxLights|MaxPatchVertices|MaxProgramTexelOffset|MaxSamples|MaxTessGenLevel|MaxTessPatchComponents|MaxTextureCoords|MaxTextureUnits|MaxTransformFeedbackBuffers|MaxTransformFeedbackInterleavedComponents|MaxVaryingFloats|MaxVaryingVectors|MaxVertexAttribs|MaxViewports|MinProgramTexelOffset)\\b",
 			"name": "support.constant.glsl"
 		},
-		"reserved_vadiable_for_future_use": {
+		"reserved_name_for_future_use": {
 			"match" :"\\bgl_[\\w]*\\b",
 			"name": "invalid.illegal.reserved-vadiable.glsl"
 		},
@@ -444,6 +449,12 @@
 					"include": "#parens"
 				},
 				{
+					"include": "#control_keywords"
+				},
+				{
+					"include": "#reserved_keyword_for_future_use"
+				},
+				{
 					"include": "#function_call"
 				},
 				{
@@ -464,16 +475,13 @@
 		"expressions": {
 			"patterns": [
 				{
-					"include": "#non_func_keywords"
-				},
-				{
-					"include": "#before_tag"
-				},
-				{
 					"include": "#control_keywords"
 				},
 				{
 					"include": "#reserved_keyword_for_future_use"
+				},
+				{
+					"include": "#before_tag"
 				},
 				{
 					"include": "#macros"
@@ -488,7 +496,7 @@
 					"include": "#constants"
 				},
 				{
-					"include": "#reserved_vadiable_for_future_use"
+					"include": "#reserved_name_for_future_use"
 				},
 				{
 					"include": "#types"
@@ -634,7 +642,7 @@
 					"name": "support.function.glsl",
 					"patterns": [
 						{
-							"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while)\\b",
+							"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while|layout)\\b",
 							"name": "keyword.control.glsl"
 						},
 						{
@@ -653,6 +661,12 @@
 				},
 				{
 					"include": "#parens"
+				},
+				{
+					"include": "#control_keywords"
+				},
+				{
+					"include": "#reserved_keyword_for_future_use"
 				},
 				{
 					"include": "#function_call"
@@ -702,6 +716,12 @@
 					"include": "#parens"
 				},
 				{
+					"include": "#control_keywords"
+				},
+				{
+					"include": "#reserved_keyword_for_future_use"
+				},
+				{
 					"include": "#function_call"
 				},
 				{
@@ -732,6 +752,12 @@
 				},
 				{
 					"include": "#parens"
+				},
+				{
+					"include": "#control_keywords"
+				},
+				{
+					"include": "#reserved_keyword_for_future_use"
 				},
 				{
 					"include": "#function_call"
