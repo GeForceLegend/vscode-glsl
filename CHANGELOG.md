@@ -1,5 +1,11 @@
 ## Changelog (release)
 
+### 0.2.10
+
+ - Raise priority of keywords to fix a syntax highlight bug
+
+ - Added `?` and `:` into operator keywords
+
 ### 0.2.9
 
  - Updated syntax highlighting for `#undef`
