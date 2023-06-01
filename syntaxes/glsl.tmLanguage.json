@@ -44,13 +44,13 @@
 			"include": "#modifiers"
 		},
 		{
-			"include": "#function_define"
-		},
-		{
 			"include": "#control_keywords"
 		},
 		{
 			"include": "#reserved_keyword_for_future_use"
+		},
+		{
+			"include": "#function_define"
 		},
 		{
 			"include": "#function_call"
@@ -422,7 +422,7 @@
 					"name": "keyword.operator.arithmetic.glsl"
 				},
 				{
-					"match": "<\\=|>\\=|\\=\\=|<|>|\\!\\=",
+					"match": "<\\=|>\\=|\\=\\=|<|>|\\!\\=|\\?|\\:",
 					"name": "keyword.operator.comparison.glsl"
 				},
 				{
