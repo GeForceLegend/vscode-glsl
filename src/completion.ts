@@ -367,7 +367,7 @@ const parenCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 		const line = document.lineAt(position);
 		const text = line.text.substring(0, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("\\s*#pragma(\\s+[a-zA-Z_][\\w]*)+\\(\\s*$").test(text)) {
+		if (new RegExp("\\s*#pragma(\\s+[a-zA-Z_]\\w*)+\\(\\s*$").test(text)) {
 			completionItems.push(new vscode.CompletionItem('on', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('off', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem('all', vscode.CompletionItemKind.Property));
@@ -381,7 +381,7 @@ const colonCompletionItemProvider = vscode.languages.registerCompletionItemProvi
 		const line = document.lineAt(position);
 		const text = line.text.substring(0, position.character);
 		const completionItems: vscode.CompletionItem[] = [];
-		if (new RegExp("\\s*#extension\\s+[a-zA-Z_][\\w]*\\s*:\\s*$").test(text)) {
+		if (new RegExp("\\s*#extension\\s+[a-zA-Z_]\\w*\\s*:\\s*$").test(text)) {
 			completionItems.push(new vscode.CompletionItem(' require', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem(' enable', vscode.CompletionItemKind.Property));
 			completionItems.push(new vscode.CompletionItem(' warn', vscode.CompletionItemKind.Property));
