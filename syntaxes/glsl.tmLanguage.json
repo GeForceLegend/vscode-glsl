@@ -434,7 +434,7 @@
 		"types": {
 			"patterns": [
 				{
-					"match": "\\b(void|bool|int|uint|float|double|[dbiu]?vec[2-4]|d?mat[2-4](x[2-4])?|[iu]?(sampler|image)(1D(Array)?|2D(MS)?(Array)?|2DRect|3D|Cube(Array)?|Buffer)|sampler((([12]D|Cube)(Array)?|2DRect)?Shadow)?|[iu]?texture[12]D(Array)?|[iu]?texture2D(Rect|MS(Array)?)|[iu]?texture(3D|Cube(Array)?)|[iu]?textureBuffer|[iu]?subpassInput(MS)?)\\b",
+					"match": "\\b(void|bool|u?int|float|double|[dbiu]?vec[2-4]|d?mat[2-4](x[2-4])?|[iu]?(sampler|image)(1D(Array)?|2D(MS)?(Array)?|2DRect|3D|Cube(Array)?|Buffer)|sampler((([12]D|Cube)(Array)?|2DRect)?Shadow)?|[iu]?texture([12]D(Array)?|2D(Rect|MS(Array)?)|3D|Cube(Array)?|Buffer)|[iu]?subpassInput(MS)?)\\b",
 					"name": "storage.type.glsl"
 				},
 				{
@@ -692,7 +692,7 @@
 							"name": "keyword.control.glsl"
 						},
 						{
-							"match": "\\b(void|bool|int|uint|float|double|[dbiu]?vec[2-4]|d?mat[2-4](x[2-4])?|[iu]?(sampler|image)(1D(Array)?|2D(MS)?(Array)?|2DRect|3D|Cube(Array)?|Buffer)|sampler((([12]D|Cube)(Array)?|2DRect)?Shadow)?|[iu]?texture[12]DArray|[iu]?texture2D(Rect|MS(Array)?)|[iu]?textureCubeArray|[iu]?textureBuffer|[iu]?subpassInput(MS)?)\\b",
+							"match": "\\b(void|bool|u?int|float|double|[dbiu]?vec[2-4]|d?mat[2-4](x[2-4])?|[iu]?(sampler|image)(1D(Array)?|2D(MS)?(Array)?|2DRect|3D|Cube(Array)?|Buffer)|sampler((([12]D|Cube)(Array)?|2DRect)?Shadow)?|[iu]?texture([12]DArray|2D(Rect|MS(Array)?)|CubeArray|Buffer)|[iu]?subpassInput(MS)?)\\b",
 							"name": "storage.type.glsl"
 						}
 					]

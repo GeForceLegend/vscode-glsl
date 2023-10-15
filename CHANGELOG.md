@@ -1,5 +1,11 @@
 ## Changelog (release)
 
+### 0.3.0
+
+ - Added keywords, functions, variables and constants for lots of GLSL extensions
+
+ - Fixed some issue in certain regex
+
 ### 0.2.10
 
  - Raise priority of keywords to fix a syntax highlight bug
