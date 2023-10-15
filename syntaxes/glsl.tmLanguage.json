@@ -372,8 +372,16 @@
 			"name": "storage.type.glsl"
 		},
 		"control_keywords": {
-			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|switch|while)\\b",
-			"name": "keyword.control.glsl"
+			"patterns": [
+				{
+					"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|switch|while)\\b",
+					"name": "keyword.control.glsl"
+				},
+				{
+					"match": "\\b(terminateInvocation)\\b",
+					"name": "keyword.control.glsl"
+				}
+			]
 		},
 		"reserved_keyword_for_future_use": {
 			"match": "\\b(?:common|partition|active|asm|class|union|enum|typedef|template|this|resource|goto|inline|noinline|public|static|extern|external|interface|long|short|half|fixed|unsigned|superp|input|output|[fh]vec[2-4]|sampler3DRect|filter|sizeof|cast|namespace|using)\\b",
@@ -410,11 +418,11 @@
 		"constants": {
 			"patterns": [
 				{
-					"match": "\\bgl_(Max((Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)(AtomicCounter(Buffer)?|ImageUniforms)s|(Combined|Compute|Geometry|TessControl|TessEvaluation|Vertex)?TextureImageUnits|(Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)UniformComponents|(Geometry|TessControl|TessEvaluation|Vertex)OutputComponents|(Geometry|TessControl)TotalOutputComponents|(Fragment|Vertex)UniformVectors|(Fragment|Geometry|TessControl|TessEvaluation)InputComponents|AtomicCounter(Bindings|BufferSize)|Clip(Distances|Planes)|(CombinedClipAnd)?CullDistances|Combined(ImageUnitsAndFragmentOutputs|ShaderOutputResources)|ComputeWorkGroup(Count|Size)|DrawBuffers|GeometryOutputVertices|(Geometry)?VaryingComponents|Image(Samples|Units)|InputAttachments|Lights|PatchVertices|ProgramTexelOffset|Samples|Tess(GenLevel|PatchComponents)|Texture(Coords|Units)|TransformFeedback(Buffers|InterleavedComponents)|Varying(Floats|Vectors)|VertexAttribs|Viewports)|MinProgramTexelOffset)\\b",
+					"match": "\\bgl_(Max((Combined|Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)(AtomicCounter(Buffer)?|ImageUniforms)s|(Combined|Compute|Geometry|TessControl|TessEvaluation|Vertex)?TextureImageUnits|(Compute|Fragment|Geometry|TessControl|TessEvaluation|Vertex)UniformComponents|((Geometry|TessControl)(Total)?|TessEvaluation|Vertex)OutputComponents|(Fragment|Vertex)UniformVectors|(Fragment|Geometry|TessControl|TessEvaluation)InputComponents|AtomicCounter(Bindings|BufferSize)|Clip(Distances|Planes)|(CombinedClipAnd)?CullDistances|Combined(ImageUnitsAndFragmentOutputs|ShaderOutputResources)|ComputeWorkGroup(Count|Size)|DrawBuffers|GeometryOutputVertices|(Geometry)?VaryingComponents|Image(Samples|Units)|InputAttachments|Lights|PatchVertices|ProgramTexelOffset|Samples|Tess(GenLevel|PatchComponents)|Texture(Coords|Units)|TransformFeedback(Buffers|InterleavedComponents)|Varying(Floats|Vectors)|VertexAttribs|Viewports)|MinProgramTexelOffset)\\b",
 					"name": "support.constant.glsl"
 				},
 				{
-					"match": "\\bgl_(HitKind(Back|Front)FacingTriangleEXT|MaxMeshViewCountNV|RayFlags(Cull(Back|Front)FacingTriangles|(Cull)?(No)?Opaque|None|kipClosestHitShader|TerminateOnFirstHit)(EXT|NV)|RayFlags(ForceOpacityMicromap2State|SkipAABBSkipTriangles)EXT|RayQuery(CandidateIntersection(AABB|Triangle)|CommittedIntersection(Generated|None|Triangle))EXT|ShadingRateFlag[24](Horizontal|Vertical)PixelsEXT)\\b",
+					"match": "\\bgl_(HitKind(Back|Front)FacingTriangleEXT|MaxMeshViewCountNV|RayFlags(Cull(Back|Front)FacingTriangles|(Cull)?(No)?Opaque|None|kipClosestHitShader|TerminateOnFirstHit)(EXT|NV)|RayFlags(ForceOpacityMicromap2State|SkipAABBSkipTriangles)EXT|RayQuery(CandidateIntersection(AABB|Triangle)|CommittedIntersection(Generated|None|Triangle))EXT|ShadingRateFlag[24](Horizontal|Vertical)PixelsEXT|Scope(Device|Workgroup|Subgroup|Invocation|QueueFamily)|Semantics(Relaxed|Release|Acquire|Make(Available|Visible)|Volatile)|StorageSemantics(None|Buffer|Shared|Image|Output)|CooperativeMatrixLayout(Row|Column)Major|Matrix(Use([AB]|Accumulator)|OperandsSaturatingAccumulation))\\b",
 					"name": "support.constant.glsl"
 				}
 			]
@@ -430,7 +438,7 @@
 					"name": "storage.type.glsl"
 				},
 				{
-					"match": "\\b(float(16|32|64)_t|f(16|32|64)(vec[2-4]|mat[2-4](x[2-4])?)|u?int(8|16|32|64)_t|[iu](8|16|32|64)vec[2-4]|accelerationStructure(EXT|NV)|hitObjectNV|rayQueryEXT|[iu]64image(1D(Array)?|2D(Rect|(MS)?(Array)?)|3D|Cube(Array)?|Buffer)|[iu]?attachmentEXT)\\b",
+					"match": "\\b(float(16|32|64)_t|f(16|32|64)(vec[2-4]|mat[2-4](x[2-4])?)|u?int(8|16|32|64)_t|[iu](8|16|32|64)vec[2-4]|accelerationStructure(EXT|NV)|hitObjectNV|rayQueryEXT|[iu]64image(1D(Array)?|2D(Rect|(MS)?(Array)?)|3D|Cube(Array)?|Buffer)|[iu]?attachmentEXT|[fui]coopmatNV|coopmat)\\b",
 					"name": "storage.type.glsl"
 				}
 			]
@@ -553,11 +561,11 @@
 		"function_builtin": {
 			"patterns": [
 				{
-					"match": "\\b(abs|acosh?|all(Invocations(Equal)?)?|any(Invocation)?|asinh?|atanh?|atomic(Add|And|CompSwap|Counter(And|CompSwap|Decrement|Exchange|Increment|Max|Min|Or|Xor|Subtract)?|Exchange|Max|Min|Or|Xor)|barrier|bit(Count|field(Extract|Insert|Reverse))|ceil|clamp|cosh?|cross|degrees|determinant|dFd[xy](Coarse|Fine)?|distance|dot|Emit(Stream)?Vertex|End(Stream)?Primitive|equal|exp2?|faceforward|find[LM]SB|floatBitsTo(Ui|I)nt|floor|fma|fract|frexp|ftransform|fwidth(Coarse|Fine)?|greaterThan(Equal)?|groupMemoryBarrier|imageAtomic(Add|And|CompSwap|Exchange|Max|Min|Or|Xor)|image(Load|Samples|Size|Store)|imulExtended|intBitsToFloat|interpolateAt(Centroid|Offset|Sample)|inverse(sqrt)?|isinf|isnan|ldexp|length|lessThan(Equal)?|log2?|matrixCompMult|max|min|mix|memoryBarrier(AtomicCounter|Buffer|Image|Shared)?|modf?|noise[1-4]|normalize|not|notEqual|outerProduct|packDouble2x32|packHalf2x16|pack[SU]norm(2x16|4x8)|pow|radians|reflect|refract|round(Even)|shadow[1-2]D(Proj)?(Lod)?|sign|sinh?|smoothstep|sqrt|step|subpassLoad|tanh?|texelFetch(Offset)?|texture([1-3]D(Proj)?(Lod)?|Cube(Lod)?|Gather(Offsets?)?|Grad(Offset)?|Lod(Offset)?|Offset|Proj(Grad|Lod)?(Offset)?|Query(Levels|Lod)|Samples|Size)|transpose|trunc|uaddCarry|uintBitsToFloat|umulExtended|unpackDouble2x32|unpackHalf2x16|unpack[SU]norm(2x16|4x8)|usubBorrow)\\b",
+					"match": "\\b(abs|a?cosh?|all(Invocations(Equal)?)?|any(Invocation)?|a?sinh?|a?tanh?|atomic(Add|And|CompSwap|Counter(And|CompSwap|Decrement|Exchange|Increment|Max|Min|Or|Xor|Subtract)?|Exchange|Max|Min|Or|Xor)|barrier|bit(Count|field(Extract|Insert|Reverse))|ceil|clamp|cross|degrees|determinant|dFd[xy](Coarse|Fine)?|distance|dot|Emit(Stream)?Vertex|End(Stream)?Primitive|equal|exp2?|faceforward|find[LM]SB|floatBitsTo(Ui|I)nt|floor|fma|fract|frexp|ftransform|fwidth(Coarse|Fine)?|(greater|less)Than(Equal)?|groupMemoryBarrier|imageAtomic(Add|And|CompSwap|Exchange|Max|Min|Or|Xor)|image(Load|Samples|Size|Store)|imulExtended|u?intBitsToFloat|interpolateAt(Centroid|Offset|Sample)|inverse(sqrt)?|is(inf|nan)|ldexp|length|log2?|matrixCompMult|max|mi[nx]|memoryBarrier(AtomicCounter|Buffer|Image|Shared)?|modf?|noise[1-4]|normalize|not(Equal)?|outerProduct|pack(Double2x32|Half2x16|[SU]norm(2x16|4x8))|pow|radians|reflect|refract|round(Even)|shadow[12]D(Proj)?(Lod)?|sign|smoothstep|sqrt|step|subpassLoad|texelFetch(Offset)?|texture([1-3]D(Proj)?(Lod)?|Cube(Lod)?|Gather(Offsets?)?|(Proj)?(Grad|Lod)?(Offset)?|Query(Levels|Lod)|Samples|Size)|transpose|trunc|uaddCarry|umulExtended|unpack(Double2x32|Half2x16|[SU]norm(2x16|4x8))|usubBorrow)\\b",
 					"name": "support.function.glsl"
 				},
 				{
-					"match": "\\b(EmitMeshTasksEXT|atomic(Load|Store)|clockRealtime(2x32)?EXT|colorAttachmentReadEXT|computeDir|controlBarrier|doubleBitsTo(Ui|I)nt64|executeCallableNV|fetchMicroTriangleVertex(Barycentric|Position)NV|float16BitsTo(Ui|I)nt16|fragment(Mask)?FetchAMD|halfBitsTo(Ui|I)nt16|hitObject(ExecuteShader|Get(Attributes|CurrentTime|GeometryIndex|HitKind|Instance(CustomIndex|Id)|Object(RayDirection|RayOrigin|ToWorld)|PrimitiveIndex|RayT(Max|Min)|Shader(BindingTableRecordIndex|RecordBufferHandle)|World(RayDirection|RayOrigin|ToObject))|Is(Empty|Hit|Miss)|Record(Empty|Hit(WithIndex)?(Motion)?|Miss(Motion)?)|TraceRayMotion)NV|ignoreIntersectionNV|int16BitsTo(Float16|Half)|int64BitsToDouble|pack(16|32|64)|packFloat2x16|packInt2x32|packUint(2x16|2x32|4x16)|rayQueryConfirmIntersectionEXT|rayQuery(GenerateIntersection|GetIntersection(Barycentrics|CandidateAABBOpaque|FrontFace|GeometryIndex|Instance(CustomIndex|Id|ShaderBindingTableRecordOffset)|Object(RayDirection|RayOrigin|ToWorld)|PrimitiveIndex|T|TriangleVertexPositions|Type|WorldToObject)|Get(RayFlags|RayTMin|WorldRayDirection|WorldRayOrigin)|Initialize|Proceed|Terminate)EXT|reorderThreadNV|reportIntersection(EXT|NV)|subgroup(Add|All(Equal)?|And|Any|Ballot((Exclusive|Inclusive)?BitCount|BitExtract|Find[LM]SB)?|Barrier|Broadcast(First)?|(Clustered|Exclusive|Inclusive)(Add|And|Max|Min|Mul|Or|Xor)|Elect|InverseBallot|Max|MemoryBarrier(Buffer|Image|Shared)?|Min|Mul|Or|PartitionNV|Partitioned(Exclusive|Inclusive)?(Add|And|Max|Min|Mul|Or|Xor)NV|Quad(Broadcast|Swap(Diagonal|Horizontal|Vertical))|Shuffle(Down|Up|Xor)?|Xor)|terminateRayNV|texture(BlockMatchS[AS]D|BoxFilter|Weighted)QCOM|traceNV|uint16BitsTo(Float16|Half)|uint64BitsToDouble|unpack(8|16|32|(Float|Uint)2x16|(Ui|I)nt2x32|Uint4x16)|writePackedPrimitiveIndices4x8NV)\\b",
+					"match": "\\b(EmitMeshTasksEXT|atomic(Load|Store)|clockRealtime(2x32)?EXT|colorAttachmentReadEXT|computeDir|controlBarrier|doubleBitsTo(Ui|I)nt64|executeCallableNV|fetchMicroTriangleVertex(Barycentric|Position)NV|(float16|half)BitsTo(Ui|I)nt16|fragment(Mask)?FetchAMD|hitObject(ExecuteShader|Get(Attributes|CurrentTime|(Geometry|Primitive)Index|HitKind|Instance(CustomIndex|Id)|Object(Ray(Direction|Origin)|ToWorld)|RayT(Max|Min)|Shader(BindingTableRecordIndex|RecordBufferHandle)|World(Ray(Direction|Origin)|ToObject))|Is(Empty|Hit|Miss)|Record(Empty|(Hit(WithIndex)?|Miss)(Motion)?)|TraceRayMotion)NV|ignoreIntersectionNV|[iu]nt16BitsTo(Float16|Half)|[iu]nt64BitsToDouble|pack(16|32|64|(Float|Uint)2x16|(Ui|I)nt2x32|Uint4x16)|rayQuery((Confirm|Generate)Intersection|GetIntersection(Barycentrics|CandidateAABBOpaque|FrontFace|(Geometry|Primitive)Index|Instance(CustomIndex|Id|ShaderBindingTableRecordOffset)|Object(Ray(Direction|Origin)|ToWorld)|T|TriangleVertexPositions|Type|WorldToObject)|Get(Ray(Flags|TMin)|WorldRay(Direction|Origin))|Initialize|Proceed|Terminate)EXT|reorderThreadNV|reportIntersection(EXT|NV)|subgroup(All(Equal)?|Any|Ballot((Exclusive|Inclusive)?BitCount|BitExtract|Find[LM]SB)?|Barrier|Broadcast(First)?|(Clustered|Exclusive|Inclusive)?(Add|And|Max|Min|Mul|Or|Xor)|Elect|InverseBallot|MemoryBarrier(Buffer|Image|Shared)?|PartitionNV|Partitioned(Exclusive|Inclusive)?(Add|And|Max|Min|Mul|Or|Xor)NV|Quad(Broadcast|Swap(Diagonal|Horizontal|Vertical))|Shuffle(Down|Up|Xor)?)|terminateRayNV|texture(BlockMatchS[AS]D|BoxFilter|Weighted)QCOM|traceNV|unpack(8|16|32|(Float|Uint)2x16|(Ui|I)nt2x32|Uint4x16)|writePackedPrimitiveIndices4x8NV)\\b",
 					"name": "support.function.glsl"
 				}
 			]
