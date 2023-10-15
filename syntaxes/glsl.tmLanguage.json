@@ -390,7 +390,7 @@
 					"name": "storage.modifier.glsl"
 				},
 				{
-					"match": "\\b((callableData|rayPayload)(In)?(EXT|NV)|hitAttribute(EXT|NV)|hitObjectAttributeNV|tileImageEXT)\\b",
+					"match": "\\b((callableData|rayPayload)(In)?(EXT|NV)|hitAttribute(EXT|NV)|hitObjectAttributeNV|perprimitive(EXT|NV)|pervertexEXT|perviewNV|taskPayloadSharedEXT|taskNV|tileImageEXT)\\b",
 					"name": "storage.modifier.glsl"
 				}
 			]
@@ -424,8 +424,16 @@
 			"name": "invalid.illegal.reserved-vadiable.glsl"
 		},
 		"types": {
-			"match": "\\b(void|bool|int|uint|float|double|[dbiu]?vec[2-4]|d?mat[2-4](x[2-4])?|[iu]?(sampler|image)(1D(Array)?|2D(MS)?(Array)?|2DRect|3D|Cube(Array)?|Buffer)|sampler((([12]D|Cube)(Array)?|2DRect)?Shadow)?|[iu]?texture[12]D(Array)?|[iu]?texture2D(Rect|MS(Array)?)|[iu]?texture(3D|Cube(Array)?)|[iu]?textureBuffer|[iu]?subpassInput(MS)?)\\b",
-			"name": "storage.type.glsl"
+			"patterns": [
+				{
+					"match": "\\b(void|bool|int|uint|float|double|[dbiu]?vec[2-4]|d?mat[2-4](x[2-4])?|[iu]?(sampler|image)(1D(Array)?|2D(MS)?(Array)?|2DRect|3D|Cube(Array)?|Buffer)|sampler((([12]D|Cube)(Array)?|2DRect)?Shadow)?|[iu]?texture[12]D(Array)?|[iu]?texture2D(Rect|MS(Array)?)|[iu]?texture(3D|Cube(Array)?)|[iu]?textureBuffer|[iu]?subpassInput(MS)?)\\b",
+					"name": "storage.type.glsl"
+				},
+				{
+					"match": "\\b(float(16|32|64)_t|f(16|32|64)(vec[2-4]|mat[2-4](x[2-4])?)|u?int(8|16|32|64)_t|[iu](8|16|32|64)vec[2-4]|accelerationStructure(EXT|NV)|hitObjectNV|rayQueryEXT|[iu]64image(1D(Array)?|2D(Rect|(MS)?(Array)?)|3D|Cube(Array)?|Buffer)|[iu]?attachmentEXT)\\b",
+					"name": "storage.type.glsl"
+				}
+			]
 		},
 		"numbers": {
 			"match": "\\b((0(x|X)[0-9a-fA-F]*(\\.[0-9a-fA-F]+p-?\\d+)?)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([fF]|(l{1,2}|L{1,2})[uU]?|[uU](l{0,2}|L{0,2})|[lL][fF])?\\b",
