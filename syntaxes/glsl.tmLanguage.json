@@ -406,7 +406,7 @@
 		"variables": {
 			"patterns": [
 				{
-					"match": "\\bgl_(Back(Instance|Vertex)|(Back|Front)((Secondary)?Color|Light(Model)?Product|Material)|Clip(Distance|Plane|Vertex)|CullDistance|Color|DepthRange(Parameters)?|DrawID|EyePlane[QRST]|Fog(((Frag)?Coord)?|Parameters)|Frag(Color|Coord|Data|Depth)|FrontFacing|(Global)?InvocationID|HelperInvocation|in|(Instance|LocalInvocation)(ID|Index)|Layer|Light(Model|Source)(Parameters)?|Light(Model)?Products|MaterialParameters|(ModelView(Projection)?|Projection|Texture)Matrix(Inverse)?(Transpose)?|MultiTexCoord[0-7]|NumWorkGroups|Normal(Matrix|Scale)?|out|ObjectPlane[QRST]|PatchVerticesIn|Per(Fragment|Vertex)|Point(Coord|Parameters|Size)?|Position|PrimitiveID(In)?|Sample(ID|Mask(In)?|Position)|SecondaryColor|Tess(Coord|Level(Inner|Outer))|TexCoord|TextureEnvColor|Vertex(ID|Index)?|ViewportIndex|WorkGroup(ID|Size))\\b",
+					"match": "\\bgl_(Base(Instance|Vertex)|(Back|Front)((Secondary)?Color|Light(Model)?Product|Material)|Clip(Distance|Plane|Vertex)|CullDistance|Color|DepthRange(Parameters)?|DrawID|EyePlane[QRST]|Fog(((Frag)?Coord)?|Parameters)|Frag(Color|Coord|Data|Depth)|FrontFacing|(Global)?InvocationID|HelperInvocation|in|(Instance|LocalInvocation)(ID|Index)|Layer|Light(Model|Source)(Parameters)?|Light(Model)?Products|MaterialParameters|(ModelView(Projection)?|Projection|Texture)Matrix(Inverse)?(Transpose)?|MultiTexCoord[0-7]|NumWorkGroups|Normal(Matrix|Scale)?|out|ObjectPlane[QRST]|PatchVerticesIn|Per(Fragment|Vertex)|Point(Coord|Parameters|Size)?|Position|PrimitiveID(In)?|Sample(ID|Mask(In)?|Position)|SecondaryColor|Tess(Coord|Level(Inner|Outer))|TexCoord|TextureEnvColor|Vertex(ID|Index)?|ViewportIndex|WorkGroup(ID|Size))\\b",
 					"name": "variable.language.glsl"
 				},
 				{
