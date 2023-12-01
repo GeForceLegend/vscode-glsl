@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.3.1
+
+ - Fixed typo of `gl_BaseInstance` and `gl_BaseVertex`
+
 ### 0.3.0
 
  - Added keywords, functions, variables and constants for lots of GLSL extensions
