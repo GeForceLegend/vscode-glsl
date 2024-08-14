@@ -1,5 +1,9 @@
 ## Changelog (release)
 
+### 0.3.2
+
+ - Added missing control keyword `demote` `ignoreIntersectionEXT` and `terminateRayEXT`, qualifier `nonuniformEXT` `pervertexNV` and `subgroupuniformEXT` from extensions
+
 ### 0.3.1
 
  - Fixed typo of `gl_BaseInstance` and `gl_BaseVertex`
