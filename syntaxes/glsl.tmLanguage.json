@@ -378,7 +378,7 @@
 					"name": "keyword.control.glsl"
 				},
 				{
-					"match": "\\b(terminateInvocation)\\b",
+					"match": "\\b(demote|ignoreIntersectionEXT|terminateInvocation|terminateRayEXT)\\b",
 					"name": "keyword.control.glsl"
 				}
 			]
@@ -398,7 +398,7 @@
 					"name": "storage.modifier.glsl"
 				},
 				{
-					"match": "\\b((callableData|rayPayload)(In)?(EXT|NV)|hitAttribute(EXT|NV)|hitObjectAttributeNV|perprimitive(EXT|NV)|pervertexEXT|perviewNV|taskPayloadSharedEXT|taskNV|tileImageEXT)\\b",
+					"match": "\\b((callableData|rayPayload)(In)?(EXT|NV)|hitAttribute(EXT|NV)|hitObjectAttributeNV|nonuniformEXT|perprimitive(EXT|NV)|pervertex(EXT|NV)|perviewNV|subgroupuniformEXT|taskPayloadSharedEXT|taskNV|tileImageEXT)\\b",
 					"name": "storage.modifier.glsl"
 				}
 			]
