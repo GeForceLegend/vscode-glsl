@@ -1,0 +1,14 @@
+(
+	float(16|32|64)_t|
+	f(16|32|64)(vec[2-4]|mat[2-4](x[2-4])?)|
+	u?int(8|16|32|64)_t|
+	[iu](8|16|32|64)vec[2-4]|
+	accelerationStructure(EXT|NV)|
+	hitObjectNV|
+	rayQueryEXT|
+	[iu]64image(1D(Array)?|2D(Rect|(MS)?(Array)?)|3D|Cube(Array)?|Buffer)|
+	[iu]?attachmentEXT|
+	[fui]coopmatNV|
+	coopmat|
+	tensor(Layout|View)NV
+)

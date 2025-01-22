@@ -1,0 +1,13 @@
+gl_(
+	CooperativeMatrixLayout(ClampMode(ClampToEdge|Constant|MirrorRepeat|Repeat|Undefined)NV|(Row|Column)(Major|BlockedInterleavedARM))|
+	HitKind(Back|Front)FacingTriangleEXT|
+	Matrix(Use([AB]|Accumulator)|OperandsSaturatingAccumulation)|
+	MaxMeshViewCountNV|
+	RayFlags(Cull(Back|Front)FacingTriangles|(Cull)?(No)?Opaque|None|kipClosestHitShader|TerminateOnFirstHit)(EXT|NV)|
+	RayFlags(ForceOpacityMicromap2State|SkipAABB|SkipTriangles)EXT|
+	RayQuery(CandidateIntersection(AABB|Triangle)|CommittedIntersection(Generated|None|Triangle))EXT|
+	Scope(Device|Invocation|QueueFamily|ShaderCallEXT|Subgroup|Workgroup)|
+	Semantics(Acquire|Make(Available|Visible)|Relaxed|Release|Volatile)|
+	ShadingRateFlag[24](Horizontal|Vertical)PixelsEXT|
+	StorageSemantics(Buffer|Image|None|Output|Shared)
+)
