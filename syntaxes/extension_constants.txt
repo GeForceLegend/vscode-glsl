@@ -1,10 +1,14 @@
 gl_(
+	ComponentType(Float(16|32|64|E4M3|E5M2)|(S|Uns)ignedInt(8(Packed)?|16|32|64))NV|
 	CooperativeMatrixLayout(ClampMode(ClampToEdge|Constant|MirrorRepeat|Repeat|Undefined)NV|(Row|Column)(Major|BlockedInterleavedARM))|
+	CooperativeVectorMatrixLayout((Column|Row)Major|(Inferencing|Training)Optimal)NV|
+	ClusterIDNoneNV|
 	HitKind(Back|Front)FacingTriangleEXT|
 	Matrix(Use([AB]|Accumulator)|OperandsSaturatingAccumulation)|
 	MaxMeshViewCountNV|
 	RayFlags(Cull(Back|Front)FacingTriangles|(Cull)?(No)?Opaque|None|kipClosestHitShader|TerminateOnFirstHit)(EXT|NV)|
 	RayFlags(ForceOpacityMicromap2State|SkipAABB|SkipTriangles)EXT|
+	RayFlagsSkipBuiltinPrimitivesNV|
 	RayQuery(CandidateIntersection(AABB|Triangle)|CommittedIntersection(Generated|None|Triangle))EXT|
 	Scope(Device|Invocation|QueueFamily|ShaderCallEXT|Subgroup|Workgroup)|
 	Semantics(Acquire|Make(Available|Visible)|Relaxed|Release|Volatile)|

@@ -1,0 +1,14 @@
+(
+	(callableData|rayPayload)(In)?(EXT|NV)|
+	hitAttribute(EXT|NV)|
+	hitObjectAttributeNV|
+	nontemporal|
+	nonuniformEXT|
+	perprimitive(EXT|NV)|
+	pervertex(EXT|NV)|
+	perviewNV|
+	subgroupuniformEXT|
+	taskPayloadSharedEXT|
+	taskNV|
+	tileImageEXT
+)

@@ -1,5 +1,9 @@
 (
+	bfloat16_t|
+	bf16vec[2-4]|
 	float(16|32|64)_t|
+	floate(5m2|4m3)_t|
+	fe(5m2|4m3)vec[2-4]|
 	f(16|32|64)(vec[2-4]|mat[2-4](x[2-4])?)|
 	u?int(8|16|32|64)_t|
 	[iu](8|16|32|64)vec[2-4]|
@@ -10,5 +14,6 @@
 	[iu]?attachmentEXT|
 	[fui]coopmatNV|
 	coopmat|
+	coopvecNV|
 	tensor(Layout|View)NV
 )

@@ -3,29 +3,35 @@
 	SetMeshOutputsEXT|
 	(assume|expect)EXT|
 	atomic(Load|Store)|
+	bfloat16BitsTo(I|Ui)ntEXT|
 	clockRealtime(2x32)?EXT|
 	colorAttachmentReadEXT|
 	computeDir|
 	controlBarrier|
 	coopMat(Load|MulAdd|Store)(NV)?|
 	coopMat((Load|Store)Tensor|PerElement|Reduce|Transpose)NV|
+	coopVec(Load|MatMul(Add)?|(OuterProduct|ReduceSum)Accumulate|Store)NV|
 	createTensor(Layout|View)NV|
 	doubleBitsTo(Ui|I)nt64|
 	executeCallableNV|
 	fetchMicroTriangleVertex(Barycentric|Position)NV|
 	(float16|half)BitsTo(Ui|I)nt16|
+	floate(5m2|4m3)BitsTo(Ui|I)ntEXT|
 	fragment(Mask)?FetchAMD|
 	hitObject(
 		ExecuteShader|
 		Get(
 			Attributes|
+			ClusterId|
 			CurrentTime|
 			(Geometry|Primitive)Index|
 			HitKind|
 			Instance(CustomIndex|Id)|
+			LSS(Positions|Radii)|
 			Object(Ray(Direction|Origin)|ToWorld)|
 			RayT(Max|Min)|
 			Shader(BindingTableRecordIndex|RecordBufferHandle)|
+			Sphere(Position|Radius)|
 			World(Ray(Direction|Origin)|ToObject)
 		)|
 		Is(Empty|Hit|Miss)|
@@ -34,9 +40,12 @@
 	)NV|
 	ignoreIntersectionNV|
 	imageAtomic(Load|Store)|
-	[iu]nt16BitsTo(Float16|Half)|
-	[iu]nt64BitsToDouble|
 	pack(16|32|64|(Float|Uint)2x16|(Ui|I)nt2x32|Uint4x16)|
+	rayQueryGetIntersection(
+		ClusterId|
+		LSS(HitValue|Positions|Radii)|
+		Sphere(Position|Radius)
+	)NV|
 	rayQuery(
 		(Confirm|Generate)Intersection|
 		GetIntersection(
@@ -58,6 +67,7 @@
 	)EXT|
 	reorderThreadNV|
 	reportIntersection(EXT|NV)|
+	saturatedConvertEXT|
 	setTensor(Layout(BlockSize|ClampValue|Dimension|Stride)|View(Clip|Dimensions|Stride))NV|
 	sliceTensorLayoutNV|
 	subgroup(
@@ -80,6 +90,9 @@
 	texture(BlockMatch(Windows|Gather)?S[AS]D|BoxFilter|Weighted)QCOM|
 	textureFootprint(Clamp|Lod|Grad(Clamp)?)?NV|
 	trace(NV|Ray(EXT|MotionNV))|
+	u?int16BitsTo(Float16|Half)|
+	u?int64BitsToDouble|
+	u?intBitsTo(BFloat16|Floate(5m2|4m3))EXT|
 	unpack(8|16|32|(Float|Uint)2x16|(Ui|I)nt2x32|Uint4x16)|
 	writePackedPrimitiveIndices4x8NV
 )
