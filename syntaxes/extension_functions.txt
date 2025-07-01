@@ -12,6 +12,7 @@
 	coopMat((Load|Store)Tensor|PerElement|Reduce|Transpose)NV|
 	coopVec(Load|MatMul(Add)?|(OuterProduct|ReduceSum)Accumulate|Store)NV|
 	createTensor(Layout|View)NV|
+	dot(Packed4x8)?(AccSat)?EXT|
 	doubleBitsTo(Ui|I)nt64|
 	executeCallableNV|
 	fetchMicroTriangleVertex(Barycentric|Position)NV|
