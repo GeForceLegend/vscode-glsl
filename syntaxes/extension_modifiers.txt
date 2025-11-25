@@ -1,7 +1,7 @@
 (
 	(callableData|rayPayload)(In)?(EXT|NV)|
 	hitAttribute(EXT|NV)|
-	hitObjectAttributeNV|
+	hitObjectAttribute(EXT|NV)|
 	nontemporal|
 	nonuniformEXT|
 	perprimitive(EXT|NV)|
