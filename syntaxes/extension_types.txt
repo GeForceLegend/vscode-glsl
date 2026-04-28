@@ -15,5 +15,6 @@
 	[fui]coopmatNV|
 	coopmat|
 	coopvecNV|
-	tensor(Layout|View)NV
+	tensor(Layout|View)NV|
+	vector
 )
