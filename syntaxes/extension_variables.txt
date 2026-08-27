@@ -9,6 +9,7 @@ gl_(
 	CurrentRayTimeNV|
 	DefaultUniformBlock|
 	DeviceIndex|
+	EnableOpacityMicromapEXT|
 	First(Index|Instance|Vertex)HUAWEI|
 	Frag(InvocationCount|Size)EXT|
 	FragmentSizeNV|

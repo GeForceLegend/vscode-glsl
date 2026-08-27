@@ -5,11 +5,13 @@
 	atomic(Load|Store)|
 	bfloat16BitsTo(I|Ui)ntEXT|
 	bitcastQCOM|
+	bitcastExtractfe(2m[13]|3m2)EXT|
 	clockRealtime(2x32)?EXT|
 	colorAttachmentReadEXT|
 	computeDir|
 	controlBarrier|
 	coopmatToVectorQCOM|
+	coopMat(GetCoordinate|PerElement|Reduce|Transpose)EXT|
 	coopMat(Load|MulAdd|Store)(NV)?|
 	coopMat((Load|Store)Tensor|PerElement|Reduce|Transpose)NV|
 	coopVec(Load|MatMul(Add)?|(OuterProduct|ReduceSum)Accumulate|Store)NV|
@@ -20,7 +22,7 @@
 	extractSubArrayQCOM|
 	fetchMicroTriangleVertex(Barycentric|Position)NV|
 	(float16|half)BitsTo(Ui|I)nt16|
-	floate(5m2|4m3)BitsTo(Ui|I)ntEXT|
+	float(e(5m2|4m3)|ue8m0)BitsTo(Ui|I)ntEXT|
 	fragment(Mask)?FetchAMD|
 	hitObject(
 		Get(
@@ -109,8 +111,9 @@
 	trace(NV|Ray(EXT|MotionNV))|
 	u?int16BitsTo(Float16|Half)|
 	u?int64BitsToDouble|
-	u?intBitsTo(BFloat16|Floate(5m2|4m3))EXT|
+	u?intBitsTo(BFloat16|Float(e(5m2|4m3)|ue8m0))EXT|
 	unpack(8|16|32|(Float|Uint)2x16|(Ui|I)nt2x32|Uint4x16)|
+	(un)?packFloat(2|4|8|16)xfe(2m[13]|3m2)EXT|
 	vectorToCoopmatQCOM|
 	writePackedPrimitiveIndices4x8NV
 )

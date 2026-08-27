@@ -5,6 +5,8 @@
 	floate(5m2|4m3)_t|
 	fe(5m2|4m3)vec[2-4]|
 	f(16|32|64)(vec[2-4]|mat[2-4](x[2-4])?)|
+	float(e(2m[13]|3m2)|ue8m0|mxint8)_t|
+	f(e(2m[13]|3m2)|ue8m0|mxint8)vec[2-4]|
 	u?int(8|16|32|64)_t|
 	[iu](8|16|32|64)vec[2-4]|
 	accelerationStructure(EXT|NV)|

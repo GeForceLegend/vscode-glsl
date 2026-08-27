@@ -1,6 +1,7 @@
 gl_(
 	ComponentType(Float(16|32|64|E4M3|E5M2)|(S|Uns)ignedInt(8(Packed)?|16|32|64))NV|
 	CooperativeMatrixLayout(ClampMode(ClampToEdge|Constant|MirrorRepeat|Repeat|Undefined)NV|(Row|Column)(Major|BlockedInterleavedARM))|
+	CooperativeMatrixReduce(2x2|Column|Row(AndColumn)?)EXT|
 	CooperativeVectorMatrixLayout((Column|Row)Major|(Inferencing|Training)Optimal)NV|
 	ClusterIDNoneNV|
 	HitKind(Back|Front)FacingTriangleEXT|
