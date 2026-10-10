@@ -9,7 +9,7 @@
 	clockRealtime(2x32)?EXT|
 	colorAttachmentReadEXT|
 	computeDir|
-	controlBarrier|
+	controlBarrier(Arrive|Wait)?|
 	coopmatToVectorQCOM|
 	coopMat(GetCoordinate|PerElement|Reduce|Transpose)EXT|
 	coopMat(Load|MulAdd|Store)(NV)?|
